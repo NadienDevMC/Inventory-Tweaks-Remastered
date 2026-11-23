@@ -7,13 +7,6 @@ This is an unofficial port of the original version by JimeoWan.
 
 Since the mod is licensed under MIT, I am allowed to fork and update it.
 
-
-
-
-
-Unofficial Inventory Tweaks Revived NeoForge Port(Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.)
-
-
 ### What's this mod about?
 
 
