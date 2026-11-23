@@ -7,6 +7,7 @@ on:
     paths:
       - "src/**"
       - "*.gradle"
+      - "gradlew"
       - "gradle.properties"
       - "CHANGELOG.md"
       - ".github/workflows/build.yml"
