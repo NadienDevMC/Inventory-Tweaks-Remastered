@@ -103,7 +103,7 @@ jobs:
             --arg name "$display" \
             --arg mc "$MC" \
             '{changelog: $changelog, changelogType: "markdown", releaseType: $type, displayName: $name,
-              gameVersionNames: [$mc, "NeoForge", "Client"]}')
+              gameVersionNames: [$mc, "NeoForge", "Java 25", "Client"]}')
 
           echo "Uploading $jar to CurseForge as a $RELEASE_TYPE for NeoForge $MC"
           curl -sS --fail-with-body -X POST \
