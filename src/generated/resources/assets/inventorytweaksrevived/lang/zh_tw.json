@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "（任意快捷鍵）+ 右鍵，而不使用左鍵點擊",
   "invtweaks.help.shortcuts.selectconfig": "選擇排序設定檔",
   "invtweaks.help.shortcuts.title": "快捷鍵說明",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "物品欄排序",
   "invtweaks.keyboardfix.error": "[12] 我的鍵盤有問題",
   "invtweaks.keyboardfix.recover": "Ok 已修復，為此向您致歉。",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] 無法觸發自動裝填",
   "invtweaks.sort.chest.error": "[3] 無法排序儲物箱",
   "invtweaks.sort.inventory.error": "[2] 物品欄排序失敗",
-  "invtweaks.sort.releaseitem.error": "[5] 無法釋出物品"
+  "invtweaks.sort.releaseitem.error": "[5] 無法釋出物品",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

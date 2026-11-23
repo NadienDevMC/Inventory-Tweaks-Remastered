@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <item>
         <magical>
             <botania>
@@ -514,14 +514,11 @@
                 <itemRecordGaia2 id="botania:record_gaia_2"/>
             </musicDisc>
             <botaniaCurios>
-                <itemDammitreddit id="botania:dammitreddit"/>
-                <itemDasboot id="botania:dasboot"/>
                 <itemFelPumpkin id="botania:fel_pumpkin"/>
                 <itemGaiaHead id="botania:gaia_head"/>
                 <itemTeruTeruBozu id="botania:teru_teru_bozu"/>
                 <itemTinyPlanet id="botania:tiny_planet"/>
                 <itemTinyPotato id="botania:tiny_potato"/>
-                <itemTotalbiscuit id="botania:totalbiscuit"/>
             </botaniaCurios>
         </decoration>
         <utility>
@@ -598,15 +595,6 @@
                 </botaniaChests>
             </storage>
         </utility>
-        <fluidStorage>
-            <fluidTanks>
-                <itemAlfsteelTank id="botania:alfsteel_tank"/>
-                <itemElementiumTank id="botania:elementium_tank"/>
-                <itemGaiaTank id="botania:gaia_tank"/>
-                <itemManasteelTank id="botania:manasteel_tank"/>
-                <itemTerrasteelTank id="botania:terrasteel_tank"/>
-            </fluidTanks>
-        </fluidStorage>
         <potion>
             <botaniaFlasks>
                 <itemBrewFlask id="botania:brew_flask"/>
@@ -1294,7 +1282,6 @@
         <weapon>
             <sword>
                 <itemElementiumSword id="botania:elementium_sword"/>
-                <itemElucidator id="botania:elucidator"/>
                 <itemEnderDagger id="botania:ender_dagger"/>
                 <itemManasteelSword id="botania:manasteel_sword"/>
                 <itemStarSword id="botania:star_sword"/>
@@ -1314,7 +1301,6 @@
                 <itemItemfinder id="botania:itemfinder"/>
                 <itemManasteelPick id="botania:manasteel_pick"/>
                 <itemTerraPick id="botania:terra_pick"/>
-                <itemTerraPickTipped id="botania:terra_pick_tipped"/>
                 <itemElementiumPickaxe id="botania:elementium_pickaxe"/>
             </pickaxe>
             <shovel>
@@ -1355,9 +1341,7 @@
             </botaniaRods>
             <wands>
                 <itemDreamwoodWand id="botania:dreamwood_wand"/>
-                <itemDreamwoodWandBind id="botania:dreamwood_wand_bind"/>
                 <itemTwigWand id="botania:twig_wand"/>
-                <itemTwigWandBind id="botania:twig_wand_bind"/>
             </wands>
             <botaniaTools>
                 <itemAstrolabe id="botania:astrolabe"/>
@@ -1374,7 +1358,6 @@
                 <itemKingKey id="botania:king_key"/>
                 <itemLaputaShard id="botania:laputa_shard"/>
                 <itemLexicon id="botania:lexicon"/>
-                <itemLexiconElven id="botania:lexicon_elven"/>
                 <itemManaMirror id="botania:mana_mirror"/>
                 <itemManaTablet id="botania:mana_tablet"/>
                 <itemManasealCreeperSpawnEgg id="botania:manaseal_creeper_spawn_egg"/>
@@ -1389,7 +1372,6 @@
                 <itemThorRing id="botania:thor_ring"/>
                 <itemThornChakram id="botania:thorn_chakram"/>
                 <itemToolbelt id="botania:toolbelt"/>
-                <itemVuvuzela id="botania:vuvuzela"/>
                 <itemBlackHoleTalisman id="botania:black_hole_talisman"/>
                 <itemManaBomb id="botania:mana_bomb"/>
                 <itemManaGun id="botania:mana_gun"/>

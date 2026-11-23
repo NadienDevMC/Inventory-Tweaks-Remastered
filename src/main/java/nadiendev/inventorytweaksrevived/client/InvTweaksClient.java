@@ -1,6 +1,7 @@
 package nadiendev.inventorytweaksrevived.client;
 
 import nadiendev.inventorytweaksrevived.InvTweaksNoOpApi;
+import nadiendev.inventorytweaksrevived.InventoryTweaksRevived;
 import nadiendev.inventorytweaksrevived.api.IItemTreeListener;
 import nadiendev.inventorytweaksrevived.api.InventoryTweaksRevivedAPI;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfig;
@@ -16,6 +17,7 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -42,7 +44,8 @@ import java.util.UUID;
  */
 public final class InvTweaksClient {
 
-    public static final KeyMapping KEY_SORT = new KeyMapping("invtweaks.key.sort", GLFW.GLFW_KEY_R, "invtweaks.key.category");
+    public static final KeyMapping.Category KEY_CATEGORY = new KeyMapping.Category(Identifier.fromNamespaceAndPath(InventoryTweaksRevived.MOD_ID, "invtweaks"));
+    public static final KeyMapping KEY_SORT = new KeyMapping("invtweaks.key.sort", GLFW.GLFW_KEY_R, KEY_CATEGORY);
 
     /**
      * Whether the server has the mod (set by the login payload) and whether item moves go through it.
@@ -110,6 +113,7 @@ public final class InvTweaksClient {
     }
 
     private static void registerKeyMappings(RegisterKeyMappingsEvent event) {
+        event.registerCategory(KEY_CATEGORY);
         event.register(KEY_SORT);
     }
 

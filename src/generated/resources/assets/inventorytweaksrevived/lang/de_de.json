@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Jede Tastenkombi)+ rechts statt links klicken",
   "invtweaks.help.shortcuts.selectconfig": "Wählen Sie Ihre Sortier-Konfiguration",
   "invtweaks.help.shortcuts.title": "Tastenkombinationen-Hilfe",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Inventarsortierung",
   "invtweaks.keyboardfix.error": "[12] Ich habe Probleme mit der Tastatur",
   "invtweaks.keyboardfix.recover": "OK, es ist repariert, Entschuldigung.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Fehler beim Ausführen des automatischen Auffüllens",
   "invtweaks.sort.chest.error": "[3] Fehler beim Sortieren des Behälters",
   "invtweaks.sort.inventory.error": "[2] Konnte Inventar nicht sortieren",
-  "invtweaks.sort.releaseitem.error": "[5] Fehler beim Element freigeben"
+  "invtweaks.sort.releaseitem.error": "[5] Fehler beim Element freigeben",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

@@ -1,7 +1,7 @@
 package nadiendev.inventorytweaksrevived.util;
 
 import nadiendev.inventorytweaksrevived.InventoryTweaksRevived;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLPaths;
 
@@ -38,8 +38,8 @@ public class InvTweaksConst {
     public static final File MERGED_TREE_FILE_ALT = new File(INVTWEAKS_TREES_DIR, "InvTweaksTree.txt");
 
     public static final String INVTWEAKS_RESOURCE_DOMAIN = InventoryTweaksRevived.MOD_ID;
-    public static final ResourceLocation DEFAULT_CONFIG_FILE = ResourceLocation.fromNamespaceAndPath(INVTWEAKS_RESOURCE_DOMAIN, "defaultconfig.dat");
-    public static final ResourceLocation DEFAULT_CONFIG_TREE_FILE = ResourceLocation.fromNamespaceAndPath(INVTWEAKS_RESOURCE_DOMAIN, "itemtree.xml");
+    public static final Identifier DEFAULT_CONFIG_FILE = Identifier.fromNamespaceAndPath(INVTWEAKS_RESOURCE_DOMAIN, "defaultconfig.dat");
+    public static final Identifier DEFAULT_CONFIG_TREE_FILE = Identifier.fromNamespaceAndPath(INVTWEAKS_RESOURCE_DOMAIN, "itemtree.xml");
 
     public static final String HELP_URL = "http://inventory-tweaks.readthedocs.org";
     public static final String TREE_URL = "https://github.com/NadienDevMC/Inventory-Tweaks-Remastered/tree/Neo/1.21.1/trees";

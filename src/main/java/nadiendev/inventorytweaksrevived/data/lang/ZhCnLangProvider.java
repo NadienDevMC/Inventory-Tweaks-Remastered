@@ -91,7 +91,7 @@ public class ZhCnLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] 我的键盘有问题");
         add("invtweaks.keyboardfix.recover", "问题已修复，抱歉");
         add("invtweaks.modcompat.ci.error", "[13] 无法与'Convenient Inventory'达成兼容");
-        add("invtweaks.key.category", "背包一键整理");
+        add("key.category.inventorytweaksrevived.invtweaks", "背包一键整理");
         add("invtweaks.key.sort", "物品栏整理");
     }
 }

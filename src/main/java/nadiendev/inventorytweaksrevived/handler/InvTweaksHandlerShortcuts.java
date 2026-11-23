@@ -270,7 +270,7 @@ public class InvTweaksHandlerShortcuts extends InvTweaksObfuscation {
                 }
 
                 // Shortcut modifiers
-                shortcutConfig.forceEmptySlot = GLFW.glfwGetMouseButton(mc.getWindow().getWindow(), GLFW.GLFW_MOUSE_BUTTON_RIGHT) == GLFW.GLFW_PRESS;
+                shortcutConfig.forceEmptySlot = GLFW.glfwGetMouseButton(mc.getWindow().handle(), GLFW.GLFW_MOUSE_BUTTON_RIGHT) == GLFW.GLFW_PRESS;
                 shortcutConfig.action = shortcut.getAction();
                 shortcutConfig.scope = shortcut.getScope();
 

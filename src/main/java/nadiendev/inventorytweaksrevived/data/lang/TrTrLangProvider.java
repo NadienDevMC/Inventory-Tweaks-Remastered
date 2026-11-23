@@ -91,7 +91,7 @@ public class TrTrLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Klavye ile sorun yaşıyorum");
         add("invtweaks.keyboardfix.recover", "Tamam, düzeltildi, bunun için üzgünüz.");
         add("invtweaks.modcompat.ci.error", "[13] 'Convenient Inventory' uyumluluğunu yönetilemedi");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Envanter Sıralama");
     }
 }

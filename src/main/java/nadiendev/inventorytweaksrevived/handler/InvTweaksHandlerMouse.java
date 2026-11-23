@@ -12,7 +12,7 @@ import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.client.event.ScreenEvent;
@@ -56,8 +56,8 @@ public final class InvTweaksHandlerMouse {
     public static void onMousePressed(@NotNull ScreenEvent.MouseButtonPressed.Post event) {
         visited.clear();
         dragButton = event.getButton();
-        if(event.getScreen() instanceof AbstractContainerScreen<?> screen && screen.getSlotUnderMouse() != null) {
-            visited.add(screen.getSlotUnderMouse());
+        if(event.getScreen() instanceof AbstractContainerScreen<?> screen && screen.getHoveredSlot() != null) {
+            visited.add(screen.getHoveredSlot());
         }
     }
 
@@ -74,20 +74,20 @@ public final class InvTweaksHandlerMouse {
         AbstractContainerScreen<?> screen = (AbstractContainerScreen<?>) current;
         Player player = Minecraft.getInstance().player;
         AbstractContainerMenu menu = screen.getMenu();
-        Slot hovered = screen.getSlotUnderMouse();
+        Slot hovered = screen.getHoveredSlot();
         ItemStack carried = menu.getCarried();
-        boolean shift = Screen.hasShiftDown();
+        boolean shift = Minecraft.getInstance().hasShiftDown();
 
         if(carried.isEmpty() && shift) {
             // Quick-move everything on the way (the vanilla screen does nothing on a drag without a carried stack)
             if(hovered != null && visited.add(hovered) && hovered.hasItem() && hovered.mayPickup(player)) {
-                InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(hovered), 0, ClickType.QUICK_MOVE, player);
+                InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(hovered), 0, ContainerInput.QUICK_MOVE, player);
             }
         } else if(!carried.isEmpty() && !shift && hovered != null && carried.getCount() < carried.getMaxStackSize()
                 && hovered.hasItem() && hovered.mayPickup(player) && ItemStack.isSameItemSameComponents(hovered.getItem(), carried)) {
             // Collect the same items into the carried stack, instead of spreading it over the slots
             if(visited.add(hovered)) {
-                InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(hovered), 0, ClickType.PICKUP, player);
+                InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(hovered), 0, ContainerInput.PICKUP, player);
             }
             event.setCanceled(true);
         }
@@ -99,7 +99,7 @@ public final class InvTweaksHandlerMouse {
             return;
         }
         AbstractContainerScreen<?> screen = (AbstractContainerScreen<?>) current;
-        Slot hovered = screen.getSlotUnderMouse();
+        Slot hovered = screen.getHoveredSlot();
         Player player = Minecraft.getInstance().player;
         AbstractContainerMenu menu = screen.getMenu();
         if(hovered == null || !menu.getCarried().isEmpty() || !hovered.mayPickup(player)) {
@@ -189,9 +189,9 @@ public final class InvTweaksHandlerMouse {
      */
     private static void moveOne(@NotNull AbstractContainerMenu menu, @NotNull Player player, @NotNull Slot from, @NotNull Slot to) {
         int fromNumber = InvTweaksObfuscation.getSlotNumber(from), toNumber = InvTweaksObfuscation.getSlotNumber(to);
-        InvTweaksNetwork.clickSlot(menu.containerId, fromNumber, 0, ClickType.PICKUP, player);
-        InvTweaksNetwork.clickSlot(menu.containerId, toNumber, 1, ClickType.PICKUP, player);
-        InvTweaksNetwork.clickSlot(menu.containerId, fromNumber, 0, ClickType.PICKUP, player);
+        InvTweaksNetwork.clickSlot(menu.containerId, fromNumber, 0, ContainerInput.PICKUP, player);
+        InvTweaksNetwork.clickSlot(menu.containerId, toNumber, 1, ContainerInput.PICKUP, player);
+        InvTweaksNetwork.clickSlot(menu.containerId, fromNumber, 0, ContainerInput.PICKUP, player);
         InvTweaksNetwork.sortComplete();
     }
 }

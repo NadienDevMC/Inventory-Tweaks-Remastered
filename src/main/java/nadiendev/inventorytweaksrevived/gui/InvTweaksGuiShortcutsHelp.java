@@ -3,7 +3,7 @@ package nadiendev.inventorytweaksrevived.gui;
 import nadiendev.inventorytweaksrevived.client.InvTweaksClient;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfig;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
@@ -32,13 +32,13 @@ public class InvTweaksGuiShortcutsHelp extends Screen {
     }
 
     @Override
-    public void render(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.render(guiGraphics, mouseX, mouseY, partialTick);
+    public void extractRenderState(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractRenderState(guiGraphics, mouseX, mouseY, partialTick);
 
         // Note: 0xFF0000EE = blue color (currently unused)
 
-        guiGraphics.drawCenteredString(font, "WARNING: Since 1.3.1, shortcuts won't work as expected. Looking for a workaround...", width / 2, 5, 0xFFFF0000);
-        guiGraphics.drawCenteredString(font, title, width / 2, 20, 0xFFFFFFFF);
+        guiGraphics.centeredText(font, "WARNING: Since 1.3.1, shortcuts won't work as expected. Looking for a workaround...", width / 2, 5, 0xFFFF0000);
+        guiGraphics.centeredText(font, title, width / 2, 20, 0xFFFFFFFF);
         @NotNull String clickLabel = I18n.get("invtweaks.help.shortcuts.click");
 
         int y = height / 6 - 2;
@@ -86,10 +86,10 @@ public class InvTweaksGuiShortcutsHelp extends Screen {
         }
     }
 
-    private void drawShortcutLine(@NotNull GuiGraphics guiGraphics, @NotNull String label, @Nullable String value, int color, int y) {
-        guiGraphics.drawString(font, label, 30, y, -1);
+    private void drawShortcutLine(@NotNull GuiGraphicsExtractor guiGraphics, @NotNull String label, @Nullable String value, int color, int y) {
+        guiGraphics.text(font, label, 30, y, -1);
         if(value != null) {
-            guiGraphics.drawString(font, value.contains("DEFAULT") ? "-" : value.replaceAll(", ", " " + I18n.get("invtweaks.help.shortcuts.or") + " "), width / 2 - 30, y, color);
+            guiGraphics.text(font, value.contains("DEFAULT") ? "-" : value.replaceAll(", ", " " + I18n.get("invtweaks.help.shortcuts.or") + " "), width / 2 - 30, y, color);
         }
     }
 

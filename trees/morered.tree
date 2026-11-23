@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <block>
         <mechanism>
             <resourceTransfer>
                 <redNet>
                     <itemRedAlloyWire id="morered:red_alloy_wire"/>
-                    <itemRedNetworkCable id="morered:red_network_cable"/>
-                    <itemWhiteNetworkCable id="morered:white_network_cable" mergePrevious="true"/>
-                    <itemOrangeNetworkCable id="morered:orange_network_cable" mergePrevious="true"/>
-                    <itemMagentaNetworkCable id="morered:magenta_network_cable" mergePrevious="true"/>
-                    <itemLightBlueNetworkCable id="morered:light_blue_network_cable" mergePrevious="true"/>
-                    <itemYellowNetworkCable id="morered:yellow_network_cable" mergePrevious="true"/>
-                    <itemLimeNetworkCable id="morered:lime_network_cable" mergePrevious="true"/>
-                    <itemPinkNetworkCable id="morered:pink_network_cable" mergePrevious="true"/>
-                    <itemGrayNetworkCable id="morered:gray_network_cable" mergePrevious="true"/>
-                    <itemLightGrayNetworkCable id="morered:light_gray_network_cable" mergePrevious="true"/>
-                    <itemCyanNetworkCable id="morered:cyan_network_cable" mergePrevious="true"/>
-                    <itemPurpleNetworkCable id="morered:purple_network_cable" mergePrevious="true"/>
-                    <itemBlueNetworkCable id="morered:blue_network_cable" mergePrevious="true"/>
-                    <itemBrownNetworkCable id="morered:brown_network_cable" mergePrevious="true"/>
-                    <itemGreenNetworkCable id="morered:green_network_cable" mergePrevious="true"/>
-                    <itemBlackNetworkCable id="morered:black_network_cable" mergePrevious="true"/>
-                    <itemColoredNetworkCableTemplate id="morered:colored_network_cable_template"/>
-                    <itemBundledNetworkCable id="morered:bundled_network_cable"/>
-                    <itemBundledCablePost id="morered:bundled_cable_post"/>
-                    <itemBundledCableRelayPlate id="morered:bundled_cable_relay_plate"/>
+                    <itemRedNetworkCable id="morered:red_cable"/>
+                    <itemWhiteNetworkCable id="morered:white_cable" mergePrevious="true"/>
+                    <itemOrangeNetworkCable id="morered:orange_cable" mergePrevious="true"/>
+                    <itemMagentaNetworkCable id="morered:magenta_cable" mergePrevious="true"/>
+                    <itemLightBlueNetworkCable id="morered:light_blue_cable" mergePrevious="true"/>
+                    <itemYellowNetworkCable id="morered:yellow_cable" mergePrevious="true"/>
+                    <itemLimeNetworkCable id="morered:lime_cable" mergePrevious="true"/>
+                    <itemPinkNetworkCable id="morered:pink_cable" mergePrevious="true"/>
+                    <itemGrayNetworkCable id="morered:gray_cable" mergePrevious="true"/>
+                    <itemLightGrayNetworkCable id="morered:light_gray_cable" mergePrevious="true"/>
+                    <itemCyanNetworkCable id="morered:cyan_cable" mergePrevious="true"/>
+                    <itemPurpleNetworkCable id="morered:purple_cable" mergePrevious="true"/>
+                    <itemBlueNetworkCable id="morered:blue_cable" mergePrevious="true"/>
+                    <itemBrownNetworkCable id="morered:brown_cable" mergePrevious="true"/>
+                    <itemGreenNetworkCable id="morered:green_cable" mergePrevious="true"/>
+                    <itemBlackNetworkCable id="morered:black_cable" mergePrevious="true"/>
+                    <itemColoredNetworkCableTemplate id="morered:colored_cable_template"/>
+                    <itemBundledNetworkCable id="morered:bundled_cable"/>
                     <itemBundledCableSpool id="morered:bundled_cable_spool"/>
                     <itemRedwirePost id="morered:redwire_post"/>
-                    <itemRedwirePostPlate id="morered:redwire_post_plate"/>
-                    <itemRedwirePostRelayPlate id="morered:redwire_post_relay_plate"/>
                     <itemRedwireSpool id="morered:redwire_spool"/>
                 </redNet>
             </resourceTransfer>
             <logicGates>
                 <itemAndGate id="morered:and_gate"/>
-                <itemAnd2Gate id="morered:and_2_gate"/>
+                <itemAnd2Gate id="morered:two_input_and_gate"/>
                 <itemNandGate id="morered:nand_gate"/>
-                <itemNand2Gate id="morered:nand_2_gate"/>
+                <itemNand2Gate id="morered:two_input_nand_gate"/>
                 <itemOrGate id="morered:or_gate"/>
                 <itemNorGate id="morered:nor_gate"/>
                 <itemXorGate id="morered:xor_gate"/>

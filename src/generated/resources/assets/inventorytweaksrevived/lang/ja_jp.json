@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(任意のショートカット) + 右クリック",
   "invtweaks.help.shortcuts.selectconfig": "ソート設定を選択します",
   "invtweaks.help.shortcuts.title": "ショートカット ヘルプ",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "インベントリのソート",
   "invtweaks.keyboardfix.error": "[12] キーボードにトラブルがあります",
   "invtweaks.keyboardfix.recover": "修復されました、ごめんなさい",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] 自動補充に失敗しました",
   "invtweaks.sort.chest.error": "[3] コンテナのソートに失敗しました",
   "invtweaks.sort.inventory.error": "[2] インベントリのソートに失敗しました",
-  "invtweaks.sort.releaseitem.error": "[5] アイテムの開放に失敗しました"
+  "invtweaks.sort.releaseitem.error": "[5] アイテムの開放に失敗しました",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

@@ -7,7 +7,7 @@ import nadiendev.inventorytweaksrevived.core.InvTweaksCore;
 import net.minecraft.client.Minecraft;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -66,10 +66,10 @@ public final class InvTweaksNetwork {
      * Client side: performs a container click. With server support the click is applied locally and replayed by the
      * server, otherwise it goes through the vanilla click packet.
      */
-    public static void clickSlot(int windowId, int slot, int data, @NotNull ClickType action, @NotNull Player player) {
+    public static void clickSlot(int windowId, int slot, int data, @NotNull ContainerInput action, @NotNull Player player) {
         if(InvTweaksClient.serverSupportEnabled) {
             player.containerMenu.clicked(slot, data, action, player);
-            PacketDistributor.sendToServer(new ClickPayload(slot, data, action, windowId));
+            ClientOnly.sendToServer(new ClickPayload(slot, data, action, windowId));
         } else {
             ClientOnly.vanillaClick(windowId, slot, data, action, player);
         }
@@ -80,7 +80,7 @@ public final class InvTweaksNetwork {
      */
     public static void sortComplete() {
         if(InvTweaksClient.serverSupportEnabled) {
-            PacketDistributor.sendToServer(new SortCompletePayload());
+            ClientOnly.sendToServer(new SortCompletePayload());
         }
     }
 
@@ -88,8 +88,12 @@ public final class InvTweaksNetwork {
      * Keeps the client-only classes out of this class, which is also loaded by a dedicated server.
      */
     private static final class ClientOnly {
-        static void vanillaClick(int windowId, int slot, int data, ClickType action, Player player) {
-            Minecraft.getInstance().gameMode.handleInventoryMouseClick(windowId, slot, data, action, player);
+        static void sendToServer(net.minecraft.network.protocol.common.custom.CustomPacketPayload payload) {
+            net.neoforged.neoforge.client.network.ClientPacketDistributor.sendToServer(payload);
+        }
+
+        static void vanillaClick(int windowId, int slot, int data, ContainerInput action, Player player) {
+            Minecraft.getInstance().gameMode.handleContainerInput(windowId, slot, data, action, player);
         }
     }
 }

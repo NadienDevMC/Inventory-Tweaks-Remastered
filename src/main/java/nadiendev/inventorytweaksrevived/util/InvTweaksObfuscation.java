@@ -68,7 +68,7 @@ public class InvTweaksObfuscation {
 
     @Nullable
     public static Slot getSlotAtMousePosition(@Nullable AbstractContainerScreen<?> screen) {
-        return screen != null ? screen.getSlotUnderMouse() : null;
+        return screen != null ? screen.getHoveredSlot() : null;
     }
 
     // Menu members, resolved through MenuResolver (annotations, menu_compat.json, vanilla table, heuristic)
@@ -151,7 +151,7 @@ public class InvTweaksObfuscation {
 
     public void addChatMessage(@NotNull String message) {
         if(mc.gui != null) {
-            mc.gui.getChat().addMessage(Component.literal(message));
+            mc.gui.getChat().addClientSystemMessage(Component.literal(message));
         }
     }
 
@@ -173,7 +173,7 @@ public class InvTweaksObfuscation {
     }
 
     public NonNullList<ItemStack> getMainInventory() {
-        return getInventoryPlayer().items;
+        return getInventoryPlayer().getNonEquipmentItems();
     }
 
     @NotNull
@@ -183,15 +183,15 @@ public class InvTweaksObfuscation {
 
     @NotNull
     public ItemStack getFocusedStack() {
-        return getInventoryPlayer().getSelected();
+        return getInventoryPlayer().getSelectedItem();
     }
 
     public int getFocusedSlot() {
-        return getInventoryPlayer().selected;
+        return getInventoryPlayer().getSelectedSlot();
     }
 
     @NotNull
     public ItemStack getOffhandStack() {
-        return getInventoryPlayer().offhand.get(0);
+        return getInventoryPlayer().getItem(Inventory.SLOT_OFFHAND);
     }
 }

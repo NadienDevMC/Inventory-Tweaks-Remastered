@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Hvilken som helst snarvei) + Høyre istedenfor venstre-klikk",
   "invtweaks.help.shortcuts.selectconfig": "Velg sorteringsinnstillinger",
   "invtweaks.help.shortcuts.title": "Hjelp for snarveier",
-  "invtweaks.key.category": "Lager Tweaks",
   "invtweaks.key.sort": "Lager sortering",
   "invtweaks.keyboardfix.error": "[12] Jeg har problemer med tastaturet",
   "invtweaks.keyboardfix.recover": "Ok det er reparert, beklager det.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Kunne ikke slå på automatisk fylling",
   "invtweaks.sort.chest.error": "[3] Klarte ikke å sortere beholder",
   "invtweaks.sort.inventory.error": "[2] Kan ikke sortere lager",
-  "invtweaks.sort.releaseitem.error": "[5] Klarte ikke å løsne element"
+  "invtweaks.sort.releaseitem.error": "[5] Klarte ikke å løsne element",
+  "key.category.inventorytweaksrevived.invtweaks": "Lager Tweaks"
 }

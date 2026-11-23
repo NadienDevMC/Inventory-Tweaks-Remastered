@@ -91,7 +91,7 @@ public class EtEeLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Mul on probleeme klaviatuuriga");
         add("invtweaks.keyboardfix.recover", "OK, see on parandatud, vabandame selle pärast.");
         add("invtweaks.modcompat.ci.error", "[13] \"Convenient Inventory\" ühilduvuse haldamine ebaõnnestus");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Seljakoti sorteerimine");
     }
 }

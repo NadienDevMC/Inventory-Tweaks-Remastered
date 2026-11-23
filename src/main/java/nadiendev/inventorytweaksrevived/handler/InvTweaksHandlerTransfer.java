@@ -10,7 +10,7 @@ import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemStackLinkedSet;
@@ -71,7 +71,7 @@ public final class InvTweaksHandlerTransfer {
             Set<ItemStack> present = all ? null : stacksIn(chest);
             for(Slot slot : source) {
                 if(matches(slot, present, player)) {
-                    InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ClickType.QUICK_MOVE, player);
+                    InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ContainerInput.QUICK_MOVE, player);
                     moved = true;
                     if(!all) {
                         break; // a plain click moves one stack
@@ -96,7 +96,7 @@ public final class InvTweaksHandlerTransfer {
             if(useHotbar) {
                 // Shift-clicks send a container stack to the player's whole inventory
                 for(Slot slot : source) {
-                    InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ClickType.QUICK_MOVE, player);
+                    InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ContainerInput.QUICK_MOVE, player);
                     moved = true;
                 }
             } else {
@@ -188,6 +188,6 @@ public final class InvTweaksHandlerTransfer {
     }
 
     private static void click(@NotNull AbstractContainerMenu menu, @NotNull Player player, @NotNull Slot slot) {
-        InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ClickType.PICKUP, player);
+        InvTweaksNetwork.clickSlot(menu.containerId, InvTweaksObfuscation.getSlotNumber(slot), 0, ContainerInput.PICKUP, player);
     }
 }

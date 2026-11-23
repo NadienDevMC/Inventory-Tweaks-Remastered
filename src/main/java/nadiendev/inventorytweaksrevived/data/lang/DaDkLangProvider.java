@@ -91,7 +91,7 @@ public class DaDkLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12]Jeg har problemer med tastaturet");
         add("invtweaks.keyboardfix.recover", "Ok, det er repareret, undskyld for det.");
         add("invtweaks.modcompat.ci.error", "[13]Kunne ikke styre kompatibilitet med \"Convenient Inventory\"");
-        add("invtweaks.key.category", "Lager Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Lager Tweaks");
         add("invtweaks.key.sort", "Lager Sortering");
     }
 }

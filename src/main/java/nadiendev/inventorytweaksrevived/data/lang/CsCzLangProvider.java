@@ -91,7 +91,7 @@ public class CsCzLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Mám potíže s klávesnicí");
         add("invtweaks.keyboardfix.recover", "Ok, opraveno, omlouvám se za to.");
         add("invtweaks.modcompat.ci.error", "[13] Nepodařilo se zajistit kompatibilitu s 'Convenient Inventory'");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Řazení inventáře");
     }
 }

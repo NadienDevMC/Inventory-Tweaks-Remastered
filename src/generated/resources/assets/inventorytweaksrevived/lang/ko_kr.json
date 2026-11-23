@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(아무 단축키) + 마우스 오른쪽 클릭",
   "invtweaks.help.shortcuts.selectconfig": "정렬 설정 선택",
   "invtweaks.help.shortcuts.title": "단축키 도움말",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "인벤토리 정렬",
   "invtweaks.keyboardfix.error": "[12] 키보드 사용에 문제가 있습니다.",
   "invtweaks.keyboardfix.recover": "복구했습니다. 불편을 끼쳐드려 죄송합니다.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] 자동 채우기 기능 실행 실패",
   "invtweaks.sort.chest.error": "[3] 컨테이너 정렬 실패",
   "invtweaks.sort.inventory.error": "[2] 인벤토리 정렬 실패",
-  "invtweaks.sort.releaseitem.error": "[5] 아이템 릴리즈 실패"
+  "invtweaks.sort.releaseitem.error": "[5] 아이템 릴리즈 실패",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

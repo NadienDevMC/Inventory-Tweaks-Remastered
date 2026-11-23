@@ -6,7 +6,8 @@ import nadiendev.inventorytweaksrevived.config.InvTweaksConfigManager;
 import nadiendev.inventorytweaksrevived.container.ContainerSectionManager;
 import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.input.InputWithModifiers;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -26,20 +27,20 @@ public class InvTweaksGuiSettingsButton extends InvTweaksGuiIconButton {
     }
 
     @Override
-    protected void renderWidget(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.renderWidget(guiGraphics, mouseX, mouseY, partialTick);
+    protected void extractContents(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractContents(guiGraphics, mouseX, mouseY, partialTick);
 
         // Display string
         // The old "..." label sat on the baseline; a symbol is centered
         int textY = "...".equals(getLabel()) ? getY() - 1 : getY() + (getHeight() - 8) / 2 + 1;
-        guiGraphics.drawCenteredString(Minecraft.getInstance().font, getMessage(), getX() + getWidth() / 2, textY, getTextColor());
+        guiGraphics.centeredText(Minecraft.getInstance().font, getMessage(), getX() + getWidth() / 2, textY, getTextColor());
     }
 
     /**
      * Displays inventory settings GUI
      */
     @Override
-    public void onPress() {
+    public void onPress(@NotNull InputWithModifiers input) {
         Minecraft mc = Minecraft.getInstance();
         if(mc.player == null || mc.player.isSpectator()) {
             return;

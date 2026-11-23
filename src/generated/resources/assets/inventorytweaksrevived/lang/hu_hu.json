@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Bármilyen gyors billentyű) + jobb helyett a BAL gombbal",
   "invtweaks.help.shortcuts.selectconfig": "Válassza ki a rendezési beállítást",
   "invtweaks.help.shortcuts.title": "Gyorsgomb segítség",
-  "invtweaks.key.category": "Leltár finomhangolás",
   "invtweaks.key.sort": "Leltár Rendezés",
   "invtweaks.keyboardfix.error": "[12] Hiba a billentyűzettel",
   "invtweaks.keyboardfix.recover": "Rendben helyreállítottam a problémát, bocs miatta.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Nem sikerült kiváltani az Auto-kitöltőt",
   "invtweaks.sort.chest.error": "[3] Nem sikerült rendezni a tárolót",
   "invtweaks.sort.inventory.error": "[2] Nem sikerült rendezni a leltárt",
-  "invtweaks.sort.releaseitem.error": "[5] Nem sikerült a tárgy kiadása"
+  "invtweaks.sort.releaseitem.error": "[5] Nem sikerült a tárgy kiadása",
+  "key.category.inventorytweaksrevived.invtweaks": "Leltár finomhangolás"
 }

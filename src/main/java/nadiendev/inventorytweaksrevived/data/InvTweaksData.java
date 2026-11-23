@@ -1,41 +1,38 @@
 package nadiendev.inventorytweaksrevived.data;
 
 import nadiendev.inventorytweaksrevived.data.lang.*;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 public final class InvTweaksData {
     private InvTweaksData() {}
 
-    public static void gatherData(GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
-        PackOutput output = generator.getPackOutput();
-        boolean client = event.includeClient();
+    public static void gatherData(GatherDataEvent.Client event) {
+        PackOutput output = event.getGenerator().getPackOutput();
 
-        generator.addProvider(client, new CsCzLangProvider(output));
-        generator.addProvider(client, new DaDkLangProvider(output));
-        generator.addProvider(client, new DeDeLangProvider(output));
-        generator.addProvider(client, new EnUsLangProvider(output));
-        generator.addProvider(client, new EsEsLangProvider(output));
-        generator.addProvider(client, new EtEeLangProvider(output));
-        generator.addProvider(client, new FrCaLangProvider(output));
-        generator.addProvider(client, new FrFrLangProvider(output));
-        generator.addProvider(client, new HuHuLangProvider(output));
-        generator.addProvider(client, new ItItLangProvider(output));
-        generator.addProvider(client, new JaJpLangProvider(output));
-        generator.addProvider(client, new KoKrLangProvider(output));
-        generator.addProvider(client, new LtLtLangProvider(output));
-        generator.addProvider(client, new NlNlLangProvider(output));
-        generator.addProvider(client, new NoNoLangProvider(output));
-        generator.addProvider(client, new PlPlLangProvider(output));
-        generator.addProvider(client, new PtBrLangProvider(output));
-        generator.addProvider(client, new PtPtLangProvider(output));
-        generator.addProvider(client, new RuRuLangProvider(output));
-        generator.addProvider(client, new SvSeLangProvider(output));
-        generator.addProvider(client, new TrTrLangProvider(output));
-        generator.addProvider(client, new UkUaLangProvider(output));
-        generator.addProvider(client, new ZhCnLangProvider(output));
-        generator.addProvider(client, new ZhTwLangProvider(output));
+        event.addProvider(new CsCzLangProvider(output));
+        event.addProvider(new DaDkLangProvider(output));
+        event.addProvider(new DeDeLangProvider(output));
+        event.addProvider(new EnUsLangProvider(output));
+        event.addProvider(new EsEsLangProvider(output));
+        event.addProvider(new EtEeLangProvider(output));
+        event.addProvider(new FrCaLangProvider(output));
+        event.addProvider(new FrFrLangProvider(output));
+        event.addProvider(new HuHuLangProvider(output));
+        event.addProvider(new ItItLangProvider(output));
+        event.addProvider(new JaJpLangProvider(output));
+        event.addProvider(new KoKrLangProvider(output));
+        event.addProvider(new LtLtLangProvider(output));
+        event.addProvider(new NlNlLangProvider(output));
+        event.addProvider(new NoNoLangProvider(output));
+        event.addProvider(new PlPlLangProvider(output));
+        event.addProvider(new PtBrLangProvider(output));
+        event.addProvider(new PtPtLangProvider(output));
+        event.addProvider(new RuRuLangProvider(output));
+        event.addProvider(new SvSeLangProvider(output));
+        event.addProvider(new TrTrLangProvider(output));
+        event.addProvider(new UkUaLangProvider(output));
+        event.addProvider(new ZhCnLangProvider(output));
+        event.addProvider(new ZhTwLangProvider(output));
     }
 }

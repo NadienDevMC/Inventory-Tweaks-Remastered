@@ -3,7 +3,7 @@ package nadiendev.inventorytweaksrevived.network;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
  */
 public record LoginPayload() implements CustomPacketPayload {
     public static final CustomPacketPayload.Type<LoginPayload> TYPE =
-            new CustomPacketPayload.Type<>(ResourceLocation.fromNamespaceAndPath("inventorytweaksrevived", "login"));
+            new CustomPacketPayload.Type<>(Identifier.fromNamespaceAndPath("inventorytweaksrevived", "login"));
 
     public static final StreamCodec<ByteBuf, LoginPayload> STREAM_CODEC =
             StreamCodec.unit(new LoginPayload());

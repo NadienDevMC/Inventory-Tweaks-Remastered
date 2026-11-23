@@ -97,7 +97,7 @@ public class EnUsLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] I'm having troubles with the keyboard");
         add("invtweaks.keyboardfix.recover", "Ok it's repaired, sorry about that.");
         add("invtweaks.modcompat.ci.error", "[13] Failed to manage 'Convenient Inventory' compatibility");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Inventory Sorting");
         add("invtweaks.settings.advanced.transferhotbar", "Arrows use hotbar");
         add("invtweaks.settings.advanced.transferhotbar.tooltip", "Fill also takes items from the hotbar,\nand empty also puts items into it");

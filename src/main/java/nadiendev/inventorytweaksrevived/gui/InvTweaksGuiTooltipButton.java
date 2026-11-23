@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
  *
  * @author Jimeo Wan
  */
-public class InvTweaksGuiTooltipButton extends Button {
+public abstract class InvTweaksGuiTooltipButton extends Button {
 
     /**
      * For subclasses that override {@link #onPress()} instead of taking a callback.

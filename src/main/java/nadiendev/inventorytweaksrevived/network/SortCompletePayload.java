@@ -3,7 +3,7 @@ package nadiendev.inventorytweaksrevived.network;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
  */
 public record SortCompletePayload() implements CustomPacketPayload {
     public static final CustomPacketPayload.Type<SortCompletePayload> TYPE =
-            new CustomPacketPayload.Type<>(ResourceLocation.fromNamespaceAndPath("inventorytweaksrevived", "sortcomplete"));
+            new CustomPacketPayload.Type<>(Identifier.fromNamespaceAndPath("inventorytweaksrevived", "sortcomplete"));
 
     public static final StreamCodec<ByteBuf, SortCompletePayload> STREAM_CODEC =
             StreamCodec.unit(new SortCompletePayload());

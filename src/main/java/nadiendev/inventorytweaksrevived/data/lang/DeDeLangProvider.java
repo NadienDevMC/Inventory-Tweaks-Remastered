@@ -91,7 +91,7 @@ public class DeDeLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Ich habe Probleme mit der Tastatur");
         add("invtweaks.keyboardfix.recover", "OK, es ist repariert, Entschuldigung.");
         add("invtweaks.modcompat.ci.error", "[13] Konnte Kompatibilität mit 'Convenient Inventory' nicht verwalten");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Inventarsortierung");
     }
 }

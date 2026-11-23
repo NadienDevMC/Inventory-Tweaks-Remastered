@@ -4,7 +4,6 @@ import nadiendev.inventorytweaksrevived.api.InventoryTweaksRevivedAPI;
 import nadiendev.inventorytweaksrevived.client.InvTweaksClient;
 import nadiendev.inventorytweaksrevived.data.InvTweaksData;
 import nadiendev.inventorytweaksrevived.network.InvTweaksNetwork;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -25,7 +24,7 @@ public class InventoryTweaksRevived {
         modBus.addListener(InvTweaksNetwork::register);
         NeoForge.EVENT_BUS.addListener(InvTweaksNetwork::onPlayerLoggedIn);
 
-        if(FMLEnvironment.dist == Dist.CLIENT) {
+        if(FMLEnvironment.getDist().isClient()) {
             InvTweaksClient.init(modBus, container);
         }
     }
@@ -36,7 +35,7 @@ public class InventoryTweaksRevived {
      * needed rather than keeping it.
      */
     public static InventoryTweaksRevivedAPI getApi() {
-        if(FMLEnvironment.dist == Dist.CLIENT) {
+        if(FMLEnvironment.getDist().isClient()) {
             return InvTweaksClient.getApi();
         }
         return SERVER_API;

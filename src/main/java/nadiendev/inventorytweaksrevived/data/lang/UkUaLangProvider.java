@@ -91,7 +91,7 @@ public class UkUaLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] В мене проблеми з клавіатурою");
         add("invtweaks.keyboardfix.recover", "Відновлено. Вибачте за незручності.");
         add("invtweaks.modcompat.ci.error", "[13] Не вдалось визначити сумісність з Convenient Inventory");
-        add("invtweaks.key.category", "Налаштування інвентарю");
+        add("key.category.inventorytweaksrevived.invtweaks", "Налаштування інвентарю");
         add("invtweaks.key.sort", "Впорядкування інвертарю");
     }
 }

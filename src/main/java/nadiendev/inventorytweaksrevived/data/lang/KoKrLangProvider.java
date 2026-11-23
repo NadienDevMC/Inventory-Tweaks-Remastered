@@ -91,7 +91,7 @@ public class KoKrLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] 키보드 사용에 문제가 있습니다.");
         add("invtweaks.keyboardfix.recover", "복구했습니다. 불편을 끼쳐드려 죄송합니다.");
         add("invtweaks.modcompat.ci.error", "[13] Convenient Inventory 와의 호환성을 유지하지 못했습니다.");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "인벤토리 정렬");
     }
 }
