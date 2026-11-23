@@ -1,4 +1,4 @@
-## Inventory Tweaks revived
+## Inventory Tweaks Revived
 
 
 Inventory Tweaks Revived
