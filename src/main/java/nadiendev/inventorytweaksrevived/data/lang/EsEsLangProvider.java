@@ -99,7 +99,7 @@ public class EsEsLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Estoy teniendo problemas con el teclado");
         add("invtweaks.keyboardfix.recover", "Ya está solucionado, perdón por las molestias.");
         add("invtweaks.modcompat.ci.error", "[13] Error con la compatibilidad del inventario");
-        add("invtweaks.key.category", "Opciones de inventario");
+        add("key.category.inventorytweaksrevived.invtweaks", "Opciones de inventario");
         add("invtweaks.key.sort", "Clasificación de inventario");
     }
 }

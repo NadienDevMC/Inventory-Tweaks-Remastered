@@ -5,7 +5,7 @@ import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import nadiendev.inventorytweaksrevived.api.container.ContainerSection;
 import nadiendev.inventorytweaksrevived.network.InvTweaksNetwork;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;
@@ -195,7 +195,7 @@ public class DirectContainerManager implements IContainerManager {
         if(slot != -1) {
             int data = (rightClick) ? 1 : 0;
             InvTweaksCore core = InvTweaksCore.getInstance();
-            InvTweaksNetwork.clickSlot(container.containerId, slot, data, ClickType.PICKUP, core.getThePlayer());
+            InvTweaksNetwork.clickSlot(container.containerId, slot, data, ContainerInput.PICKUP, core.getThePlayer());
         }
     }
 

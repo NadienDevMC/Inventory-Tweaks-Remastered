@@ -7,7 +7,7 @@ import nadiendev.inventorytweaksrevived.api.IItemTreeCategory;
 import nadiendev.inventorytweaksrevived.api.IItemTreeItem;
 import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -163,14 +163,14 @@ public class InvTweaksItemTree implements IItemTree {
      * An item is unknown if the tree neither lists it nor covers it with a tag or a predicate.
      */
     @Override
-    public boolean isItemUnknown(@NotNull ResourceLocation id) {
+    public boolean isItemUnknown(@NotNull Identifier id) {
         if(itemsById.containsKey(id.toString())) {
             return false;
         }
         if(!BuiltInRegistries.ITEM.containsKey(id)) {
             return true;
         }
-        ItemStack stack = new ItemStack(BuiltInRegistries.ITEM.get(id));
+        ItemStack stack = new ItemStack(BuiltInRegistries.ITEM.getValue(id));
         return matchers.stream().noneMatch(matcher -> matcher.matches(stack));
     }
 
@@ -217,11 +217,11 @@ public class InvTweaksItemTree implements IItemTree {
     @NotNull
     @Override
     public List<IItemTreeItem> getItems(@Nullable String id, int damage) {
-        ResourceLocation location = id == null ? null : ResourceLocation.tryParse(InvTweaksObfuscation.getNamespacedID(id));
+        Identifier location = id == null ? null : Identifier.tryParse(InvTweaksObfuscation.getNamespacedID(id));
         if(location == null || !BuiltInRegistries.ITEM.containsKey(location)) {
             return new ArrayList<>();
         }
-        return getItems(new ItemStack(BuiltInRegistries.ITEM.get(location)));
+        return getItems(new ItemStack(BuiltInRegistries.ITEM.getValue(location)));
     }
 
     @Override

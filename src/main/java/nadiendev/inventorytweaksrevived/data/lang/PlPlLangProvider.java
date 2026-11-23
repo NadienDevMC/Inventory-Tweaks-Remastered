@@ -91,7 +91,7 @@ public class PlPlLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Mam problemy z klawiaturą");
         add("invtweaks.keyboardfix.recover", "OK, już naprawione, przepraszam za tamto");
         add("invtweaks.modcompat.ci.error", "[13] Nie udało się zaradzić niezgodności z modem Convenient Inventory");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Sortowanie ekwipunku");
     }
 }

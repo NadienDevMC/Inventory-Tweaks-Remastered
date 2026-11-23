@@ -30,6 +30,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.AbstractWidget;
 import net.minecraft.client.gui.components.events.GuiEventListener;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.input.MouseButtonEvent;
+import net.minecraft.client.input.MouseButtonInfo;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
@@ -44,14 +46,13 @@ import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.FishingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ShearsItem;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.equipment.Equippable;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
@@ -213,7 +214,7 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
         for(PlacedButton placed : layoutButtons) {
             InvTweaksGuiIconButton b = placed.button();
             if(b.visible && b.active && b.isMouseOver(mouseX, mouseY)) {
-                return b.mouseClicked(mouseX, mouseY, button);
+                return b.mouseClicked(new MouseButtonEvent(mouseX, mouseY, new MouseButtonInfo(button, 0)), false);
             }
         }
         return false;
@@ -296,11 +297,13 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
     }
 
     /**
-     * Stand-in for the old harvest level: the attack damage bonus of the item's tier, which matches the 1.12 levels for
-     * the vanilla tiers (wood and gold 0, stone 1, iron 2, diamond 3, netherite 4).
+     * Stand-in for the old harvest level: the main-hand attack damage of the stack, which is the baseline of the tool
+     * class plus the attack damage bonus of its material (wood and gold 0, stone 1, iron 2, diamond 3, netherite 4), so
+     * tools of the same class sort by tier.
      */
-    private static float getHarvestLevel(Item item) {
-        return (item instanceof TieredItem tieredItem) ? tieredItem.getTier().getAttackDamageBonus() : 0.0F;
+    private static float getHarvestLevel(ItemStack stack) {
+        @Nullable Double damage = getModifier(stack.getAttributeModifiers(), EquipmentSlot.MAINHAND, Attributes.ATTACK_DAMAGE);
+        return damage == null ? 0.0F : damage.floatValue();
     }
 
     /**
@@ -308,9 +311,17 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
      */
     @Nullable
     private static Double getMainHandModifier(@NotNull ItemAttributeModifiers modifiers, @NotNull Holder<Attribute> attribute) {
+        return getModifier(modifiers, EquipmentSlot.MAINHAND, attribute);
+    }
+
+    /**
+     * @return the summed amount of the modifiers of the slot for the attribute, or null if there are none.
+     */
+    @Nullable
+    private static Double getModifier(@NotNull ItemAttributeModifiers modifiers, @NotNull EquipmentSlot slot, @NotNull Holder<Attribute> attribute) {
         double[] amount = {0.0D};
         boolean[] found = {false};
-        modifiers.forEach(EquipmentSlot.MAINHAND, (modifierAttribute, modifier) -> {
+        modifiers.forEach(slot, (modifierAttribute, modifier) -> {
             if(modifierAttribute.value() == attribute.value()) {
                 amount[0] += modifier.amount();
                 found[0] = true;
@@ -319,9 +330,58 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
         return found[0] ? amount[0] : null;
     }
 
+    /**
+     * The armor slot of an armor piece (the old {@code ArmorItem}): equippable in a humanoid armor slot, with an armor
+     * value, and not an elytra.
+     *
+     * @return the slot, or null if the stack is not an armor piece.
+     */
+    @Nullable
+    public static EquipmentSlot getArmorSlot(@NotNull ItemStack stack) {
+        @Nullable Equippable equippable = stack.get(DataComponents.EQUIPPABLE);
+        if(equippable == null || stack.has(DataComponents.GLIDER) || equippable.slot().getType() != EquipmentSlot.Type.HUMANOID_ARMOR) {
+            return null;
+        }
+        return getModifier(stack.getAttributeModifiers(), equippable.slot(), Attributes.ARMOR) == null ? null : equippable.slot();
+    }
+
+    public static boolean isArmor(@NotNull ItemStack stack) {
+        return getArmorSlot(stack) != null;
+    }
+
+    /**
+     * Armor points of an armor piece (0 if it is not one).
+     */
+    public static int getArmorDefense(@NotNull ItemStack stack) {
+        @Nullable EquipmentSlot slot = getArmorSlot(stack);
+        @Nullable Double value = slot == null ? null : getModifier(stack.getAttributeModifiers(), slot, Attributes.ARMOR);
+        return value == null ? 0 : (int) Math.round(value);
+    }
+
+    /**
+     * Armor toughness of an armor piece (0 if it is not one).
+     */
+    public static float getArmorToughness(@NotNull ItemStack stack) {
+        @Nullable EquipmentSlot slot = getArmorSlot(stack);
+        @Nullable Double value = slot == null ? null : getModifier(stack.getAttributeModifiers(), slot, Attributes.ARMOR_TOUGHNESS);
+        return value == null ? 0.0F : value.floatValue();
+    }
+
+    /**
+     * Position of an armor slot from head to feet.
+     */
+    private static int armorSlotOrder(@NotNull EquipmentSlot slot) {
+        return switch(slot) {
+            case HEAD -> 0;
+            case CHEST -> 1;
+            case LEGS -> 2;
+            default -> 3;
+        };
+    }
+
     @NotNull
     private static String getEnchantmentId(@NotNull Holder<Enchantment> enchantment) {
-        return enchantment.unwrapKey().map(key -> key.location().toString()).orElse("");
+        return enchantment.unwrapKey().map(key -> key.identifier().toString()).orElse("");
     }
 
     public void addScheduledTask(Runnable task) {
@@ -601,8 +661,8 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
                 return toolClassComparison;
             }
             // If they were the same type, sort with the better harvest level first.
-            float harvestLevel1 = getHarvestLevel(iItem);
-            float harvestLevel2 = getHarvestLevel(jItem);
+            float harvestLevel1 = getHarvestLevel(i);
+            float harvestLevel2 = getHarvestLevel(j);
             int toolLevelComparison = Float.compare(harvestLevel2, harvestLevel1);
             if(toolLevelComparison != 0) {
                 return toolLevelComparison;
@@ -644,20 +704,22 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
     }
 
     private int compareArmor(ItemStack i, ItemStack j, Item iItem, Item jItem) {
-        int isArmor1 = (iItem instanceof ArmorItem) ? 1 : 0;
-        int isArmor2 = (jItem instanceof ArmorItem) ? 1 : 0;
+        @Nullable EquipmentSlot slot1 = getArmorSlot(i);
+        @Nullable EquipmentSlot slot2 = getArmorSlot(j);
+        int isArmor1 = (slot1 != null) ? 1 : 0;
+        int isArmor2 = (slot2 != null) ? 1 : 0;
         if(isArmor1 == 0 || isArmor2 == 0) {
             return isArmor2 - isArmor1;
         } else {
-            ArmorItem a1 = (ArmorItem) iItem;
-            ArmorItem a2 = (ArmorItem) jItem;
-            if(a1.getType() != a2.getType()) {
-                // Head first, then chest, legs and feet (ArmorItem.Type is declared head to feet).
-                return a1.getType().compareTo(a2.getType());
-            } else if(a1.getDefense() != a2.getDefense()) {
-                return a2.getDefense() - a1.getDefense();
-            } else if(a1.getToughness() != a2.getToughness()) {
-                return Float.compare(a2.getToughness(), a1.getToughness());
+            int defense1 = getArmorDefense(i), defense2 = getArmorDefense(j);
+            float toughness1 = getArmorToughness(i), toughness2 = getArmorToughness(j);
+            if(slot1 != slot2) {
+                // Head first, then chest, legs and feet.
+                return Integer.compare(armorSlotOrder(slot1), armorSlotOrder(slot2));
+            } else if(defense1 != defense2) {
+                return defense2 - defense1;
+            } else if(toughness1 != toughness2) {
+                return Float.compare(toughness2, toughness1);
             }
             return compareMaxDamage(i, j);
         }
@@ -951,7 +1013,7 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
      * made while no screen is open.
      */
     private boolean isMouseButtonDown(int button) {
-        return GLFW.glfwGetMouseButton(mc.getWindow().getWindow(), button) == GLFW.GLFW_PRESS;
+        return GLFW.glfwGetMouseButton(mc.getWindow().handle(), button) == GLFW.GLFW_PRESS;
     }
 
     private void handleMiddleClick(Screen guiScreen) {
@@ -1181,7 +1243,7 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
         boolean visible = showButtons(container);
         boolean sortingButtonsVisible = visible && config != null && !config.getProperty(InvTweaksConfig.PROP_SHOW_CHEST_BUTTONS).equals("false");
 
-        int x = guiContainer.getGuiLeft() + guiContainer.getXSize() - 16, y = guiContainer.getGuiTop() + 5;
+        int x = guiContainer.getLeftPos() + guiContainer.getImageWidth() - 16, y = guiContainer.getTopPos() + 5;
         // Above the player's inventory (the label row), where a chest has its buttons above the chest
         int inventoryX = x, inventoryY = y;
         @Nullable List<Slot> mainInventory = getSlotMap(container).get(ContainerSection.INVENTORY_NOT_HOTBAR);
@@ -1191,8 +1253,8 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
                 inventoryRight = Math.max(inventoryRight, slot.x + 16);
                 inventoryTop = Math.min(inventoryTop, slot.y);
             }
-            inventoryX = guiContainer.getGuiLeft() + inventoryRight - 8;
-            inventoryY = guiContainer.getGuiTop() + inventoryTop - 13;
+            inventoryX = guiContainer.getLeftPos() + inventoryRight - 8;
+            inventoryY = guiContainer.getTopPos() + inventoryTop - 13;
         }
         if(hasInventoryButtons(container)) {
             x = inventoryX;
@@ -1205,7 +1267,7 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
         }
 
         // Tops of the chest and of the player inventory, where their side columns start
-        int chestTop = guiContainer.getGuiTop() + 17, inventoryTop = guiContainer.getGuiTop() + 84;
+        int chestTop = guiContainer.getTopPos() + 17, inventoryTop = guiContainer.getTopPos() + 84;
         for(ContainerSection section : new ContainerSection[]{ContainerSection.CHEST, ContainerSection.INVENTORY_NOT_HOTBAR}) {
             @Nullable List<Slot> slots = getSlotMap(container).get(section);
             if(slots != null && !slots.isEmpty()) {
@@ -1214,9 +1276,9 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
                     top = Math.min(top, slot.y);
                 }
                 if(section == ContainerSection.CHEST) {
-                    chestTop = guiContainer.getGuiTop() + top - 1;
+                    chestTop = guiContainer.getTopPos() + top - 1;
                 } else {
-                    inventoryTop = guiContainer.getGuiTop() + top - 1;
+                    inventoryTop = guiContainer.getTopPos() + top - 1;
                 }
             }
         }
@@ -1227,8 +1289,8 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
         for(PlacedButton placed : layoutButtons) {
             InvTweaksGuiIconButton button = placed.button();
             if(placed.sideColumn()) {
-                int anchor = placed.side() == PlacedButton.SIDE_CHEST ? chestTop : placed.side() == PlacedButton.SIDE_INVENTORY ? inventoryTop : guiContainer.getGuiTop();
-                button.setPosition(guiContainer.getGuiLeft() + guiContainer.getXSize() + placed.dx(), anchor + placed.dy());
+                int anchor = placed.side() == PlacedButton.SIDE_CHEST ? chestTop : placed.side() == PlacedButton.SIDE_INVENTORY ? inventoryTop : guiContainer.getTopPos();
+                button.setPosition(guiContainer.getLeftPos() + guiContainer.getImageWidth() + placed.dx(), anchor + placed.dy());
             } else if(placed.inventoryRow()) {
                 button.setPosition(inventoryX + placed.dx(), inventoryY + placed.dy());
             } else {
@@ -1387,10 +1449,10 @@ public class InvTweaksCore extends InvTweaksObfuscation implements InventoryTwea
             if(key.equals(InputConstants.UNKNOWN)) {
                 return false;
             }
-            long window = mc.getWindow().getWindow();
+            com.mojang.blaze3d.platform.Window window = mc.getWindow();
             return switch(key.getType()) {
                 case KEYSYM -> InputConstants.isKeyDown(window, key.getValue());
-                case MOUSE -> GLFW.glfwGetMouseButton(window, key.getValue()) == GLFW.GLFW_PRESS;
+                case MOUSE -> GLFW.glfwGetMouseButton(window.handle(), key.getValue()) == GLFW.GLFW_PRESS;
                 case SCANCODE -> false;
             };
         } else {

@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 34,
-        "description": "Inventory Tweaks Defaults"
+        "description": "Inventory Tweaks Defaults",
+        "min_format": 84,
+        "max_format": 101
     }
 }

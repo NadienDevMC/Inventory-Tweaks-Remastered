@@ -91,7 +91,7 @@ public class PtPtLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Estou a ter problemas com o teclado");
         add("invtweaks.keyboardfix.recover", "Tudo voltou ao normal, desculpa-me por isso.");
         add("invtweaks.modcompat.ci.error", "[13] Falha ao gerir compatibilidade com \"Convenient Inventory\"");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Organização do Inventário");
     }
 }

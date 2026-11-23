@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <block>
         <manufacturedBlock>
             <constructionBlock>
@@ -817,11 +817,8 @@
             <machines>
                 <capacitorBanks>
                     <itemAdvancedCapacitorBank id="enderio:advanced_capacitor_bank"/>
-                    <itemAlchemicalBrassCapacitorBank id="enderio:alchemical_brass_capacitor_bank"/>
                     <itemBasicCapacitorBank id="enderio:basic_capacitor_bank"/>
-                    <itemThaumiumCapacitorBank id="enderio:thaumium_capacitor_bank"/>
                     <itemVibrantCapacitorBank id="enderio:vibrant_capacitor_bank"/>
-                    <itemVoidMetalCapacitorBank id="enderio:void_metal_capacitor_bank"/>
                 </capacitorBanks>
                 <obelisks>
                     <itemAttractorObelisk id="enderio:attractor_obelisk"/>
@@ -836,7 +833,6 @@
                     <itemBlockDetector id="enderio:block_detector"/>
                     <itemBrokenSpawner id="enderio:broken_spawner"/>
                     <itemCrafter id="enderio:crafter"/>
-                    <itemCreativePower id="enderio:creative_power"/>
                     <itemDrain id="enderio:drain"/>
                     <itemElectromagnet id="enderio:electromagnet"/>
                     <itemEnchanter id="enderio:enchanter"/>
@@ -897,7 +893,6 @@
                 </redstoneFilters>
                 <itemFilters>
                     <itemAdvancedItemFilter id="enderio:advanced_item_filter"/>
-                    <itemBasicChemicalFilter id="enderio:basic_chemical_filter"/>
                     <itemBasicFluidFilter id="enderio:basic_fluid_filter"/>
                     <itemBasicItemFilter id="enderio:basic_item_filter"/>
                     <itemBasicSoulFilter id="enderio:basic_soul_filter"/>
@@ -944,7 +939,6 @@
                 </gear>
                 <photovoltaics>
                     <itemEnergeticPhotovoltaicModule id="enderio:energetic_photovoltaic_module"/>
-                    <itemPhotovoltaicCell id="enderio:photovoltaic_cell"/>
                     <itemPhotovoltaicComposite id="enderio:photovoltaic_composite"/>
                     <itemPhotovoltaicPlate id="enderio:photovoltaic_plate"/>
                     <itemPulsatingPhotovoltaicModule id="enderio:pulsating_photovoltaic_module"/>
@@ -997,7 +991,6 @@
                 <itemEnderios id="enderio:enderios"/>
                 <itemEndermanHead id="enderio:enderman_head"/>
                 <itemNiard id="enderio:niard"/>
-                <itemSoiredne id="enderio:soiredne"/>
             </enderioMisc>
         </decoration>
     </item>

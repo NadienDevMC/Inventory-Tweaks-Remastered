@@ -91,7 +91,7 @@ public class JaJpLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] キーボードにトラブルがあります");
         add("invtweaks.keyboardfix.recover", "修復されました、ごめんなさい");
         add("invtweaks.modcompat.ci.error", "[13] 「Convenient Inventory」との互換性の確保に失敗しました");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "インベントリのソート");
     }
 }

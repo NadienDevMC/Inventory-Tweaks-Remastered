@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(każdy skrót) + prawy przycisk myszy zamiast lewego",
   "invtweaks.help.shortcuts.selectconfig": "Wybierz konfigurację sortowania",
   "invtweaks.help.shortcuts.title": "Pomoc",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Sortowanie ekwipunku",
   "invtweaks.keyboardfix.error": "[12] Mam problemy z klawiaturą",
   "invtweaks.keyboardfix.recover": "OK, już naprawione, przepraszam za tamto",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "Nie udało się uruchomić auto-podmiany",
   "invtweaks.sort.chest.error": "Nie udało się posortować skrzyni",
   "invtweaks.sort.inventory.error": "Nie udało się posortować ekwipunku",
-  "invtweaks.sort.releaseitem.error": "[5] Nie udało się puścić przedmiotu"
+  "invtweaks.sort.releaseitem.error": "[5] Nie udało się puścić przedmiotu",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

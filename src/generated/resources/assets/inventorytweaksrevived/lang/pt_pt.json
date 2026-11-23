@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Qualquer atalho) + clique direito em vez de clique esquerdo",
   "invtweaks.help.shortcuts.selectconfig": "Seleciona a configuração de classificação",
   "invtweaks.help.shortcuts.title": "Ajuda para atalhos",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Organização do Inventário",
   "invtweaks.keyboardfix.error": "[12] Estou a ter problemas com o teclado",
   "invtweaks.keyboardfix.recover": "Tudo voltou ao normal, desculpa-me por isso.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Falha ao ativar a auto-recarga",
   "invtweaks.sort.chest.error": "[3] Falha ao ordenar recipiente",
   "invtweaks.sort.inventory.error": "[2] Falha ao ordenar inventário",
-  "invtweaks.sort.releaseitem.error": "[5] Falha ao libertar o item"
+  "invtweaks.sort.releaseitem.error": "[5] Falha ao libertar o item",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

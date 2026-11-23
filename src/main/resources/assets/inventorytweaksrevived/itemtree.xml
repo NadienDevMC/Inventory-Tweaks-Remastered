@@ -20,7 +20,7 @@
 # Thanks to Larandar & Lunaqua for their contributions.
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.2">
     <equipment>
         <weapon>
             <sword>
@@ -28,6 +28,7 @@
                 <ironSword id="iron_sword"/>
                 <diamondSword id="diamond_sword"/>
                 <stoneSword id="stone_sword"/>
+                <copperSword id="copper_sword"/>
                 <goldSword id="golden_sword"/>
                 <woodSword id="wooden_sword"/>
                 <netheriteSword id="netherite_sword"/>
@@ -48,6 +49,16 @@
             </munition>
             <trident id="trident"/>
             <mace id="mace"/>
+            <spear>
+                <spear tag="minecraft:spears"/>
+                <woodenSpear id="wooden_spear"/>
+                <stoneSpear id="stone_spear"/>
+                <copperSpear id="copper_spear"/>
+                <ironSpear id="iron_spear"/>
+                <goldenSpear id="golden_spear"/>
+                <diamondSpear id="diamond_spear"/>
+                <netheriteSpear id="netherite_spear"/>
+            </spear>
             <windCharge id="wind_charge"/>
         </weapon>
         <tool>
@@ -57,6 +68,7 @@
                 <goldPickaxe id="golden_pickaxe"/>
                 <ironPickaxe id="iron_pickaxe"/>
                 <stonePickaxe id="stone_pickaxe"/>
+                <copperPickaxe id="copper_pickaxe"/>
                 <woodPickaxe id="wooden_pickaxe"/>
                 <netheritePickaxe id="netherite_pickaxe"/>
             </pickaxe>
@@ -66,6 +78,7 @@
                 <diamondShovel id="diamond_shovel"/>
                 <ironShovel id="iron_shovel"/>
                 <stoneShovel id="stone_shovel"/>
+                <copperShovel id="copper_shovel"/>
                 <woodShovel id="wooden_shovel"/>
                 <netheriteShovel id="netherite_shovel"/>
             </shovel>
@@ -75,6 +88,7 @@
                 <diamondAxe id="diamond_axe"/>
                 <ironAxe id="iron_axe"/>
                 <stoneAxe id="stone_axe"/>
+                <copperAxe id="copper_axe"/>
                 <woodAxe id="wooden_axe"/>
                 <netheriteAxe id="netherite_axe"/>
             </axe>
@@ -84,6 +98,7 @@
                 <diamondHoe id="diamond_hoe"/>
                 <ironHoe id="iron_hoe"/>
                 <stoneHoe id="stone_hoe"/>
+                <copperHoe id="copper_hoe"/>
                 <woodHoe id="wooden_hoe"/>
                 <netheriteHoe id="netherite_hoe"/>
             </hoe>
@@ -102,6 +117,7 @@
                 <helmet tag="minecraft:head_armor"/>
                 <diamondHelmet id="diamond_helmet"/>
                 <chainHelmet id="chainmail_helmet"/>
+                <copperHelmet id="copper_helmet"/>
                 <ironHelmet id="iron_helmet"/>
                 <goldHelmet id="golden_helmet"/>
                 <leatherHelmet id="leather_helmet"/>
@@ -112,6 +128,7 @@
                 <chestplate tag="minecraft:chest_armor"/>
                 <diamondChestplate id="diamond_chestplate"/>
                 <chainChestplate id="chainmail_chestplate"/>
+                <copperChestplate id="copper_chestplate"/>
                 <ironChestplate id="iron_chestplate"/>
                 <goldChestplate id="golden_chestplate"/>
                 <leatherChestplate id="leather_chestplate"/>
@@ -122,6 +139,7 @@
                 <leggings tag="minecraft:leg_armor"/>
                 <diamondLeggings id="diamond_leggings"/>
                 <chainLeggings id="chainmail_leggings"/>
+                <copperLeggings id="copper_leggings"/>
                 <ironLeggings id="iron_leggings"/>
                 <goldLeggings id="golden_leggings"/>
                 <leatherLeggings id="leather_leggings"/>
@@ -131,6 +149,7 @@
                 <boots tag="minecraft:foot_armor"/>
                 <diamondBoots id="diamond_boots"/>
                 <chainBoots id="chainmail_boots"/>
+                <copperBoots id="copper_boots"/>
                 <ironBoots id="iron_boots"/>
                 <goldBoots id="golden_boots"/>
                 <leatherBoots id="leather_boots"/>
@@ -184,6 +203,18 @@
                     <chiseledTuff id="chiseled_tuff"/>
                     <chiseledTuffBricks id="chiseled_tuff_bricks"/>
                 </tuff>
+                <sulfurStone>
+                    <sulfurBlock id="sulfur"/>
+                    <polishedSulfur id="polished_sulfur"/>
+                    <sulfurBricks id="sulfur_bricks"/>
+                    <chiseledSulfur id="chiseled_sulfur"/>
+                </sulfurStone>
+                <cinnabarStone>
+                    <cinnabarBlock id="cinnabar"/>
+                    <polishedCinnabar id="polished_cinnabar"/>
+                    <cinnabarBricks id="cinnabar_bricks"/>
+                    <chiseledCinnabar id="chiseled_cinnabar"/>
+                </cinnabarStone>
                 <blackstone>
                     <blackstone id="blackstone"/>
                     <polishedBlackstone id="polished_blackstone"/>
@@ -195,6 +226,7 @@
                 <calcite id="calcite"/>
                 <dripstoneBlock id="dripstone_block"/>
                 <pointedDripstone id="pointed_dripstone"/>
+                <sulfurSpike id="sulfur_spike"/>
                 <basalt id="basalt"/>
                 <polishedBasalt id="polished_basalt"/>
                 <smoothBasalt id="smooth_basalt"/>
@@ -237,6 +269,7 @@
                 <darkOakWood id="dark_oak_log"/>
                 <mangroveWood id="mangrove_log"/>
                 <cherryWood id="cherry_log"/>
+                <paleOakLog id="pale_oak_log"/>
                 <crimsonStem id="crimson_stem"/>
                 <warpedStem id="warped_stem"/>
                 <bambooBlock id="bamboo_block"/>
@@ -248,6 +281,7 @@
                 <strippedDarkOakLog id="stripped_dark_oak_log"/>
                 <strippedMangroveLog id="stripped_mangrove_log"/>
                 <strippedCherryLog id="stripped_cherry_log"/>
+                <strippedPaleOakLog id="stripped_pale_oak_log"/>
                 <strippedCrimsonStem id="stripped_crimson_stem"/>
                 <strippedWarpedStem id="stripped_warped_stem"/>
                 <strippedBambooBlock id="stripped_bamboo_block"/>
@@ -259,6 +293,7 @@
                 <darkOakWoodBlock id="dark_oak_wood"/>
                 <mangroveWoodBlock id="mangrove_wood"/>
                 <cherryWoodBlock id="cherry_wood"/>
+                <paleOakWood id="pale_oak_wood"/>
                 <crimsonHyphae id="crimson_hyphae"/>
                 <warpedHyphae id="warped_hyphae"/>
                 <strippedOakWood id="stripped_oak_wood"/>
@@ -269,6 +304,7 @@
                 <strippedDarkOakWood id="stripped_dark_oak_wood"/>
                 <strippedMangroveWood id="stripped_mangrove_wood"/>
                 <strippedCherryWood id="stripped_cherry_wood"/>
+                <strippedPaleOakWood id="stripped_pale_oak_wood"/>
                 <strippedCrimsonHyphae id="stripped_crimson_hyphae"/>
                 <strippedWarpedHyphae id="stripped_warped_hyphae"/>
                 <woodDict tag="minecraft:logs"/>
@@ -339,6 +375,7 @@
             </mushroomBlock>
             <dragonEgg id="dragon_egg"/>
             <turtleEgg id="turtle_egg"/>
+            <driedGhast id="dried_ghast"/>
             <snifferEgg id="sniffer_egg"/>
             <frogspawn id="frogspawn"/>
             <hiddenSilverfish>
@@ -356,6 +393,7 @@
             <pearlescentFroglight id="pearlescent_froglight"/>
             <magma id="magma_block"/>
             <heavyCore id="heavy_core"/>
+            <creakingHeart id="creaking_heart"/>
             <amethyst>
                 <amethystBlock id="amethyst_block"/>
                 <buddingAmethyst id="budding_amethyst"/>
@@ -405,6 +443,7 @@
                     <darkOakFence id="dark_oak_fence"/>
                     <mangroveFence id="mangrove_fence"/>
                     <cherryFence id="cherry_fence"/>
+                    <paleOakFence id="pale_oak_fence"/>
                     <bambooFence id="bamboo_fence"/>
                     <crimsonFence id="crimson_fence"/>
                     <warpedFence id="warped_fence"/>
@@ -422,6 +461,7 @@
                     <darkOakFenceGate id="dark_oak_fence_gate"/>
                     <mangroveFenceGate id="mangrove_fence_gate"/>
                     <cherryFenceGate id="cherry_fence_gate"/>
+                    <paleOakFenceGate id="pale_oak_fence_gate"/>
                     <bambooFenceGate id="bamboo_fence_gate"/>
                     <crimsonFenceGate id="crimson_fence_gate"/>
                     <warpedFenceGate id="warped_fence_gate"/>
@@ -448,6 +488,7 @@
                 <redCarpet id="red_carpet"/>
                 <blackCarpet id="black_carpet"/>
                 <mossCarpet id="moss_carpet"/>
+                <paleMossCarpet id="pale_moss_carpet"/>
                 <carpetDict tag="minecraft:wool_carpets"/>
             </carpet>
             <stoneWall>
@@ -473,9 +514,16 @@
                 <cobbledDeepslateWall id="cobbled_deepslate_wall"/>
                 <polishedDeepslateWall id="polished_deepslate_wall"/>
                 <mudBrickWall id="mud_brick_wall"/>
+                <resinBrickWall id="resin_brick_wall"/>
                 <tuffWall id="tuff_wall"/>
                 <polishedTuffWall id="polished_tuff_wall"/>
                 <tuffBrickWall id="tuff_brick_wall"/>
+                <sulfurWall id="sulfur_wall"/>
+                <polishedSulfurWall id="polished_sulfur_wall"/>
+                <sulfurBrickWall id="sulfur_brick_wall"/>
+                <cinnabarWall id="cinnabar_wall"/>
+                <polishedCinnabarWall id="polished_cinnabar_wall"/>
+                <cinnabarBrickWall id="cinnabar_brick_wall"/>
                 <wallDict tag="minecraft:walls"/>
             </stoneWall>
             <jackOLantern id="jack_o_lantern"/>
@@ -489,6 +537,7 @@
                     <darkOakPlank id="dark_oak_planks"/>
                     <mangrovePlank id="mangrove_planks"/>
                     <cherryPlank id="cherry_planks"/>
+                    <paleOakPlanks id="pale_oak_planks"/>
                     <bambooPlank id="bamboo_planks"/>
                     <crimsonPlank id="crimson_planks"/>
                     <warpedPlank id="warped_planks"/>
@@ -513,6 +562,9 @@
                         <chiseledNetherBricks id="chiseled_nether_bricks"/>
                     </netherBricks>
                     <mudBricks id="mud_bricks"/>
+                    <resinBlock id="resin_block"/>
+                    <resinBricks id="resin_bricks"/>
+                    <chiseledResinBricks id="chiseled_resin_bricks"/>
                 </bricks>
                 <hardenedClay id="terracotta"/>
                 <stainedClay>
@@ -645,7 +697,27 @@
                     </stainedGlassPane>
                 </stainedGlass>
                 <ironBars id="iron_bars"/>
-                <chain id="chain"/>
+                <copperBarBlocks>
+                    <copperBars id="copper_bars"/>
+                    <exposedCopperBars id="exposed_copper_bars"/>
+                    <weatheredCopperBars id="weathered_copper_bars"/>
+                    <oxidizedCopperBars id="oxidized_copper_bars"/>
+                    <waxedCopperBars id="waxed_copper_bars"/>
+                    <waxedExposedCopperBars id="waxed_exposed_copper_bars"/>
+                    <waxedWeatheredCopperBars id="waxed_weathered_copper_bars"/>
+                    <waxedOxidizedCopperBars id="waxed_oxidized_copper_bars"/>
+                </copperBarBlocks>
+                <chain id="iron_chain"/>
+                <copperChains>
+                    <copperChain id="copper_chain"/>
+                    <exposedCopperChain id="exposed_copper_chain"/>
+                    <weatheredCopperChain id="weathered_copper_chain"/>
+                    <oxidizedCopperChain id="oxidized_copper_chain"/>
+                    <waxedCopperChain id="waxed_copper_chain"/>
+                    <waxedExposedCopperChain id="waxed_exposed_copper_chain"/>
+                    <waxedWeatheredCopperChain id="waxed_weathered_copper_chain"/>
+                    <waxedOxidizedCopperChain id="waxed_oxidized_copper_chain"/>
+                </copperChains>
                 <stairs>
                     <woodenStairs>
                         <oakWoodStairs id="oak_stairs"/>
@@ -656,6 +728,7 @@
                         <darkOakWoodStairs id="dark_oak_stairs"/>
                         <mangroveWoodStairs id="mangrove_stairs"/>
                         <cherryWoodStairs id="cherry_stairs"/>
+                        <paleOakStairs id="pale_oak_stairs"/>
                         <bambooWoodStairs id="bamboo_stairs"/>
                         <crimsonWoodStairs id="crimson_stairs"/>
                         <warpedWoodStairs id="warped_stairs"/>
@@ -689,6 +762,7 @@
                     <endStoneBrickStairs id="end_stone_brick_stairs"/>
                     <smoothQuartzStairs id="smooth_quartz_stairs"/>
                     <mudBrickStairs id="mud_brick_stairs"/>
+                    <resinBrickStairs id="resin_brick_stairs"/>
                     <cobbledDeepslateStairs id="cobbled_deepslate_stairs"/>
                     <polishedDeepslateStairs id="polished_deepslate_stairs"/>
                     <deepslateBrickStairs id="deepslate_brick_stairs"/>
@@ -699,6 +773,12 @@
                     <tuffStairs id="tuff_stairs"/>
                     <polishedTuffStairs id="polished_tuff_stairs"/>
                     <tuffBrickStairs id="tuff_brick_stairs"/>
+                    <sulfurStairs id="sulfur_stairs"/>
+                    <polishedSulfurStairs id="polished_sulfur_stairs"/>
+                    <sulfurBrickStairs id="sulfur_brick_stairs"/>
+                    <cinnabarStairs id="cinnabar_stairs"/>
+                    <polishedCinnabarStairs id="polished_cinnabar_stairs"/>
+                    <cinnabarBrickStairs id="cinnabar_brick_stairs"/>
                     <cutCopperStairs id="cut_copper_stairs"/>
                     <exposedCutCopperStairs id="exposed_cut_copper_stairs"/>
                     <weatheredCutCopperStairs id="weathered_cut_copper_stairs"/>
@@ -719,6 +799,7 @@
                         <darkOakWoodSlab id="dark_oak_slab"/>
                         <mangroveWoodSlab id="mangrove_slab"/>
                         <cherryWoodSlab id="cherry_slab"/>
+                        <paleOakSlab id="pale_oak_slab"/>
                         <bambooWoodSlab id="bamboo_slab"/>
                         <crimsonWoodSlab id="crimson_slab"/>
                         <warpedWoodSlab id="warped_slab"/>
@@ -753,6 +834,7 @@
                     <endStoneBrickSlab id="end_stone_brick_slab"/>
                     <smoothQuartzSlab id="smooth_quartz_slab"/>
                     <mudBrickSlab id="mud_brick_slab"/>
+                    <resinBrickSlab id="resin_brick_slab"/>
                     <cobbledDeepslateSlab id="cobbled_deepslate_slab"/>
                     <polishedDeepslateSlab id="polished_deepslate_slab"/>
                     <deepslateBrickSlab id="deepslate_brick_slab"/>
@@ -763,6 +845,12 @@
                     <tuffSlab id="tuff_slab"/>
                     <polishedTuffSlab id="polished_tuff_slab"/>
                     <tuffBrickSlab id="tuff_brick_slab"/>
+                    <sulfurSlab id="sulfur_slab"/>
+                    <polishedSulfurSlab id="polished_sulfur_slab"/>
+                    <sulfurBrickSlab id="sulfur_brick_slab"/>
+                    <cinnabarSlab id="cinnabar_slab"/>
+                    <polishedCinnabarSlab id="polished_cinnabar_slab"/>
+                    <cinnabarBrickSlab id="cinnabar_brick_slab"/>
                     <cutRedSandstoneSlab id="cut_red_sandstone_slab"/>
                     <petrifiedOakSlab id="petrified_oak_slab"/>
                     <cutCopperSlab id="cut_copper_slab"/>
@@ -870,6 +958,8 @@
                     <piglinBannerPattern id="piglin_banner_pattern"/>
                     <flowBannerPattern id="flow_banner_pattern"/>
                     <gusterBannerPattern id="guster_banner_pattern"/>
+                    <bordureIndentedBannerPattern id="bordure_indented_banner_pattern"/>
+                    <fieldMasonedBannerPattern id="field_masoned_banner_pattern"/>
                 </bannerPattern>
             </banner>
             <itemBlock>
@@ -888,8 +978,19 @@
             <lighting>
                 <torch id="torch"/>
                 <soulTorch id="soul_torch"/>
+                <copperTorch id="copper_torch"/>
                 <lantern id="lantern"/>
                 <soulLantern id="soul_lantern"/>
+                <copperLanterns>
+                    <copperLantern id="copper_lantern"/>
+                    <exposedCopperLantern id="exposed_copper_lantern"/>
+                    <weatheredCopperLantern id="weathered_copper_lantern"/>
+                    <oxidizedCopperLantern id="oxidized_copper_lantern"/>
+                    <waxedCopperLantern id="waxed_copper_lantern"/>
+                    <waxedExposedCopperLantern id="waxed_exposed_copper_lantern"/>
+                    <waxedWeatheredCopperLantern id="waxed_weathered_copper_lantern"/>
+                    <waxedOxidizedCopperLantern id="waxed_oxidized_copper_lantern"/>
+                </copperLanterns>
                 <campfire id="campfire"/>
                 <soulCampfire id="soul_campfire"/>
                 <lamp id="redstone_lamp"/>
@@ -918,6 +1019,7 @@
                 <darkOakPressurePlate id="dark_oak_pressure_plate"/>
                 <mangrovePressurePlate id="mangrove_pressure_plate"/>
                 <cherryPressurePlate id="cherry_pressure_plate"/>
+                <paleOakPressurePlate id="pale_oak_pressure_plate"/>
                 <bambooPressurePlate id="bamboo_pressure_plate"/>
                 <crimsonPressurePlate id="crimson_pressure_plate"/>
                 <warpedPressurePlate id="warped_pressure_plate"/>
@@ -940,6 +1042,7 @@
                 <darkOakButton id="dark_oak_button"/>
                 <mangroveButton id="mangrove_button"/>
                 <cherryButton id="cherry_button"/>
+                <paleOakButton id="pale_oak_button"/>
                 <bambooButton id="bamboo_button"/>
                 <crimsonButton id="crimson_button"/>
                 <warpedButton id="warped_button"/>
@@ -956,6 +1059,7 @@
                     <darkOakDoor id="dark_oak_door"/>
                     <mangroveDoor id="mangrove_door"/>
                     <cherryDoor id="cherry_door"/>
+                    <paleOakDoor id="pale_oak_door"/>
                     <bambooDoor id="bamboo_door"/>
                     <crimsonDoor id="crimson_door"/>
                     <warpedDoor id="warped_door"/>
@@ -979,6 +1083,7 @@
                     <darkOakTrapdoor id="dark_oak_trapdoor"/>
                     <mangroveTrapdoor id="mangrove_trapdoor"/>
                     <cherryTrapdoor id="cherry_trapdoor"/>
+                    <paleOakTrapdoor id="pale_oak_trapdoor"/>
                     <bambooTrapdoor id="bamboo_trapdoor"/>
                     <crimsonTrapdoor id="crimson_trapdoor"/>
                     <warpedTrapdoor id="warped_trapdoor"/>
@@ -1015,6 +1120,13 @@
             <honeyBlock id="honey_block"/>
             <target id="target"/>
             <lightningRod id="lightning_rod"/>
+            <exposedLightningRod id="exposed_lightning_rod"/>
+            <weatheredLightningRod id="weathered_lightning_rod"/>
+            <oxidizedLightningRod id="oxidized_lightning_rod"/>
+            <waxedLightningRod id="waxed_lightning_rod"/>
+            <waxedExposedLightningRod id="waxed_exposed_lightning_rod"/>
+            <waxedWeatheredLightningRod id="waxed_weathered_lightning_rod"/>
+            <waxedOxidizedLightningRod id="waxed_oxidized_lightning_rod"/>
             <sculkSensor id="sculk_sensor"/>
             <calibratedSculkSensor id="calibrated_sculk_sensor"/>
             <barrier id="barrier"/>
@@ -1022,6 +1134,8 @@
             <jigsaw id="jigsaw"/>
             <light id="light"/>
             <structureVoid id="structure_void"/>
+            <testBlock id="test_block"/>
+            <testInstanceBlock id="test_instance_block"/>
         </mechanism>
     </block>
     <resources>
@@ -1065,6 +1179,9 @@
             <redstone id="redstone"/>
             <glowstoneDust id="glowstone_dust"/>
             <clayBrick id="brick"/>
+            <resinClump id="resin_clump"/>
+            <resinBrick id="resin_brick"/>
+            <potentSulfur id="potent_sulfur"/>
             <netherBrickIngot id="nether_brick"/>
             <clay id="clay_ball"/>
             <flint id="flint"/>
@@ -1073,6 +1190,8 @@
         </miningResources>
         <huntingResources>
             <egg id="egg"/>
+            <blueEgg id="blue_egg"/>
+            <brownEgg id="brown_egg"/>
             <bone id="bone"/>
             <leather id="leather"/>
             <rabbitHide id="rabbit_hide"/>
@@ -1085,6 +1204,7 @@
             <ghastTear id="ghast_tear"/>
             <ironNugget id="iron_nugget"/>
             <goldNugget id="gold_nugget"/>
+            <copperNugget id="copper_nugget"/>
             <netherStar id="nether_star"/>
             <prismarineCrystals id="prismarine_crystals"/>
             <prismarineCrystal id="prismarine_crystals" mergePrevious="true"/>
@@ -1177,6 +1297,14 @@
             <chests>
                 <chest id="chest"/>
                 <chest id="trapped_chest"/>
+                <copperChest id="copper_chest"/>
+                <exposedCopperChest id="exposed_copper_chest"/>
+                <weatheredCopperChest id="weathered_copper_chest"/>
+                <oxidizedCopperChest id="oxidized_copper_chest"/>
+                <waxedCopperChest id="waxed_copper_chest"/>
+                <waxedExposedCopperChest id="waxed_exposed_copper_chest"/>
+                <waxedWeatheredCopperChest id="waxed_weathered_copper_chest"/>
+                <waxedOxidizedCopperChest id="waxed_oxidized_copper_chest"/>
                 <enderChest id="ender_chest"/>
                 <shulkerBox id="shulker_box"/>
                 <whiteShulkerBox id="white_shulker_box"/>
@@ -1200,6 +1328,23 @@
                 <silverShulkerBox id="light_gray_shulker_box" mergePrevious="true"/>
             </chests>
             <bundle id="bundle"/>
+            <whiteBundle id="white_bundle"/>
+            <orangeBundle id="orange_bundle"/>
+            <magentaBundle id="magenta_bundle"/>
+            <lightBlueBundle id="light_blue_bundle"/>
+            <yellowBundle id="yellow_bundle"/>
+            <limeBundle id="lime_bundle"/>
+            <pinkBundle id="pink_bundle"/>
+            <grayBundle id="gray_bundle"/>
+            <lightGrayBundle id="light_gray_bundle"/>
+            <cyanBundle id="cyan_bundle"/>
+            <purpleBundle id="purple_bundle"/>
+            <blueBundle id="blue_bundle"/>
+            <brownBundle id="brown_bundle"/>
+            <greenBundle id="green_bundle"/>
+            <redBundle id="red_bundle"/>
+            <blackBundle id="black_bundle"/>
+            <bundleDict tag="minecraft:bundles"/>
             <beacon id="beacon"/>
             <conduit id="conduit"/>
             <respawnAnchor id="respawn_anchor"/>
@@ -1296,6 +1441,7 @@
                 <skeletonHorseSpawnEgg id="skeleton_horse_spawn_egg"/>
                 <skeletonSpawnEgg id="skeleton_spawn_egg"/>
                 <slimeSpawnEgg id="slime_spawn_egg"/>
+                <sulfurCubeSpawnEgg id="sulfur_cube_spawn_egg"/>
                 <snifferSpawnEgg id="sniffer_spawn_egg"/>
                 <snowGolemSpawnEgg id="snow_golem_spawn_egg"/>
                 <spiderSpawnEgg id="spider_spawn_egg"/>
@@ -1320,6 +1466,13 @@
                 <zombieSpawnEgg id="zombie_spawn_egg"/>
                 <zombieVillagerSpawnEgg id="zombie_villager_spawn_egg"/>
                 <zombifiedPiglinSpawnEgg id="zombified_piglin_spawn_egg"/>
+                <camelHuskSpawnEgg id="camel_husk_spawn_egg"/>
+                <copperGolemSpawnEgg id="copper_golem_spawn_egg"/>
+                <creakingSpawnEgg id="creaking_spawn_egg"/>
+                <happyGhastSpawnEgg id="happy_ghast_spawn_egg"/>
+                <nautilusSpawnEgg id="nautilus_spawn_egg"/>
+                <parchedSpawnEgg id="parched_spawn_egg"/>
+                <zombieNautilusSpawnEgg id="zombie_nautilus_spawn_egg"/>
             </spawnEggs>
             <spawnerEgg class="ItemMonsterPlacer"/>
             <nameTag id="name_tag"/>
@@ -1329,8 +1482,17 @@
                 <goldHorseArmor id="golden_horse_armor"/>
                 <diamondHorseArmor id="diamond_horse_armor"/>
                 <leatherHorseArmor id="leather_horse_armor"/>
+                <copperHorseArmor id="copper_horse_armor"/>
+                <netheriteHorseArmor id="netherite_horse_armor"/>
             </horseArmor>
             <wolfArmor id="wolf_armor"/>
+            <nautilusArmor>
+                <copperNautilusArmor id="copper_nautilus_armor"/>
+                <ironNautilusArmor id="iron_nautilus_armor"/>
+                <goldenNautilusArmor id="golden_nautilus_armor"/>
+                <diamondNautilusArmor id="diamond_nautilus_armor"/>
+                <netheriteNautilusArmor id="netherite_nautilus_armor"/>
+            </nautilusArmor>
             <trialKey id="trial_key"/>
             <ominousTrialKey id="ominous_trial_key"/>
             <knoweldgeBook id="knowledge_book"/>
@@ -1354,7 +1516,6 @@
                 <wardTrim id="ward_armor_trim_smithing_template"/>
                 <wayfinderTrim id="wayfinder_armor_trim_smithing_template"/>
                 <wildTrim id="wild_armor_trim_smithing_template"/>
-                <armorTrimTemplate tag="minecraft:trim_templates"/>
             </smithingTemplate>
             <anglerSherd id="angler_pottery_sherd"/>
             <archerSherd id="archer_pottery_sherd"/>
@@ -1394,6 +1555,7 @@
                 <tropicalFishBucket id="tropical_fish_bucket"/>
                 <axolotlBucket id="axolotl_bucket"/>
                 <tadpoleBucket id="tadpole_bucket"/>
+                <sulfurCubeBucket id="sulfur_cube_bucket"/>
             </mobBucket>
         </bucket>
         <instrument>
@@ -1416,6 +1578,7 @@
             <darkOakBoat id="dark_oak_boat"/>
             <mangroveBoat id="mangrove_boat"/>
             <cherryBoat id="cherry_boat"/>
+            <paleOakBoat id="pale_oak_boat"/>
             <bambooRaft id="bamboo_raft"/>
             <oakChestBoat id="oak_chest_boat"/>
             <spruceChestBoat id="spruce_chest_boat"/>
@@ -1425,6 +1588,7 @@
             <darkOakChestBoat id="dark_oak_chest_boat"/>
             <mangroveChestBoat id="mangrove_chest_boat"/>
             <cherryChestBoat id="cherry_chest_boat"/>
+            <paleOakChestBoat id="pale_oak_chest_boat"/>
             <bambooChestRaft id="bamboo_chest_raft"/>
             <boat tag="minecraft:boats"/>
             <chestBoat tag="minecraft:chest_boats"/>
@@ -1437,6 +1601,23 @@
                 <commandBlockMinecart id="command_block_minecart"/>
             </minecarts>
             <saddle id="saddle"/>
+            <whiteHarness id="white_harness"/>
+            <orangeHarness id="orange_harness"/>
+            <magentaHarness id="magenta_harness"/>
+            <lightBlueHarness id="light_blue_harness"/>
+            <yellowHarness id="yellow_harness"/>
+            <limeHarness id="lime_harness"/>
+            <pinkHarness id="pink_harness"/>
+            <grayHarness id="gray_harness"/>
+            <lightGrayHarness id="light_gray_harness"/>
+            <cyanHarness id="cyan_harness"/>
+            <purpleHarness id="purple_harness"/>
+            <blueHarness id="blue_harness"/>
+            <brownHarness id="brown_harness"/>
+            <greenHarness id="green_harness"/>
+            <redHarness id="red_harness"/>
+            <blackHarness id="black_harness"/>
+            <harnessDict tag="minecraft:harnesses"/>
         </vehicle>
         <decoration>
             <bed tag="minecraft:beds"/>
@@ -1451,6 +1632,7 @@
                 <darkOakSign id="dark_oak_sign"/>
                 <mangroveSign id="mangrove_sign"/>
                 <cherrySign id="cherry_sign"/>
+                <paleOakSign id="pale_oak_sign"/>
                 <bambooSign id="bamboo_sign"/>
                 <crimsonSign id="crimson_sign"/>
                 <warpedSign id="warped_sign"/>
@@ -1462,13 +1644,27 @@
                 <darkOakHangingSign id="dark_oak_hanging_sign"/>
                 <mangroveHangingSign id="mangrove_hanging_sign"/>
                 <cherryHangingSign id="cherry_hanging_sign"/>
+                <paleOakHangingSign id="pale_oak_hanging_sign"/>
                 <bambooHangingSign id="bamboo_hanging_sign"/>
                 <crimsonHangingSign id="crimson_hanging_sign"/>
                 <warpedHangingSign id="warped_hanging_sign"/>
                 <hangingSign tag="minecraft:hanging_signs"/>
             </sign>
             <bookShelf id="bookshelf"/>
+            <oakShelf id="oak_shelf"/>
+            <spruceShelf id="spruce_shelf"/>
+            <birchShelf id="birch_shelf"/>
+            <jungleShelf id="jungle_shelf"/>
+            <acaciaShelf id="acacia_shelf"/>
+            <darkOakShelf id="dark_oak_shelf"/>
+            <mangroveShelf id="mangrove_shelf"/>
+            <cherryShelf id="cherry_shelf"/>
+            <paleOakShelf id="pale_oak_shelf"/>
+            <bambooShelf id="bamboo_shelf"/>
+            <crimsonShelf id="crimson_shelf"/>
+            <warpedShelf id="warped_shelf"/>
             <chiseledBookshelf id="chiseled_bookshelf"/>
+            <shelfDict tag="minecraft:wooden_shelves"/>
             <flowerPot id="flower_pot"/>
             <itemFrame id="item_frame"/>
             <frame id="item_frame" mergePrevious="true"/>
@@ -1501,12 +1697,25 @@
                 <musicDiscCreator id="music_disc_creator"/>
                 <musicDiscCreatorMusicBox id="music_disc_creator_music_box"/>
                 <musicDiscPrecipice id="music_disc_precipice"/>
+                <musicDiscLavaChicken id="music_disc_lava_chicken"/>
+                <musicDiscTears id="music_disc_tears"/>
+                <musicDiscBounce id="music_disc_bounce"/>
                 <discFragment5 id="disc_fragment_5"/>
                 <musicDiscDict tag="c:music_discs"/>
             </musicDisc>
             <flowerPotBlock id="flower_pot" mergePrevious="true"/>
             <headBlock tag="minecraft:skulls"/>
             <armorStand id="armor_stand"/>
+            <copperGolemStatues>
+                <copperGolemStatue id="copper_golem_statue"/>
+                <exposedCopperGolemStatue id="exposed_copper_golem_statue"/>
+                <weatheredCopperGolemStatue id="weathered_copper_golem_statue"/>
+                <oxidizedCopperGolemStatue id="oxidized_copper_golem_statue"/>
+                <waxedCopperGolemStatue id="waxed_copper_golem_statue"/>
+                <waxedExposedCopperGolemStatue id="waxed_exposed_copper_golem_statue"/>
+                <waxedWeatheredCopperGolemStatue id="waxed_weathered_copper_golem_statue"/>
+                <waxedOxidizedCopperGolemStatue id="waxed_oxidized_copper_golem_statue"/>
+            </copperGolemStatues>
             <endCrystal id="end_crystal"/>
             <candle>
                 <candle id="candle"/>
@@ -1629,6 +1838,10 @@
                 <torchflower id="torchflower"/>
                 <pitcherPlant id="pitcher_plant"/>
                 <pinkPetals id="pink_petals"/>
+                <wildflowers id="wildflowers"/>
+                <openEyeblossom id="open_eyeblossom"/>
+                <closedEyeblossom id="closed_eyeblossom"/>
+                <goldenDandelion id="golden_dandelion"/>
                 <flowerDict tag="minecraft:flowers"/>
             </flower>
             <mushroom>
@@ -1645,6 +1858,7 @@
                 <acaciaSapling id="acacia_sapling"/>
                 <darkOakSapling id="dark_oak_sapling"/>
                 <cherrySapling id="cherry_sapling"/>
+                <paleOakSapling id="pale_oak_sapling"/>
                 <mangrovePropagule id="mangrove_propagule"/>
                 <azalea id="azalea"/>
                 <floweringAzalea id="flowering_azalea"/>
@@ -1659,6 +1873,7 @@
                 <darkOakLeaves id="dark_oak_leaves"/>
                 <mangroveLeaves id="mangrove_leaves"/>
                 <cherryLeaves id="cherry_leaves"/>
+                <paleOakLeaves id="pale_oak_leaves"/>
                 <azaleaLeaves id="azalea_leaves"/>
                 <floweringAzaleaLeaves id="flowering_azalea_leaves"/>
                 <leavesDict tag="minecraft:leaves"/>
@@ -1675,12 +1890,18 @@
             <sugarCane id="sugar_cane"/>
             <vines id="vine"/>
             <cactus id="cactus"/>
+            <cactusFlower id="cactus_flower"/>
             <reed id="sugar_cane"/>
             <melon id="melon"/>
             <pumpkin id="pumpkin"/>
             <carvedPumpkin id="carved_pumpkin"/>
             <tallGrass id="short_grass"/>
             <fern id="fern"/>
+            <bush id="bush"/>
+            <fireflyBush id="firefly_bush"/>
+            <leafLitter id="leaf_litter"/>
+            <shortDryGrass id="short_dry_grass"/>
+            <tallDryGrass id="tall_dry_grass"/>
             <largeFern id="large_fern"/>
             <tallGrassDouble id="tall_grass"/>
             <deadShrub id="dead_bush"/>
@@ -1730,8 +1951,10 @@
                 </coralFan>
             </coral>
             <mossBlock id="moss_block"/>
+            <paleMossBlock id="pale_moss_block"/>
             <glowLichen id="glow_lichen"/>
             <hangingRoots id="hanging_roots"/>
+            <paleHangingMoss id="pale_hanging_moss"/>
             <bigDripleaf id="big_dripleaf"/>
             <smallDripleaf id="small_dripleaf"/>
             <sporeBlossom id="spore_blossom"/>

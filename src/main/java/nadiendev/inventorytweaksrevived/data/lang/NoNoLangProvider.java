@@ -91,7 +91,7 @@ public class NoNoLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Jeg har problemer med tastaturet");
         add("invtweaks.keyboardfix.recover", "Ok det er reparert, beklager det.");
         add("invtweaks.modcompat.ci.error", "[13] Feilet å administrere 'Convenient Inventory' kompatibilitet");
-        add("invtweaks.key.category", "Lager Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Lager Tweaks");
         add("invtweaks.key.sort", "Lager sortering");
     }
 }

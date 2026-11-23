@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Qualsiasi scorciatoia) + click destro anziché sinistro",
   "invtweaks.help.shortcuts.selectconfig": "Selezionare configurazione di ordinamento",
   "invtweaks.help.shortcuts.title": "Aiuto Tasti di scelta rapida",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Ordinamento dell'inventario",
   "invtweaks.keyboardfix.error": "[12] Sto avendo problemi con la tastiera",
   "invtweaks.keyboardfix.recover": "OK è riparato, mi dispiace.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Fallita la ricarica automatica",
   "invtweaks.sort.chest.error": "[3] Fallito l'ordinamento del contenitore",
   "invtweaks.sort.inventory.error": "[2] Fallito l'ordinamento dell'inventario",
-  "invtweaks.sort.releaseitem.error": "[5] Fallito il rilascio dell'oggetto"
+  "invtweaks.sort.releaseitem.error": "[5] Fallito il rilascio dell'oggetto",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

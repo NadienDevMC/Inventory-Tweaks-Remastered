@@ -1,9 +1,7 @@
 package nadiendev.inventorytweaksrevived.gui;
 
-import com.mojang.blaze3d.systems.RenderSystem;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfigManager;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -11,11 +9,7 @@ import org.jetbrains.annotations.NotNull;
  *
  * @author Jimeo Wan
  */
-public class InvTweaksGuiIconButton extends InvTweaksGuiTooltipButton {
-
-    private static final ResourceLocation SPRITE_NORMAL = ResourceLocation.withDefaultNamespace("widget/button");
-    private static final ResourceLocation SPRITE_HIGHLIGHTED = ResourceLocation.withDefaultNamespace("widget/button_highlighted");
-    private static final ResourceLocation SPRITE_DISABLED = ResourceLocation.withDefaultNamespace("widget/button_disabled");
+public abstract class InvTweaksGuiIconButton extends InvTweaksGuiTooltipButton {
 
     protected final InvTweaksConfigManager cfgManager;
 
@@ -24,14 +18,12 @@ public class InvTweaksGuiIconButton extends InvTweaksGuiTooltipButton {
         this.cfgManager = cfgManager;
     }
 
+    /**
+     * Draws the vanilla button sprite (normal, highlighted or disabled); subclasses draw their symbol on top.
+     */
     @Override
-    protected void renderWidget(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        ResourceLocation sprite = !active ? SPRITE_DISABLED : isHoveredOrFocused() ? SPRITE_HIGHLIGHTED : SPRITE_NORMAL;
-        guiGraphics.setColor(1.0F, 1.0F, 1.0F, alpha);
-        RenderSystem.enableBlend();
-        RenderSystem.enableDepthTest();
-        guiGraphics.blitSprite(sprite, getX(), getY(), getWidth(), getHeight());
-        guiGraphics.setColor(1.0F, 1.0F, 1.0F, 1.0F);
+    protected void extractContents(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        extractDefaultSprite(guiGraphics);
     }
 
     protected int getTextColor() {

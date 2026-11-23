@@ -91,7 +91,7 @@ public class RuRuLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] У меня проблемы с клавиатурой");
         add("invtweaks.keyboardfix.recover", "Отлично, починено. Сожалею о произошедшем.");
         add("invtweaks.modcompat.ci.error", "[13] Не удалось определить совместимость с 'Convenient Inventory'");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Сортировка инвентаря");
     }
 }

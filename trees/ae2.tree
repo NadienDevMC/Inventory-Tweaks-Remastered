@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <equipment>
         <weapon>
             <munition>
@@ -231,7 +231,7 @@
                         </storageController>
                         <storageDrives>
                             <itemDrive id="ae2:drive"/>
-                            <itemChest id="ae2:chest"/>
+                            <itemChest id="ae2:me_chest"/>
                         </storageDrives>
                         <storageInterfaces>
                             <interface>
@@ -277,7 +277,6 @@
                         <itemVibrationChamber id="ae2:vibration_chamber"/>
                         <itemMatrixFrame id="ae2:matrix_frame"/>
                         <itemWirelessAccessPoint id="ae2:wireless_access_point"/>
-                        <itemSecurityStation id="ae2:security_station"/>
                         <itemCellWorkbench id="ae2:cell_workbench"/>
                         <itemMolecularAssembler id="ae2:molecular_assembler"/>
                         <itemCraftingUnit id="ae2:crafting_unit"/>

@@ -68,7 +68,7 @@ public class InvTweaksObfuscation {
 
     @Nullable
     public static Slot getSlotAtMousePosition(@Nullable AbstractContainerScreen<?> screen) {
-        return screen != null ? screen.getSlotUnderMouse() : null;
+        return screen != null ? screen.getHoveredSlot() : null;
     }
 
     // Menu members, resolved through MenuResolver (annotations, menu_compat.json, vanilla table, heuristic)
@@ -123,7 +123,7 @@ public class InvTweaksObfuscation {
 
     public static AbstractContainerMenu getCurrentContainer() {
         Minecraft mc = Minecraft.getInstance();
-        if(mc.screen instanceof AbstractContainerScreen<?> containerScreen) {
+        if(mc.gui.screen() instanceof AbstractContainerScreen<?> containerScreen) {
             return containerScreen.getMenu();
         }
         return mc.player.inventoryMenu;
@@ -144,14 +144,14 @@ public class InvTweaksObfuscation {
      * {@code SlotWrapper}) that only exist while that tab is shown.
      */
     private static boolean isCreativeInventorySlot(@NotNull Slot slot) {
-        return Minecraft.getInstance().screen instanceof CreativeModeInventoryScreen creativeScreen
+        return Minecraft.getInstance().gui.screen() instanceof CreativeModeInventoryScreen creativeScreen
                 && creativeScreen.isInventoryOpen()
                 && slot.getClass().getSuperclass() == Slot.class;
     }
 
     public void addChatMessage(@NotNull String message) {
         if(mc.gui != null) {
-            mc.gui.getChat().addMessage(Component.literal(message));
+            mc.gui.hud.getChat().addClientSystemMessage(Component.literal(message));
         }
     }
 
@@ -161,7 +161,7 @@ public class InvTweaksObfuscation {
 
     @Nullable
     public Screen getCurrentScreen() {
-        return mc.screen;
+        return mc.gui.screen();
     }
 
     public Options getGameSettings() {
@@ -173,7 +173,7 @@ public class InvTweaksObfuscation {
     }
 
     public NonNullList<ItemStack> getMainInventory() {
-        return getInventoryPlayer().items;
+        return getInventoryPlayer().getNonEquipmentItems();
     }
 
     @NotNull
@@ -183,15 +183,15 @@ public class InvTweaksObfuscation {
 
     @NotNull
     public ItemStack getFocusedStack() {
-        return getInventoryPlayer().getSelected();
+        return getInventoryPlayer().getSelectedItem();
     }
 
     public int getFocusedSlot() {
-        return getInventoryPlayer().selected;
+        return getInventoryPlayer().getSelectedSlot();
     }
 
     @NotNull
     public ItemStack getOffhandStack() {
-        return getInventoryPlayer().offhand.get(0);
+        return getInventoryPlayer().getItem(Inventory.SLOT_OFFHAND);
     }
 }

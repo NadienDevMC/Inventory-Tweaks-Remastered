@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Herhangi bir kısayol) + sağ yerine sol tık",
   "invtweaks.help.shortcuts.selectconfig": "Sıralama yapılandırmasını seç",
   "invtweaks.help.shortcuts.title": "Kısayol yardımı",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Envanter Sıralama",
   "invtweaks.keyboardfix.error": "[12] Klavye ile sorun yaşıyorum",
   "invtweaks.keyboardfix.recover": "Tamam, düzeltildi, bunun için üzgünüz.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Otomatik dolum tetiklenemedi",
   "invtweaks.sort.chest.error": "[3] Konteynır sıralanamadı",
   "invtweaks.sort.inventory.error": "[2] Envanter sıralanamadı",
-  "invtweaks.sort.releaseitem.error": "[5] Eşya bırakılamadı"
+  "invtweaks.sort.releaseitem.error": "[5] Eşya bırakılamadı",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

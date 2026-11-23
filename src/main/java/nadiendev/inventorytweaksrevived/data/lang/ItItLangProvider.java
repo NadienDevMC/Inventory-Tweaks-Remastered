@@ -91,7 +91,7 @@ public class ItItLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Sto avendo problemi con la tastiera");
         add("invtweaks.keyboardfix.recover", "OK è riparato, mi dispiace.");
         add("invtweaks.modcompat.ci.error", "[13] Non è riuscito a gestire la compatibilità 'Inventario conveniente'");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Ordinamento dell'inventario");
     }
 }

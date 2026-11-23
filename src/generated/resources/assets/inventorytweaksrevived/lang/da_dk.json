@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Enhver genvej)+Højreklik i stedet for venstreklik",
   "invtweaks.help.shortcuts.selectconfig": "Vælg sorteringskonfiguration",
   "invtweaks.help.shortcuts.title": "Hjælp til genveje",
-  "invtweaks.key.category": "Lager Tweaks",
   "invtweaks.key.sort": "Lager Sortering",
   "invtweaks.keyboardfix.error": "[12]Jeg har problemer med tastaturet",
   "invtweaks.keyboardfix.recover": "Ok, det er repareret, undskyld for det.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4]Kunne ikke udløse auto-fyld",
   "invtweaks.sort.chest.error": "[3]Kunne ikke sortere beholder",
   "invtweaks.sort.inventory.error": "[2]Kunne ikke sortere dine ting",
-  "invtweaks.sort.releaseitem.error": "[5]Kunne ikke slippe tingen"
+  "invtweaks.sort.releaseitem.error": "[5]Kunne ikke slippe tingen",
+  "key.category.inventorytweaksrevived.invtweaks": "Lager Tweaks"
 }

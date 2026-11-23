@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Elke snelkoppeling) + rechter in plaats van linker muisknop",
   "invtweaks.help.shortcuts.selectconfig": "Soorteerconfiguratie selecteren",
   "invtweaks.help.shortcuts.title": "Sneltoetsen",
-  "invtweaks.key.category": "Inventarisaanpassingen",
   "invtweaks.key.sort": "Inventarissortering",
   "invtweaks.keyboardfix.error": "[12] Ik heb problemen met het toetsenbord",
   "invtweaks.keyboardfix.recover": "Oké, het is gerepareerd, sorry daarvoor.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Automatisch hervullen mislukt",
   "invtweaks.sort.chest.error": "[3] Sorteren container mislukt",
   "invtweaks.sort.inventory.error": "[2] Sorteren inventaris mislukt",
-  "invtweaks.sort.releaseitem.error": "[5] Vrijlaten voorwerp mislukt"
+  "invtweaks.sort.releaseitem.error": "[5] Vrijlaten voorwerp mislukt",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventarisaanpassingen"
 }

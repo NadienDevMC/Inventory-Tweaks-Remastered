@@ -4,8 +4,8 @@ import nadiendev.inventorytweaksrevived.config.InvTweaksConfigManager;
 import nadiendev.inventorytweaksrevived.core.InvTweaksCore;
 import nadiendev.inventorytweaksrevived.handler.InvTweaksHandlerTransfer;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.input.InputWithModifiers;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -31,21 +31,21 @@ public class InvTweaksGuiTransferButton extends InvTweaksGuiIconButton {
     }
 
     @Override
-    protected void renderWidget(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.renderWidget(guiGraphics, mouseX, mouseY, partialTick);
+    protected void extractContents(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractContents(guiGraphics, mouseX, mouseY, partialTick);
         Minecraft mc = Minecraft.getInstance();
-        guiGraphics.drawString(mc.font, getLabel(), getX() + (getWidth() - mc.font.width(getLabel())) / 2,
+        guiGraphics.text(mc.font, getLabel(), getX() + (getWidth() - mc.font.width(getLabel())) / 2,
                 getY() + (getHeight() - 8) / 2, getTextColor(), false);
     }
 
     @Override
-    public void onPress() {
+    public void onPress(@NotNull InputWithModifiers input) {
         Minecraft mc = Minecraft.getInstance();
         if(mc.player == null || mc.player.isSpectator()) {
             return;
         }
         try {
-            InvTweaksHandlerTransfer.transfer(mc, toContainer, Screen.hasShiftDown() || Screen.hasControlDown());
+            InvTweaksHandlerTransfer.transfer(mc, toContainer, input.hasShiftDown() || input.hasControlDown());
         } catch(Exception e) {
             InvTweaksCore.logInGameErrorStatic("invtweaks.transfer.error", e);
         }

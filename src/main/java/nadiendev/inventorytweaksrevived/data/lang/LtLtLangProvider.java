@@ -91,7 +91,7 @@ public class LtLtLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Aš turiu problemų su klaviatūra");
         add("invtweaks.keyboardfix.recover", "Gerai, jis yra pataisomas, atsiprašau dėl to.");
         add("invtweaks.modcompat.ci.error", "[13] Nepavyko valdyti 'Patogus inventorius' suderinamumo");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Inventoriaus rūšiavimas");
     }
 }

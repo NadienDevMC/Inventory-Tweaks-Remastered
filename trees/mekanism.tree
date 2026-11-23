@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <equipment>
         <weapon>
             <itemFlamethrower id="mekanism:flamethrower"/>
@@ -371,7 +371,6 @@
                 </barrels>
                 <mekanismStorage>
                     <itemCardboardBox id="mekanism:cardboard_box"/>
-                    <itemCardboardBoxStorage id="mekanism:cardboard_box_storage"/>
                     <itemPersonalBarrel id="mekanism:personal_barrel"/>
                     <itemPersonalChest id="mekanism:personal_chest"/>
                     <itemPortableQioDashboard id="mekanism:portable_qio_dashboard"/>
@@ -390,7 +389,6 @@
                 <itemGeigerCounter id="mekanism:geiger_counter"/>
                 <itemNetworkReader id="mekanism:network_reader"/>
                 <itemPortableTeleporter id="mekanism:portable_teleporter"/>
-                <itemRobitAllay id="mekanism:robit_allay"/>
             </mekanismTools>
         </utility>
         <fluidStorage>

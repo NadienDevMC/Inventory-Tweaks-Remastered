@@ -1,6 +1,6 @@
 # ⚡ InventoryTweaksRevived — Changelog
 
-## 🚀 [1.0.0-1.21.1] 22/11/2026 21:58
+## 🚀 [1.0.0-26.2] 23/11/2026 12:00
 
 ### Additions
 - Compatibility with the menus of Sophisticated Storage and Sophisticated Backpacks: sorting buttons and middle click sort the storage slots only, never the upgrades
@@ -26,16 +26,16 @@
 - `.tree` files placed in `config/InvTweaks/trees/` are now merged into the item tree (they were looked for in `config/InvTweaks/` by mistake), in alphabetical order. The readme in that folder was rewritten
 
 ### Changes
-- Ported to NeoForge 1.21.1 and Java 21
-- Chest, inventory and creative screens, and the menus of other mods, are detected again for the 1.21.1 menus (`menu_compat.json` can describe menus the mod does not know)
-- The item tree uses 1.21.1 item ids and item tags. Potions are grouped as potion, splash and lingering. The legacy `data=` NBT matching and the ore dictionary names no longer exist
+- Ported to NeoForge 26.2 and Java 25
+- Chest, inventory and creative screens, and the menus of other mods, are detected again for the 26.2 menus (`menu_compat.json` can describe menus the mod does not know)
+- The item tree uses 26.2 item ids and item tags. Potions are grouped as potion, splash and lingering. The legacy `data=` NBT matching and the ore dictionary names no longer exist
 - Translations are now JSON files (24 languages)
 - The sort key is a normal key binding
-- The "Browse modded tree files" button now opens the `trees` folder of this project. The old tree files for Minecraft 1.12 and 1.16 are not compatible with the 1.21.1 item ids and will mostly not match
-- Settings screens rebuilt with the 1.21.1 UI
+- The "Browse modded tree files" button now opens the `trees` folder of this project. The old tree files for Minecraft 1.12 and 1.16 are not compatible with the 26.2 item ids and will mostly not match
+- Settings screens rebuilt with the 26.2 UI
 - JEI no longer reorders its ingredient list
 - New coloured button symbols: ↺ default sort, ☲ columns, ☷ rows, ✎ settings
 - Rows and columns sorting keep each item family together: all planks, all slabs, all logs... share one row (rows button) or one column (columns button), with no empty slots between families
 
 ### Lineas de codigo cambiadas
-+30005 −7
++1525 −1337

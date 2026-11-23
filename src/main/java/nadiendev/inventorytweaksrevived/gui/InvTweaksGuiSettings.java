@@ -41,7 +41,7 @@ public class InvTweaksGuiSettings extends InvTweaksGuiSettingsAbstract {
         int x = buttonX(i);
         int y = buttonY(i++);
         addButton(x + 130, y, 20, Component.literal("?"), Component.translatable("invtweaks.help.shortcuts.title"),
-                button -> minecraft.setScreen(new InvTweaksGuiShortcutsHelp(this)));
+                button -> minecraft.setScreenAndShow(new InvTweaksGuiShortcutsHelp(this)));
         addBooleanButton(x, y, 130, InvTweaksConfig.PROP_ENABLE_SHORTCUTS, "invtweaks.settings.shortcuts", "invtweaks.settings.shortcuts.tooltip");
 
         addBooleanButton(buttonX(i), buttonY(i++), 150, InvTweaksConfig.PROP_AUTO_REFILL_BEFORE_BREAK, "invtweaks.settings.beforebreak", "invtweaks.settings.beforebreak.tooltip");
@@ -50,10 +50,10 @@ public class InvTweaksGuiSettings extends InvTweaksGuiSettingsAbstract {
 
         // The advanced screen goes back to the main settings screen, which in turn goes back to the original parent
         addButton(buttonX(i), buttonY(i++), 150, Component.translatable("invtweaks.settings.moreoptions"), Component.translatable("invtweaks.settings.moreoptions.tooltip"),
-                button -> minecraft.setScreen(new InvTweaksGuiSettingsAdvanced(parentScreen)));
+                button -> minecraft.setScreenAndShow(new InvTweaksGuiSettingsAdvanced(parentScreen)));
 
         addButton(5, height - 20, 100, Component.translatable("invtweaks.help.bugsorting"), null,
-                button -> minecraft.setScreen(new InvTweaksGuiModNotWorking(parentScreen)));
+                button -> minecraft.setScreenAndShow(new InvTweaksGuiModNotWorking(parentScreen)));
 
         addBooleanButton(buttonX(i), buttonY(i), 150, InvTweaksConfig.PROP_ENABLE_MIDDLE_CLICK, "invtweaks.settings.middleclick", "invtweaks.settings.middleclick.tooltip");
     }

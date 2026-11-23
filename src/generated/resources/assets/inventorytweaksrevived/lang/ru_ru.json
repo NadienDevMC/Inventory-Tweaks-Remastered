@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Любая комбинация клавиш) + Правая вместо левой кнопки мыши",
   "invtweaks.help.shortcuts.selectconfig": "Выберите настройки сортировки",
   "invtweaks.help.shortcuts.title": "Помощь по сочетаниям клавиш",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Сортировка инвентаря",
   "invtweaks.keyboardfix.error": "[12] У меня проблемы с клавиатурой",
   "invtweaks.keyboardfix.recover": "Отлично, починено. Сожалею о произошедшем.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Не удалось переключить автоподмену",
   "invtweaks.sort.chest.error": "[3] Не удалось отсортировать хранилище",
   "invtweaks.sort.inventory.error": "[2] Не удалось отсортировать инвентарь",
-  "invtweaks.sort.releaseitem.error": "[5] Не удалось освободить предмет"
+  "invtweaks.sort.releaseitem.error": "[5] Не удалось освободить предмет",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

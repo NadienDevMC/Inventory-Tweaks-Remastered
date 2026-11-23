@@ -1,7 +1,7 @@
 {
   "required": false,
   "package": "nadiendev.inventorytweaksrevived.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "minVersion": "0.8",
   "client": [
     "sophisticatedcorecompat.StorageScreenBaseMixin"

@@ -1,7 +1,8 @@
 plugins {
+    id 'java-library'
     id 'eclipse'
     id 'idea'
-    id 'net.neoforged.gradle.userdev' version '7.0.171'
+    id 'net.neoforged.moddev' version '2.0.148'
 }
 
 version = minecraft_version + "-" + mod_version + "-" + tag_lanzador
@@ -11,62 +12,81 @@ base {
     archivesName = mod_name
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+// Minecraft 26.2 runs on Java 25
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+// Modid for data generation, where to output the resulting resources, and where to look for existing resources
+def dataArguments = ['--mod', mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(),
+                     '--existing', file('src/main/resources/').getAbsolutePath()]
+
+neoForge {
+    version = neo_version
+
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run')
+            programArguments.addAll '--quickPlaySingleplayer', 'New World'
+        }
+
+        server {
+            server()
+            gameDirectory = project.file('run')
+            programArgument '--nogui'
+        }
+
+        // The data generation is split in two runs since 26.1: the client one writes the translations
+        clientData {
+            clientData()
+            gameDirectory = project.file('run-data')
+            programArguments.addAll dataArguments
+        }
+
+        serverData {
+            serverData()
+            gameDirectory = project.file('run-data')
+            programArguments.addAll dataArguments
+        }
+
+        // applies to all the run configs above
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
     }
 }
 
-runs {
-    configureEach {
-        workingDirectory project.file('run')
-
-        systemProperty 'forge.logging.markers', 'REGISTRIES'
-        systemProperty 'forge.logging.console.level', 'debug'
-
-        modSource sourceSets.main
-    }
-
-    client {
-        programArgument '--quickPlaySingleplayer'
-        programArgument 'New World'
-    }
-
-    server {
-        programArgument '--nogui'
-    }
-
-    data {
-        workingDirectory project.file('run-data')
-
-        programArguments.addAll '--mod', mod_id,
-                                '--all',
-                                '--output', file('src/generated/resources/').getAbsolutePath(),
-                                '--existing', file('src/main/resources/').getAbsolutePath()
-    }
+sourceSets.main.resources {
+    exclude '.cache'
+    srcDir 'src/generated/resources'
 }
-
-sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     mavenCentral()
     maven {
+        // AE2, GuideME
         name = 'NeoForged'
         url = 'https://maven.neoforged.net/releases'
         content {
-            // ae2, guideme
             includeGroup 'org.appliedenergistics'
         }
     }
     maven {
+        // AE2 Wireless Terminal Library
         name = 'ModMaven'
         url = 'https://modmaven.dev'
         content {
-            // ae2wtlib
             includeGroup 'de.mari_023'
         }
     }
     maven {
+        // Sophisticated Core, Sophisticated Backpacks, Sophisticated Storage
         name = 'CurseMaven'
         url = 'https://www.cursemaven.com'
         content {
@@ -76,12 +96,7 @@ repositories {
 }
 
 dependencies {
-    // NeoForge
-    implementation "net.neoforged:neoforge:${neo_version}"
-
-    compileOnly "org.jetbrains:annotations:24.1.0"
-
-    // Solo para probar en runClient el ordenado con contenedores de otros mods (no son dependencias del mod)
+    // Only for testing sorting with containers of other mods in runClient (not dependencies of the mod)
     // ae2
     runtimeOnly("org.appliedenergistics:appliedenergistics2:${ae2_version}") { transitive = false }
     // guideme
@@ -132,12 +147,14 @@ tasks.named('jar', Jar).configure {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
+    options.getRelease().set(25)
 }
 
-sourceSets {
-    main {
-        resources {
-            exclude '.cache'
-        }
-    }
+// Both data runs in a row (the client one first)
+tasks.register('runData') {
+    group = 'mod development'
+    description = 'Runs the client and the server data generation.'
+    dependsOn 'runClientData'
+    dependsOn 'runServerData'
 }
+tasks.matching { it.name == 'runServerData' }.configureEach { mustRunAfter 'runClientData' }

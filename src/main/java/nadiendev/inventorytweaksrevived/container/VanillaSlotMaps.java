@@ -23,6 +23,7 @@ import net.minecraft.world.inventory.HorseInventoryMenu;
 import net.minecraft.world.inventory.InventoryMenu;
 import net.minecraft.world.inventory.LoomMenu;
 import net.minecraft.world.inventory.MerchantMenu;
+import net.minecraft.world.inventory.NautilusInventoryMenu;
 import net.minecraft.world.inventory.ShulkerBoxMenu;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.SmithingMenu;
@@ -44,7 +45,7 @@ import static nadiendev.inventorytweaksrevived.util.InvTweaksConst.HOTBAR_SIZE;
 import static nadiendev.inventorytweaksrevived.util.InvTweaksConst.INVENTORY_SIZE;
 
 /**
- * Slot layouts of the vanilla menus, taken from the {@code addSlot} order of each 1.21.1 menu class.
+ * Slot layouts of the vanilla menus, taken from the {@code addSlot} order of each 26.1.2 menu class.
  * <p>
  * Every layout is checked against the actual menu (slot count, and the player-inventory part must really hold slots of
  * the player's {@link Inventory}); a menu that does not match, e.g. because another mod changed it, falls back to
@@ -110,6 +111,8 @@ final class VanillaSlotMaps {
             // 3x3 container slots, inventory 9-44
             Map.entry(DispenserMenu.class, chestType(DISPENSER_ROW_SIZE, 45)),
             Map.entry(HorseInventoryMenu.class, MenuResolver.Rule.cached(VanillaSlotMaps::horse)),
+            // Saddle 0, body armor 1, inventory 2-37 (nautilus have no chest): the horse layout without a chest
+            Map.entry(NautilusInventoryMenu.class, MenuResolver.Rule.cached(VanillaSlotMaps::horse)),
             // Its slots change with the selected creative tab, so it is never cached
             Map.entry(CreativeModeInventoryScreen.ItemPickerMenu.class, MenuResolver.Rule.uncached(VanillaSlotMaps::creative))
     );
@@ -238,7 +241,7 @@ final class VanillaSlotMaps {
      */
     @NotNull
     private static MenuInfo creative(@NotNull AbstractContainerMenu menu) {
-        boolean inventoryTab = Minecraft.getInstance().screen instanceof CreativeModeInventoryScreen screen
+        boolean inventoryTab = Minecraft.getInstance().gui.screen() instanceof CreativeModeInventoryScreen screen
                 && screen.getMenu() == menu && screen.isInventoryOpen();
 
         Layout l = new Layout(menu.slots);

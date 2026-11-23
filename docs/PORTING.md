@@ -34,3 +34,11 @@ Moving the code to the new Minecraft/NeoForge APIs is only half of a port. Sever
 
 ## 6. After porting
 Run the in game checklist: sorting (R key, middle click, chest buttons), shortcuts, auto refill, settings screens, creative inventory tabs, text field focus (typing `r` in an anvil must not sort), the Sophisticated and AE2 menus, a server with and without the mod, and check `logs/latest.log` for `Unknown item id in tree` after sorting once.
+
+## Tree port notes: 1.21.1 -> 26.1.2
+- Vanilla oracle in 26.1.2: `assets/minecraft/items/*.json` of the client jar (1506 items; per-item models are no longer the source). 174 items added (pale oak set, shelves, copper tools/armor/chests/bars/chains/lanterns/golem statues, spears, nautilus armor, colored bundles and harnesses, resin, new spawn eggs and discs...), `chain` renamed to `iron_chain`, tag `minecraft:trim_templates` no longer exists.
+- Modded trees were checked against the jars of the ATM11 (26.1.2) instance. Mods with no 26.1.2 jar there were left untouched and are unverified. Mystical Agriculture crop items (`*_essence`/`*_seeds`) are data driven, so they cannot be checked from the jar and were kept.
+
+## Tree port notes: 26.1.2 -> 26.2
+- Vanilla oracle: `assets/minecraft/items/*.json` of `minecraft_26.2_client.jar` (1537 items, 31 added, none removed or renamed): sulfur and cinnabar stone sets (block, polished, bricks, chiseled, slab, stairs, wall), `sulfur_spike`, `potent_sulfur`, `sulfur_cube_spawn_egg`, `sulfur_cube_bucket`, `music_disc_bounce`. `treeVersion` is `26.2`.
+- Modded trees: no 26.2 mod jar was available (the CurseForge instances are 26.1.2 and 1.21.1), so all `trees/*.tree` files were left unchanged and are unverified for 26.2.

@@ -22,7 +22,7 @@
 
 package nadiendev.inventorytweaksrevived.api;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -53,7 +53,7 @@ public interface IItemTree {
 
     IItemTreeCategory getCategory(String keyword);
 
-    boolean isItemUnknown(ResourceLocation id);
+    boolean isItemUnknown(Identifier id);
 
     List<IItemTreeItem> getItems(ItemStack stack);
 

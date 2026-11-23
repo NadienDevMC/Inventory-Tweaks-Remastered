@@ -100,7 +100,7 @@ public class InvTweaksShortcutMapping {
     }
 
     public static boolean isKeyDown(int keyCode) {
-        return keyCode > 0 && InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), keyCode);
+        return keyCode > 0 && InputConstants.isKeyDown(Minecraft.getInstance().getWindow(), keyCode);
     }
 
     /**
