@@ -97,17 +97,13 @@ jobs:
           jar=$(ls dist/*.jar | head -n1)
           display=$(basename "$jar" .jar)
 
-          relations='[]'
-
           metadata=$(jq -nc \
             --arg changelog "$CHANGELOG" \
             --arg type "$RELEASE_TYPE" \
             --arg name "$display" \
             --arg mc "$MC" \
-            --argjson relations "$relations" \
             '{changelog: $changelog, changelogType: "markdown", releaseType: $type, displayName: $name,
-              gameVersionNames: [$mc, "NeoForge", "Java 25", "Client"],
-              relations: {projects: $relations}}')
+              gameVersionNames: [$mc, "NeoForge", "Client"]}')
 
           echo "Uploading $jar to CurseForge as a $RELEASE_TYPE for NeoForge $MC"
           curl -sS --fail-with-body -X POST \
