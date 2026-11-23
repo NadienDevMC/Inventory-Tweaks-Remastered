@@ -1,7 +1,7 @@
 ## Inventory Tweaks revived
 
 
-Construction Wand RevivedConstruction Wand Revived
+Inventory Tweaks Revived
 
 This is an unofficial port of the original version by JimeoWan.
 
