@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <paxel>
+                <itemInferiumPaxel id="mysticalagradditions:inferium_paxel"/>
+                <itemPrudentiumPaxel id="mysticalagradditions:prudentium_paxel"/>
+                <itemTertiumPaxel id="mysticalagradditions:tertium_paxel"/>
+                <itemImperiumPaxel id="mysticalagradditions:imperium_paxel"/>
+                <itemSupremiumPaxel id="mysticalagradditions:supremium_paxel"/>
+                <itemAwakenedSupremiumPaxel id="mysticalagradditions:awakened_supremium_paxel"/>
+            </paxel>
+        </tool>
+    </equipment>
+    <block>
+        <naturalBlock>
+            <dirts>
+                <fertilizedDirt>
+                    <itemInsaniumFarmland id="mysticalagradditions:insanium_farmland"/>
+                </fertilizedDirt>
+            </dirts>
+            <oreBlock>
+                <itemEndInferiumOre id="mysticalagradditions:end_inferium_ore"/>
+                <itemNetherInferiumOre id="mysticalagradditions:nether_inferium_ore"/>
+                <itemEndProsperityOre id="mysticalagradditions:end_prosperity_ore"/>
+                <itemNetherProsperityOre id="mysticalagradditions:nether_prosperity_ore"/>
+            </oreBlock>
+        </naturalBlock>
+        <manufacturedBlock>
+            <constructionBlock>
+                <oreBlock>
+                    <itemInsaniumIngotBlock id="mysticalagradditions:insanium_ingot_block"/>
+                    <itemInsaniumGemstoneBlock id="mysticalagradditions:insanium_gemstone_block"/>
+                    <itemInsaniumBlock id="mysticalagradditions:insanium_block"/>
+                </oreBlock>
+            </constructionBlock>
+        </manufacturedBlock>
+    </block>
+    <resources>
+        <miningResources>
+            <coals>
+                <essenceCoal>
+                    <itemInferiumCoal id="mysticalagradditions:inferium_coal"/>
+                    <itemPrudentiumCoal id="mysticalagradditions:prudentium_coal"/>
+                    <itemTertiumCoal id="mysticalagradditions:tertium_coal"/>
+                    <itemImperiumCoal id="mysticalagradditions:imperium_coal"/>
+                    <itemSupremiumCoal id="mysticalagradditions:supremium_coal"/>
+                    <itemInsaniumCoal id="mysticalagradditions:insanium_coal"/>
+                </essenceCoal>
+                <essenceCoalBlock>
+                    <itemInferiumCoalBlock id="mysticalagradditions:inferium_coal_block"/>
+                    <itemPrudentiumCoalBlock id="mysticalagradditions:prudentium_coal_block"/>
+                    <itemTertiumCoalBlock id="mysticalagradditions:tertium_coal_block"/>
+                    <itemImperiumCoalBlock id="mysticalagradditions:imperium_coal_block"/>
+                    <itemSupremiumCoalBlock id="mysticalagradditions:supremium_coal_block"/>
+                    <itemInsaniumCoalBlock id="mysticalagradditions:insanium_coal_block"/>
+                </essenceCoalBlock>
+            </coals>
+            <itemInsaniumIngot id="mysticalagradditions:insanium_ingot"/>
+            <itemInsaniumNugget id="mysticalagradditions:insanium_nugget"/>
+            <itemInsaniumGemstone id="mysticalagradditions:insanium_gemstone"/>
+            <itemNetherStarShard id="mysticalagradditions:nether_star_shard"/>
+        </miningResources>
+        <huntingResources>
+            <itemDragonScale id="mysticalagradditions:dragon_scale"/>
+        </huntingResources>
+    </resources>
+    <item>
+        <food>
+            <edibleFood>
+                <apple>
+                    <itemInferiumApple id="mysticalagradditions:inferium_apple"/>
+                    <itemPrudentiumApple id="mysticalagradditions:prudentium_apple"/>
+                    <itemTertiumApple id="mysticalagradditions:tertium_apple"/>
+                    <itemImperiumApple id="mysticalagradditions:imperium_apple"/>
+                    <itemSupremiumApple id="mysticalagradditions:supremium_apple"/>
+                    <itemInsaniumApple id="mysticalagradditions:insanium_apple"/>
+                </apple>
+            </edibleFood>
+        </food>
+        <plant>
+            <fertilizer>
+                <mulches>
+                    <itemNetherStarCrux id="mysticalagradditions:nether_star_crux"/>
+                    <itemDragonEggCrux id="mysticalagradditions:dragon_egg_crux"/>
+                    <itemNitroCrystalCrux id="mysticalagradditions:nitro_crystal_crux"/>
+                    <itemAwakenedDraconiumCrux id="mysticalagradditions:awakened_draconium_crux"/>
+                    <itemGaiaSpiritCrux id="mysticalagradditions:gaia_spirit_crux"/>
+                    <itemNeutroniumCrux id="mysticalagradditions:neutronium_crux"/>
+                </mulches>
+            </fertilizer>
+        </plant>
+        <magical>
+            <magicalCrops>
+                <magicalParts>
+                    <itemDragonEggChunk id="mysticalagradditions:dragon_egg_chunk"/>
+                    <itemWitheringSoul id="mysticalagradditions:withering_soul"/>
+                </magicalParts>
+                <cropEssence>
+                    <baseEssence>
+                        <itemInsaniumEssence id="mysticalagradditions:insanium_essence"/>
+                        <itemCreativeEssence id="mysticalagradditions:creative_essence"/>
+                    </baseEssence>
+                </cropEssence>
+            </magicalCrops>
+        </magical>
+        <bucket>
+            <itemMoltenImperiumBucket id="mysticalagradditions:molten_imperium_bucket"/>
+            <itemMoltenInferiumBucket id="mysticalagradditions:molten_inferium_bucket"/>
+            <itemMoltenPrudentiumBucket id="mysticalagradditions:molten_prudentium_bucket"/>
+            <itemMoltenSouliumBucket id="mysticalagradditions:molten_soulium_bucket"/>
+            <itemMoltenSupremiumBucket id="mysticalagradditions:molten_supremium_bucket"/>
+            <itemMoltenTertiumBucket id="mysticalagradditions:molten_tertium_bucket"/>
+        </bucket>
+    </item>
+</stuff>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <naturalBlock>
+            <stones>
+                <stone>
+                    <rawStone>
+                        <itemDarkOakStone id="mob_grinding_utils:dark_oak_stone"/>
+                    </rawStone>
+                </stone>
+            </stones>
+            <mobGrindingUtilsGrass>
+                <itemDelightfulDirt id="mob_grinding_utils:delightful_dirt"/>
+                <itemDreadfulDirt id="mob_grinding_utils:dreadful_dirt"/>
+            </mobGrindingUtilsGrass>
+        </naturalBlock>
+        <muffler>
+            <itemDragonMuffler id="mob_grinding_utils:dragon_muffler"/>
+            <itemWitherMuffler id="mob_grinding_utils:wither_muffler"/>
+        </muffler>
+        <mechanism>
+            <lighting>
+                <mobWarding>
+                    <itemEnderInhibitorOn id="mob_grinding_utils:ender_inhibitor_on"/>
+                    <itemEnderInhibitorOff id="mob_grinding_utils:ender_inhibitor_off"/>
+                </mobWarding>
+            </lighting>
+            <resourceTransfer>
+                <groundItemCollector>
+                    <itemAbsorptionHopper id="mob_grinding_utils:absorption_hopper"/>
+                </groundItemCollector>
+                <conveyerBelts>
+                    <itemEntityConveyor id="mob_grinding_utils:entity_conveyor"/>
+                </conveyerBelts>
+                <fans>
+                    <itemFan id="mob_grinding_utils:fan"/>
+                </fans>
+            </resourceTransfer>
+            <machines>
+                <poweredSpawners>
+                    <itemEntitySpawner id="mob_grinding_utils:entity_spawner"/>
+                </poweredSpawners>
+                <mobKillers>
+                    <itemSpikes id="mob_grinding_utils:spikes"/>
+                    <itemSaw id="mob_grinding_utils:saw"/>
+                    <multiblockKiller>
+                        <mobGrindingUtilsUpgrades>
+                            <itemAbsorptionUpgrade id="mob_grinding_utils:absorption_upgrade"/>
+                            <itemEntitySpawnerUpgrade>
+                                <itemSpawnerUpgradeHeight id="mob_grinding_utils:spawner_upgrade_height"/>
+                                <itemSpawnerUpgradeWidth id="mob_grinding_utils:spawner_upgrade_width"/>
+                                <itemXpSolidifierUpgrade id="mob_grinding_utils:xp_solidifier_upgrade"/>
+                            </itemEntitySpawnerUpgrade>
+                        </mobGrindingUtilsUpgrades>
+                    </multiblockKiller>
+                </mobKillers>
+            </machines>
+            <machineupgrades>
+                <mobGrindingUtilsMachineUpgrades>
+                    <itemFanUpgradeHeight id="mob_grinding_utils:fan_upgrade_height"/>
+                    <itemFanUpgradeSpeed id="mob_grinding_utils:fan_upgrade_speed"/>
+                    <itemFanUpgradeWidth id="mob_grinding_utils:fan_upgrade_width"/>
+                    <itemSawUpgradeArthropod id="mob_grinding_utils:saw_upgrade_arthropod"/>
+                    <itemSawUpgradeBeheading id="mob_grinding_utils:saw_upgrade_beheading"/>
+                    <itemSawUpgradeFire id="mob_grinding_utils:saw_upgrade_fire"/>
+                    <itemSawUpgradeLooting id="mob_grinding_utils:saw_upgrade_looting"/>
+                    <itemSawUpgradeSharpness id="mob_grinding_utils:saw_upgrade_sharpness"/>
+                    <itemSawUpgradeSmite id="mob_grinding_utils:saw_upgrade_smite"/>
+                </mobGrindingUtilsMachineUpgrades>
+            </machineupgrades>
+        </mechanism>
+        <manufacturedBlock>
+            <constructionBlock>
+                <glass>
+                    <itemTintedGlass id="mob_grinding_utils:tinted_glass"/>
+                </glass>
+            </constructionBlock>
+        </manufacturedBlock>
+    </block>
+    <resources>
+        <huntingResources>
+            <itemGoldenEgg id="mob_grinding_utils:golden_egg"/>
+            <itemRottenEgg id="mob_grinding_utils:rotten_egg"/>
+        </huntingResources>
+    </resources>
+    <item>
+        <utility>
+            <mobSampler>
+                <itemMobSwab id="mob_grinding_utils:mob_swab"/>
+                <itemMobSwabUsed id="mob_grinding_utils:mob_swab_used"/>
+            </mobSampler>
+        </utility>
+        <fluidStorage>
+            <fluidTanks>
+                <itemTank id="mob_grinding_utils:tank"/>
+                <itemJumboTank id="mob_grinding_utils:jumbo_tank"/>
+            </fluidTanks>
+        </fluidStorage>
+        <experienceStorage>
+            <itemXpsolidifier id="mob_grinding_utils:xpsolidifier"/>
+            <itemTankSink id="mob_grinding_utils:tank_sink"/>
+            <itemXpTap id="mob_grinding_utils:xp_tap"/>
+        </experienceStorage>
+        <casts>
+            <itemSolidXpMouldBlank id="mob_grinding_utils:solid_xp_mould_blank"/>
+            <itemSolidXpMouldBaby id="mob_grinding_utils:solid_xp_mould_baby"/>
+        </casts>
+        <plant>
+            <seedbag>
+                <itemNutritiousChickenFeed id="mob_grinding_utils:nutritious_chicken_feed"/>
+                <itemGmChickenFeed id="mob_grinding_utils:gm_chicken_feed"/>
+                <itemGmChickenFeedCursed id="mob_grinding_utils:gm_chicken_feed_cursed"/>
+            </seedbag>
+        </plant>
+        <potion>
+            <itemSolidXpBlock id="mob_grinding_utils:solid_xp_block"/>
+            <itemSolidXpBaby id="mob_grinding_utils:solid_xp_baby"/>
+        </potion>
+        <bucket>
+            <itemFluidXpBucket id="mob_grinding_utils:fluid_xp_bucket"/>
+        </bucket>
+    </item>
+    <equipment>
+        <weapon>
+            <sword>
+                <itemNullSword id="mob_grinding_utils:null_sword"/>
+            </sword>
+        </weapon>
+        <armor>
+            <helmet>
+                <itemMonocle id="mob_grinding_utils:monocle"/>
+            </helmet>
+        </armor>
+    </equipment>
+</stuff>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <itemInfinityTrident id="industrialforegoing:infinity_trident"/>
+            <itemInfinityLauncher id="industrialforegoing:infinity_launcher"/>
+            <itemInfinityNuke id="industrialforegoing:infinity_nuke"/>
+        </weapon>
+        <tool>
+            <itemInfinityDrill id="industrialforegoing:infinity_drill"/>
+            <itemInfinityHammer id="industrialforegoing:infinity_hammer"/>
+            <itemInfinitySaw id="industrialforegoing:infinity_saw"/>
+            <itemMachineSettingsCopier id="industrialforegoing:machine_settings_copier"/>
+        </tool>
+    </equipment>
+    <item>
+        <utility>
+            <itemInfinityBackpack id="industrialforegoing:infinity_backpack"/>
+            <itemInfinityCharger id="industrialforegoing:infinity_charger"/>
+            <readableBooks>
+                <itemBookManual id="industrialforegoing:book_manual"/>
+            </readableBooks>
+            <mobHolder>
+                <itemMobImprisonmentTool id="industrialforegoing:mob_imprisonment_tool"/>
+            </mobHolder>
+            <storage>
+                <deepStorage>
+                    <itemBlackHoleController id="industrialforegoing:black_hole_controller"/>
+                    <itemSupremeBlackHoleUnit id="industrialforegoing:supreme_black_hole_unit"/>
+                    <itemAdvancedBlackHoleUnit id="industrialforegoing:advanced_black_hole_unit"/>
+                    <itemSimpleBlackHoleUnit id="industrialforegoing:simple_black_hole_unit"/>
+                    <itemPityBlackHoleUnit id="industrialforegoing:pity_black_hole_unit"/>
+                    <itemCommonBlackHoleUnit id="industrialforegoing:common_black_hole_unit"/>
+                </deepStorage>
+            </storage>
+        </utility>
+        <fluidStorage>
+            <fluidTanks>
+                <itemSupremeBlackHoleTank id="industrialforegoing:supreme_black_hole_tank"/>
+                <itemAdvancedBlackHoleTank id="industrialforegoing:advanced_black_hole_tank"/>
+                <itemSimpleBlackHoleTank id="industrialforegoing:simple_black_hole_tank"/>
+                <itemPityBlackHoleTank id="industrialforegoing:pity_black_hole_tank"/>
+                <itemCommonBlackHoleTank id="industrialforegoing:common_black_hole_tank"/>
+            </fluidTanks>
+        </fluidStorage>
+        <parts>
+            <mechanicalParts>
+                <gear>
+                    <itemIronGear id="industrialforegoing:iron_gear"/>
+                    <itemGoldGear id="industrialforegoing:gold_gear"/>
+                    <itemDiamondGear id="industrialforegoing:diamond_gear"/>
+                </gear>
+                <lenses>
+                    <itemWhiteLaserLens id="industrialforegoing:white_laser_lens"/>
+                    <itemOrangeLaserLens id="industrialforegoing:orange_laser_lens" mergePrevious="true"/>
+                    <itemMagentaLaserLens id="industrialforegoing:magenta_laser_lens" mergePrevious="true"/>
+                    <itemLightBlueLaserLens id="industrialforegoing:light_blue_laser_lens" mergePrevious="true"/>
+                    <itemYellowLaserLens id="industrialforegoing:yellow_laser_lens" mergePrevious="true"/>
+                    <itemLimeLaserLens id="industrialforegoing:lime_laser_lens" mergePrevious="true"/>
+                    <itemPinkLaserLens id="industrialforegoing:pink_laser_lens" mergePrevious="true"/>
+                    <itemGrayLaserLens id="industrialforegoing:gray_laser_lens" mergePrevious="true"/>
+                    <itemLightGrayLaserLens id="industrialforegoing:light_gray_laser_lens" mergePrevious="true"/>
+                    <itemCyanLaserLens id="industrialforegoing:cyan_laser_lens" mergePrevious="true"/>
+                    <itemPurpleLaserLens id="industrialforegoing:purple_laser_lens" mergePrevious="true"/>
+                    <itemBlueLaserLens id="industrialforegoing:blue_laser_lens" mergePrevious="true"/>
+                    <itemBrownLaserLens id="industrialforegoing:brown_laser_lens" mergePrevious="true"/>
+                    <itemGreenLaserLens id="industrialforegoing:green_laser_lens" mergePrevious="true"/>
+                    <itemRedLaserLens id="industrialforegoing:red_laser_lens" mergePrevious="true"/>
+                    <itemBlackLaserLens id="industrialforegoing:black_laser_lens" mergePrevious="true"/>
+                </lenses>
+                <frames>
+                    <itemMachineFramePity id="industrialforegoing:machine_frame_pity"/>
+                    <itemMachineFrameSimple id="industrialforegoing:machine_frame_simple"/>
+                    <itemMachineFrameAdvanced id="industrialforegoing:machine_frame_advanced"/>
+                    <itemMachineFrameSupreme id="industrialforegoing:machine_frame_supreme"/>
+                    <itemMachinehull id="industrialforegoing:machinehull"/>
+                </frames>
+                <itemAdultFilter id="industrialforegoing:adult_filter"/>
+            </mechanicalParts>
+        </parts>
+        <bucket>
+            <itemBiofuelBucket id="industrialforegoing:biofuel_bucket"/>
+            <itemEssenceBucket id="industrialforegoing:essence_bucket"/>
+            <itemEtherGasBucket id="industrialforegoing:ether_gas_bucket"/>
+            <itemFermentedOreMeatBucket id="industrialforegoing:fermented_ore_meat_bucket"/>
+            <itemLatexBucket id="industrialforegoing:latex_bucket"/>
+            <itemMeatBucket id="industrialforegoing:meat_bucket"/>
+            <itemPinkSlimeBucket id="industrialforegoing:pink_slime_bucket"/>
+            <itemRawOreMeatBucket id="industrialforegoing:raw_ore_meat_bucket"/>
+            <itemSewageBucket id="industrialforegoing:sewage_bucket"/>
+            <itemSludgeBucket id="industrialforegoing:sludge_bucket"/>
+        </bucket>
+    </item>
+    <block>
+        <mechanism>
+            <resourceTransfer>
+                <conveyerBelts>
+                    <itemConveyor id="industrialforegoing:conveyor"/>
+                    <itemConveyorBlinkingUpgrade id="industrialforegoing:conveyor_blinking_upgrade"/>
+                    <itemConveyorBouncingUpgrade id="industrialforegoing:conveyor_bouncing_upgrade"/>
+                    <itemConveyorDetectionUpgrade id="industrialforegoing:conveyor_detection_upgrade"/>
+                    <itemConveyorDroppingUpgrade id="industrialforegoing:conveyor_dropping_upgrade"/>
+                    <itemConveyorExtractionUpgrade id="industrialforegoing:conveyor_extraction_upgrade"/>
+                    <itemConveyorInsertionUpgrade id="industrialforegoing:conveyor_insertion_upgrade"/>
+                    <itemConveyorSplittingUpgrade id="industrialforegoing:conveyor_splitting_upgrade"/>
+                    <itemTransporter id="industrialforegoing:transporter"/>
+                </conveyerBelts>
+            </resourceTransfer>
+            <machines>
+                <poweredSpawners>
+                    <itemMobDuplicator id="industrialforegoing:mob_duplicator"/>
+                </poweredSpawners>
+                <mobKillers>
+                    <itemMobCrusher id="industrialforegoing:mob_crusher"/>
+                    <itemMobSlaughterFactory id="industrialforegoing:mob_slaughter_factory"/>
+                </mobKillers>
+                <poweredRanching>
+                    <itemAnimalRancher id="industrialforegoing:animal_rancher"/>
+                    <itemAnimalFeeder id="industrialforegoing:animal_feeder"/>
+                    <itemMeatFeeder id="industrialforegoing:meat_feeder"/>
+                    <itemAnimalBabySeparator id="industrialforegoing:animal_baby_separator"/>
+                </poweredRanching>
+                <poweredFarming>
+                    <itemPlantSower id="industrialforegoing:plant_sower"/>
+                    <itemPlantGatherer id="industrialforegoing:plant_gatherer"/>
+                    <itemPlantFertilizer id="industrialforegoing:plant_fertilizer"/>
+                    <itemHydroponicBed id="industrialforegoing:hydroponic_bed"/>
+                    <itemSimulatedHydroponicBed id="industrialforegoing:simulated_hydroponic_bed"/>
+                    <itemLeafShearing id="industrialforegoing:leaf_shearing"/>
+                </poweredFarming>
+                <poweredBlockHandlers>
+                    <itemBlockBreaker id="industrialforegoing:block_breaker"/>
+                    <itemBlockPlacer id="industrialforegoing:block_placer"/>
+                </poweredBlockHandlers>
+                <fluidMachines>
+                    <itemFluidCollector id="industrialforegoing:fluid_collector"/>
+                    <itemFluidExtractor id="industrialforegoing:fluid_extractor"/>
+                    <itemFluidPlacer id="industrialforegoing:fluid_placer"/>
+                    <itemFluidSievingMachine id="industrialforegoing:fluid_sieving_machine"/>
+                    <itemWaterCondensator id="industrialforegoing:water_condensator"/>
+                    <itemSewageComposter id="industrialforegoing:sewage_composter"/>
+                    <itemSludgeRefiner id="industrialforegoing:sludge_refiner"/>
+                    <itemDissolutionChamber id="industrialforegoing:dissolution_chamber"/>
+                    <itemWashingFactory id="industrialforegoing:washing_factory"/>
+                    <itemMarineFisher id="industrialforegoing:marine_fisher"/>
+                    <itemFermentationStation id="industrialforegoing:fermentation_station"/>
+                    <itemLatexProcessingUnit id="industrialforegoing:latex_processing_unit"/>
+                    <itemBioreactor id="industrialforegoing:bioreactor"/>
+                </fluidMachines>
+                <enchantMachines>
+                    <itemEnchantmentApplicator id="industrialforegoing:enchantment_applicator"/>
+                    <itemEnchantmentExtractor id="industrialforegoing:enchantment_extractor"/>
+                    <itemEnchantmentFactory id="industrialforegoing:enchantment_factory"/>
+                    <itemEnchantmentSorter id="industrialforegoing:enchantment_sorter"/>
+                </enchantMachines>
+                <laserMachines>
+                    <itemLaserDrill id="industrialforegoing:laser_drill"/>
+                    <itemFluidLaserBase id="industrialforegoing:fluid_laser_base"/>
+                    <itemOreLaserBase id="industrialforegoing:ore_laser_base"/>
+                </laserMachines>
+                <processingMachines>
+                    <itemResourcefulFurnace id="industrialforegoing:resourceful_furnace"/>
+                    <itemDyeMixer id="industrialforegoing:dye_mixer"/>
+                    <itemMaterialStoneworkFactory id="industrialforegoing:material_stonework_factory"/>
+                    <itemPotionBrewer id="industrialforegoing:potion_brewer"/>
+                    <itemSporesRecreator id="industrialforegoing:spores_recreator"/>
+                    <itemStasisChamber id="industrialforegoing:stasis_chamber"/>
+                    <itemWitherBuilder id="industrialforegoing:wither_builder"/>
+                    <itemSewer id="industrialforegoing:sewer"/>
+                    <itemMobDetector id="industrialforegoing:mob_detector"/>
+                    <itemMechanicalDirt id="industrialforegoing:mechanical_dirt"/>
+                </processingMachines>
+            </machines>
+            <generators>
+                <itemBiofuelGenerator id="industrialforegoing:biofuel_generator"/>
+                <itemPitifulGenerator id="industrialforegoing:pitiful_generator"/>
+                <mycelialGenerators>
+                    <itemMycelialCrimed id="industrialforegoing:mycelial_crimed"/>
+                    <itemMycelialCulinary id="industrialforegoing:mycelial_culinary"/>
+                    <itemMycelialDeath id="industrialforegoing:mycelial_death"/>
+                    <itemMycelialDisenchantment id="industrialforegoing:mycelial_disenchantment"/>
+                    <itemMycelialEnder id="industrialforegoing:mycelial_ender"/>
+                    <itemMycelialExplosive id="industrialforegoing:mycelial_explosive"/>
+                    <itemMycelialFrosty id="industrialforegoing:mycelial_frosty"/>
+                    <itemMycelialFurnace id="industrialforegoing:mycelial_furnace"/>
+                    <itemMycelialHalitosis id="industrialforegoing:mycelial_halitosis"/>
+                    <itemMycelialMagma id="industrialforegoing:mycelial_magma"/>
+                    <itemMycelialMeatallurgic id="industrialforegoing:mycelial_meatallurgic"/>
+                    <itemMycelialNetherstar id="industrialforegoing:mycelial_netherstar"/>
+                    <itemMycelialPink id="industrialforegoing:mycelial_pink"/>
+                    <itemMycelialPotion id="industrialforegoing:mycelial_potion"/>
+                    <itemMycelialReactor id="industrialforegoing:mycelial_reactor"/>
+                    <itemMycelialRocket id="industrialforegoing:mycelial_rocket"/>
+                    <itemMycelialSlimey id="industrialforegoing:mycelial_slimey"/>
+                </mycelialGenerators>
+            </generators>
+            <machineupgrades>
+                <industrialForegoingAddons>
+                    <itemEfficiencyAddonTier1 id="industrialforegoing:efficiency_addon_tier_1"/>
+                    <itemEfficiencyAddonTier2 id="industrialforegoing:efficiency_addon_tier_2" mergePrevious="true"/>
+                    <itemSpeedAddonTier1 id="industrialforegoing:speed_addon_tier_1"/>
+                    <itemSpeedAddonTier2 id="industrialforegoing:speed_addon_tier_2" mergePrevious="true"/>
+                    <itemRangeAddonTier0 id="industrialforegoing:range_addon_tier_0"/>
+                    <itemRangeAddonTier1 id="industrialforegoing:range_addon_tier_1" mergePrevious="true"/>
+                    <itemRangeAddonTier2 id="industrialforegoing:range_addon_tier_2" mergePrevious="true"/>
+                    <itemRangeAddonTier3 id="industrialforegoing:range_addon_tier_3" mergePrevious="true"/>
+                    <itemRangeAddonTier4 id="industrialforegoing:range_addon_tier_4" mergePrevious="true"/>
+                    <itemRangeAddonTier5 id="industrialforegoing:range_addon_tier_5" mergePrevious="true"/>
+                    <itemRangeAddonTier6 id="industrialforegoing:range_addon_tier_6" mergePrevious="true"/>
+                    <itemRangeAddonTier7 id="industrialforegoing:range_addon_tier_7" mergePrevious="true"/>
+                    <itemRangeAddonTier8 id="industrialforegoing:range_addon_tier_8" mergePrevious="true"/>
+                    <itemRangeAddonTier9 id="industrialforegoing:range_addon_tier_9" mergePrevious="true"/>
+                    <itemRangeAddonTier10 id="industrialforegoing:range_addon_tier_10" mergePrevious="true"/>
+                    <itemRangeAddonTier11 id="industrialforegoing:range_addon_tier_11" mergePrevious="true"/>
+                    <itemProcessingAddonTier1 id="industrialforegoing:processing_addon_tier_1"/>
+                    <itemProcessingAddonTier2 id="industrialforegoing:processing_addon_tier_2" mergePrevious="true"/>
+                    <itemEnergyFieldAddon id="industrialforegoing:energy_field_addon"/>
+                    <itemFortuneAddon id="industrialforegoing:fortune_addon"/>
+                    <itemFluidTransferAddonPullDown id="industrialforegoing:fluid_transfer_addon_pull_down"/>
+                    <itemFluidTransferAddonPullEast id="industrialforegoing:fluid_transfer_addon_pull_east" mergePrevious="true"/>
+                    <itemFluidTransferAddonPullNorth id="industrialforegoing:fluid_transfer_addon_pull_north" mergePrevious="true"/>
+                    <itemFluidTransferAddonPullSouth id="industrialforegoing:fluid_transfer_addon_pull_south" mergePrevious="true"/>
+                    <itemFluidTransferAddonPullUp id="industrialforegoing:fluid_transfer_addon_pull_up" mergePrevious="true"/>
+                    <itemFluidTransferAddonPullWest id="industrialforegoing:fluid_transfer_addon_pull_west" mergePrevious="true"/>
+                    <itemFluidTransferAddonPushDown id="industrialforegoing:fluid_transfer_addon_push_down"/>
+                    <itemFluidTransferAddonPushEast id="industrialforegoing:fluid_transfer_addon_push_east" mergePrevious="true"/>
+                    <itemFluidTransferAddonPushNorth id="industrialforegoing:fluid_transfer_addon_push_north" mergePrevious="true"/>
+                    <itemFluidTransferAddonPushSouth id="industrialforegoing:fluid_transfer_addon_push_south" mergePrevious="true"/>
+                    <itemFluidTransferAddonPushUp id="industrialforegoing:fluid_transfer_addon_push_up" mergePrevious="true"/>
+                    <itemFluidTransferAddonPushWest id="industrialforegoing:fluid_transfer_addon_push_west" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPullDown id="industrialforegoing:itemstack_transfer_addon_pull_down"/>
+                    <itemItemstackTransferAddonPullEast id="industrialforegoing:itemstack_transfer_addon_pull_east" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPullNorth id="industrialforegoing:itemstack_transfer_addon_pull_north" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPullSouth id="industrialforegoing:itemstack_transfer_addon_pull_south" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPullUp id="industrialforegoing:itemstack_transfer_addon_pull_up" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPullWest id="industrialforegoing:itemstack_transfer_addon_pull_west" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPushDown id="industrialforegoing:itemstack_transfer_addon_push_down"/>
+                    <itemItemstackTransferAddonPushEast id="industrialforegoing:itemstack_transfer_addon_push_east" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPushNorth id="industrialforegoing:itemstack_transfer_addon_push_north" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPushSouth id="industrialforegoing:itemstack_transfer_addon_push_south" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPushUp id="industrialforegoing:itemstack_transfer_addon_push_up" mergePrevious="true"/>
+                    <itemItemstackTransferAddonPushWest id="industrialforegoing:itemstack_transfer_addon_push_west" mergePrevious="true"/>
+                </industrialForegoingAddons>
+            </machineupgrades>
+        </mechanism>
+        <manufacturedBlock>
+            <constructionBlock>
+                <glass>
+                    <itemDarkGlass id="industrialforegoing:dark_glass"/>
+                </glass>
+            </constructionBlock>
+        </manufacturedBlock>
+    </block>
+    <resources>
+        <miningResources>
+            <itemPinkSlime id="industrialforegoing:pink_slime"/>
+            <itemPinkSlimeIngot id="industrialforegoing:pink_slime_ingot"/>
+            <itemPlastic id="industrialforegoing:plastic"/>
+            <itemDryrubber id="industrialforegoing:dryrubber"/>
+            <itemTinydryrubber id="industrialforegoing:tinydryrubber"/>
+            <itemStraw id="industrialforegoing:straw"/>
+            <itemFertilizer id="industrialforegoing:fertilizer"/>
+            <itemArtificialDye id="industrialforegoing:artificial_dye"/>
+        </miningResources>
+    </resources>
+</stuff>

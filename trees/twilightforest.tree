@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <manufacturedBlock>
+            <twilightforestLadder>
+                <itemIronLadder id="twilightforest:iron_ladder"/>
+            </twilightforestLadder>
+            <fence>
+                <fenceGate>
+                    <itemCanopyFenceGate id="twilightforest:canopy_fence_gate"/>
+                    <itemDarkFenceGate id="twilightforest:dark_fence_gate"/>
+                    <itemMangroveFenceGate id="twilightforest:mangrove_fence_gate"/>
+                    <itemMiningFenceGate id="twilightforest:mining_fence_gate"/>
+                    <itemSortingFenceGate id="twilightforest:sorting_fence_gate"/>
+                    <itemTimeFenceGate id="twilightforest:time_fence_gate"/>
+                    <itemTransformationFenceGate id="twilightforest:transformation_fence_gate"/>
+                    <itemTwilightOakFenceGate id="twilightforest:twilight_oak_fence_gate"/>
+                </fenceGate>
+                <woodenFence>
+                    <itemCanopyFence id="twilightforest:canopy_fence"/>
+                    <itemDarkFence id="twilightforest:dark_fence"/>
+                    <itemMangroveFence id="twilightforest:mangrove_fence"/>
+                    <itemMiningFence id="twilightforest:mining_fence"/>
+                    <itemSortingFence id="twilightforest:sorting_fence"/>
+                    <itemTimeFence id="twilightforest:time_fence"/>
+                    <itemTransformationFence id="twilightforest:transformation_fence"/>
+                    <itemTwilightOakFence id="twilightforest:twilight_oak_fence"/>
+                </woodenFence>
+            </fence>
+            <constructionBlock>
+                <woodenPlank>
+                    <itemCanopyPlanks id="twilightforest:canopy_planks"/>
+                    <itemDarkPlanks id="twilightforest:dark_planks"/>
+                    <itemMangrovePlanks id="twilightforest:mangrove_planks"/>
+                    <itemMiningPlanks id="twilightforest:mining_planks"/>
+                    <itemSortingPlanks id="twilightforest:sorting_planks"/>
+                    <itemTimePlanks id="twilightforest:time_planks"/>
+                    <itemTransformationPlanks id="twilightforest:transformation_planks"/>
+                    <itemTwilightOakPlanks id="twilightforest:twilight_oak_planks"/>
+                </woodenPlank>
+                <slabs>
+                    <itemAuroraSlab id="twilightforest:aurora_slab"/>
+                    <woodenSlabs>
+                        <itemCanopySlab id="twilightforest:canopy_slab"/>
+                        <itemDarkSlab id="twilightforest:dark_slab"/>
+                        <itemMangroveSlab id="twilightforest:mangrove_slab"/>
+                        <itemMiningSlab id="twilightforest:mining_slab"/>
+                        <itemSortingSlab id="twilightforest:sorting_slab"/>
+                        <itemTimeSlab id="twilightforest:time_slab"/>
+                        <itemTransformationSlab id="twilightforest:transformation_slab"/>
+                        <itemTwilightOakSlab id="twilightforest:twilight_oak_slab"/>
+                    </woodenSlabs>
+                </slabs>
+                <stairs>
+                    <woodenStairs>
+                        <itemCanopyStairs id="twilightforest:canopy_stairs"/>
+                        <itemDarkStairs id="twilightforest:dark_stairs"/>
+                        <itemMangroveStairs id="twilightforest:mangrove_stairs"/>
+                        <itemMiningStairs id="twilightforest:mining_stairs"/>
+                        <itemSortingStairs id="twilightforest:sorting_stairs"/>
+                        <itemTimeStairs id="twilightforest:time_stairs"/>
+                        <itemTransformationStairs id="twilightforest:transformation_stairs"/>
+                        <itemTwilightOakStairs id="twilightforest:twilight_oak_stairs"/>
+                    </woodenStairs>
+                </stairs>
+                <banisters>
+                    <itemAcaciaBanister id="twilightforest:acacia_banister"/>
+                    <itemBambooBanister id="twilightforest:bamboo_banister"/>
+                    <itemBirchBanister id="twilightforest:birch_banister"/>
+                    <itemCanopyBanister id="twilightforest:canopy_banister"/>
+                    <itemCherryBanister id="twilightforest:cherry_banister"/>
+                    <itemCrimsonBanister id="twilightforest:crimson_banister"/>
+                    <itemDarkBanister id="twilightforest:dark_banister"/>
+                    <itemDarkOakBanister id="twilightforest:dark_oak_banister"/>
+                    <itemJungleBanister id="twilightforest:jungle_banister"/>
+                    <itemMangroveBanister id="twilightforest:mangrove_banister"/>
+                    <itemMiningBanister id="twilightforest:mining_banister"/>
+                    <itemOakBanister id="twilightforest:oak_banister"/>
+                    <itemSortingBanister id="twilightforest:sorting_banister"/>
+                    <itemSpruceBanister id="twilightforest:spruce_banister"/>
+                    <itemTimeBanister id="twilightforest:time_banister"/>
+                    <itemTransformationBanister id="twilightforest:transformation_banister"/>
+                    <itemTwilightOakBanister id="twilightforest:twilight_oak_banister"/>
+                    <itemVangroveBanister id="twilightforest:vangrove_banister"/>
+                    <itemWarpedBanister id="twilightforest:warped_banister"/>
+                </banisters>
+                <bookshelves>
+                    <itemCanopyBookshelf id="twilightforest:canopy_bookshelf"/>
+                    <itemChiseledCanopyBookshelf id="twilightforest:chiseled_canopy_bookshelf"/>
+                </bookshelves>
+                <glass>
+                    <itemCanopyWindow id="twilightforest:canopy_window"/>
+                    <itemCanopyWindowPane id="twilightforest:canopy_window_pane"/>
+                    <itemAuroralizedGlass id="twilightforest:auroralized_glass"/>
+                </glass>
+                <bricks>
+                    <itemBoldStonePillar id="twilightforest:bold_stone_pillar"/>
+                    <itemCrackedUnderbrick id="twilightforest:cracked_underbrick"/>
+                    <itemMossyUnderbrick id="twilightforest:mossy_underbrick"/>
+                    <itemSpiralBricks id="twilightforest:spiral_bricks"/>
+                    <itemTerrorcottaArcs id="twilightforest:terrorcotta_arcs"/>
+                    <itemTerrorcottaCurves id="twilightforest:terrorcotta_curves"/>
+                    <itemTerrorcottaLines id="twilightforest:terrorcotta_lines"/>
+                    <itemTrollsteinn id="twilightforest:trollsteinn"/>
+                    <itemTrollsteinnLight id="twilightforest:trollsteinn_light"/>
+                    <itemTrollvidr id="twilightforest:trollvidr"/>
+                    <itemTwistedStone id="twilightforest:twisted_stone"/>
+                    <itemTwistedStonePillar id="twilightforest:twisted_stone_pillar"/>
+                    <itemUnderbrick id="twilightforest:underbrick"/>
+                    <itemUnderbrickFloor id="twilightforest:underbrick_floor"/>
+                    <castleBricks>
+                        <itemBlueCastleRuneBrick id="twilightforest:blue_castle_rune_brick"/>
+                        <itemBoldCastleBrickPillar id="twilightforest:bold_castle_brick_pillar"/>
+                        <itemBoldCastleBrickStairs id="twilightforest:bold_castle_brick_stairs"/>
+                        <itemBoldCastleBrickTile id="twilightforest:bold_castle_brick_tile"/>
+                        <itemCastleBrick id="twilightforest:castle_brick"/>
+                        <itemCastleBrickStairs id="twilightforest:castle_brick_stairs"/>
+                        <itemCastleRoofTile id="twilightforest:castle_roof_tile"/>
+                        <itemCrackedCastleBrick id="twilightforest:cracked_castle_brick"/>
+                        <itemCrackedCastleBrickStairs id="twilightforest:cracked_castle_brick_stairs"/>
+                        <itemEncasedCastleBrickPillar id="twilightforest:encased_castle_brick_pillar"/>
+                        <itemEncasedCastleBrickStairs id="twilightforest:encased_castle_brick_stairs"/>
+                        <itemEncasedCastleBrickTile id="twilightforest:encased_castle_brick_tile"/>
+                        <itemMossyCastleBrick id="twilightforest:mossy_castle_brick"/>
+                        <itemMossyCastleBrickStairs id="twilightforest:mossy_castle_brick_stairs"/>
+                        <itemPinkCastleRuneBrick id="twilightforest:pink_castle_rune_brick"/>
+                        <itemThickCastleBrick id="twilightforest:thick_castle_brick"/>
+                        <itemVioletCastleRuneBrick id="twilightforest:violet_castle_rune_brick"/>
+                        <itemWornCastleBrick id="twilightforest:worn_castle_brick"/>
+                        <itemWornCastleBrickStairs id="twilightforest:worn_castle_brick_stairs"/>
+                        <itemYellowCastleRuneBrick id="twilightforest:yellow_castle_rune_brick"/>
+                    </castleBricks>
+                    <nagastone>
+                        <itemCrackedEtchedNagastone id="twilightforest:cracked_etched_nagastone"/>
+                        <itemCrackedNagastonePillar id="twilightforest:cracked_nagastone_pillar"/>
+                        <itemCrackedNagastoneStairsLeft id="twilightforest:cracked_nagastone_stairs_left"/>
+                        <itemCrackedNagastoneStairsRight id="twilightforest:cracked_nagastone_stairs_right"/>
+                        <itemEtchedNagastone id="twilightforest:etched_nagastone"/>
+                        <itemMossyEtchedNagastone id="twilightforest:mossy_etched_nagastone"/>
+                        <itemMossyNagastonePillar id="twilightforest:mossy_nagastone_pillar"/>
+                        <itemMossyNagastoneStairsLeft id="twilightforest:mossy_nagastone_stairs_left"/>
+                        <itemMossyNagastoneStairsRight id="twilightforest:mossy_nagastone_stairs_right"/>
+                        <itemNagastone id="twilightforest:nagastone"/>
+                        <itemNagastoneHead id="twilightforest:nagastone_head"/>
+                        <itemNagastonePillar id="twilightforest:nagastone_pillar"/>
+                        <itemNagastoneStairsLeft id="twilightforest:nagastone_stairs_left"/>
+                        <itemNagastoneStairsRight id="twilightforest:nagastone_stairs_right"/>
+                    </nagastone>
+                    <mazestone>
+                        <itemCrackedMazestone id="twilightforest:cracked_mazestone"/>
+                        <itemCutMazestone id="twilightforest:cut_mazestone"/>
+                        <itemDecorativeMazestone id="twilightforest:decorative_mazestone"/>
+                        <itemMazeWafer id="twilightforest:maze_wafer"/>
+                        <itemMazestone id="twilightforest:mazestone"/>
+                        <itemMazestoneBorder id="twilightforest:mazestone_border"/>
+                        <itemMazestoneBrick id="twilightforest:mazestone_brick"/>
+                        <itemMazestoneMosaic id="twilightforest:mazestone_mosaic"/>
+                        <itemMossyMazestone id="twilightforest:mossy_mazestone"/>
+                    </mazestone>
+                    <towerwood>
+                        <itemCrackedTowerwood id="twilightforest:cracked_towerwood"/>
+                        <itemEncasedTowerwood id="twilightforest:encased_towerwood"/>
+                        <itemInfestedTowerwood id="twilightforest:infested_towerwood"/>
+                        <itemMossyTowerwood id="twilightforest:mossy_towerwood"/>
+                        <itemTowerwood id="twilightforest:towerwood"/>
+                    </towerwood>
+                </bricks>
+                <decorativeblocks>
+                    <itemCoronationCarpet id="twilightforest:coronation_carpet"/>
+                    <itemEmperorsCloth id="twilightforest:emperors_cloth"/>
+                    <itemMagicPainting id="twilightforest:magic_painting"/>
+                    <itemWroughtIronBar id="twilightforest:wrought_iron_bar"/>
+                    <itemWroughtIronFence id="twilightforest:wrought_iron_fence"/>
+                </decorativeblocks>
+            </constructionBlock>
+            <giantBlocks>
+                <itemGiantCobblestone id="twilightforest:giant_cobblestone"/>
+                <itemGiantLeaves id="twilightforest:giant_leaves"/>
+                <itemGiantLog id="twilightforest:giant_log"/>
+                <itemGiantObsidian id="twilightforest:giant_obsidian"/>
+            </giantBlocks>
+            <banner>
+                <bannerPattern>
+                    <itemAlphaYetiBannerPattern id="twilightforest:alpha_yeti_banner_pattern"/>
+                    <itemHydraBannerPattern id="twilightforest:hydra_banner_pattern"/>
+                    <itemKnightPhantomBannerPattern id="twilightforest:knight_phantom_banner_pattern"/>
+                    <itemLichBannerPattern id="twilightforest:lich_banner_pattern"/>
+                    <itemMinoshroomBannerPattern id="twilightforest:minoshroom_banner_pattern"/>
+                    <itemNagaBannerPattern id="twilightforest:naga_banner_pattern"/>
+                    <itemQuestRamBannerPattern id="twilightforest:quest_ram_banner_pattern"/>
+                    <itemSnowQueenBannerPattern id="twilightforest:snow_queen_banner_pattern"/>
+                    <itemUrGhastBannerPattern id="twilightforest:ur_ghast_banner_pattern"/>
+                </bannerPattern>
+            </banner>
+            <forceFields>
+                <itemBlueForceField id="twilightforest:blue_force_field"/>
+                <itemGreenForceField id="twilightforest:green_force_field"/>
+                <itemOrangeForceField id="twilightforest:orange_force_field"/>
+                <itemPinkForceField id="twilightforest:pink_force_field"/>
+                <itemVioletForceField id="twilightforest:violet_force_field"/>
+            </forceFields>
+        </manufacturedBlock>
+        <mechanism>
+            <doors>
+                <itemBlueCastleDoor id="twilightforest:blue_castle_door"/>
+                <itemPinkCastleDoor id="twilightforest:pink_castle_door"/>
+                <itemVioletCastleDoor id="twilightforest:violet_castle_door"/>
+                <itemYellowCastleDoor id="twilightforest:yellow_castle_door"/>
+                <woodenDoor>
+                    <itemCanopyDoor id="twilightforest:canopy_door"/>
+                    <itemDarkDoor id="twilightforest:dark_door"/>
+                    <itemMangroveDoor id="twilightforest:mangrove_door"/>
+                    <itemTimeDoor id="twilightforest:time_door"/>
+                    <itemTwilightOakDoor id="twilightforest:twilight_oak_door"/>
+                    <itemMiningDoor id="twilightforest:mining_door"/>
+                    <itemSortingDoor id="twilightforest:sorting_door"/>
+                    <itemTransformationDoor id="twilightforest:transformation_door"/>
+                </woodenDoor>
+            </doors>
+            <twilightforestTrapdoor>
+                <woodenTrapdoors>
+                    <itemCanopyTrapdoor id="twilightforest:canopy_trapdoor"/>
+                    <itemDarkTrapdoor id="twilightforest:dark_trapdoor"/>
+                    <itemMangroveTrapdoor id="twilightforest:mangrove_trapdoor"/>
+                    <itemTimeTrapdoor id="twilightforest:time_trapdoor"/>
+                    <itemTwilightOakTrapdoor id="twilightforest:twilight_oak_trapdoor"/>
+                    <itemMiningTrapdoor id="twilightforest:mining_trapdoor"/>
+                    <itemSortingTrapdoor id="twilightforest:sorting_trapdoor"/>
+                    <itemTransformationTrapdoor id="twilightforest:transformation_trapdoor"/>
+                </woodenTrapdoors>
+            </twilightforestTrapdoor>
+            <basicCrafting>
+                <craftingTables>
+                    <itemUncraftingTable id="twilightforest:uncrafting_table"/>
+                </craftingTables>
+                <dryingRacks>
+                    <itemAcaciaDryingRack id="twilightforest:acacia_drying_rack"/>
+                    <itemBambooDryingRack id="twilightforest:bamboo_drying_rack"/>
+                    <itemBirchDryingRack id="twilightforest:birch_drying_rack"/>
+                    <itemCanopyDryingRack id="twilightforest:canopy_drying_rack"/>
+                    <itemCherryDryingRack id="twilightforest:cherry_drying_rack"/>
+                    <itemCrimsonDryingRack id="twilightforest:crimson_drying_rack"/>
+                    <itemDarkDryingRack id="twilightforest:dark_drying_rack"/>
+                    <itemDarkOakDryingRack id="twilightforest:dark_oak_drying_rack"/>
+                    <itemJungleDryingRack id="twilightforest:jungle_drying_rack"/>
+                    <itemMangroveDryingRack id="twilightforest:mangrove_drying_rack"/>
+                    <itemMiningDryingRack id="twilightforest:mining_drying_rack"/>
+                    <itemOakDryingRack id="twilightforest:oak_drying_rack"/>
+                    <itemSortingDryingRack id="twilightforest:sorting_drying_rack"/>
+                    <itemSpruceDryingRack id="twilightforest:spruce_drying_rack"/>
+                    <itemTimeDryingRack id="twilightforest:time_drying_rack"/>
+                    <itemTransformationDryingRack id="twilightforest:transformation_drying_rack"/>
+                    <itemTwilightOakDryingRack id="twilightforest:twilight_oak_drying_rack"/>
+                    <itemVangroveDryingRack id="twilightforest:vangrove_drying_rack"/>
+                    <itemWarpedDryingRack id="twilightforest:warped_drying_rack"/>
+                </dryingRacks>
+            </basicCrafting>
+            <pressurePlates>
+                <woodenPressurePlates>
+                    <itemCanopyPressurePlate id="twilightforest:canopy_pressure_plate"/>
+                    <itemDarkPressurePlate id="twilightforest:dark_pressure_plate"/>
+                    <itemMangrovePressurePlate id="twilightforest:mangrove_pressure_plate"/>
+                    <itemMiningPressurePlate id="twilightforest:mining_pressure_plate"/>
+                    <itemSortingPressurePlate id="twilightforest:sorting_pressure_plate"/>
+                    <itemTimePressurePlate id="twilightforest:time_pressure_plate"/>
+                    <itemTransformationPressurePlate id="twilightforest:transformation_pressure_plate"/>
+                    <itemTwilightOakPressurePlate id="twilightforest:twilight_oak_pressure_plate"/>
+                </woodenPressurePlates>
+            </pressurePlates>
+            <buttons>
+                <itemCanopyButton id="twilightforest:canopy_button"/>
+                <itemDarkButton id="twilightforest:dark_button"/>
+                <itemMangroveButton id="twilightforest:mangrove_button"/>
+                <itemMiningButton id="twilightforest:mining_button"/>
+                <itemSortingButton id="twilightforest:sorting_button"/>
+                <itemTimeButton id="twilightforest:time_button"/>
+                <itemTransformationButton id="twilightforest:transformation_button"/>
+                <itemTwilightOakButton id="twilightforest:twilight_oak_button"/>
+            </buttons>
+            <bossSpawners>
+                <itemAlphaYetiBossSpawner id="twilightforest:alpha_yeti_boss_spawner"/>
+                <itemFinalBossBossSpawner id="twilightforest:final_boss_boss_spawner"/>
+                <itemHydraBossSpawner id="twilightforest:hydra_boss_spawner"/>
+                <itemKnightPhantomBossSpawner id="twilightforest:knight_phantom_boss_spawner"/>
+                <itemLichBossSpawner id="twilightforest:lich_boss_spawner"/>
+                <itemMinoshroomBossSpawner id="twilightforest:minoshroom_boss_spawner"/>
+                <itemNagaBossSpawner id="twilightforest:naga_boss_spawner"/>
+                <itemSinisterSpawner id="twilightforest:sinister_spawner"/>
+                <itemSnowQueenBossSpawner id="twilightforest:snow_queen_boss_spawner"/>
+                <itemUrGhastBossSpawner id="twilightforest:ur_ghast_boss_spawner"/>
+            </bossSpawners>
+            <machines>
+                <itemMusicDiscMaker id="twilightforest:music_disc_maker"/>
+                <itemAntibuilder id="twilightforest:antibuilder"/>
+                <itemBrazier id="twilightforest:brazier"/>
+                <itemCandelabra id="twilightforest:candelabra"/>
+                <itemCarminiteBuilder id="twilightforest:carminite_builder"/>
+                <itemCarminiteReactor id="twilightforest:carminite_reactor"/>
+                <itemCinderFurnace id="twilightforest:cinder_furnace"/>
+                <itemEncasedFireJet id="twilightforest:encased_fire_jet"/>
+                <itemEncasedSmoker id="twilightforest:encased_smoker"/>
+                <itemExperiment115 id="twilightforest:experiment_115"/>
+                <itemFireJet id="twilightforest:fire_jet"/>
+                <itemGhastTrap id="twilightforest:ghast_trap"/>
+                <itemLockedVanishingBlock id="twilightforest:locked_vanishing_block"/>
+                <itemReappearingBlock id="twilightforest:reappearing_block"/>
+                <itemSlider id="twilightforest:slider"/>
+                <itemSmoker id="twilightforest:smoker"/>
+                <itemThink115 id="twilightforest:think115"/>
+                <itemVanishingBlock id="twilightforest:vanishing_block"/>
+            </machines>
+        </mechanism>
+        <naturalBlock>
+            <wood>
+                <itemCanopyLog id="twilightforest:canopy_log"/>
+                <itemCanopyWood id="twilightforest:canopy_wood"/>
+                <itemCinderLog id="twilightforest:cinder_log"/>
+                <itemCinderWood id="twilightforest:cinder_wood"/>
+                <itemDarkLog id="twilightforest:dark_log"/>
+                <itemDarkWood id="twilightforest:dark_wood"/>
+                <itemMangroveLog id="twilightforest:mangrove_log"/>
+                <itemMangroveRoot id="twilightforest:mangrove_root"/>
+                <itemMangroveWood id="twilightforest:mangrove_wood"/>
+                <itemMiningLog id="twilightforest:mining_log"/>
+                <itemMiningLogCore id="twilightforest:mining_log_core"/>
+                <itemMiningWood id="twilightforest:mining_wood"/>
+                <itemSortingLog id="twilightforest:sorting_log"/>
+                <itemSortingLogCore id="twilightforest:sorting_log_core"/>
+                <itemSortingWood id="twilightforest:sorting_wood"/>
+                <itemStrippedCanopyLog id="twilightforest:stripped_canopy_log"/>
+                <itemStrippedCanopyWood id="twilightforest:stripped_canopy_wood"/>
+                <itemStrippedDarkLog id="twilightforest:stripped_dark_log"/>
+                <itemStrippedDarkWood id="twilightforest:stripped_dark_wood"/>
+                <itemStrippedMangroveLog id="twilightforest:stripped_mangrove_log"/>
+                <itemStrippedMangroveWood id="twilightforest:stripped_mangrove_wood"/>
+                <itemStrippedMiningLog id="twilightforest:stripped_mining_log"/>
+                <itemStrippedMiningWood id="twilightforest:stripped_mining_wood"/>
+                <itemStrippedSortingLog id="twilightforest:stripped_sorting_log"/>
+                <itemStrippedSortingWood id="twilightforest:stripped_sorting_wood"/>
+                <itemStrippedTimeLog id="twilightforest:stripped_time_log"/>
+                <itemStrippedTimeWood id="twilightforest:stripped_time_wood"/>
+                <itemStrippedTransformationLog id="twilightforest:stripped_transformation_log"/>
+                <itemStrippedTransformationWood id="twilightforest:stripped_transformation_wood"/>
+                <itemStrippedTwilightOakLog id="twilightforest:stripped_twilight_oak_log"/>
+                <itemStrippedTwilightOakWood id="twilightforest:stripped_twilight_oak_wood"/>
+                <itemTimeLog id="twilightforest:time_log"/>
+                <itemTimeLogCore id="twilightforest:time_log_core"/>
+                <itemTimeWood id="twilightforest:time_wood"/>
+                <itemTransformationLog id="twilightforest:transformation_log"/>
+                <itemTransformationLogCore id="twilightforest:transformation_log_core"/>
+                <itemTransformationWood id="twilightforest:transformation_wood"/>
+                <itemTwilightOakLog id="twilightforest:twilight_oak_log"/>
+                <itemTwilightOakWood id="twilightforest:twilight_oak_wood"/>
+                <hollowLogs>
+                    <itemHollowAcaciaLog id="twilightforest:hollow_acacia_log"/>
+                    <itemHollowBirchLog id="twilightforest:hollow_birch_log"/>
+                    <itemHollowCanopyLog id="twilightforest:hollow_canopy_log"/>
+                    <itemHollowCherryLog id="twilightforest:hollow_cherry_log"/>
+                    <itemHollowCrimsonStem id="twilightforest:hollow_crimson_stem"/>
+                    <itemHollowDarkLog id="twilightforest:hollow_dark_log"/>
+                    <itemHollowDarkOakLog id="twilightforest:hollow_dark_oak_log"/>
+                    <itemHollowJungleLog id="twilightforest:hollow_jungle_log"/>
+                    <itemHollowMangroveLog id="twilightforest:hollow_mangrove_log"/>
+                    <itemHollowMiningLog id="twilightforest:hollow_mining_log"/>
+                    <itemHollowOakLog id="twilightforest:hollow_oak_log"/>
+                    <itemHollowSortingLog id="twilightforest:hollow_sorting_log"/>
+                    <itemHollowSpruceLog id="twilightforest:hollow_spruce_log"/>
+                    <itemHollowTimeLog id="twilightforest:hollow_time_log"/>
+                    <itemHollowTransformationLog id="twilightforest:hollow_transformation_log"/>
+                    <itemHollowTwilightOakLog id="twilightforest:hollow_twilight_oak_log"/>
+                    <itemHollowVangroveLog id="twilightforest:hollow_vangrove_log"/>
+                    <itemHollowWarpedStem id="twilightforest:hollow_warped_stem"/>
+                </hollowLogs>
+            </wood>
+            <bushes>
+                <itemBlackberryBush id="twilightforest:blackberry_bush"/>
+                <itemBlightberryBush id="twilightforest:blightberry_bush"/>
+                <itemBlueberryBush id="twilightforest:blueberry_bush"/>
+                <itemDuskberryBush id="twilightforest:duskberry_bush"/>
+                <itemMaloberryBush id="twilightforest:maloberry_bush"/>
+                <itemRaspberryBush id="twilightforest:raspberry_bush"/>
+                <itemSkyberryBush id="twilightforest:skyberry_bush"/>
+                <itemStingberryBush id="twilightforest:stingberry_bush"/>
+                <itemTorchberryPlant id="twilightforest:torchberry_plant"/>
+            </bushes>
+            <clouds>
+                <itemFluffyCloud id="twilightforest:fluffy_cloud"/>
+                <itemRainyCloud id="twilightforest:rainy_cloud"/>
+                <itemSnowyCloud id="twilightforest:snowy_cloud"/>
+                <itemWispyCloud id="twilightforest:wispy_cloud"/>
+            </clouds>
+            <stones>
+                <deadrock>
+                    <itemCrackedDeadrock id="twilightforest:cracked_deadrock"/>
+                    <itemDeadrock id="twilightforest:deadrock"/>
+                    <itemWeatheredDeadrock id="twilightforest:weathered_deadrock"/>
+                </deadrock>
+            </stones>
+        </naturalBlock>
+    </block>
+    <item>
+        <vehicle>
+            <boats>
+                <itemCanopyBoat id="twilightforest:canopy_boat"/>
+                <itemCanopyChestBoat id="twilightforest:canopy_chest_boat"/>
+                <itemDarkBoat id="twilightforest:dark_boat"/>
+                <itemDarkChestBoat id="twilightforest:dark_chest_boat"/>
+                <itemMangroveBoat id="twilightforest:mangrove_boat"/>
+                <itemMangroveChestBoat id="twilightforest:mangrove_chest_boat"/>
+                <itemMiningBoat id="twilightforest:mining_boat"/>
+                <itemMiningChestBoat id="twilightforest:mining_chest_boat"/>
+                <itemSortingBoat id="twilightforest:sorting_boat"/>
+                <itemSortingChestBoat id="twilightforest:sorting_chest_boat"/>
+                <itemTimeBoat id="twilightforest:time_boat"/>
+                <itemTimeChestBoat id="twilightforest:time_chest_boat"/>
+                <itemTransformationBoat id="twilightforest:transformation_boat"/>
+                <itemTransformationChestBoat id="twilightforest:transformation_chest_boat"/>
+                <itemTwilightOakBoat id="twilightforest:twilight_oak_boat"/>
+                <itemTwilightOakChestBoat id="twilightforest:twilight_oak_chest_boat"/>
+            </boats>
+        </vehicle>
+        <utility>
+            <itemTowerKey id="twilightforest:tower_key"/>
+            <chests>
+                <itemCanopyChest id="twilightforest:canopy_chest"/>
+                <itemCanopyTrappedChest id="twilightforest:canopy_trapped_chest"/>
+                <itemDarkChest id="twilightforest:dark_chest"/>
+                <itemDarkTrappedChest id="twilightforest:dark_trapped_chest"/>
+                <itemKeepsakeCasket id="twilightforest:keepsake_casket"/>
+                <itemMangroveChest id="twilightforest:mangrove_chest"/>
+                <itemMangroveTrappedChest id="twilightforest:mangrove_trapped_chest"/>
+                <itemMiningChest id="twilightforest:mining_chest"/>
+                <itemMiningTrappedChest id="twilightforest:mining_trapped_chest"/>
+                <itemSkullChest id="twilightforest:skull_chest"/>
+                <itemSortingChest id="twilightforest:sorting_chest"/>
+                <itemSortingTrappedChest id="twilightforest:sorting_trapped_chest"/>
+                <itemTimeChest id="twilightforest:time_chest"/>
+                <itemTimeTrappedChest id="twilightforest:time_trapped_chest"/>
+                <itemTransformationChest id="twilightforest:transformation_chest"/>
+                <itemTransformationTrappedChest id="twilightforest:transformation_trapped_chest"/>
+                <itemTwilightOakChest id="twilightforest:twilight_oak_chest"/>
+                <itemTwilightOakTrappedChest id="twilightforest:twilight_oak_trapped_chest"/>
+            </chests>
+            <spawnEggs>
+                <itemAlphaYetiSpawnEgg id="twilightforest:alpha_yeti_spawn_egg"/>
+                <itemArmoredGiantSpawnEgg id="twilightforest:armored_giant_spawn_egg"/>
+                <itemBighornSheepSpawnEgg id="twilightforest:bighorn_sheep_spawn_egg"/>
+                <itemBlockchainGoblinSpawnEgg id="twilightforest:blockchain_goblin_spawn_egg"/>
+                <itemBoarSpawnEgg id="twilightforest:boar_spawn_egg"/>
+                <itemCarminiteBroodlingSpawnEgg id="twilightforest:carminite_broodling_spawn_egg"/>
+                <itemCarminiteGhastguardSpawnEgg id="twilightforest:carminite_ghastguard_spawn_egg"/>
+                <itemCarminiteGhastlingSpawnEgg id="twilightforest:carminite_ghastling_spawn_egg"/>
+                <itemCarminiteGolemSpawnEgg id="twilightforest:carminite_golem_spawn_egg"/>
+                <itemDeathTomeSpawnEgg id="twilightforest:death_tome_spawn_egg"/>
+                <itemDeerSpawnEgg id="twilightforest:deer_spawn_egg"/>
+                <itemDwarfRabbitSpawnEgg id="twilightforest:dwarf_rabbit_spawn_egg"/>
+                <itemFireBeetleSpawnEgg id="twilightforest:fire_beetle_spawn_egg"/>
+                <itemGiantMinerSpawnEgg id="twilightforest:giant_miner_spawn_egg"/>
+                <itemHedgeSpiderSpawnEgg id="twilightforest:hedge_spider_spawn_egg"/>
+                <itemHelmetCrabSpawnEgg id="twilightforest:helmet_crab_spawn_egg"/>
+                <itemHostileWolfSpawnEgg id="twilightforest:hostile_wolf_spawn_egg"/>
+                <itemHydraSpawnEgg id="twilightforest:hydra_spawn_egg"/>
+                <itemIceCrystalSpawnEgg id="twilightforest:ice_crystal_spawn_egg"/>
+                <itemKingSpiderSpawnEgg id="twilightforest:king_spider_spawn_egg"/>
+                <itemKnightPhantomSpawnEgg id="twilightforest:knight_phantom_spawn_egg"/>
+                <itemKoboldSpawnEgg id="twilightforest:kobold_spawn_egg"/>
+                <itemLichSpawnEgg id="twilightforest:lich_spawn_egg"/>
+                <itemLowerGoblinKnightSpawnEgg id="twilightforest:lower_goblin_knight_spawn_egg"/>
+                <itemMazeSlimeSpawnEgg id="twilightforest:maze_slime_spawn_egg"/>
+                <itemMinoshroomSpawnEgg id="twilightforest:minoshroom_spawn_egg"/>
+                <itemMinotaurSpawnEgg id="twilightforest:minotaur_spawn_egg"/>
+                <itemMistWolfSpawnEgg id="twilightforest:mist_wolf_spawn_egg"/>
+                <itemMosquitoSwarmSpawnEgg id="twilightforest:mosquito_swarm_spawn_egg"/>
+                <itemNagaSpawnEgg id="twilightforest:naga_spawn_egg"/>
+                <itemPenguinSpawnEgg id="twilightforest:penguin_spawn_egg"/>
+                <itemPinchBeetleSpawnEgg id="twilightforest:pinch_beetle_spawn_egg"/>
+                <itemQuestRamSpawnEgg id="twilightforest:quest_ram_spawn_egg"/>
+                <itemRavenSpawnEgg id="twilightforest:raven_spawn_egg"/>
+                <itemRedcapSapperSpawnEgg id="twilightforest:redcap_sapper_spawn_egg"/>
+                <itemRedcapSpawnEgg id="twilightforest:redcap_spawn_egg"/>
+                <itemSkeletonDruidSpawnEgg id="twilightforest:skeleton_druid_spawn_egg"/>
+                <itemSlimeBeetleSpawnEgg id="twilightforest:slime_beetle_spawn_egg"/>
+                <itemSnowGuardianSpawnEgg id="twilightforest:snow_guardian_spawn_egg"/>
+                <itemSnowQueenSpawnEgg id="twilightforest:snow_queen_spawn_egg"/>
+                <itemSquirrelSpawnEgg id="twilightforest:squirrel_spawn_egg"/>
+                <itemStableIceCoreSpawnEgg id="twilightforest:stable_ice_core_spawn_egg"/>
+                <itemSwarmSpiderSpawnEgg id="twilightforest:swarm_spider_spawn_egg"/>
+                <itemTinyBirdSpawnEgg id="twilightforest:tiny_bird_spawn_egg"/>
+                <itemTowerwoodBorerSpawnEgg id="twilightforest:towerwood_borer_spawn_egg"/>
+                <itemTrollSpawnEgg id="twilightforest:troll_spawn_egg"/>
+                <itemUnstableIceCoreSpawnEgg id="twilightforest:unstable_ice_core_spawn_egg"/>
+                <itemUrGhastSpawnEgg id="twilightforest:ur_ghast_spawn_egg"/>
+                <itemWinterWolfSpawnEgg id="twilightforest:winter_wolf_spawn_egg"/>
+                <itemWraithSpawnEgg id="twilightforest:wraith_spawn_egg"/>
+                <itemYetiSpawnEgg id="twilightforest:yeti_spawn_egg"/>
+            </spawnEggs>
+            <maps>
+                <itemFilledMagicMap id="twilightforest:filled_magic_map"/>
+                <itemFilledMazeMap id="twilightforest:filled_maze_map"/>
+                <itemFilledOreMap id="twilightforest:filled_ore_map"/>
+                <itemMagicMap id="twilightforest:magic_map"/>
+                <itemMazeMap id="twilightforest:maze_map"/>
+                <itemOreMap id="twilightforest:ore_map"/>
+            </maps>
+            <jars>
+                <itemCicadaJar id="twilightforest:cicada_jar"/>
+                <itemFireflyJar id="twilightforest:firefly_jar"/>
+                <itemMasonJar id="twilightforest:mason_jar"/>
+            </jars>
+        </utility>
+        <decoration>
+            <sign>
+                <itemCanopyHangingSign id="twilightforest:canopy_hanging_sign"/>
+                <itemCanopySign id="twilightforest:canopy_sign"/>
+                <itemDarkHangingSign id="twilightforest:dark_hanging_sign"/>
+                <itemDarkSign id="twilightforest:dark_sign"/>
+                <itemMangroveHangingSign id="twilightforest:mangrove_hanging_sign"/>
+                <itemMangroveSign id="twilightforest:mangrove_sign"/>
+                <itemMiningHangingSign id="twilightforest:mining_hanging_sign"/>
+                <itemMiningSign id="twilightforest:mining_sign"/>
+                <itemSortingHangingSign id="twilightforest:sorting_hanging_sign"/>
+                <itemSortingSign id="twilightforest:sorting_sign"/>
+                <itemTimeHangingSign id="twilightforest:time_hanging_sign"/>
+                <itemTimeSign id="twilightforest:time_sign"/>
+                <itemTransformationHangingSign id="twilightforest:transformation_hanging_sign"/>
+                <itemTransformationSign id="twilightforest:transformation_sign"/>
+                <itemTwilightOakHangingSign id="twilightforest:twilight_oak_hanging_sign"/>
+                <itemTwilightOakSign id="twilightforest:twilight_oak_sign"/>
+            </sign>
+            <candle>
+                <itemCreeperSkullCandle id="twilightforest:creeper_skull_candle"/>
+                <itemPiglinSkullCandle id="twilightforest:piglin_skull_candle"/>
+                <itemPlayerSkullCandle id="twilightforest:player_skull_candle"/>
+                <itemSkeletonSkullCandle id="twilightforest:skeleton_skull_candle"/>
+                <itemWitherSkeletonSkullCandle id="twilightforest:wither_skeleton_skull_candle"/>
+                <itemZombieSkullCandle id="twilightforest:zombie_skull_candle"/>
+            </candle>
+            <trophies>
+                <itemAlphaYetiTrophy id="twilightforest:alpha_yeti_trophy"/>
+                <itemHydraTrophy id="twilightforest:hydra_trophy"/>
+                <itemKnightPhantomTrophy id="twilightforest:knight_phantom_trophy"/>
+                <itemLichTrophy id="twilightforest:lich_trophy"/>
+                <itemMinoshroomTrophy id="twilightforest:minoshroom_trophy"/>
+                <itemNagaTrophy id="twilightforest:naga_trophy"/>
+                <itemQuestRamTrophy id="twilightforest:quest_ram_trophy"/>
+                <itemSnowQueenTrophy id="twilightforest:snow_queen_trophy"/>
+                <itemTrophy id="twilightforest:trophy"/>
+                <itemTrophyMinor id="twilightforest:trophy_minor"/>
+                <itemTrophyPedestal id="twilightforest:trophy_pedestal"/>
+                <itemTrophyQuest id="twilightforest:trophy_quest"/>
+                <itemUrGhastTrophy id="twilightforest:ur_ghast_trophy"/>
+            </trophies>
+            <musicDisc>
+                <itemMusicDiscFindings id="twilightforest:music_disc_findings"/>
+                <itemMusicDiscHome id="twilightforest:music_disc_home"/>
+                <itemMusicDiscMotion id="twilightforest:music_disc_motion"/>
+                <itemMusicDiscRadiance id="twilightforest:music_disc_radiance"/>
+                <itemMusicDiscSteps id="twilightforest:music_disc_steps"/>
+                <itemMusicDiscSuperstitious id="twilightforest:music_disc_superstitious"/>
+                <itemMusicDiscThread id="twilightforest:music_disc_thread"/>
+                <itemMusicDiscWayfarer id="twilightforest:music_disc_wayfarer"/>
+            </musicDisc>
+            <miniatureStructures>
+                <itemDarkTowerMiniatureStructure id="twilightforest:dark_tower_miniature_structure"/>
+                <itemLichTowerMiniatureStructure id="twilightforest:lich_tower_miniature_structure"/>
+                <itemMinotaurLabyrinthMiniatureStructure id="twilightforest:minotaur_labyrinth_miniature_structure"/>
+                <itemNagaCourtyardMiniatureStructure id="twilightforest:naga_courtyard_miniature_structure"/>
+                <itemTwilightPortalMiniatureStructure id="twilightforest:twilight_portal_miniature_structure"/>
+            </miniatureStructures>
+        </decoration>
+        <plant>
+            <sapling>
+                <itemCanopySapling id="twilightforest:canopy_sapling"/>
+                <itemDarkwoodSapling id="twilightforest:darkwood_sapling"/>
+                <itemHollowOakSapling id="twilightforest:hollow_oak_sapling"/>
+                <itemMangroveSapling id="twilightforest:mangrove_sapling"/>
+                <itemMiningSapling id="twilightforest:mining_sapling"/>
+                <itemRainbowOakSapling id="twilightforest:rainbow_oak_sapling"/>
+                <itemSortingSapling id="twilightforest:sorting_sapling"/>
+                <itemTimeSapling id="twilightforest:time_sapling"/>
+                <itemTransformationSapling id="twilightforest:transformation_sapling"/>
+                <itemTwilightOakSapling id="twilightforest:twilight_oak_sapling"/>
+            </sapling>
+            <leaves>
+                <itemBeanstalkLeaves id="twilightforest:beanstalk_leaves"/>
+                <itemCanopyLeaves id="twilightforest:canopy_leaves"/>
+                <itemDarkLeaves id="twilightforest:dark_leaves"/>
+                <itemFallenLeaves id="twilightforest:fallen_leaves"/>
+                <itemMangroveLeaves id="twilightforest:mangrove_leaves"/>
+                <itemMiningLeaves id="twilightforest:mining_leaves"/>
+                <itemRainbowOakLeaves id="twilightforest:rainbow_oak_leaves"/>
+                <itemSortingLeaves id="twilightforest:sorting_leaves"/>
+                <itemThornLeaves id="twilightforest:thorn_leaves"/>
+                <itemTimeLeaves id="twilightforest:time_leaves"/>
+                <itemTransformationLeaves id="twilightforest:transformation_leaves"/>
+                <itemTwilightOakLeaves id="twilightforest:twilight_oak_leaves"/>
+            </leaves>
+            <flower>
+                <itemBrownThorns id="twilightforest:brown_thorns"/>
+                <itemBurntThorns id="twilightforest:burnt_thorns"/>
+                <itemCloverPatch id="twilightforest:clover_patch"/>
+                <itemFourLeafClover id="twilightforest:four_leaf_clover"/>
+                <itemGreenThorns id="twilightforest:green_thorns"/>
+                <itemHedge id="twilightforest:hedge"/>
+                <itemHugeLilyPad id="twilightforest:huge_lily_pad"/>
+                <itemHugeMushgloom id="twilightforest:huge_mushgloom"/>
+                <itemHugeMushgloomStem id="twilightforest:huge_mushgloom_stem"/>
+                <itemHugeStalk id="twilightforest:huge_stalk"/>
+                <itemHugeWaterLily id="twilightforest:huge_water_lily"/>
+                <itemMagicBeans id="twilightforest:magic_beans"/>
+                <itemMossPatch id="twilightforest:moss_patch"/>
+                <itemMushgloom id="twilightforest:mushgloom"/>
+                <itemUberousSoil id="twilightforest:uberous_soil"/>
+            </flower>
+        </plant>
+        <food>
+            <edibleFood>
+                <cookedFood>
+                    <itemBeefJerky id="twilightforest:beef_jerky"/>
+                    <itemBerryMedley id="twilightforest:berry_medley"/>
+                    <itemChickenJerky id="twilightforest:chicken_jerky"/>
+                    <itemCodJerky id="twilightforest:cod_jerky"/>
+                    <itemCookedMeef id="twilightforest:cooked_meef"/>
+                    <itemCookedVenison id="twilightforest:cooked_venison"/>
+                    <itemFuguJerky id="twilightforest:fugu_jerky"/>
+                    <itemMeefJerky id="twilightforest:meef_jerky"/>
+                    <itemMeefStroganoff id="twilightforest:meef_stroganoff"/>
+                    <itemMonsterJerky id="twilightforest:monster_jerky"/>
+                    <itemMossSoup id="twilightforest:moss_soup"/>
+                    <itemMuttonJerky id="twilightforest:mutton_jerky"/>
+                    <itemPorkJerky id="twilightforest:pork_jerky"/>
+                    <itemRabbitJerky id="twilightforest:rabbit_jerky"/>
+                    <itemRawMeef id="twilightforest:raw_meef"/>
+                    <itemRawVenison id="twilightforest:raw_venison"/>
+                    <itemSalmonJerky id="twilightforest:salmon_jerky"/>
+                    <itemShikaSenbei id="twilightforest:shika_senbei"/>
+                    <itemStaleBread id="twilightforest:stale_bread"/>
+                    <itemTorchberries id="twilightforest:torchberries"/>
+                    <itemTropicalFishJerky id="twilightforest:tropical_fish_jerky"/>
+                    <itemVenisonJerky id="twilightforest:venison_jerky"/>
+                </cookedFood>
+                <berries>
+                    <itemBlackberry id="twilightforest:blackberry"/>
+                    <itemBlightberry id="twilightforest:blightberry"/>
+                    <itemBlueberry id="twilightforest:blueberry"/>
+                    <itemCopperBerry id="twilightforest:copper_berry"/>
+                    <itemCopperOreberry id="twilightforest:copper_oreberry"/>
+                    <itemDuskberry id="twilightforest:duskberry"/>
+                    <itemEssenceBerry id="twilightforest:essence_berry"/>
+                    <itemEssenceOreberry id="twilightforest:essence_oreberry"/>
+                    <itemFiddlehead id="twilightforest:fiddlehead"/>
+                    <itemGoldBerry id="twilightforest:gold_berry"/>
+                    <itemGoldOreberry id="twilightforest:gold_oreberry"/>
+                    <itemIronBerry id="twilightforest:iron_berry"/>
+                    <itemIronOreberry id="twilightforest:iron_oreberry"/>
+                    <itemMaloberry id="twilightforest:maloberry"/>
+                    <itemMayapple id="twilightforest:mayapple"/>
+                    <itemRaspberry id="twilightforest:raspberry"/>
+                    <itemSkyberry id="twilightforest:skyberry"/>
+                    <itemStingberry id="twilightforest:stingberry"/>
+                    <itemTrollber id="twilightforest:trollber"/>
+                    <itemUnripeTrollber id="twilightforest:unripe_trollber"/>
+                </berries>
+            </edibleFood>
+        </food>
+        <potion>
+            <itemBrittlePotionFlask id="twilightforest:brittle_potion_flask"/>
+            <itemGreaterPotionFlask id="twilightforest:greater_potion_flask"/>
+        </potion>
+    </item>
+    <equipment>
+        <armor>
+            <helmet>
+                <itemArcticHelmet id="twilightforest:arctic_helmet"/>
+                <itemFieryHelmet id="twilightforest:fiery_helmet"/>
+                <itemIronwoodHelmet id="twilightforest:ironwood_helmet"/>
+                <itemKnightmetalHelmet id="twilightforest:knightmetal_helmet"/>
+                <itemPhantomHelmet id="twilightforest:phantom_helmet"/>
+                <itemSteeleafHelmet id="twilightforest:steeleaf_helmet"/>
+                <itemTravellersGoggles id="twilightforest:travellers_goggles"/>
+                <itemYetiHelmet id="twilightforest:yeti_helmet"/>
+                <itemMysticCrown id="twilightforest:mystic_crown"/>
+            </helmet>
+            <chestplate>
+                <itemArcticChestplate id="twilightforest:arctic_chestplate"/>
+                <itemFieryChestplate id="twilightforest:fiery_chestplate"/>
+                <itemIronwoodChestplate id="twilightforest:ironwood_chestplate"/>
+                <itemKnightmetalChestplate id="twilightforest:knightmetal_chestplate"/>
+                <itemNagaChestplate id="twilightforest:naga_chestplate"/>
+                <itemPhantomChestplate id="twilightforest:phantom_chestplate"/>
+                <itemSteeleafChestplate id="twilightforest:steeleaf_chestplate"/>
+                <itemTravellersVest id="twilightforest:travellers_vest"/>
+                <itemYetiChestplate id="twilightforest:yeti_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemArcticLeggings id="twilightforest:arctic_leggings"/>
+                <itemFieryLeggings id="twilightforest:fiery_leggings"/>
+                <itemIronwoodLeggings id="twilightforest:ironwood_leggings"/>
+                <itemKnightmetalLeggings id="twilightforest:knightmetal_leggings"/>
+                <itemNagaLeggings id="twilightforest:naga_leggings"/>
+                <itemSteeleafLeggings id="twilightforest:steeleaf_leggings"/>
+                <itemYetiLeggings id="twilightforest:yeti_leggings"/>
+            </leggings>
+            <boots>
+                <itemArcticBoots id="twilightforest:arctic_boots"/>
+                <itemFieryBoots id="twilightforest:fiery_boots"/>
+                <itemIronwoodBoots id="twilightforest:ironwood_boots"/>
+                <itemKnightmetalBoots id="twilightforest:knightmetal_boots"/>
+                <itemSteeleafBoots id="twilightforest:steeleaf_boots"/>
+                <itemTravellersBoots id="twilightforest:travellers_boots"/>
+                <itemYetiBoots id="twilightforest:yeti_boots"/>
+            </boots>
+        </armor>
+        <baubles>
+            <itemCharmOfKeeping1 id="twilightforest:charm_of_keeping_1"/>
+            <itemCharmOfKeeping2 id="twilightforest:charm_of_keeping_2"/>
+            <itemCharmOfKeeping3 id="twilightforest:charm_of_keeping_3"/>
+            <itemCharmOfLife1 id="twilightforest:charm_of_life_1"/>
+            <itemCharmOfLife2 id="twilightforest:charm_of_life_2"/>
+            <itemKnightmetalRing id="twilightforest:knightmetal_ring"/>
+            <itemTravellersBelt id="twilightforest:travellers_belt"/>
+            <itemTravellersGloves id="twilightforest:travellers_gloves"/>
+            <itemTravellersWings id="twilightforest:travellers_wings"/>
+        </baubles>
+        <tool>
+            <pickaxe>
+                <itemFieryPickaxe id="twilightforest:fiery_pickaxe"/>
+                <itemGiantPickaxe id="twilightforest:giant_pickaxe"/>
+                <itemIronwoodPickaxe id="twilightforest:ironwood_pickaxe"/>
+                <itemKnightmetalPickaxe id="twilightforest:knightmetal_pickaxe"/>
+                <itemMazebreakerPickaxe id="twilightforest:mazebreaker_pickaxe"/>
+                <itemSteeleafPickaxe id="twilightforest:steeleaf_pickaxe"/>
+            </pickaxe>
+            <axe>
+                <itemDiamondMinotaurAxe id="twilightforest:diamond_minotaur_axe"/>
+                <itemGoldMinotaurAxe id="twilightforest:gold_minotaur_axe"/>
+                <itemIronwoodAxe id="twilightforest:ironwood_axe"/>
+                <itemKnightmetalAxe id="twilightforest:knightmetal_axe"/>
+                <itemSteeleafAxe id="twilightforest:steeleaf_axe"/>
+            </axe>
+            <shovel>
+                <itemIronwoodShovel id="twilightforest:ironwood_shovel"/>
+                <itemSteeleafShovel id="twilightforest:steeleaf_shovel"/>
+            </shovel>
+            <hoe>
+                <itemIronwoodHoe id="twilightforest:ironwood_hoe"/>
+                <itemSteeleafHoe id="twilightforest:steeleaf_hoe"/>
+            </hoe>
+            <wands>
+                <itemFortificationScepter id="twilightforest:fortification_scepter"/>
+                <itemLifedrainScepter id="twilightforest:lifedrain_scepter"/>
+                <itemTwilightScepter id="twilightforest:twilight_scepter"/>
+                <itemZombieScepter id="twilightforest:zombie_scepter"/>
+            </wands>
+            <toolInstrument>
+                <itemBlockAndChain id="twilightforest:block_and_chain"/>
+                <itemCrumbleHorn id="twilightforest:crumble_horn"/>
+                <itemCubeOfAnnihilation id="twilightforest:cube_of_annihilation"/>
+                <itemCubeTalisman id="twilightforest:cube_talisman"/>
+                <itemIceBomb id="twilightforest:ice_bomb"/>
+                <itemLampOfCinders id="twilightforest:lamp_of_cinders"/>
+                <itemMagicMapFocus id="twilightforest:magic_map_focus"/>
+                <itemMazeMapFocus id="twilightforest:maze_map_focus"/>
+                <itemMoonDial id="twilightforest:moon_dial"/>
+                <itemOreMagnet id="twilightforest:ore_magnet"/>
+                <itemOreMeter id="twilightforest:ore_meter"/>
+                <itemPeacockFeatherFan id="twilightforest:peacock_feather_fan"/>
+                <itemPocketWatch id="twilightforest:pocket_watch"/>
+                <itemRedThread id="twilightforest:red_thread"/>
+                <itemRedThreadBundle id="twilightforest:red_thread_bundle"/>
+                <itemRedThreadLargeSpool id="twilightforest:red_thread_large_spool"/>
+                <itemRedThreadSpool id="twilightforest:red_thread_spool"/>
+                <itemTootingCrumbleHorn id="twilightforest:tooting_crumble_horn"/>
+            </toolInstrument>
+        </tool>
+        <weapon>
+            <sword>
+                <itemFierySword id="twilightforest:fiery_sword"/>
+                <itemGiantSword id="twilightforest:giant_sword"/>
+                <itemGlassSword id="twilightforest:glass_sword"/>
+                <itemIceSword id="twilightforest:ice_sword"/>
+                <itemIronwoodSword id="twilightforest:ironwood_sword"/>
+                <itemKnightmetalSword id="twilightforest:knightmetal_sword"/>
+                <itemSteeleafSword id="twilightforest:steeleaf_sword"/>
+            </sword>
+            <shield>
+                <itemKnightmetalShield id="twilightforest:knightmetal_shield"/>
+                <itemShield id="twilightforest:shield"/>
+                <itemStrongholdShield id="twilightforest:stronghold_shield"/>
+            </shield>
+            <munition>
+                <twilightforestBow>
+                    <itemEnderBow id="twilightforest:ender_bow"/>
+                    <itemIceBow id="twilightforest:ice_bow"/>
+                    <itemSeekerBow id="twilightforest:seeker_bow"/>
+                    <itemTripleBow id="twilightforest:triple_bow"/>
+                </twilightforestBow>
+            </munition>
+        </weapon>
+    </equipment>
+    <resources>
+        <miningResources>
+            <miningOreBlock>
+                <itemArcticFurBlock id="twilightforest:arctic_fur_block"/>
+                <itemAuroraBlock id="twilightforest:aurora_block"/>
+                <itemAuroraPillar id="twilightforest:aurora_pillar"/>
+                <itemCarminiteBlock id="twilightforest:carminite_block"/>
+                <itemFieryBlock id="twilightforest:fiery_block"/>
+                <itemIronwoodBlock id="twilightforest:ironwood_block"/>
+                <itemKnightmetalBlock id="twilightforest:knightmetal_block"/>
+                <itemLiverootBlock id="twilightforest:liveroot_block"/>
+                <itemMazeSlimeBlock id="twilightforest:maze_slime_block"/>
+                <itemSteeleafBlock id="twilightforest:steeleaf_block"/>
+            </miningOreBlock>
+            <ingot>
+                <itemFieryIngot id="twilightforest:fiery_ingot"/>
+                <itemIronwoodIngot id="twilightforest:ironwood_ingot"/>
+                <itemKnightmetalIngot id="twilightforest:knightmetal_ingot"/>
+                <itemSteeleafIngot id="twilightforest:steeleaf_ingot"/>
+            </ingot>
+            <nugget>
+                <itemCopperNugget id="twilightforest:copper_nugget"/>
+            </nugget>
+        </miningResources>
+        <huntingResources>
+            <itemAlphaYetiFur id="twilightforest:alpha_yeti_fur"/>
+            <itemArcticFur id="twilightforest:arctic_fur"/>
+            <itemArmorShard id="twilightforest:armor_shard"/>
+            <itemArmorShardCluster id="twilightforest:armor_shard_cluster"/>
+            <itemBorerEssence id="twilightforest:borer_essence"/>
+            <itemCarminite id="twilightforest:carminite"/>
+            <itemCicada id="twilightforest:cicada"/>
+            <itemCrownSplinter id="twilightforest:crown_splinter"/>
+            <itemExanimateEssence id="twilightforest:exanimate_essence"/>
+            <itemFakeDiamond id="twilightforest:fake_diamond"/>
+            <itemFakeGold id="twilightforest:fake_gold"/>
+            <itemFieryBlood id="twilightforest:fiery_blood"/>
+            <itemFieryTears id="twilightforest:fiery_tears"/>
+            <itemFirefly id="twilightforest:firefly"/>
+            <itemGelatinousMazeSlimeDrop id="twilightforest:gelatinous_maze_slime_drop"/>
+            <itemGelatinousSlimeDrop id="twilightforest:gelatinous_slime_drop"/>
+            <itemHydraChop id="twilightforest:hydra_chop"/>
+            <itemLiveroot id="twilightforest:liveroot"/>
+            <itemMazeSlimeBall id="twilightforest:maze_slime_ball"/>
+            <itemMoonworm id="twilightforest:moonworm"/>
+            <itemMoonwormQueen id="twilightforest:moonworm_queen"/>
+            <itemNagaScale id="twilightforest:naga_scale"/>
+            <itemRavenFeather id="twilightforest:raven_feather"/>
+            <itemRawIronwood id="twilightforest:raw_ironwood"/>
+            <itemRoot id="twilightforest:root"/>
+            <itemRootStrand id="twilightforest:root_strand"/>
+            <itemRope id="twilightforest:rope"/>
+            <itemTannedLeather id="twilightforest:tanned_leather"/>
+            <itemTannin id="twilightforest:tannin"/>
+            <itemThornRose id="twilightforest:thorn_rose"/>
+            <itemTransformationPowder id="twilightforest:transformation_powder"/>
+            <itemTreatedLeather id="twilightforest:treated_leather"/>
+        </huntingResources>
+    </resources>
+</stuff>

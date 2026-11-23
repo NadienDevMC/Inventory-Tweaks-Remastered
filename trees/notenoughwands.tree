@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <blockMovers>
+                <itemMovingWand id="notenoughwands:moving_wand"/>
+            </blockMovers>
+            <exchangeBlockTools>
+                <itemSwappingWand id="notenoughwands:swapping_wand"/>
+            </exchangeBlockTools>
+            <teleport>
+                <itemTeleportationWand id="notenoughwands:teleportation_wand"/>
+            </teleport>
+            <wands>
+                <itemAccelerationWand id="notenoughwands:acceleration_wand"/>
+                <itemAdvancedWandCore id="notenoughwands:advanced_wand_core"/>
+                <itemBuildingWand id="notenoughwands:building_wand"/>
+                <itemCapturingWand id="notenoughwands:capturing_wand"/>
+                <itemDisplacementWand id="notenoughwands:displacement_wand"/>
+                <itemIlluminationWand id="notenoughwands:illumination_wand"/>
+                <itemMasterProtectionWand id="notenoughwands:master_protection_wand"/>
+                <itemProtectionWand id="notenoughwands:protection_wand"/>
+                <itemWandCore id="notenoughwands:wand_core"/>
+            </wands>
+        </tool>
+    </equipment>
+</stuff>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <wrench>
+                <itemWrench id="integrateddynamics:wrench"/>
+            </wrench>
+        </tool>
+    </equipment>
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <stairs>
+                    <otherStairs>
+                        <itemCrystalizedChorusBrickStairs id="integrateddynamics:crystalized_chorus_brick_stairs"/>
+                        <itemCrystalizedChorusBlockStairs id="integrateddynamics:crystalized_chorus_block_stairs"/>
+                        <itemCrystalizedMenrilBrickStairs id="integrateddynamics:crystalized_menril_brick_stairs"/>
+                        <itemCrystalizedMenrilBlockStairs id="integrateddynamics:crystalized_menril_block_stairs"/>
+                    </otherStairs>
+                    <woodenStairs>
+                        <itemMenrilPlanksStairs id="integrateddynamics:menril_planks_stairs"/>
+                    </woodenStairs>
+                </stairs>
+                <facades>
+                    <itemFacade id="integrateddynamics:facade"/>
+                </facades>
+                <slabs>
+                    <woodenSlabs>
+                        <itemMenrilSlab id="integrateddynamics:menril_slab"/>
+                    </woodenSlabs>
+                    <itemCrystalizedChorusBlockSlab id="integrateddynamics:crystalized_chorus_block_slab"/>
+                    <itemCrystalizedChorusBrickSlab id="integrateddynamics:crystalized_chorus_brick_slab"/>
+                    <itemCrystalizedMenrilBlockSlab id="integrateddynamics:crystalized_menril_block_slab"/>
+                    <itemCrystalizedMenrilBrickSlab id="integrateddynamics:crystalized_menril_brick_slab"/>
+                </slabs>
+                <woodenPlank>
+                    <itemMenrilPlanks id="integrateddynamics:menril_planks"/>
+                </woodenPlank>
+                <bricks>
+                    <itemCrystalizedChorusBlock id="integrateddynamics:crystalized_chorus_block"/>
+                    <itemCrystalizedChorusBrick id="integrateddynamics:crystalized_chorus_brick"/>
+                    <itemCrystalizedMenrilBlock id="integrateddynamics:crystalized_menril_block"/>
+                    <itemCrystalizedMenrilBrick id="integrateddynamics:crystalized_menril_brick"/>
+                </bricks>
+            </constructionBlock>
+            <fence>
+                <woodenFence>
+                    <itemMenrilFence id="integrateddynamics:menril_fence"/>
+                </woodenFence>
+                <fenceGate>
+                    <itemMenrilFenceGate id="integrateddynamics:menril_fence_gate"/>
+                </fenceGate>
+            </fence>
+        </manufacturedBlock>
+        <naturalBlock>
+            <wood>
+                <itemMenrilLog id="integrateddynamics:menril_log"/>
+                <itemMenrilLogFilled id="integrateddynamics:menril_log_filled"/>
+                <itemMenrilLogStripped id="integrateddynamics:menril_log_stripped"/>
+                <itemMenrilWood id="integrateddynamics:menril_wood"/>
+                <itemMenrilWoodStripped id="integrateddynamics:menril_wood_stripped"/>
+            </wood>
+        </naturalBlock>
+        <mechanism>
+            <doors>
+                <woodenDoor>
+                    <itemMenrilDoor id="integrateddynamics:menril_door"/>
+                </woodenDoor>
+            </doors>
+            <lighting>
+                <itemMenrilTorch id="integrateddynamics:menril_torch"/>
+                <itemMenrilTorchStone id="integrateddynamics:menril_torch_stone"/>
+            </lighting>
+            <generators>
+                <itemCoalGenerator id="integrateddynamics:coal_generator"/>
+            </generators>
+            <machines>
+                <itemSqueezer id="integrateddynamics:squeezer"/>
+                <itemMechanicalSqueezer id="integrateddynamics:mechanical_squeezer"/>
+                <itemDryingBasin id="integrateddynamics:drying_basin"/>
+                <itemMechanicalDryingBasin id="integrateddynamics:mechanical_drying_basin"/>
+                <itemMaterializer id="integrateddynamics:materializer"/>
+                <itemLabeller id="integrateddynamics:labeller"/>
+                <energyStorage>
+                    <itemEnergyBattery id="integrateddynamics:energy_battery"/>
+                    <itemEnergyBatteryCreative id="integrateddynamics:energy_battery_creative"/>
+                </energyStorage>
+                <logicMachines>
+                    <itemLogicProgrammer id="integrateddynamics:logic_programmer"/>
+                    <itemPortableLogicProgrammer id="integrateddynamics:portable_logic_programmer"/>
+                    <itemLogicDirector id="integrateddynamics:logic_director"/>
+                    <itemDelay id="integrateddynamics:delay"/>
+                    <itemVariable id="integrateddynamics:variable"/>
+                    <itemVariablestore id="integrateddynamics:variablestore"/>
+                    <itemVariableTransformerInput id="integrateddynamics:variable_transformer_input"/>
+                    <itemVariableTransformerOutput id="integrateddynamics:variable_transformer_output"/>
+                    <itemProxy id="integrateddynamics:proxy"/>
+                </logicMachines>
+            </machines>
+            <resourceTransfer>
+                <networkCables>
+                    <itemCable id="integrateddynamics:cable"/>
+                </networkCables>
+            </resourceTransfer>
+        </mechanism>
+    </block>
+    <item>
+        <plant>
+            <leaves>
+                <itemMenrilLeaves id="integrateddynamics:menril_leaves"/>
+            </leaves>
+            <sapling>
+                <itemMenrilSapling id="integrateddynamics:menril_sapling"/>
+            </sapling>
+        </plant>
+        <food>
+            <edibleFood>
+                <itemMenrilBerries id="integrateddynamics:menril_berries"/>
+            </edibleFood>
+        </food>
+        <bucket>
+            <itemBucketLiquidChorus id="integrateddynamics:bucket_liquid_chorus"/>
+            <itemBucketMenrilResin id="integrateddynamics:bucket_menril_resin"/>
+        </bucket>
+        <utility>
+            <readableBooks>
+                <itemOnTheDynamicsOfIntegration id="integrateddynamics:on_the_dynamics_of_integration"/>
+            </readableBooks>
+        </utility>
+        <parts>
+            <mechanicalParts>
+                <networkParts>
+                    <itemPartAudioReader id="integrateddynamics:part_audio_reader"/>
+                    <itemPartAudioWriter id="integrateddynamics:part_audio_writer"/>
+                    <itemPartBlockReader id="integrateddynamics:part_block_reader"/>
+                    <itemPartConnectorMonoDirectional id="integrateddynamics:part_connector_mono_directional"/>
+                    <itemPartConnectorOmniDirectional id="integrateddynamics:part_connector_omni_directional"/>
+                    <itemPartDisplayPanel id="integrateddynamics:part_display_panel"/>
+                    <itemPartDynamicLightPanel id="integrateddynamics:part_dynamic_light_panel"/>
+                    <itemPartEffectWriter id="integrateddynamics:part_effect_writer"/>
+                    <itemPartEntityReader id="integrateddynamics:part_entity_reader"/>
+                    <itemPartEntityWriter id="integrateddynamics:part_entity_writer"/>
+                    <itemPartExtradimensionalReader id="integrateddynamics:part_extradimensional_reader"/>
+                    <itemPartFluidReader id="integrateddynamics:part_fluid_reader"/>
+                    <itemPartInventoryReader id="integrateddynamics:part_inventory_reader"/>
+                    <itemPartInventoryWriter id="integrateddynamics:part_inventory_writer"/>
+                    <itemPartMachineReader id="integrateddynamics:part_machine_reader"/>
+                    <itemPartMachineWriter id="integrateddynamics:part_machine_writer"/>
+                    <itemPartNetworkReader id="integrateddynamics:part_network_reader"/>
+                    <itemPartRedstoneReader id="integrateddynamics:part_redstone_reader"/>
+                    <itemPartRedstoneWriter id="integrateddynamics:part_redstone_writer"/>
+                    <itemPartStaticLightPanel id="integrateddynamics:part_static_light_panel"/>
+                    <itemPartWorldReader id="integrateddynamics:part_world_reader"/>
+                </networkParts>
+            </mechanicalParts>
+        </parts>
+    </item>
+    <resources>
+        <miningResources>
+            <itemCrystalizedChorusChunk id="integrateddynamics:crystalized_chorus_chunk"/>
+            <itemCrystalizedMenrilChunk id="integrateddynamics:crystalized_menril_chunk"/>
+        </miningResources>
+    </resources>
+</stuff>

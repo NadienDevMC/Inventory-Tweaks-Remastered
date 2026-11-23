@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <portableCrafting>
+                <itemHandheldTable id="extendedcrafting:handheld_table"/>
+            </portableCrafting>
+        </tool>
+    </equipment>
+    <resources>
+        <miningResources>
+            <ultraCompressedIngots>
+                <itemSingularity id="extendedcrafting:singularity"/>
+                <itemUltimateSingularity id="extendedcrafting:ultimate_singularity"/>
+            </ultraCompressedIngots>
+            <miningOreBlock>
+                <itemEnderIngotBlock id="extendedcrafting:ender_ingot_block"/>
+                <itemEnhancedEnderIngotBlock id="extendedcrafting:enhanced_ender_ingot_block"/>
+                <itemRedstoneIngotBlock id="extendedcrafting:redstone_ingot_block"/>
+                <itemBlackIronBlock id="extendedcrafting:black_iron_block"/>
+                <itemCrystaltineBlock id="extendedcrafting:crystaltine_block"/>
+                <itemEnderStarBlock id="extendedcrafting:ender_star_block"/>
+                <itemEnhancedRedstoneIngotBlock id="extendedcrafting:enhanced_redstone_ingot_block"/>
+                <itemFluxStarBlock id="extendedcrafting:flux_star_block"/>
+                <itemLuminessenceBlock id="extendedcrafting:luminessence_block"/>
+                <itemNetherStarBlock id="extendedcrafting:nether_star_block"/>
+                <itemTheUltimateBlock id="extendedcrafting:the_ultimate_block"/>
+            </miningOreBlock>
+            <nugget>
+                <itemBlackIronNugget id="extendedcrafting:black_iron_nugget"/>
+                <itemCrystaltineNugget id="extendedcrafting:crystaltine_nugget"/>
+                <itemEnderNugget id="extendedcrafting:ender_nugget"/>
+                <itemEnhancedEnderNugget id="extendedcrafting:enhanced_ender_nugget"/>
+                <itemRedstoneNugget id="extendedcrafting:redstone_nugget"/>
+                <itemTheUltimateNugget id="extendedcrafting:the_ultimate_nugget"/>
+                <itemEnhancedRedstoneNugget id="extendedcrafting:enhanced_redstone_nugget"/>
+            </nugget>
+            <ingot>
+                <itemBlackIronIngot id="extendedcrafting:black_iron_ingot"/>
+                <itemCrystaltineIngot id="extendedcrafting:crystaltine_ingot"/>
+                <itemEnderIngot id="extendedcrafting:ender_ingot"/>
+                <itemEnhancedEnderIngot id="extendedcrafting:enhanced_ender_ingot"/>
+                <itemEnhancedRedstoneIngot id="extendedcrafting:enhanced_redstone_ingot"/>
+                <itemRedstoneIngot id="extendedcrafting:redstone_ingot"/>
+                <itemTheUltimateIngot id="extendedcrafting:the_ultimate_ingot"/>
+            </ingot>
+            <gem>
+                <itemEnderStar id="extendedcrafting:ender_star"/>
+                <itemFluxStar id="extendedcrafting:flux_star"/>
+            </gem>
+            <dust>
+                <itemLuminessence id="extendedcrafting:luminessence"/>
+            </dust>
+        </miningResources>
+    </resources>
+    <block>
+        <mechanism>
+            <basicCrafting>
+                <craftingTables>
+                    <itemAdvancedTable id="extendedcrafting:advanced_table"/>
+                    <itemBasicTable id="extendedcrafting:basic_table" mergePrevious="true"/>
+                    <itemEliteTable id="extendedcrafting:elite_table" mergePrevious="true"/>
+                    <itemUltimateTable id="extendedcrafting:ultimate_table" mergePrevious="true"/>
+                    <autoTables>
+                        <itemAdvancedAutoTable id="extendedcrafting:advanced_auto_table"/>
+                        <itemBasicAutoTable id="extendedcrafting:basic_auto_table" mergePrevious="true"/>
+                        <itemEliteAutoTable id="extendedcrafting:elite_auto_table" mergePrevious="true"/>
+                        <itemUltimateAutoTable id="extendedcrafting:ultimate_auto_table" mergePrevious="true"/>
+                    </autoTables>
+                </craftingTables>
+            </basicCrafting>
+            <machines>
+                <poweredCrafting>
+                    <itemAutoEnderCrafter id="extendedcrafting:auto_ender_crafter"/>
+                    <itemAutoFluxCrafter id="extendedcrafting:auto_flux_crafter"/>
+                    <itemCompressor id="extendedcrafting:compressor"/>
+                    <itemCraftingCore id="extendedcrafting:crafting_core"/>
+                    <itemEnderAlternator id="extendedcrafting:ender_alternator"/>
+                    <itemEnderCrafter id="extendedcrafting:ender_crafter"/>
+                    <itemFluxAlternator id="extendedcrafting:flux_alternator"/>
+                    <itemFluxCrafter id="extendedcrafting:flux_crafter"/>
+                    <itemPedestal id="extendedcrafting:pedestal"/>
+                    <itemRecipeMaker id="extendedcrafting:recipe_maker"/>
+                </poweredCrafting>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <parts>
+            <mechanicalParts>
+                <frames>
+                    <itemFrame id="extendedcrafting:frame"/>
+                </frames>
+                <catalysts>
+                    <itemAdvancedCatalyst id="extendedcrafting:advanced_catalyst"/>
+                    <itemBasicCatalyst id="extendedcrafting:basic_catalyst"/>
+                    <itemCrystaltineCatalyst id="extendedcrafting:crystaltine_catalyst"/>
+                    <itemEliteCatalyst id="extendedcrafting:elite_catalyst"/>
+                    <itemEnderCatalyst id="extendedcrafting:ender_catalyst"/>
+                    <itemEnhancedEnderCatalyst id="extendedcrafting:enhanced_ender_catalyst"/>
+                    <itemEnhancedRedstoneCatalyst id="extendedcrafting:enhanced_redstone_catalyst"/>
+                    <itemRedstoneCatalyst id="extendedcrafting:redstone_catalyst"/>
+                    <itemTheUltimateCatalyst id="extendedcrafting:the_ultimate_catalyst"/>
+                    <itemUltimateCatalyst id="extendedcrafting:ultimate_catalyst"/>
+                </catalysts>
+                <components>
+                    <itemAdvancedComponent id="extendedcrafting:advanced_component"/>
+                    <itemBasicComponent id="extendedcrafting:basic_component"/>
+                    <itemCrystaltineComponent id="extendedcrafting:crystaltine_component"/>
+                    <itemEliteComponent id="extendedcrafting:elite_component"/>
+                    <itemEnderComponent id="extendedcrafting:ender_component"/>
+                    <itemEnhancedEnderComponent id="extendedcrafting:enhanced_ender_component"/>
+                    <itemEnhancedRedstoneComponent id="extendedcrafting:enhanced_redstone_component"/>
+                    <itemRedstoneComponent id="extendedcrafting:redstone_component"/>
+                    <itemTheUltimateComponent id="extendedcrafting:the_ultimate_component"/>
+                    <itemUltimateComponent id="extendedcrafting:ultimate_component"/>
+                </components>
+                <otherParts>
+                    <itemBlackIronSlate id="extendedcrafting:black_iron_slate"/>
+                </otherParts>
+            </mechanicalParts>
+        </parts>
+        <utility>
+            <readableBooks>
+                <itemGuideBook id="extendedcrafting:guide_book"/>
+            </readableBooks>
+        </utility>
+    </item>
+</stuff>

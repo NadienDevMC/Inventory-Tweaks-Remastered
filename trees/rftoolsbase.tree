@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <resources>
+        <miningResources>
+            <gem>
+                <itemInfusedDiamond id="rftoolsbase:infused_diamond"/>
+                <itemDimensionalshard id="rftoolsbase:dimensionalshard"/>
+                <itemDimensionalshardEnd id="rftoolsbase:dimensionalshard_end"/>
+                <itemDimensionalshardNether id="rftoolsbase:dimensionalshard_nether"/>
+                <itemDimensionalshardOverworld id="rftoolsbase:dimensionalshard_overworld"/>
+                <itemInfusedEnderpearl id="rftoolsbase:infused_enderpearl"/>
+            </gem>
+        </miningResources>
+    </resources>
+    <equipment>
+        <tool>
+            <wrench>
+                <itemSmartwrench id="rftoolsbase:smartwrench"/>
+            </wrench>
+            <toolInstrument>
+                <itemTablet id="rftoolsbase:tablet"/>
+                <itemTabletFilled id="rftoolsbase:tablet_filled"/>
+            </toolInstrument>
+        </tool>
+    </equipment>
+    <item>
+        <utility>
+            <readableBooks>
+                <itemManual id="rftoolsbase:manual"/>
+            </readableBooks>
+        </utility>
+        <parts>
+            <mechanicalParts>
+                <modules>
+                    <itemCraftingCard id="rftoolsbase:crafting_card"/>
+                    <itemFilterModule id="rftoolsbase:filter_module"/>
+                    <itemInformationScreen id="rftoolsbase:information_screen"/>
+                </modules>
+                <machineParts>
+                    <itemMachineBase id="rftoolsbase:machine_base"/>
+                    <itemMachineFrame id="rftoolsbase:machine_frame"/>
+                    <itemMachineInfuser id="rftoolsbase:machine_infuser"/>
+                </machineParts>
+            </mechanicalParts>
+        </parts>
+    </item>
+</stuff>

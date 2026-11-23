@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <naturalBlock>
+            <dustBlock>
+                <itemDust id="exdeorum:dust"/>
+            </dustBlock>
+            <exdeorumGravel>
+                <itemCrushedEndStone id="exdeorum:crushed_end_stone"/>
+                <itemCrushedNetherrack id="exdeorum:crushed_netherrack"/>
+                <itemCrushedBlackstone id="exdeorum:crushed_blackstone"/>
+                <itemCrushedDeepslate id="exdeorum:crushed_deepslate"/>
+            </exdeorumGravel>
+            <compressedBlocks>
+                <itemCompressedAndesite id="exdeorum:compressed_andesite"/>
+                <itemCompressedBlackstone id="exdeorum:compressed_blackstone"/>
+                <itemCompressedCobbledDeepslate id="exdeorum:compressed_cobbled_deepslate"/>
+                <itemCompressedCobblestone id="exdeorum:compressed_cobblestone"/>
+                <itemCompressedCrushedBlackstone id="exdeorum:compressed_crushed_blackstone"/>
+                <itemCompressedCrushedDeepslate id="exdeorum:compressed_crushed_deepslate"/>
+                <itemCompressedCrushedEndStone id="exdeorum:compressed_crushed_end_stone"/>
+                <itemCompressedCrushedNetherrack id="exdeorum:compressed_crushed_netherrack"/>
+                <itemCompressedDeepslate id="exdeorum:compressed_deepslate"/>
+                <itemCompressedDiorite id="exdeorum:compressed_diorite"/>
+                <itemCompressedDirt id="exdeorum:compressed_dirt"/>
+                <itemCompressedDust id="exdeorum:compressed_dust"/>
+                <itemCompressedEndStone id="exdeorum:compressed_end_stone"/>
+                <itemCompressedGranite id="exdeorum:compressed_granite"/>
+                <itemCompressedGravel id="exdeorum:compressed_gravel"/>
+                <itemCompressedMossBlock id="exdeorum:compressed_moss_block"/>
+                <itemCompressedNetherrack id="exdeorum:compressed_netherrack"/>
+                <itemCompressedRedSand id="exdeorum:compressed_red_sand"/>
+                <itemCompressedSand id="exdeorum:compressed_sand"/>
+                <itemCompressedSoulSand id="exdeorum:compressed_soul_sand"/>
+            </compressedBlocks>
+        </naturalBlock>
+        <mechanism>
+            <machines>
+                <exDeorumMachines>
+                    <itemMechanicalHammer id="exdeorum:mechanical_hammer"/>
+                    <itemMechanicalSieve id="exdeorum:mechanical_sieve"/>
+                </exDeorumMachines>
+                <exdeorumBarrels>
+                    <itemAcaciaBarrel id="exdeorum:acacia_barrel"/>
+                    <itemArchwoodBarrel id="exdeorum:archwood_barrel" mergePrevious="true"/>
+                    <itemBambooBarrel id="exdeorum:bamboo_barrel" mergePrevious="true"/>
+                    <itemBirchBarrel id="exdeorum:birch_barrel" mergePrevious="true"/>
+                    <itemBluebrightBarrel id="exdeorum:bluebright_barrel" mergePrevious="true"/>
+                    <itemCherryBarrel id="exdeorum:cherry_barrel" mergePrevious="true"/>
+                    <itemCometBarrel id="exdeorum:comet_barrel" mergePrevious="true"/>
+                    <itemCrimsonBarrel id="exdeorum:crimson_barrel" mergePrevious="true"/>
+                    <itemCrystallizedBarrel id="exdeorum:crystallized_barrel" mergePrevious="true"/>
+                    <itemDarkOakBarrel id="exdeorum:dark_oak_barrel" mergePrevious="true"/>
+                    <itemDeadBarrel id="exdeorum:dead_barrel" mergePrevious="true"/>
+                    <itemDuskBarrel id="exdeorum:dusk_barrel" mergePrevious="true"/>
+                    <itemFirBarrel id="exdeorum:fir_barrel" mergePrevious="true"/>
+                    <itemFrostbrightBarrel id="exdeorum:frostbright_barrel" mergePrevious="true"/>
+                    <itemHellbarkBarrel id="exdeorum:hellbark_barrel" mergePrevious="true"/>
+                    <itemJacarandaBarrel id="exdeorum:jacaranda_barrel" mergePrevious="true"/>
+                    <itemJungleBarrel id="exdeorum:jungle_barrel" mergePrevious="true"/>
+                    <itemLunarBarrel id="exdeorum:lunar_barrel" mergePrevious="true"/>
+                    <itemMagicBarrel id="exdeorum:magic_barrel" mergePrevious="true"/>
+                    <itemMahoganyBarrel id="exdeorum:mahogany_barrel" mergePrevious="true"/>
+                    <itemMangroveBarrel id="exdeorum:mangrove_barrel" mergePrevious="true"/>
+                    <itemMapleBarrel id="exdeorum:maple_barrel" mergePrevious="true"/>
+                    <itemOakBarrel id="exdeorum:oak_barrel" mergePrevious="true"/>
+                    <itemPalmBarrel id="exdeorum:palm_barrel" mergePrevious="true"/>
+                    <itemRedwoodBarrel id="exdeorum:redwood_barrel" mergePrevious="true"/>
+                    <itemSkyrootBarrel id="exdeorum:skyroot_barrel" mergePrevious="true"/>
+                    <itemSpruceBarrel id="exdeorum:spruce_barrel" mergePrevious="true"/>
+                    <itemStarlitBarrel id="exdeorum:starlit_barrel" mergePrevious="true"/>
+                    <itemStoneBarrel id="exdeorum:stone_barrel" mergePrevious="true"/>
+                    <itemUmbranBarrel id="exdeorum:umbran_barrel" mergePrevious="true"/>
+                    <itemWarpedBarrel id="exdeorum:warped_barrel" mergePrevious="true"/>
+                    <itemWillowBarrel id="exdeorum:willow_barrel" mergePrevious="true"/>
+                </exdeorumBarrels>
+                <compressedSieves>
+                    <itemAcaciaCompressedSieve id="exdeorum:acacia_compressed_sieve"/>
+                    <itemBambooCompressedSieve id="exdeorum:bamboo_compressed_sieve" mergePrevious="true"/>
+                    <itemBirchCompressedSieve id="exdeorum:birch_compressed_sieve" mergePrevious="true"/>
+                    <itemBlueArchwoodCompressedSieve id="exdeorum:blue_archwood_compressed_sieve" mergePrevious="true"/>
+                    <itemBluebrightCompressedSieve id="exdeorum:bluebright_compressed_sieve" mergePrevious="true"/>
+                    <itemCherryCompressedSieve id="exdeorum:cherry_compressed_sieve" mergePrevious="true"/>
+                    <itemCometCompressedSieve id="exdeorum:comet_compressed_sieve" mergePrevious="true"/>
+                    <itemCrimsonCompressedSieve id="exdeorum:crimson_compressed_sieve" mergePrevious="true"/>
+                    <itemCrystallizedCompressedSieve id="exdeorum:crystallized_compressed_sieve" mergePrevious="true"/>
+                    <itemDarkOakCompressedSieve id="exdeorum:dark_oak_compressed_sieve" mergePrevious="true"/>
+                    <itemDeadCompressedSieve id="exdeorum:dead_compressed_sieve" mergePrevious="true"/>
+                    <itemDuskCompressedSieve id="exdeorum:dusk_compressed_sieve" mergePrevious="true"/>
+                    <itemFirCompressedSieve id="exdeorum:fir_compressed_sieve" mergePrevious="true"/>
+                    <itemFrostbrightCompressedSieve id="exdeorum:frostbright_compressed_sieve" mergePrevious="true"/>
+                    <itemGoldenOakCompressedSieve id="exdeorum:golden_oak_compressed_sieve" mergePrevious="true"/>
+                    <itemGreenArchwoodCompressedSieve id="exdeorum:green_archwood_compressed_sieve" mergePrevious="true"/>
+                    <itemHellbarkCompressedSieve id="exdeorum:hellbark_compressed_sieve" mergePrevious="true"/>
+                    <itemJacarandaCompressedSieve id="exdeorum:jacaranda_compressed_sieve" mergePrevious="true"/>
+                    <itemJungleCompressedSieve id="exdeorum:jungle_compressed_sieve" mergePrevious="true"/>
+                    <itemLunarCompressedSieve id="exdeorum:lunar_compressed_sieve" mergePrevious="true"/>
+                    <itemMagicCompressedSieve id="exdeorum:magic_compressed_sieve" mergePrevious="true"/>
+                    <itemMahoganyCompressedSieve id="exdeorum:mahogany_compressed_sieve" mergePrevious="true"/>
+                    <itemMangroveCompressedSieve id="exdeorum:mangrove_compressed_sieve" mergePrevious="true"/>
+                    <itemMapleCompressedSieve id="exdeorum:maple_compressed_sieve" mergePrevious="true"/>
+                    <itemOakCompressedSieve id="exdeorum:oak_compressed_sieve" mergePrevious="true"/>
+                    <itemPalmCompressedSieve id="exdeorum:palm_compressed_sieve" mergePrevious="true"/>
+                    <itemPurpleArchwoodCompressedSieve id="exdeorum:purple_archwood_compressed_sieve" mergePrevious="true"/>
+                    <itemRedArchwoodCompressedSieve id="exdeorum:red_archwood_compressed_sieve" mergePrevious="true"/>
+                    <itemRedwoodCompressedSieve id="exdeorum:redwood_compressed_sieve" mergePrevious="true"/>
+                    <itemSkyrootCompressedSieve id="exdeorum:skyroot_compressed_sieve" mergePrevious="true"/>
+                    <itemSpruceCompressedSieve id="exdeorum:spruce_compressed_sieve" mergePrevious="true"/>
+                    <itemStarlitCompressedSieve id="exdeorum:starlit_compressed_sieve" mergePrevious="true"/>
+                    <itemUmbranCompressedSieve id="exdeorum:umbran_compressed_sieve" mergePrevious="true"/>
+                    <itemWarpedCompressedSieve id="exdeorum:warped_compressed_sieve" mergePrevious="true"/>
+                    <itemWillowCompressedSieve id="exdeorum:willow_compressed_sieve" mergePrevious="true"/>
+                </compressedSieves>
+                <sieves>
+                    <itemAcaciaSieve id="exdeorum:acacia_sieve"/>
+                    <itemArchwoodSieve id="exdeorum:archwood_sieve" mergePrevious="true"/>
+                    <itemBambooSieve id="exdeorum:bamboo_sieve" mergePrevious="true"/>
+                    <itemBirchSieve id="exdeorum:birch_sieve" mergePrevious="true"/>
+                    <itemBluebrightSieve id="exdeorum:bluebright_sieve" mergePrevious="true"/>
+                    <itemCherrySieve id="exdeorum:cherry_sieve" mergePrevious="true"/>
+                    <itemCometSieve id="exdeorum:comet_sieve" mergePrevious="true"/>
+                    <itemCrimsonSieve id="exdeorum:crimson_sieve" mergePrevious="true"/>
+                    <itemCrystallizedSieve id="exdeorum:crystallized_sieve" mergePrevious="true"/>
+                    <itemDarkOakSieve id="exdeorum:dark_oak_sieve" mergePrevious="true"/>
+                    <itemDeadSieve id="exdeorum:dead_sieve" mergePrevious="true"/>
+                    <itemDuskSieve id="exdeorum:dusk_sieve" mergePrevious="true"/>
+                    <itemFirSieve id="exdeorum:fir_sieve" mergePrevious="true"/>
+                    <itemFrostbrightSieve id="exdeorum:frostbright_sieve" mergePrevious="true"/>
+                    <itemHellbarkSieve id="exdeorum:hellbark_sieve" mergePrevious="true"/>
+                    <itemJacarandaSieve id="exdeorum:jacaranda_sieve" mergePrevious="true"/>
+                    <itemJungleSieve id="exdeorum:jungle_sieve" mergePrevious="true"/>
+                    <itemLunarSieve id="exdeorum:lunar_sieve" mergePrevious="true"/>
+                    <itemMagicSieve id="exdeorum:magic_sieve" mergePrevious="true"/>
+                    <itemMahoganySieve id="exdeorum:mahogany_sieve" mergePrevious="true"/>
+                    <itemMangroveSieve id="exdeorum:mangrove_sieve" mergePrevious="true"/>
+                    <itemMapleSieve id="exdeorum:maple_sieve" mergePrevious="true"/>
+                    <itemOakSieve id="exdeorum:oak_sieve" mergePrevious="true"/>
+                    <itemPalmSieve id="exdeorum:palm_sieve" mergePrevious="true"/>
+                    <itemRedwoodSieve id="exdeorum:redwood_sieve" mergePrevious="true"/>
+                    <itemSkyrootSieve id="exdeorum:skyroot_sieve" mergePrevious="true"/>
+                    <itemSpruceSieve id="exdeorum:spruce_sieve" mergePrevious="true"/>
+                    <itemStarlitSieve id="exdeorum:starlit_sieve" mergePrevious="true"/>
+                    <itemUmbranSieve id="exdeorum:umbran_sieve" mergePrevious="true"/>
+                    <itemWarpedSieve id="exdeorum:warped_sieve" mergePrevious="true"/>
+                    <itemWillowSieve id="exdeorum:willow_sieve" mergePrevious="true"/>
+                </sieves>
+                <crucibles>
+                    <itemAcaciaCrucible id="exdeorum:acacia_crucible"/>
+                    <itemBambooCrucible id="exdeorum:bamboo_crucible" mergePrevious="true"/>
+                    <itemBirchCrucible id="exdeorum:birch_crucible" mergePrevious="true"/>
+                    <itemBlueArchwoodCrucible id="exdeorum:blue_archwood_crucible" mergePrevious="true"/>
+                    <itemBluebrightCrucible id="exdeorum:bluebright_crucible" mergePrevious="true"/>
+                    <itemCherryCrucible id="exdeorum:cherry_crucible" mergePrevious="true"/>
+                    <itemCometCrucible id="exdeorum:comet_crucible" mergePrevious="true"/>
+                    <itemCrimsonCrucible id="exdeorum:crimson_crucible" mergePrevious="true"/>
+                    <itemCrystallizedCrucible id="exdeorum:crystallized_crucible" mergePrevious="true"/>
+                    <itemDarkOakCrucible id="exdeorum:dark_oak_crucible" mergePrevious="true"/>
+                    <itemDeadCrucible id="exdeorum:dead_crucible" mergePrevious="true"/>
+                    <itemDuskCrucible id="exdeorum:dusk_crucible" mergePrevious="true"/>
+                    <itemFirCrucible id="exdeorum:fir_crucible" mergePrevious="true"/>
+                    <itemFrostbrightCrucible id="exdeorum:frostbright_crucible" mergePrevious="true"/>
+                    <itemGoldenOakCrucible id="exdeorum:golden_oak_crucible" mergePrevious="true"/>
+                    <itemGreenArchwoodCrucible id="exdeorum:green_archwood_crucible" mergePrevious="true"/>
+                    <itemHellbarkCrucible id="exdeorum:hellbark_crucible" mergePrevious="true"/>
+                    <itemJacarandaCrucible id="exdeorum:jacaranda_crucible" mergePrevious="true"/>
+                    <itemJungleCrucible id="exdeorum:jungle_crucible" mergePrevious="true"/>
+                    <itemLunarCrucible id="exdeorum:lunar_crucible" mergePrevious="true"/>
+                    <itemMagicCrucible id="exdeorum:magic_crucible" mergePrevious="true"/>
+                    <itemMahoganyCrucible id="exdeorum:mahogany_crucible" mergePrevious="true"/>
+                    <itemMangroveCrucible id="exdeorum:mangrove_crucible" mergePrevious="true"/>
+                    <itemMapleCrucible id="exdeorum:maple_crucible" mergePrevious="true"/>
+                    <itemOakCrucible id="exdeorum:oak_crucible" mergePrevious="true"/>
+                    <itemPalmCrucible id="exdeorum:palm_crucible" mergePrevious="true"/>
+                    <itemPorcelainCrucible id="exdeorum:porcelain_crucible" mergePrevious="true"/>
+                    <itemPurpleArchwoodCrucible id="exdeorum:purple_archwood_crucible" mergePrevious="true"/>
+                    <itemRedArchwoodCrucible id="exdeorum:red_archwood_crucible" mergePrevious="true"/>
+                    <itemRedwoodCrucible id="exdeorum:redwood_crucible" mergePrevious="true"/>
+                    <itemSkyrootCrucible id="exdeorum:skyroot_crucible" mergePrevious="true"/>
+                    <itemSpruceCrucible id="exdeorum:spruce_crucible" mergePrevious="true"/>
+                    <itemStarlitCrucible id="exdeorum:starlit_crucible" mergePrevious="true"/>
+                    <itemUmbranCrucible id="exdeorum:umbran_crucible" mergePrevious="true"/>
+                    <itemUnfiredPorcelainCrucible id="exdeorum:unfired_porcelain_crucible" mergePrevious="true"/>
+                    <itemWarpedCrucible id="exdeorum:warped_crucible" mergePrevious="true"/>
+                    <itemWillowCrucible id="exdeorum:willow_crucible" mergePrevious="true"/>
+                </crucibles>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <food>
+            <edibleFood>
+                <cookedFood>
+                    <itemCookedSilkworm id="exdeorum:cooked_silkworm"/>
+                </cookedFood>
+                <rawFood>
+                    <rawMeat>
+                        <itemSilkworm id="exdeorum:silkworm"/>
+                    </rawMeat>
+                </rawFood>
+            </edibleFood>
+            <unedibleFood>
+                <cakes>
+                    <itemEndCake id="exdeorum:end_cake"/>
+                </cakes>
+            </unedibleFood>
+        </food>
+        <plant>
+            <seed>
+                <itemGrassSeeds id="exdeorum:grass_seeds"/>
+            </seed>
+            <spores>
+                <itemCrimsonNyliumSpores id="exdeorum:crimson_nylium_spores"/>
+                <itemMyceliumSpores id="exdeorum:mycelium_spores"/>
+                <itemWarpedNyliumSpores id="exdeorum:warped_nylium_spores"/>
+            </spores>
+            <leaves>
+                <itemInfestedLeaves id="exdeorum:infested_leaves"/>
+            </leaves>
+        </plant>
+        <parts>
+            <mechanicalParts>
+                <meshes>
+                    <itemDiamondMesh id="exdeorum:diamond_mesh"/>
+                    <itemFlintMesh id="exdeorum:flint_mesh"/>
+                    <itemGoldenMesh id="exdeorum:golden_mesh"/>
+                    <itemIronMesh id="exdeorum:iron_mesh"/>
+                    <itemNetheriteMesh id="exdeorum:netherite_mesh"/>
+                    <itemStringMesh id="exdeorum:string_mesh"/>
+                </meshes>
+            </mechanicalParts>
+        </parts>
+        <bucket>
+            <porcelainBuckets>
+                <itemPorcelainBucket id="exdeorum:porcelain_bucket"/>
+                <itemPorcelainLavaBucket id="exdeorum:porcelain_lava_bucket"/>
+                <itemPorcelainMilkBucket id="exdeorum:porcelain_milk_bucket"/>
+                <itemPorcelainWaterBucket id="exdeorum:porcelain_water_bucket"/>
+                <itemPorcelainWitchWaterBucket id="exdeorum:porcelain_witch_water_bucket"/>
+                <itemUnfiredPorcelainBucket id="exdeorum:unfired_porcelain_bucket"/>
+                <itemWitchWaterBucket id="exdeorum:witch_water_bucket"/>
+            </porcelainBuckets>
+        </bucket>
+        <decoration>
+            <exDeorumMisc>
+                <itemRandomArmorTrim id="exdeorum:random_armor_trim"/>
+                <itemRandomPotterySherd id="exdeorum:random_pottery_sherd"/>
+                <itemSculkCore id="exdeorum:sculk_core"/>
+            </exDeorumMisc>
+        </decoration>
+    </item>
+    <equipment>
+        <tool>
+            <hammers>
+                <itemCompressedDiamondHammer id="exdeorum:compressed_diamond_hammer"/>
+                <itemCompressedGoldenHammer id="exdeorum:compressed_golden_hammer" mergePrevious="true"/>
+                <itemCompressedIronHammer id="exdeorum:compressed_iron_hammer" mergePrevious="true"/>
+                <itemCompressedNetheriteHammer id="exdeorum:compressed_netherite_hammer" mergePrevious="true"/>
+                <itemCompressedStoneHammer id="exdeorum:compressed_stone_hammer" mergePrevious="true"/>
+                <itemCompressedWoodenHammer id="exdeorum:compressed_wooden_hammer" mergePrevious="true"/>
+                <itemDiamondHammer id="exdeorum:diamond_hammer" mergePrevious="true"/>
+                <itemGoldenHammer id="exdeorum:golden_hammer" mergePrevious="true"/>
+                <itemIronHammer id="exdeorum:iron_hammer" mergePrevious="true"/>
+                <itemNetheriteHammer id="exdeorum:netherite_hammer" mergePrevious="true"/>
+                <itemStoneHammer id="exdeorum:stone_hammer" mergePrevious="true"/>
+                <itemWoodenHammer id="exdeorum:wooden_hammer" mergePrevious="true"/>
+            </hammers>
+            <crooks>
+                <itemBoneCrook id="exdeorum:bone_crook"/>
+                <itemCrook id="exdeorum:crook"/>
+            </crooks>
+            <wateringCans>
+                <itemDiamondWateringCan id="exdeorum:diamond_watering_can"/>
+                <itemGoldenWateringCan id="exdeorum:golden_watering_can"/>
+                <itemIronWateringCan id="exdeorum:iron_watering_can"/>
+                <itemNetheriteWateringCan id="exdeorum:netherite_watering_can"/>
+                <itemStoneWateringCan id="exdeorum:stone_watering_can"/>
+                <itemWoodenWateringCan id="exdeorum:wooden_watering_can"/>
+            </wateringCans>
+        </tool>
+    </equipment>
+    <resources>
+        <miningResources>
+            <pebbles>
+                <itemAndesitePebble id="exdeorum:andesite_pebble"/>
+                <itemBasaltPebble id="exdeorum:basalt_pebble"/>
+                <itemBlackstonePebble id="exdeorum:blackstone_pebble"/>
+                <itemCalcitePebble id="exdeorum:calcite_pebble"/>
+                <itemDeepslatePebble id="exdeorum:deepslate_pebble"/>
+                <itemDioritePebble id="exdeorum:diorite_pebble"/>
+                <itemGranitePebble id="exdeorum:granite_pebble"/>
+                <itemStonePebble id="exdeorum:stone_pebble"/>
+                <itemTuffPebble id="exdeorum:tuff_pebble"/>
+            </pebbles>
+            <oreChunks>
+                <itemAluminumOreChunk id="exdeorum:aluminum_ore_chunk"/>
+                <itemBoronOreChunk id="exdeorum:boron_ore_chunk"/>
+                <itemCobaltOreChunk id="exdeorum:cobalt_ore_chunk"/>
+                <itemCopperOreChunk id="exdeorum:copper_ore_chunk"/>
+                <itemGoldOreChunk id="exdeorum:gold_ore_chunk"/>
+                <itemIridiumOreChunk id="exdeorum:iridium_ore_chunk"/>
+                <itemIronOreChunk id="exdeorum:iron_ore_chunk"/>
+                <itemLeadOreChunk id="exdeorum:lead_ore_chunk"/>
+                <itemLithiumOreChunk id="exdeorum:lithium_ore_chunk"/>
+                <itemMagnesiumOreChunk id="exdeorum:magnesium_ore_chunk"/>
+                <itemNickelOreChunk id="exdeorum:nickel_ore_chunk"/>
+                <itemOsmiumOreChunk id="exdeorum:osmium_ore_chunk"/>
+                <itemPlatinumOreChunk id="exdeorum:platinum_ore_chunk"/>
+                <itemSilverOreChunk id="exdeorum:silver_ore_chunk"/>
+                <itemThoriumOreChunk id="exdeorum:thorium_ore_chunk"/>
+                <itemTinOreChunk id="exdeorum:tin_ore_chunk"/>
+                <itemUraniumOreChunk id="exdeorum:uranium_ore_chunk"/>
+                <itemZincOreChunk id="exdeorum:zinc_ore_chunk"/>
+            </oreChunks>
+            <craftingMaterials>
+                <itemPorcelainClayBall id="exdeorum:porcelain_clay_ball"/>
+                <itemWoodChippings id="exdeorum:wood_chippings"/>
+            </craftingMaterials>
+        </miningResources>
+    </resources>
+</stuff>

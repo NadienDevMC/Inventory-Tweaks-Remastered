@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <item>
+        <utility>
+            <storage>
+                <digitalstorage>
+                    <ae2Upgrades>
+                        <meUpgrades>
+                            <itemMagnetCard id="ae2wtlib:magnet_card"/>
+                            <itemQuantumBridgeCard id="ae2wtlib:quantum_bridge_card"/>
+                        </meUpgrades>
+                    </ae2Upgrades>
+                </digitalstorage>
+                <portableStorage>
+                    <itemWirelessUniversalTerminal id="ae2wtlib:wireless_universal_terminal"/>
+                    <itemWirelessPatternAccessTerminal id="ae2wtlib:wireless_pattern_access_terminal"/>
+                    <itemWirelessPatternEncodingTerminal id="ae2wtlib:wireless_pattern_encoding_terminal"/>
+                </portableStorage>
+            </storage>
+        </utility>
+    </item>
+</stuff>

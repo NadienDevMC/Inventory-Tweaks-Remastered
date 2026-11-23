@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <glass>
+                    <functionalGlass>
+                        <itemGlassDarkEthereal id="glassential:glass_dark_ethereal"/>
+                        <itemGlassDarkEtherealReverse id="glassential:glass_dark_ethereal_reverse"/>
+                        <itemGlassEthereal id="glassential:glass_ethereal"/>
+                        <itemGlassEtherealReverse id="glassential:glass_ethereal_reverse"/>
+                        <itemGlassGhostly id="glassential:glass_ghostly"/>
+                        <itemGlassLight id="glassential:glass_light"/>
+                        <itemGlassLightTinted id="glassential:glass_light_tinted"/>
+                        <itemGlassRedstone id="glassential:glass_redstone"/>
+                        <itemGlassRedstoneTinted id="glassential:glass_redstone_tinted"/>
+                        <itemGlassGlowstoneLamp id="glassential:glass_glowstone_lamp"/>
+                        <itemGlassGlowstoneLampTinted id="glassential:glass_glowstone_lamp_tinted"/>
+                        <itemGlassLavaLamp id="glassential:glass_lava_lamp"/>
+                        <itemGlassLavaLampTinted id="glassential:glass_lava_lamp_tinted"/>
+                        <itemClearFluidGlass id="glassential:clear_fluid_glass"/>
+                        <itemClearFluidFakeGlass id="glassential:clear_fluid_fake_glass"/>
+                        <itemGravityGlass id="glassential:gravity_glass"/>
+                        <itemIceGlass id="glassential:ice_glass"/>
+                        <itemIronGlass id="glassential:iron_glass"/>
+                        <itemObsidianGlass id="glassential:obsidian_glass"/>
+                        <itemSandstoneGlass id="glassential:sandstone_glass"/>
+                        <itemStoneGlass id="glassential:stone_glass"/>
+                        <itemOneWayGlass id="glassential:one_way_glass"/>
+                    </functionalGlass>
+                    <functionalGlassPane>
+                        <itemGlassDarkEtherealPane id="glassential:glass_dark_ethereal_pane"/>
+                        <itemGlassDarkEtherealReversePane id="glassential:glass_dark_ethereal_reverse_pane"/>
+                        <itemGlassEtherealPane id="glassential:glass_ethereal_pane"/>
+                        <itemGlassEtherealReversePane id="glassential:glass_ethereal_reverse_pane"/>
+                        <itemGlassGhostlyPane id="glassential:glass_ghostly_pane"/>
+                        <itemGlassLightPane id="glassential:glass_light_pane"/>
+                        <itemGlassLightTintedPane id="glassential:glass_light_tinted_pane"/>
+                        <itemGlassRedstonePane id="glassential:glass_redstone_pane"/>
+                        <itemGlassRedstoneTintedPane id="glassential:glass_redstone_tinted_pane"/>
+                    </functionalGlassPane>
+                </glass>
+                <slabs>
+                    <itemGlassSlab id="glassential:glass_slab"/>
+                </slabs>
+            </constructionBlock>
+        </manufacturedBlock>
+        <mechanism>
+            <doors>
+                <itemGlassDoor id="glassential:glass_door"/>
+                <itemIronGlassDoor id="glassential:iron_glass_door"/>
+                <itemTintedGlassDoor id="glassential:tinted_glass_door"/>
+                <itemObsidianDoor id="glassential:obsidian_door"/>
+                <itemRedstoneDoor id="glassential:redstone_door"/>
+                <itemLightDoor id="glassential:light_door"/>
+                <itemGhostlyDoor id="glassential:ghostly_door"/>
+                <itemEtherealDoor id="glassential:ethereal_door"/>
+                <itemEtherealReverseDoor id="glassential:ethereal_reverse_door"/>
+                <itemDarkEtherealDoor id="glassential:dark_ethereal_door"/>
+                <itemDarkEtherealReverseDoor id="glassential:dark_ethereal_reverse_door"/>
+                <itemWhiteGlassDoor id="glassential:white_glass_door"/>
+                <itemOrangeGlassDoor id="glassential:orange_glass_door" mergePrevious="true"/>
+                <itemMagentaGlassDoor id="glassential:magenta_glass_door" mergePrevious="true"/>
+                <itemLightBlueGlassDoor id="glassential:light_blue_glass_door" mergePrevious="true"/>
+                <itemYellowGlassDoor id="glassential:yellow_glass_door" mergePrevious="true"/>
+                <itemLimeGlassDoor id="glassential:lime_glass_door" mergePrevious="true"/>
+                <itemPinkGlassDoor id="glassential:pink_glass_door" mergePrevious="true"/>
+                <itemGrayGlassDoor id="glassential:gray_glass_door" mergePrevious="true"/>
+                <itemLightGrayGlassDoor id="glassential:light_gray_glass_door" mergePrevious="true"/>
+                <itemCyanGlassDoor id="glassential:cyan_glass_door" mergePrevious="true"/>
+                <itemPurpleGlassDoor id="glassential:purple_glass_door" mergePrevious="true"/>
+                <itemBlueGlassDoor id="glassential:blue_glass_door" mergePrevious="true"/>
+                <itemBrownGlassDoor id="glassential:brown_glass_door" mergePrevious="true"/>
+                <itemGreenGlassDoor id="glassential:green_glass_door" mergePrevious="true"/>
+                <itemRedGlassDoor id="glassential:red_glass_door" mergePrevious="true"/>
+                <itemBlackGlassDoor id="glassential:black_glass_door" mergePrevious="true"/>
+                <itemOakGlassDoor id="glassential:oak_glass_door"/>
+                <itemSpruceGlassDoor id="glassential:spruce_glass_door" mergePrevious="true"/>
+                <itemBirchGlassDoor id="glassential:birch_glass_door" mergePrevious="true"/>
+                <itemJungleGlassDoor id="glassential:jungle_glass_door" mergePrevious="true"/>
+                <itemAcaciaGlassDoor id="glassential:acacia_glass_door" mergePrevious="true"/>
+                <itemDarkOakGlassDoor id="glassential:dark_oak_glass_door" mergePrevious="true"/>
+                <itemMangroveGlassDoor id="glassential:mangrove_glass_door" mergePrevious="true"/>
+                <itemCherryGlassDoor id="glassential:cherry_glass_door" mergePrevious="true"/>
+                <itemBambooGlassDoor id="glassential:bamboo_glass_door" mergePrevious="true"/>
+                <itemCrimsonGlassDoor id="glassential:crimson_glass_door" mergePrevious="true"/>
+                <itemWarpedGlassDoor id="glassential:warped_glass_door" mergePrevious="true"/>
+                <trapdoor>
+                    <itemGlassTrapdoor id="glassential:glass_trapdoor"/>
+                    <itemIronGlassTrapdoor id="glassential:iron_glass_trapdoor"/>
+                    <itemTintedGlassTrapdoor id="glassential:tinted_glass_trapdoor"/>
+                    <itemObsidianTrapdoor id="glassential:obsidian_trapdoor"/>
+                    <itemRedstoneTrapdoor id="glassential:redstone_trapdoor"/>
+                    <itemLightTrapdoor id="glassential:light_trapdoor"/>
+                    <itemGhostlyTrapdoor id="glassential:ghostly_trapdoor"/>
+                    <itemEtherealTrapdoor id="glassential:ethereal_trapdoor"/>
+                    <itemEtherealReverseTrapdoor id="glassential:ethereal_reverse_trapdoor"/>
+                    <itemDarkEtherealTrapdoor id="glassential:dark_ethereal_trapdoor"/>
+                    <itemDarkEtherealReverseTrapdoor id="glassential:dark_ethereal_reverse_trapdoor"/>
+                    <itemWhiteGlassTrapdoor id="glassential:white_glass_trapdoor"/>
+                    <itemOrangeGlassTrapdoor id="glassential:orange_glass_trapdoor" mergePrevious="true"/>
+                    <itemMagentaGlassTrapdoor id="glassential:magenta_glass_trapdoor" mergePrevious="true"/>
+                    <itemLightBlueGlassTrapdoor id="glassential:light_blue_glass_trapdoor" mergePrevious="true"/>
+                    <itemYellowGlassTrapdoor id="glassential:yellow_glass_trapdoor" mergePrevious="true"/>
+                    <itemLimeGlassTrapdoor id="glassential:lime_glass_trapdoor" mergePrevious="true"/>
+                    <itemPinkGlassTrapdoor id="glassential:pink_glass_trapdoor" mergePrevious="true"/>
+                    <itemGrayGlassTrapdoor id="glassential:gray_glass_trapdoor" mergePrevious="true"/>
+                    <itemLightGrayGlassTrapdoor id="glassential:light_gray_glass_trapdoor" mergePrevious="true"/>
+                    <itemCyanGlassTrapdoor id="glassential:cyan_glass_trapdoor" mergePrevious="true"/>
+                    <itemPurpleGlassTrapdoor id="glassential:purple_glass_trapdoor" mergePrevious="true"/>
+                    <itemBlueGlassTrapdoor id="glassential:blue_glass_trapdoor" mergePrevious="true"/>
+                    <itemBrownGlassTrapdoor id="glassential:brown_glass_trapdoor" mergePrevious="true"/>
+                    <itemGreenGlassTrapdoor id="glassential:green_glass_trapdoor" mergePrevious="true"/>
+                    <itemRedGlassTrapdoor id="glassential:red_glass_trapdoor" mergePrevious="true"/>
+                    <itemBlackGlassTrapdoor id="glassential:black_glass_trapdoor" mergePrevious="true"/>
+                    <itemOakGlassTrapdoor id="glassential:oak_glass_trapdoor"/>
+                    <itemSpruceGlassTrapdoor id="glassential:spruce_glass_trapdoor" mergePrevious="true"/>
+                    <itemBirchGlassTrapdoor id="glassential:birch_glass_trapdoor" mergePrevious="true"/>
+                    <itemJungleGlassTrapdoor id="glassential:jungle_glass_trapdoor" mergePrevious="true"/>
+                    <itemAcaciaGlassTrapdoor id="glassential:acacia_glass_trapdoor" mergePrevious="true"/>
+                    <itemDarkOakGlassTrapdoor id="glassential:dark_oak_glass_trapdoor" mergePrevious="true"/>
+                    <itemMangroveGlassTrapdoor id="glassential:mangrove_glass_trapdoor" mergePrevious="true"/>
+                    <itemCherryGlassTrapdoor id="glassential:cherry_glass_trapdoor" mergePrevious="true"/>
+                    <itemBambooGlassTrapdoor id="glassential:bamboo_glass_trapdoor" mergePrevious="true"/>
+                    <itemCrimsonGlassTrapdoor id="glassential:crimson_glass_trapdoor" mergePrevious="true"/>
+                    <itemWarpedGlassTrapdoor id="glassential:warped_glass_trapdoor" mergePrevious="true"/>
+                </trapdoor>
+            </doors>
+        </mechanism>
+    </block>
+</stuff>

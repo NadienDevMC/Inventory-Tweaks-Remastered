@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <toolInstrument>
+                <itemConfigurator id="chickens:configurator"/>
+                <Analyzers>
+                    <itemAnalyzer id="chickens:analyzer"/>
+                </Analyzers>
+            </toolInstrument>
+        </tool>
+    </equipment>
+    <block>
+        <mechanism>
+            <machines>
+                <poweredRanching>
+                    <nesting>
+                        <itemHenhouseAcacia id="chickens:henhouse_acacia"/>
+                        <itemHenhouseBirch id="chickens:henhouse_birch"/>
+                        <itemHenhouseDarkOak id="chickens:henhouse_dark_oak"/>
+                        <itemHenhouse id="chickens:henhouse"/>
+                        <itemHenhouseJungle id="chickens:henhouse_jungle"/>
+                        <itemHenhouseSpruce id="chickens:henhouse_spruce"/>
+                        <itemHenhouseBamboo id="chickens:henhouse_bamboo"/>
+                        <itemHenhouseCherry id="chickens:henhouse_cherry"/>
+                        <itemHenhouseCrimson id="chickens:henhouse_crimson"/>
+                        <itemHenhouseMangrove id="chickens:henhouse_mangrove"/>
+                        <itemHenhouseWarped id="chickens:henhouse_warped"/>
+                        <itemMechanicalNest id="chickens:mechanical_nest"/>
+                        <itemMechanicalRoost id="chickens:mechanical_roost"/>
+                        <itemNest id="chickens:nest"/>
+                        <itemRoost id="chickens:roost"/>
+                        <itemRoostGenerator id="chickens:roost_generator"/>
+                    </nesting>
+                    <breeders>
+                        <itemBreeder id="chickens:breeder"/>
+                        <itemIncubator id="chickens:incubator"/>
+                    </breeders>
+                    <collectors>
+                        <itemCatcher id="chickens:catcher"/>
+                        <itemCollector id="chickens:collector"/>
+                        <itemCreativeCatcher id="chickens:creative_catcher"/>
+                    </collectors>
+                </poweredRanching>
+                <avianMachines>
+                    <itemAvianChemicalConverter id="chickens:avian_chemical_converter"/>
+                    <itemAvianDousingMachine id="chickens:avian_dousing_machine"/>
+                    <itemAvianFluidConverter id="chickens:avian_fluid_converter"/>
+                    <itemAvianFluxConverter id="chickens:avian_flux_converter"/>
+                </avianMachines>
+            </machines>
+            <machineupgrades>
+                <chickensUpgrades>
+                    <itemRangeupgrade id="chickens:rangeupgrade"/>
+                    <itemRfCapacityUpgrade id="chickens:rf_capacity_upgrade"/>
+                    <itemRfEfficiencyUpgrade id="chickens:rf_efficiency_upgrade"/>
+                    <itemRfExciterUpgrade id="chickens:rf_exciter_upgrade"/>
+                    <itemRfGovernorUpgrade id="chickens:rf_governor_upgrade"/>
+                    <itemRfOutputUpgrade id="chickens:rf_output_upgrade"/>
+                    <itemRfStabilizerUpgrade id="chickens:rf_stabilizer_upgrade"/>
+                    <itemRfSurgeUpgrade id="chickens:rf_surge_upgrade"/>
+                    <itemRfupgrade id="chickens:rfupgrade"/>
+                    <itemSpeedupgrade id="chickens:speedupgrade"/>
+                    <itemStackupgrade id="chickens:stackupgrade"/>
+                    <itemStoragecapacity id="chickens:storagecapacity"/>
+                </chickensUpgrades>
+            </machineupgrades>
+        </mechanism>
+    </block>
+    <item>
+        <food>
+            <edibleFood>
+                <rawFood>
+                    <rawEgg>
+                        <itemColoredEgg id="chickens:colored_egg"/>
+                        <itemSpawnEgg id="chickens:spawn_egg"/>
+                        <itemChemicalEgg id="chickens:chemical_egg"/>
+                        <itemFluxEgg id="chickens:flux_egg"/>
+                        <itemFlyingEgg id="chickens:flying_egg"/>
+                        <itemGasEgg id="chickens:gas_egg"/>
+                        <itemLiquidEgg id="chickens:liquid_egg"/>
+                    </rawEgg>
+                </rawFood>
+            </edibleFood>
+        </food>
+        <utility>
+            <spawnEggs>
+                <itemChicken id="chickens:chicken"/>
+                <itemLavaChicken id="chickens:lava_chicken"/>
+                <itemMegaChicken id="chickens:mega_chicken"/>
+                <itemMegaChickenSpawnEgg id="chickens:mega_chicken_spawn_egg"/>
+                <itemRobotChicken id="chickens:robot_chicken"/>
+                <itemRobotChickenSpawnEgg id="chickens:robot_chicken_spawn_egg"/>
+                <itemRobotRooster id="chickens:robot_rooster"/>
+                <itemRobotRoosterSpawnEgg id="chickens:robot_rooster_spawn_egg"/>
+                <itemRoosterSpawnEgg id="chickens:rooster_spawn_egg"/>
+            </spawnEggs>
+            <skinCrates>
+                <itemAviatorSkinCrate id="chickens:aviator_skin_crate"/>
+                <itemBigbrainSkinCrate id="chickens:bigbrain_skin_crate"/>
+                <itemCreeperSkinCrate id="chickens:creeper_skin_crate"/>
+                <itemDeepdarkSkinCrate id="chickens:deepdark_skin_crate"/>
+                <itemDodoSkinCrate id="chickens:dodo_skin_crate"/>
+                <itemDuckSkinCrate id="chickens:duck_skin_crate"/>
+                <itemFoxSkinCrate id="chickens:fox_skin_crate"/>
+                <itemPinkSkinCrate id="chickens:pink_skin_crate"/>
+                <itemRamboSkinCrate id="chickens:rambo_skin_crate"/>
+                <itemReptarSkinCrate id="chickens:reptar_skin_crate"/>
+                <itemToxicSkinCrate id="chickens:toxic_skin_crate"/>
+                <itemValentinesSkinCrate id="chickens:valentines_skin_crate"/>
+                <itemZombieSkinCrate id="chickens:zombie_skin_crate"/>
+            </skinCrates>
+            <readableBooks>
+                <itemGuideBook id="chickens:guide_book"/>
+            </readableBooks>
+        </utility>
+    </item>
+</stuff>

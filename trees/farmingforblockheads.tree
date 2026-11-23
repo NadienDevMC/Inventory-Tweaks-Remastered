@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <naturalBlock>
+            <dirts>
+                <fertilizedDirt>
+                    <itemFertilizedFarmlandStable id="farmingforblockheads:fertilized_farmland_stable"/>
+                    <itemFertilizedFarmlandHealthyStable id="farmingforblockheads:fertilized_farmland_healthy_stable"/>
+                    <itemFertilizedFarmlandRichStable id="farmingforblockheads:fertilized_farmland_rich_stable"/>
+                    <itemFertilizedFarmlandHealthy id="farmingforblockheads:fertilized_farmland_healthy"/>
+                    <itemFertilizedFarmlandRich id="farmingforblockheads:fertilized_farmland_rich"/>
+                </fertilizedDirt>
+            </dirts>
+        </naturalBlock>
+        <mechanism>
+            <basicCrafting>
+                <shoppingBlocks>
+                    <itemMarket id="farmingforblockheads:market"/>
+                </shoppingBlocks>
+            </basicCrafting>
+            <machines>
+                <poweredRanching>
+                    <feeders>
+                        <itemFeedingTrough id="farmingforblockheads:feeding_trough"/>
+                    </feeders>
+                    <nesting>
+                        <itemChickenNest id="farmingforblockheads:chicken_nest"/>
+                    </nesting>
+                </poweredRanching>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <plant>
+            <fertilizer>
+                <itemGreenFertilizer id="farmingforblockheads:green_fertilizer"/>
+                <itemRedFertilizer id="farmingforblockheads:red_fertilizer"/>
+                <itemYellowFertilizer id="farmingforblockheads:yellow_fertilizer"/>
+            </fertilizer>
+        </plant>
+    </item>
+</stuff>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <reductionTool>
+                <itemPersonalShrinkingDevice id="compactmachines:personal_shrinking_device"/>
+            </reductionTool>
+        </tool>
+    </equipment>
+    <block>
+        <mechanism>
+            <machines>
+                <compactMachines>
+                    <itemMachine id="compactmachines:machine"/>
+                    <itemNewMachine id="compactmachines:new_machine"/>
+                </compactMachines>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <parts>
+            <mechanicalParts>
+                <compactMachineParts>
+                    <itemEnlargingModule id="compactmachines:enlarging_module"/>
+                    <itemShrinkingModule id="compactmachines:shrinking_module"/>
+                    <itemWall id="compactmachines:wall"/>
+                    <itemSolidWall id="compactmachines:solid_wall"/>
+                </compactMachineParts>
+            </mechanicalParts>
+        </parts>
+    </item>
+</stuff>

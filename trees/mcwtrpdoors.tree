@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <item>
+        <parts>
+            <decorationParts>
+                <itemPrintBamboo id="mcwtrpdoors:print_bamboo"/>
+                <itemPrintBarred id="mcwtrpdoors:print_barred"/>
+                <itemPrintBeach id="mcwtrpdoors:print_beach"/>
+                <itemPrintBlossom id="mcwtrpdoors:print_blossom"/>
+                <itemPrintClassic id="mcwtrpdoors:print_classic"/>
+                <itemPrintCottage id="mcwtrpdoors:print_cottage"/>
+                <itemPrintFourPanel id="mcwtrpdoors:print_four_panel"/>
+                <itemPrintMystic id="mcwtrpdoors:print_mystic"/>
+                <itemPrintPaper id="mcwtrpdoors:print_paper"/>
+                <itemPrintSwamp id="mcwtrpdoors:print_swamp"/>
+                <itemPrintTropical id="mcwtrpdoors:print_tropical"/>
+                <itemPrintWhispering id="mcwtrpdoors:print_whispering"/>
+            </decorationParts>
+        </parts>
+    </item>
+</stuff>

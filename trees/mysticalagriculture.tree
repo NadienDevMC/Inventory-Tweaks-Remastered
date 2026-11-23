@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <munition>
+                <mysticalagricultureBow>
+                    <itemInferiumBow id="mysticalagriculture:inferium_bow"/>
+                    <itemPrudentiumBow id="mysticalagriculture:prudentium_bow"/>
+                    <itemSupremiumBow id="mysticalagriculture:supremium_bow"/>
+                    <itemAwakenedSupremiumBow id="mysticalagriculture:awakened_supremium_bow"/>
+                    <itemImperiumBow id="mysticalagriculture:imperium_bow"/>
+                    <itemTertiumBow id="mysticalagriculture:tertium_bow"/>
+                </mysticalagricultureBow>
+                <mysticalagricultureCrossbow>
+                    <itemAwakenedSupremiumCrossbow id="mysticalagriculture:awakened_supremium_crossbow"/>
+                    <itemImperiumCrossbow id="mysticalagriculture:imperium_crossbow"/>
+                    <itemInferiumCrossbow id="mysticalagriculture:inferium_crossbow"/>
+                    <itemPrudentiumCrossbow id="mysticalagriculture:prudentium_crossbow"/>
+                    <itemSupremiumCrossbow id="mysticalagriculture:supremium_crossbow"/>
+                    <itemTertiumCrossbow id="mysticalagriculture:tertium_crossbow"/>
+                </mysticalagricultureCrossbow>
+            </munition>
+            <sword>
+                <itemAwakenedSupremiumSword id="mysticalagriculture:awakened_supremium_sword"/>
+                <itemCreativeSouliumDagger id="mysticalagriculture:creative_soulium_dagger"/>
+                <itemHostileSouliumDagger id="mysticalagriculture:hostile_soulium_dagger"/>
+                <itemImperiumSword id="mysticalagriculture:imperium_sword"/>
+                <itemInferiumSword id="mysticalagriculture:inferium_sword"/>
+                <itemPassiveSouliumDagger id="mysticalagriculture:passive_soulium_dagger"/>
+                <itemPrudentiumSword id="mysticalagriculture:prudentium_sword"/>
+                <itemSouliumDagger id="mysticalagriculture:soulium_dagger"/>
+                <itemSupremiumSword id="mysticalagriculture:supremium_sword"/>
+                <itemTertiumSword id="mysticalagriculture:tertium_sword"/>
+            </sword>
+        </weapon>
+        <tool>
+            <farmingTool>
+                <otherFarmingTools>
+                    <wateringCan>
+                        <itemSupremiumWateringCan id="mysticalagriculture:supremium_watering_can"/>
+                        <itemImperiumWateringCan id="mysticalagriculture:imperium_watering_can"/>
+                        <itemTertiumWateringCan id="mysticalagriculture:tertium_watering_can"/>
+                        <itemPrudentiumWateringCan id="mysticalagriculture:prudentium_watering_can"/>
+                        <itemInferiumWateringCan id="mysticalagriculture:inferium_watering_can"/>
+                        <itemWateringCan id="mysticalagriculture:watering_can"/>
+                        <itemAwakenedSupremiumWateringCan id="mysticalagriculture:awakened_supremium_watering_can"/>
+                    </wateringCan>
+                </otherFarmingTools>
+                <scythe>
+                    <itemAwakenedSupremiumScythe id="mysticalagriculture:awakened_supremium_scythe"/>
+                    <itemDiamondScythe id="mysticalagriculture:diamond_scythe"/>
+                    <itemImperiumScythe id="mysticalagriculture:imperium_scythe"/>
+                    <itemInferiumScythe id="mysticalagriculture:inferium_scythe"/>
+                    <itemPrudentiumScythe id="mysticalagriculture:prudentium_scythe"/>
+                    <itemSupremiumScythe id="mysticalagriculture:supremium_scythe"/>
+                    <itemTertiumScythe id="mysticalagriculture:tertium_scythe"/>
+                </scythe>
+                <sickle>
+                    <itemAwakenedSupremiumSickle id="mysticalagriculture:awakened_supremium_sickle"/>
+                    <itemDiamondSickle id="mysticalagriculture:diamond_sickle"/>
+                    <itemImperiumSickle id="mysticalagriculture:imperium_sickle"/>
+                    <itemInferiumSickle id="mysticalagriculture:inferium_sickle"/>
+                    <itemPrudentiumSickle id="mysticalagriculture:prudentium_sickle"/>
+                    <itemSupremiumSickle id="mysticalagriculture:supremium_sickle"/>
+                    <itemTertiumSickle id="mysticalagriculture:tertium_sickle"/>
+                </sickle>
+            </farmingTool>
+            <wands>
+                <itemInferiumStaff id="mysticalagriculture:inferium_staff"/>
+                <itemPrudentiumStaff id="mysticalagriculture:prudentium_staff"/>
+                <itemTertiumStaff id="mysticalagriculture:tertium_staff"/>
+                <itemImperiumStaff id="mysticalagriculture:imperium_staff"/>
+                <itemSupremiumStaff id="mysticalagriculture:supremium_staff"/>
+                <itemAwakenedSupremiumStaff id="mysticalagriculture:awakened_supremium_staff"/>
+                <itemWand id="mysticalagriculture:wand"/>
+            </wands>
+            <mysticalagricultureFishingRod>
+                <itemAwakenedSupremiumFishingRod id="mysticalagriculture:awakened_supremium_fishing_rod"/>
+                <itemImperiumFishingRod id="mysticalagriculture:imperium_fishing_rod"/>
+                <itemInferiumFishingRod id="mysticalagriculture:inferium_fishing_rod"/>
+                <itemPrudentiumFishingRod id="mysticalagriculture:prudentium_fishing_rod"/>
+                <itemSupremiumFishingRod id="mysticalagriculture:supremium_fishing_rod"/>
+                <itemTertiumFishingRod id="mysticalagriculture:tertium_fishing_rod"/>
+            </mysticalagricultureFishingRod>
+            <pickaxe>
+                <itemAwakenedSupremiumPickaxe id="mysticalagriculture:awakened_supremium_pickaxe"/>
+                <itemImperiumPickaxe id="mysticalagriculture:imperium_pickaxe"/>
+                <itemInferiumPickaxe id="mysticalagriculture:inferium_pickaxe"/>
+                <itemPrudentiumPickaxe id="mysticalagriculture:prudentium_pickaxe"/>
+                <itemSupremiumPickaxe id="mysticalagriculture:supremium_pickaxe"/>
+                <itemTertiumPickaxe id="mysticalagriculture:tertium_pickaxe"/>
+            </pickaxe>
+            <axe>
+                <itemAwakenedSupremiumAxe id="mysticalagriculture:awakened_supremium_axe"/>
+                <itemImperiumAxe id="mysticalagriculture:imperium_axe"/>
+                <itemInferiumAxe id="mysticalagriculture:inferium_axe"/>
+                <itemPrudentiumAxe id="mysticalagriculture:prudentium_axe"/>
+                <itemSupremiumAxe id="mysticalagriculture:supremium_axe"/>
+                <itemTertiumAxe id="mysticalagriculture:tertium_axe"/>
+            </axe>
+            <shovel>
+                <itemAwakenedSupremiumShovel id="mysticalagriculture:awakened_supremium_shovel"/>
+                <itemImperiumShovel id="mysticalagriculture:imperium_shovel"/>
+                <itemInferiumShovel id="mysticalagriculture:inferium_shovel"/>
+                <itemPrudentiumShovel id="mysticalagriculture:prudentium_shovel"/>
+                <itemSupremiumShovel id="mysticalagriculture:supremium_shovel"/>
+                <itemTertiumShovel id="mysticalagriculture:tertium_shovel"/>
+            </shovel>
+            <hoe>
+                <itemAwakenedSupremiumHoe id="mysticalagriculture:awakened_supremium_hoe"/>
+                <itemImperiumHoe id="mysticalagriculture:imperium_hoe"/>
+                <itemInferiumHoe id="mysticalagriculture:inferium_hoe"/>
+                <itemPrudentiumHoe id="mysticalagriculture:prudentium_hoe"/>
+                <itemSupremiumHoe id="mysticalagriculture:supremium_hoe"/>
+                <itemTertiumHoe id="mysticalagriculture:tertium_hoe"/>
+            </hoe>
+            <shears>
+                <itemAwakenedSupremiumShears id="mysticalagriculture:awakened_supremium_shears"/>
+                <itemImperiumShears id="mysticalagriculture:imperium_shears"/>
+                <itemInferiumShears id="mysticalagriculture:inferium_shears"/>
+                <itemPrudentiumShears id="mysticalagriculture:prudentium_shears"/>
+                <itemSupremiumShears id="mysticalagriculture:supremium_shears"/>
+                <itemTertiumShears id="mysticalagriculture:tertium_shears"/>
+            </shears>
+        </tool>
+        <armor>
+            <helmet>
+                <itemAwakenedSupremiumHelmet id="mysticalagriculture:awakened_supremium_helmet"/>
+                <itemImperiumHelmet id="mysticalagriculture:imperium_helmet"/>
+                <itemInferiumHelmet id="mysticalagriculture:inferium_helmet"/>
+                <itemPrudentiumHelmet id="mysticalagriculture:prudentium_helmet"/>
+                <itemSupremiumHelmet id="mysticalagriculture:supremium_helmet"/>
+                <itemTertiumHelmet id="mysticalagriculture:tertium_helmet"/>
+            </helmet>
+            <chestplate>
+                <itemAwakenedSupremiumChestplate id="mysticalagriculture:awakened_supremium_chestplate"/>
+                <itemImperiumChestplate id="mysticalagriculture:imperium_chestplate"/>
+                <itemInferiumChestplate id="mysticalagriculture:inferium_chestplate"/>
+                <itemPrudentiumChestplate id="mysticalagriculture:prudentium_chestplate"/>
+                <itemSupremiumChestplate id="mysticalagriculture:supremium_chestplate"/>
+                <itemTertiumChestplate id="mysticalagriculture:tertium_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemAwakenedSupremiumLeggings id="mysticalagriculture:awakened_supremium_leggings"/>
+                <itemImperiumLeggings id="mysticalagriculture:imperium_leggings"/>
+                <itemInferiumLeggings id="mysticalagriculture:inferium_leggings"/>
+                <itemPrudentiumLeggings id="mysticalagriculture:prudentium_leggings"/>
+                <itemSupremiumLeggings id="mysticalagriculture:supremium_leggings"/>
+                <itemTertiumLeggings id="mysticalagriculture:tertium_leggings"/>
+            </leggings>
+            <boots>
+                <itemAwakenedSupremiumBoots id="mysticalagriculture:awakened_supremium_boots"/>
+                <itemImperiumBoots id="mysticalagriculture:imperium_boots"/>
+                <itemInferiumBoots id="mysticalagriculture:inferium_boots"/>
+                <itemPrudentiumBoots id="mysticalagriculture:prudentium_boots"/>
+                <itemSupremiumBoots id="mysticalagriculture:supremium_boots"/>
+                <itemTertiumBoots id="mysticalagriculture:tertium_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+    <block>
+        <naturalBlock>
+            <stones>
+                <stoneSoul>
+                    <itemSoulstoneCobble id="mysticalagriculture:soulstone_cobble"/>
+                    <itemSoulstone id="mysticalagriculture:soulstone"/>
+                    <itemSoulstoneSmooth id="mysticalagriculture:soulstone_smooth"/>
+                </stoneSoul>
+            </stones>
+            <dirts>
+                <fertilizedDirt>
+                    <itemInferiumFarmland id="mysticalagriculture:inferium_farmland"/>
+                    <itemPrudentiumFarmland id="mysticalagriculture:prudentium_farmland"/>
+                    <itemTertiumFarmland id="mysticalagriculture:tertium_farmland"/>
+                    <itemImperiumFarmland id="mysticalagriculture:imperium_farmland"/>
+                    <itemSupremiumFarmland id="mysticalagriculture:supremium_farmland"/>
+                </fertilizedDirt>
+            </dirts>
+            <oreBlock>
+                <itemDeepslateInferiumOre id="mysticalagriculture:deepslate_inferium_ore"/>
+                <itemDeepslateProsperityOre id="mysticalagriculture:deepslate_prosperity_ore"/>
+                <itemInferiumOre id="mysticalagriculture:inferium_ore"/>
+                <itemProsperityOre id="mysticalagriculture:prosperity_ore"/>
+                <itemSouliumOre id="mysticalagriculture:soulium_ore"/>
+            </oreBlock>
+        </naturalBlock>
+        <manufacturedBlock>
+            <constructionBlock>
+                <itemWitherproofBlock id="mysticalagriculture:witherproof_block"/>
+                <bricks>
+                    <itemSoulstoneBricks id="mysticalagriculture:soulstone_bricks"/>
+                    <itemSoulstoneChiseledBricks id="mysticalagriculture:soulstone_chiseled_bricks"/>
+                    <itemSoulstoneCrackedBricks id="mysticalagriculture:soulstone_cracked_bricks"/>
+                    <itemWitherproofBricks id="mysticalagriculture:witherproof_bricks"/>
+                </bricks>
+                <slabs>
+                    <slabSoulstone>
+                        <itemSoulstoneSlab id="mysticalagriculture:soulstone_slab"/>
+                        <itemSoulstoneBricksSlab id="mysticalagriculture:soulstone_bricks_slab"/>
+                        <itemSoulstoneCobbleSlab id="mysticalagriculture:soulstone_cobble_slab"/>
+                        <itemSoulstoneSmoothSlab id="mysticalagriculture:soulstone_smooth_slab"/>
+                    </slabSoulstone>
+                </slabs>
+                <glass>
+                    <itemSoulGlass id="mysticalagriculture:soul_glass"/>
+                    <itemWitherproofGlass id="mysticalagriculture:witherproof_glass"/>
+                </glass>
+                <stairs>
+                    <otherStairs>
+                        <itemSoulstoneBricksStairs id="mysticalagriculture:soulstone_bricks_stairs"/>
+                        <itemSoulstoneCobbleStairs id="mysticalagriculture:soulstone_cobble_stairs"/>
+                        <itemSoulstoneStairs id="mysticalagriculture:soulstone_stairs"/>
+                    </otherStairs>
+                </stairs>
+            </constructionBlock>
+            <stoneWall>
+                <itemSoulstoneBricksWall id="mysticalagriculture:soulstone_bricks_wall"/>
+                <itemSoulstoneCobbleWall id="mysticalagriculture:soulstone_cobble_wall"/>
+            </stoneWall>
+        </manufacturedBlock>
+        <mechanism>
+            <basicCrafting>
+                <tinkerToolCrafting>
+                    <itemTinkeringTable id="mysticalagriculture:tinkering_table"/>
+                </tinkerToolCrafting>
+            </basicCrafting>
+            <machines>
+                <poweredFarming>
+                    <itemAwakenedSupremiumGrowthAccelerator id="mysticalagriculture:awakened_supremium_growth_accelerator"/>
+                    <itemImperiumGrowthAccelerator id="mysticalagriculture:imperium_growth_accelerator"/>
+                    <itemInferiumGrowthAccelerator id="mysticalagriculture:inferium_growth_accelerator"/>
+                    <itemPrudentiumGrowthAccelerator id="mysticalagriculture:prudentium_growth_accelerator"/>
+                    <itemSupremiumGrowthAccelerator id="mysticalagriculture:supremium_growth_accelerator"/>
+                    <itemTertiumGrowthAccelerator id="mysticalagriculture:tertium_growth_accelerator"/>
+                </poweredFarming>
+                <mysticalAgricultureMachines>
+                    <itemEnchanter id="mysticalagriculture:enchanter"/>
+                    <itemFurnace id="mysticalagriculture:furnace"/>
+                    <itemHarvester id="mysticalagriculture:harvester"/>
+                    <itemSeedReprocessor id="mysticalagriculture:seed_reprocessor"/>
+                    <itemSoulExtractor id="mysticalagriculture:soul_extractor"/>
+                    <itemSouliumSpawner id="mysticalagriculture:soulium_spawner"/>
+                </mysticalAgricultureMachines>
+            </machines>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <dust>
+                <itemSoulDust id="mysticalagriculture:soul_dust"/>
+                <itemSouliumDust id="mysticalagriculture:soulium_dust"/>
+            </dust>
+            <miningOreBlock>
+                <itemImperiumIngotBlock id="mysticalagriculture:imperium_ingot_block"/>
+                <itemInferiumIngotBlock id="mysticalagriculture:inferium_ingot_block"/>
+                <itemProsperityIngotBlock id="mysticalagriculture:prosperity_ingot_block"/>
+                <itemPrudentiumIngotBlock id="mysticalagriculture:prudentium_ingot_block"/>
+                <itemSouliumIngotBlock id="mysticalagriculture:soulium_ingot_block"/>
+                <itemSupremiumIngotBlock id="mysticalagriculture:supremium_ingot_block"/>
+                <itemTertiumIngotBlock id="mysticalagriculture:tertium_ingot_block"/>
+                <itemAwakenedSupremiumIngotBlock id="mysticalagriculture:awakened_supremium_ingot_block"/>
+            </miningOreBlock>
+            <nugget>
+                <itemImperiumNugget id="mysticalagriculture:imperium_nugget"/>
+                <itemInferiumNugget id="mysticalagriculture:inferium_nugget"/>
+                <itemProsperityNugget id="mysticalagriculture:prosperity_nugget"/>
+                <itemPrudentiumNugget id="mysticalagriculture:prudentium_nugget"/>
+                <itemSouliumNugget id="mysticalagriculture:soulium_nugget"/>
+                <itemSupremiumNugget id="mysticalagriculture:supremium_nugget"/>
+                <itemTertiumNugget id="mysticalagriculture:tertium_nugget"/>
+                <itemAwakenedSupremiumNugget id="mysticalagriculture:awakened_supremium_nugget"/>
+            </nugget>
+            <gem>
+                <itemProsperityGemstone id="mysticalagriculture:prosperity_gemstone"/>
+                <itemInferiumGemstone id="mysticalagriculture:inferium_gemstone"/>
+                <itemPrudentiumGemstone id="mysticalagriculture:prudentium_gemstone"/>
+                <itemTertiumGemstone id="mysticalagriculture:tertium_gemstone"/>
+                <itemImperiumGemstone id="mysticalagriculture:imperium_gemstone"/>
+                <itemSupremiumGemstone id="mysticalagriculture:supremium_gemstone"/>
+                <itemSouliumGemstone id="mysticalagriculture:soulium_gemstone"/>
+                <itemAwakenedSupremiumGemstone id="mysticalagriculture:awakened_supremium_gemstone"/>
+                <itemProsperityShard id="mysticalagriculture:prosperity_shard"/>
+            </gem>
+            <ingot>
+                <itemAwakenedSupremiumIngot id="mysticalagriculture:awakened_supremium_ingot"/>
+                <itemEssenceIngot id="mysticalagriculture:essence_ingot"/>
+                <itemImperiumIngot id="mysticalagriculture:imperium_ingot"/>
+                <itemInferiumIngot id="mysticalagriculture:inferium_ingot"/>
+                <itemProsperityIngot id="mysticalagriculture:prosperity_ingot"/>
+                <itemPrudentiumIngot id="mysticalagriculture:prudentium_ingot"/>
+                <itemSouliumIngot id="mysticalagriculture:soulium_ingot"/>
+                <itemSupremiumIngot id="mysticalagriculture:supremium_ingot"/>
+                <itemTertiumIngot id="mysticalagriculture:tertium_ingot"/>
+            </ingot>
+        </miningResources>
+    </resources>
+    <item>
+        <utility>
+            <mobSampler>
+                <itemSoulJar id="mysticalagriculture:soul_jar"/>
+            </mobSampler>
+            <readableBooks>
+                <itemGuideBook id="mysticalagriculture:guide_book"/>
+            </readableBooks>
+        </utility>
+        <experienceStorage>
+            <itemExperienceCapsule id="mysticalagriculture:experience_capsule"/>
+        </experienceStorage>
+        <parts>
+            <mechanicalParts>
+                <frames>
+                    <itemMachineFrame id="mysticalagriculture:machine_frame"/>
+                </frames>
+            </mechanicalParts>
+            <toolUpgrades>
+                <itemAwakenedSupremiumUpgrade id="mysticalagriculture:awakened_supremium_upgrade"/>
+                <itemImperiumUpgrade id="mysticalagriculture:imperium_upgrade"/>
+                <itemInferiumUpgrade id="mysticalagriculture:inferium_upgrade"/>
+                <itemPrudentiumUpgrade id="mysticalagriculture:prudentium_upgrade"/>
+                <itemSupremiumUpgrade id="mysticalagriculture:supremium_upgrade"/>
+                <itemTertiumUpgrade id="mysticalagriculture:tertium_upgrade"/>
+                <itemUpgradeBase id="mysticalagriculture:upgrade_base"/>
+            </toolUpgrades>
+        </parts>
+        <decoration>
+            <musicDisc>
+                <itemBlankRecord id="mysticalagriculture:blank_record"/>
+            </musicDisc>
+        </decoration>
+        <plant>
+            <magicalSeed>
+                <itemProsperitySeedBase id="mysticalagriculture:prosperity_seed_base"/>
+                <itemSouliumSeedBase id="mysticalagriculture:soulium_seed_base"/>
+                <itemInferiumSeeds id="mysticalagriculture:inferium_seeds"/>
+                <itemAirSeeds id="mysticalagriculture:air_seeds"/>
+                <itemAllthemodiumSeeds id="mysticalagriculture:allthemodium_seeds"/>
+                <itemAluminumSeeds id="mysticalagriculture:aluminum_seeds"/>
+                <itemAmberiteIngotSeeds id="mysticalagriculture:amberite_ingot_seeds"/>
+                <itemAmethystBronzeSeeds id="mysticalagriculture:amethyst_bronze_seeds"/>
+                <itemAmethystSeeds id="mysticalagriculture:amethyst_seeds"/>
+                <itemAndesiteAlloySeeds id="mysticalagriculture:andesite_alloy_seeds"/>
+                <itemApatiteSeeds id="mysticalagriculture:apatite_seeds"/>
+                <itemAquamarineSeeds id="mysticalagriculture:aquamarine_seeds"/>
+                <itemArcaneGoldIngotSeeds id="mysticalagriculture:arcane_gold_ingot_seeds"/>
+                <itemArmadilloSeeds id="mysticalagriculture:armadillo_seeds"/>
+                <itemAureliteCrystalSeeds id="mysticalagriculture:aurelite_crystal_seeds"/>
+                <itemAwakenedDraconiumSeeds id="mysticalagriculture:awakened_draconium_seeds"/>
+                <itemAzureSilverSeeds id="mysticalagriculture:azure_silver_seeds"/>
+                <itemBasaltSeeds id="mysticalagriculture:basalt_seeds"/>
+                <itemBasalzSeeds id="mysticalagriculture:basalz_seeds"/>
+                <itemBedrockiumIngotSeeds id="mysticalagriculture:bedrockium_ingot_seeds"/>
+                <itemBetterGoldSeeds id="mysticalagriculture:better_gold_seeds"/>
+                <itemBlackQuartzSeeds id="mysticalagriculture:black_quartz_seeds"/>
+                <itemBlazeGoldSeeds id="mysticalagriculture:blaze_gold_seeds"/>
+                <itemBlazeSeeds id="mysticalagriculture:blaze_seeds"/>
+                <itemBlazingCrystalSeeds id="mysticalagriculture:blazing_crystal_seeds"/>
+                <itemBlitzSeeds id="mysticalagriculture:blitz_seeds"/>
+                <itemBlizzSeeds id="mysticalagriculture:blizz_seeds"/>
+                <itemBrassSeeds id="mysticalagriculture:brass_seeds"/>
+                <itemBreezeSeeds id="mysticalagriculture:breeze_seeds"/>
+                <itemBronzeSeeds id="mysticalagriculture:bronze_seeds"/>
+                <itemCajitaFelizSeeds id="mysticalagriculture:cajita_feliz_seeds"/>
+                <itemCelestigemSeeds id="mysticalagriculture:celestigem_seeds"/>
+                <itemCertusQuartzSeeds id="mysticalagriculture:certus_quartz_seeds"/>
+                <itemChaosShardSeeds id="mysticalagriculture:chaos_shard_seeds"/>
+                <itemChickenSeeds id="mysticalagriculture:chicken_seeds"/>
+                <itemChromiumSeeds id="mysticalagriculture:chromium_seeds"/>
+                <itemCoalSeeds id="mysticalagriculture:coal_seeds"/>
+                <itemCobaltSeeds id="mysticalagriculture:cobalt_seeds"/>
+                <itemCognitionSeeds id="mysticalagriculture:cognition_seeds"/>
+                <itemComeraldSeeds id="mysticalagriculture:comerald_seeds"/>
+                <itemCompressedIronSeeds id="mysticalagriculture:compressed_iron_seeds"/>
+                <itemConductiveAlloySeeds id="mysticalagriculture:conductive_alloy_seeds"/>
+                <itemConstantanSeeds id="mysticalagriculture:constantan_seeds"/>
+                <itemCopperAlloySeeds id="mysticalagriculture:copper_alloy_seeds"/>
+                <itemCopperSeeds id="mysticalagriculture:copper_seeds"/>
+                <itemCoralSeeds id="mysticalagriculture:coral_seeds"/>
+                <itemCowSeeds id="mysticalagriculture:cow_seeds"/>
+                <itemCreeperSeeds id="mysticalagriculture:creeper_seeds"/>
+                <itemCrimsonIronSeeds id="mysticalagriculture:crimson_iron_seeds"/>
+                <itemCrystalMatrixSeeds id="mysticalagriculture:crystal_matrix_seeds"/>
+                <itemCuarzorosaSeeds id="mysticalagriculture:cuarzorosa_seeds"/>
+                <itemCyaniteSeeds id="mysticalagriculture:cyanite_seeds"/>
+                <itemDarkGemSeeds id="mysticalagriculture:dark_gem_seeds"/>
+                <itemDarkSteelSeeds id="mysticalagriculture:dark_steel_seeds"/>
+                <itemDarkstoneSeeds id="mysticalagriculture:darkstone_seeds"/>
+                <itemDeepslateSeeds id="mysticalagriculture:deepslate_seeds"/>
+                <itemDemonIngotSeeds id="mysticalagriculture:demon_ingot_seeds"/>
+                <itemDeorumIngotSeeds id="mysticalagriculture:deorum_ingot_seeds"/>
+                <itemDiamondSeeds id="mysticalagriculture:diamond_seeds"/>
+                <itemDirtSeeds id="mysticalagriculture:dirt_seeds"/>
+                <itemDraconiumSeeds id="mysticalagriculture:draconium_seeds"/>
+                <itemDragonEggSeeds id="mysticalagriculture:dragon_egg_seeds"/>
+                <itemDyeSeeds id="mysticalagriculture:dye_seeds"/>
+                <itemEarthSeeds id="mysticalagriculture:earth_seeds"/>
+                <itemEclipseAlloySeeds id="mysticalagriculture:eclipse_alloy_seeds"/>
+                <itemElectrumSeeds id="mysticalagriculture:electrum_seeds"/>
+                <itemElementiumSeeds id="mysticalagriculture:elementium_seeds"/>
+                <itemElevatiumIngotSeeds id="mysticalagriculture:elevatium_ingot_seeds"/>
+                <itemElinvonzeSeeds id="mysticalagriculture:elinvonze_seeds"/>
+                <itemElyndriteSeeds id="mysticalagriculture:elyndrite_seeds"/>
+                <itemEmeraldSeeds id="mysticalagriculture:emerald_seeds"/>
+                <itemEnchantedIngotSeeds id="mysticalagriculture:enchanted_ingot_seeds"/>
+                <itemEndSeeds id="mysticalagriculture:end_seeds"/>
+                <itemEndSteelSeeds id="mysticalagriculture:end_steel_seeds"/>
+                <itemEnderIngotSeeds id="mysticalagriculture:ender_ingot_seeds"/>
+                <itemEnderiumSeeds id="mysticalagriculture:enderium_seeds"/>
+                <itemEndermanSeeds id="mysticalagriculture:enderman_seeds"/>
+                <itemEnergeticAlloySeeds id="mysticalagriculture:energetic_alloy_seeds"/>
+                <itemEnergizedSteelSeeds id="mysticalagriculture:energized_steel_seeds"/>
+                <itemEntroIngotSeeds id="mysticalagriculture:entro_ingot_seeds"/>
+                <itemEntroSeeds id="mysticalagriculture:entro_seeds"/>
+                <itemEvilInfusedIronIngotSeeds id="mysticalagriculture:evil_infused_iron_ingot_seeds"/>
+                <itemExperienceSeeds id="mysticalagriculture:experience_seeds"/>
+                <itemFayroniumSeeds id="mysticalagriculture:fayronium_seeds"/>
+                <itemFerricoreSeeds id="mysticalagriculture:ferricore_seeds"/>
+                <itemFieryIngotSeeds id="mysticalagriculture:fiery_ingot_seeds"/>
+                <itemFireSeeds id="mysticalagriculture:fire_seeds"/>
+                <itemFishSeeds id="mysticalagriculture:fish_seeds"/>
+                <itemFluixSeeds id="mysticalagriculture:fluix_seeds"/>
+                <itemFluoriteSeeds id="mysticalagriculture:fluorite_seeds"/>
+                <itemFluxDustSeeds id="mysticalagriculture:flux_dust_seeds"/>
+                <itemFluxInfusedGemSeeds id="mysticalagriculture:flux_infused_gem_seeds"/>
+                <itemFluxInfusedIngotSeeds id="mysticalagriculture:flux_infused_ingot_seeds"/>
+                <itemGaiaSpiritSeeds id="mysticalagriculture:gaia_spirit_seeds"/>
+                <itemGhastSeeds id="mysticalagriculture:ghast_seeds"/>
+                <itemGlassSeeds id="mysticalagriculture:glass_seeds"/>
+                <itemGlowstoneSeeds id="mysticalagriculture:glowstone_seeds"/>
+                <itemGoldSeeds id="mysticalagriculture:gold_seeds"/>
+                <itemGoriumIngotSeeds id="mysticalagriculture:gorium_ingot_seeds"/>
+                <itemGrainsOfInfinitySeeds id="mysticalagriculture:grains_of_infinity_seeds"/>
+                <itemGraphiteSeeds id="mysticalagriculture:graphite_seeds"/>
+                <itemHepatizonSeeds id="mysticalagriculture:hepatizon_seeds"/>
+                <itemHoneySeeds id="mysticalagriculture:honey_seeds"/>
+                <itemHopGraphiteSeeds id="mysticalagriculture:hop_graphite_seeds"/>
+                <itemIceSeeds id="mysticalagriculture:ice_seeds"/>
+                <itemImperiumEssenceSeeds id="mysticalagriculture:imperium_essence_seeds"/>
+                <itemInferniumIngotSeeds id="mysticalagriculture:infernium_ingot_seeds"/>
+                <itemInfinitySeeds id="mysticalagriculture:infinity_seeds"/>
+                <itemInsaniumEssenceSeeds id="mysticalagriculture:insanium_essence_seeds"/>
+                <itemInvarSeeds id="mysticalagriculture:invar_seeds"/>
+                <itemIoniteIngotSeeds id="mysticalagriculture:ionite_ingot_seeds"/>
+                <itemIridiumSeeds id="mysticalagriculture:iridium_seeds"/>
+                <itemIronSeeds id="mysticalagriculture:iron_seeds"/>
+                <itemIronwoodSeeds id="mysticalagriculture:ironwood_seeds"/>
+                <itemKiviSeeds id="mysticalagriculture:kivi_seeds"/>
+                <itemKnightmetalSeeds id="mysticalagriculture:knightmetal_seeds"/>
+                <itemLapisLazuliSeeds id="mysticalagriculture:lapis_lazuli_seeds"/>
+                <itemLeadSeeds id="mysticalagriculture:lead_seeds"/>
+                <itemLightiumEssenceSeeds id="mysticalagriculture:lightium_essence_seeds"/>
+                <itemLimestoneSeeds id="mysticalagriculture:limestone_seeds"/>
+                <itemLuminiteIngotSeeds id="mysticalagriculture:luminite_ingot_seeds"/>
+                <itemLumiumSeeds id="mysticalagriculture:lumium_seeds"/>
+                <itemLustrousDustSeeds id="mysticalagriculture:lustrous_dust_seeds"/>
+                <itemManasteelSeeds id="mysticalagriculture:manasteel_seeds"/>
+                <itemManroniumSteelSeeds id="mysticalagriculture:manronium_steel_seeds"/>
+                <itemManyedriteSeeds id="mysticalagriculture:manyedrite_seeds"/>
+                <itemManyeriumSeeds id="mysticalagriculture:manyerium_seeds"/>
+                <itemManyullynSeeds id="mysticalagriculture:manyullyn_seeds"/>
+                <itemMarbleSeeds id="mysticalagriculture:marble_seeds"/>
+                <itemMenrilSeeds id="mysticalagriculture:menril_seeds"/>
+                <itemMithrydiumSeeds id="mysticalagriculture:mithrydium_seeds"/>
+                <itemMysticalFlowerSeeds id="mysticalagriculture:mystical_flower_seeds"/>
+                <itemMysticalSeeds id="mysticalagriculture:mystical_seeds"/>
+                <itemNadieniteIngotSeeds id="mysticalagriculture:nadienite_ingot_seeds"/>
+                <itemNaquadahSeeds id="mysticalagriculture:naquadah_seeds"/>
+                <itemNatureSeeds id="mysticalagriculture:nature_seeds"/>
+                <itemNetherQuartzSeeds id="mysticalagriculture:nether_quartz_seeds"/>
+                <itemNetherSeeds id="mysticalagriculture:nether_seeds"/>
+                <itemNetherStarSeeds id="mysticalagriculture:nether_star_seeds"/>
+                <itemNetheriteSeeds id="mysticalagriculture:netherite_seeds"/>
+                <itemNeutroniumSeeds id="mysticalagriculture:neutronium_seeds"/>
+                <itemNickelSeeds id="mysticalagriculture:nickel_seeds"/>
+                <itemNioticCrystalSeeds id="mysticalagriculture:niotic_crystal_seeds"/>
+                <itemNitroCrystalSeeds id="mysticalagriculture:nitro_crystal_seeds"/>
+                <itemObsidianSeeds id="mysticalagriculture:obsidian_seeds"/>
+                <itemOrniumEssenceSeeds id="mysticalagriculture:ornium_essence_seeds"/>
+                <itemOsmiriteIngotSeeds id="mysticalagriculture:osmirite_ingot_seeds"/>
+                <itemOsmiumSeeds id="mysticalagriculture:osmium_seeds"/>
+                <itemOuraniumEssenceSeeds id="mysticalagriculture:ouranium_essence_seeds"/>
+                <itemPeridotSeeds id="mysticalagriculture:peridot_seeds"/>
+                <itemPhantomSeeds id="mysticalagriculture:phantom_seeds"/>
+                <itemPigIronSeeds id="mysticalagriculture:pig_iron_seeds"/>
+                <itemPigSeeds id="mysticalagriculture:pig_seeds"/>
+                <itemPinkSlimeSeeds id="mysticalagriculture:pink_slime_seeds"/>
+                <itemPlaslitheriteSeeds id="mysticalagriculture:plaslitherite_seeds"/>
+                <itemPlatinumSeeds id="mysticalagriculture:platinum_seeds"/>
+                <itemPredicciondematrixSeeds id="mysticalagriculture:predicciondematrix_seeds"/>
+                <itemPrismarineSeeds id="mysticalagriculture:prismarine_seeds"/>
+                <itemPrometheumSeeds id="mysticalagriculture:prometheum_seeds"/>
+                <itemProsperityShardSeeds id="mysticalagriculture:prosperity_shard_seeds"/>
+                <itemPrudentiumEssenceSeeds id="mysticalagriculture:prudentium_essence_seeds"/>
+                <itemPulsatingAlloySeeds id="mysticalagriculture:pulsating_alloy_seeds"/>
+                <itemPyrestoneCrystalSeeds id="mysticalagriculture:pyrestone_crystal_seeds"/>
+                <itemQuantumAlloySeeds id="mysticalagriculture:quantum_alloy_seeds"/>
+                <itemQuantumInfusedDustSeeds id="mysticalagriculture:quantum_infused_dust_seeds"/>
+                <itemQuartzEnrichedIronSeeds id="mysticalagriculture:quartz_enriched_iron_seeds"/>
+                <itemQueensSlimeSeeds id="mysticalagriculture:queens_slime_seeds"/>
+                <itemQueensSteelSeeds id="mysticalagriculture:queens_steel_seeds"/>
+                <itemRabbitSeeds id="mysticalagriculture:rabbit_seeds"/>
+                <itemRedstoneAlloySeeds id="mysticalagriculture:redstone_alloy_seeds"/>
+                <itemRedstoneSeeds id="mysticalagriculture:redstone_seeds"/>
+                <itemRedstoneingotSeeds id="mysticalagriculture:redstoneingot_seeds"/>
+                <itemRefinedGlowstoneSeeds id="mysticalagriculture:refined_glowstone_seeds"/>
+                <itemRefinedObsidianSeeds id="mysticalagriculture:refined_obsidian_seeds"/>
+                <itemRockCrystalSeeds id="mysticalagriculture:rock_crystal_seeds"/>
+                <itemRoseGoldSeeds id="mysticalagriculture:rose_gold_seeds"/>
+                <itemRubberSeeds id="mysticalagriculture:rubber_seeds"/>
+                <itemRubySeeds id="mysticalagriculture:ruby_seeds"/>
+                <itemSaltpeterSeeds id="mysticalagriculture:saltpeter_seeds"/>
+                <itemSapphireSeeds id="mysticalagriculture:sapphire_seeds"/>
+                <itemSculkSeeds id="mysticalagriculture:sculk_seeds"/>
+                <itemSheepSeeds id="mysticalagriculture:sheep_seeds"/>
+                <itemSignalumSeeds id="mysticalagriculture:signalum_seeds"/>
+                <itemSiliconSeeds id="mysticalagriculture:silicon_seeds"/>
+                <itemSilverSeeds id="mysticalagriculture:silver_seeds"/>
+                <itemSkeletonSeeds id="mysticalagriculture:skeleton_seeds"/>
+                <itemSkySteelIngotSeeds id="mysticalagriculture:sky_steel_ingot_seeds"/>
+                <itemSkyStoneSeeds id="mysticalagriculture:sky_stone_seeds"/>
+                <itemSlimeSeeds id="mysticalagriculture:slime_seeds"/>
+                <itemSlimesteelSeeds id="mysticalagriculture:slimesteel_seeds"/>
+                <itemSoulDustSeeds id="mysticalagriculture:soul_dust_seeds"/>
+                <itemSoulariumSeeds id="mysticalagriculture:soularium_seeds"/>
+                <itemSouliumSeeds id="mysticalagriculture:soulium_seeds"/>
+                <itemSoulstoneCobbleSeeds id="mysticalagriculture:soulstone_cobble_seeds"/>
+                <itemSourceGemSeeds id="mysticalagriculture:source_gem_seeds"/>
+                <itemSpiderSeeds id="mysticalagriculture:spider_seeds"/>
+                <itemSpiritGemSeeds id="mysticalagriculture:spirit_gem_seeds"/>
+                <itemSpiritedCrystalSeeds id="mysticalagriculture:spirited_crystal_seeds"/>
+                <itemSquidSeeds id="mysticalagriculture:squid_seeds"/>
+                <itemStarmetalSeeds id="mysticalagriculture:starmetal_seeds"/>
+                <itemSteelSeeds id="mysticalagriculture:steel_seeds"/>
+                <itemSteeleafSeeds id="mysticalagriculture:steeleaf_seeds"/>
+                <itemStoneSeeds id="mysticalagriculture:stone_seeds"/>
+                <itemSulfurSeeds id="mysticalagriculture:sulfur_seeds"/>
+                <itemSuperCacotasSeeds id="mysticalagriculture:super_cacotas_seeds"/>
+                <itemSupremiumEssenceEscSeeds id="mysticalagriculture:supremium_essence_esc_seeds"/>
+                <itemTenebriteIngotSeeds id="mysticalagriculture:tenebrite_ingot_seeds"/>
+                <itemTerrasteelSeeds id="mysticalagriculture:terrasteel_seeds"/>
+                <itemTertiumEssenceSeeds id="mysticalagriculture:tertium_essence_seeds"/>
+                <itemThaumaturgeAlumentumSeeds id="mysticalagriculture:thaumaturge_alumentum_seeds"/>
+                <itemThaumaturgeAmberSeeds id="mysticalagriculture:thaumaturge_amber_seeds"/>
+                <itemThaumaturgeBrassSeeds id="mysticalagriculture:thaumaturge_brass_seeds"/>
+                <itemThaumaturgeCrystalAerSeeds id="mysticalagriculture:thaumaturge_crystal_aer_seeds"/>
+                <itemThaumaturgeCrystalAquaSeeds id="mysticalagriculture:thaumaturge_crystal_aqua_seeds"/>
+                <itemThaumaturgeCrystalIgnisSeeds id="mysticalagriculture:thaumaturge_crystal_ignis_seeds"/>
+                <itemThaumaturgeCrystalOrdoSeeds id="mysticalagriculture:thaumaturge_crystal_ordo_seeds"/>
+                <itemThaumaturgeCrystalPerditioSeeds id="mysticalagriculture:thaumaturge_crystal_perditio_seeds"/>
+                <itemThaumaturgeCrystalTerraSeeds id="mysticalagriculture:thaumaturge_crystal_terra_seeds"/>
+                <itemThaumaturgeCrystalVitiumSeeds id="mysticalagriculture:thaumaturge_crystal_vitium_seeds"/>
+                <itemThaumaturgeQuicksilverSeeds id="mysticalagriculture:thaumaturge_quicksilver_seeds"/>
+                <itemThaumaturgeSalisMundusSeeds id="mysticalagriculture:thaumaturge_salis_mundus_seeds"/>
+                <itemThaumaturgeThaumiumSeeds id="mysticalagriculture:thaumaturge_thaumium_seeds"/>
+                <itemThaumaturgeVoidMetalSeeds id="mysticalagriculture:thaumaturge_void_metal_seeds"/>
+                <itemTinSeeds id="mysticalagriculture:tin_seeds"/>
+                <itemTorniumEssenceSeeds id="mysticalagriculture:tornium_essence_seeds"/>
+                <itemTurtleSeeds id="mysticalagriculture:turtle_seeds"/>
+                <itemUmbriteIngotSeeds id="mysticalagriculture:umbrite_ingot_seeds"/>
+                <itemUnexploredWoodSeeds id="mysticalagriculture:unexplored_wood_seeds"/>
+                <itemUnobtainiumSeeds id="mysticalagriculture:unobtainium_seeds"/>
+                <itemUnstableIngotSeeds id="mysticalagriculture:unstable_ingot_seeds"/>
+                <itemUraniniteSeeds id="mysticalagriculture:uraninite_seeds"/>
+                <itemUraniumSeeds id="mysticalagriculture:uranium_seeds"/>
+                <itemVibraniumSeeds id="mysticalagriculture:vibranium_seeds"/>
+                <itemVibrantAlloySeeds id="mysticalagriculture:vibrant_alloy_seeds"/>
+                <itemViriditeGemSeeds id="mysticalagriculture:viridite_gem_seeds"/>
+                <itemWaterSeeds id="mysticalagriculture:water_seeds"/>
+                <itemWitherSkeletonSeeds id="mysticalagriculture:wither_skeleton_seeds"/>
+                <itemWoodSeeds id="mysticalagriculture:wood_seeds"/>
+                <itemXychoriumGemSeeds id="mysticalagriculture:xychorium_gem_seeds"/>
+                <itemYelloriumSeeds id="mysticalagriculture:yellorium_seeds"/>
+                <itemZincSeeds id="mysticalagriculture:zinc_seeds"/>
+                <itemZombieSeeds id="mysticalagriculture:zombie_seeds"/>
+            </magicalSeed>
+            <fertilizer>
+                <itemCognizantDust id="mysticalagriculture:cognizant_dust"/>
+                <itemMysticalFertilizer id="mysticalagriculture:mystical_fertilizer"/>
+            </fertilizer>
+        </plant>
+        <potion>
+            <itemExperienceDroplet id="mysticalagriculture:experience_droplet"/>
+        </potion>
+        <magical>
+            <magicalCrops>
+                <infusionStones>
+                    <itemMasterInfusionCrystal id="mysticalagriculture:master_infusion_crystal"/>
+                    <itemInfusionCrystal id="mysticalagriculture:infusion_crystal"/>
+                </infusionStones>
+                <magicalEdifices>
+                    <itemInfusionAltar id="mysticalagriculture:infusion_altar"/>
+                    <itemInfusionPedestal id="mysticalagriculture:infusion_pedestal"/>
+                    <itemAwakeningAltar id="mysticalagriculture:awakening_altar"/>
+                    <itemAwakeningPedestal id="mysticalagriculture:awakening_pedestal"/>
+                </magicalEdifices>
+                <magicalParts>
+                    <itemBlankSkull id="mysticalagriculture:blank_skull"/>
+                    <itemUnattunedAugment id="mysticalagriculture:unattuned_augment"/>
+                    <itemAbsorptionIAugment id="mysticalagriculture:absorption_i_augment"/>
+                    <itemAbsorptionIiAugment id="mysticalagriculture:absorption_ii_augment"/>
+                    <itemAbsorptionIiiAugment id="mysticalagriculture:absorption_iii_augment"/>
+                    <itemAbsorptionIvAugment id="mysticalagriculture:absorption_iv_augment"/>
+                    <itemAbsorptionVAugment id="mysticalagriculture:absorption_v_augment"/>
+                    <itemAttackAoeIAugment id="mysticalagriculture:attack_aoe_i_augment"/>
+                    <itemAttackAoeIiAugment id="mysticalagriculture:attack_aoe_ii_augment"/>
+                    <itemAttackAoeIiiAugment id="mysticalagriculture:attack_aoe_iii_augment"/>
+                    <itemFireResistanceAugment id="mysticalagriculture:fire_resistance_augment"/>
+                    <itemFlightAugment id="mysticalagriculture:flight_augment"/>
+                    <itemHealthBoostIAugment id="mysticalagriculture:health_boost_i_augment"/>
+                    <itemHealthBoostIiAugment id="mysticalagriculture:health_boost_ii_augment"/>
+                    <itemHealthBoostIiiAugment id="mysticalagriculture:health_boost_iii_augment"/>
+                    <itemHealthBoostIvAugment id="mysticalagriculture:health_boost_iv_augment"/>
+                    <itemHealthBoostVAugment id="mysticalagriculture:health_boost_v_augment"/>
+                    <itemJumpBoostIAugment id="mysticalagriculture:jump_boost_i_augment"/>
+                    <itemJumpBoostIiAugment id="mysticalagriculture:jump_boost_ii_augment"/>
+                    <itemJumpBoostIiiAugment id="mysticalagriculture:jump_boost_iii_augment"/>
+                    <itemMiningAoeIAugment id="mysticalagriculture:mining_aoe_i_augment"/>
+                    <itemMiningAoeIiAugment id="mysticalagriculture:mining_aoe_ii_augment"/>
+                    <itemMiningAoeIiiAugment id="mysticalagriculture:mining_aoe_iii_augment"/>
+                    <itemMiningAoeIvAugment id="mysticalagriculture:mining_aoe_iv_augment"/>
+                    <itemMiningFatigueResistanceAugment id="mysticalagriculture:mining_fatigue_resistance_augment"/>
+                    <itemNightVisionAugment id="mysticalagriculture:night_vision_augment"/>
+                    <itemNoFallDamageAugment id="mysticalagriculture:no_fall_damage_augment"/>
+                    <itemPathingAoeIAugment id="mysticalagriculture:pathing_aoe_i_augment"/>
+                    <itemPathingAoeIiAugment id="mysticalagriculture:pathing_aoe_ii_augment"/>
+                    <itemPathingAoeIiiAugment id="mysticalagriculture:pathing_aoe_iii_augment"/>
+                    <itemPathingAoeIvAugment id="mysticalagriculture:pathing_aoe_iv_augment"/>
+                    <itemPoisonResistanceAugment id="mysticalagriculture:poison_resistance_augment"/>
+                    <itemSpeedIAugment id="mysticalagriculture:speed_i_augment"/>
+                    <itemSpeedIiAugment id="mysticalagriculture:speed_ii_augment"/>
+                    <itemSpeedIiiAugment id="mysticalagriculture:speed_iii_augment"/>
+                    <itemStepAssistAugment id="mysticalagriculture:step_assist_augment"/>
+                    <itemStrengthIAugment id="mysticalagriculture:strength_i_augment"/>
+                    <itemStrengthIiAugment id="mysticalagriculture:strength_ii_augment"/>
+                    <itemStrengthIiiAugment id="mysticalagriculture:strength_iii_augment"/>
+                    <itemTillingAoeIAugment id="mysticalagriculture:tilling_aoe_i_augment"/>
+                    <itemTillingAoeIiAugment id="mysticalagriculture:tilling_aoe_ii_augment"/>
+                    <itemTillingAoeIiiAugment id="mysticalagriculture:tilling_aoe_iii_augment"/>
+                    <itemTillingAoeIvAugment id="mysticalagriculture:tilling_aoe_iv_augment"/>
+                    <itemWaterBreathingAugment id="mysticalagriculture:water_breathing_augment"/>
+                    <itemWitherResistanceAugment id="mysticalagriculture:wither_resistance_augment"/>
+                    <itemAdaptationsAbsorptionViAugment id="mysticalagriculture:adaptations_absorption_vi_augment"/>
+                    <itemAdaptationsAttackAoeIvAugment id="mysticalagriculture:adaptations_attack_aoe_iv_augment"/>
+                    <itemAdaptationsDaywalkerAugment id="mysticalagriculture:adaptations_daywalker_augment"/>
+                    <itemAdaptationsHealthBoostViAugment id="mysticalagriculture:adaptations_health_boost_vi_augment"/>
+                    <itemAdaptationsHungerlessAugment id="mysticalagriculture:adaptations_hungerless_augment"/>
+                    <itemAdaptationsMiningAoeVAugment id="mysticalagriculture:adaptations_mining_aoe_v_augment"/>
+                    <itemAdaptationsStrengthIvAugment id="mysticalagriculture:adaptations_strength_iv_augment"/>
+                    <itemAdaptationsThirstlessAugment id="mysticalagriculture:adaptations_thirstless_augment"/>
+                    <itemAdaptationsTillingAoeVAugment id="mysticalagriculture:adaptations_tilling_aoe_v_augment"/>
+                    <itemAdaptationsWoodcutterAugment id="mysticalagriculture:adaptations_woodcutter_augment"/>
+                    <itemAugment id="mysticalagriculture:augment"/>
+                    <itemBlindnessResistanceAugment id="mysticalagriculture:blindness_resistance_augment"/>
+                    <itemHasteIAugment id="mysticalagriculture:haste_i_augment"/>
+                    <itemHasteIiAugment id="mysticalagriculture:haste_ii_augment"/>
+                    <itemHasteIiiAugment id="mysticalagriculture:haste_iii_augment"/>
+                    <itemHungerResistanceAugment id="mysticalagriculture:hunger_resistance_augment"/>
+                    <itemLuckIAugment id="mysticalagriculture:luck_i_augment"/>
+                    <itemLuckIiAugment id="mysticalagriculture:luck_ii_augment"/>
+                    <itemLuckIiiAugment id="mysticalagriculture:luck_iii_augment"/>
+                    <itemNauseaResistanceAugment id="mysticalagriculture:nausea_resistance_augment"/>
+                    <itemSlowFallingAugment id="mysticalagriculture:slow_falling_augment"/>
+                    <itemSlownessResistanceAugment id="mysticalagriculture:slowness_resistance_augment"/>
+                    <itemWeaknessResistanceAugment id="mysticalagriculture:weakness_resistance_augment"/>
+                    <itemEssenceDiamond id="mysticalagriculture:essence_diamond"/>
+                    <itemEssenceDust id="mysticalagriculture:essence_dust"/>
+                    <itemEssenceFlame id="mysticalagriculture:essence_flame"/>
+                    <itemEssenceGem id="mysticalagriculture:essence_gem"/>
+                    <itemEssenceQuartz id="mysticalagriculture:essence_quartz"/>
+                    <itemEssenceRock id="mysticalagriculture:essence_rock"/>
+                    <itemEssenceRod id="mysticalagriculture:essence_rod"/>
+                    <itemEssenceTallGem id="mysticalagriculture:essence_tall_gem"/>
+                    <itemEssenceVessel id="mysticalagriculture:essence_vessel"/>
+                    <agglomeratios>
+                        <itemAirAgglomeratio id="mysticalagriculture:air_agglomeratio"/>
+                        <itemCoralAgglomeratio id="mysticalagriculture:coral_agglomeratio"/>
+                        <itemDyeAgglomeratio id="mysticalagriculture:dye_agglomeratio"/>
+                        <itemEarthAgglomeratio id="mysticalagriculture:earth_agglomeratio"/>
+                        <itemEndAgglomeratio id="mysticalagriculture:end_agglomeratio"/>
+                        <itemFireAgglomeratio id="mysticalagriculture:fire_agglomeratio"/>
+                        <itemHoneyAgglomeratio id="mysticalagriculture:honey_agglomeratio"/>
+                        <itemMysticalFlowerAgglomeratio id="mysticalagriculture:mystical_flower_agglomeratio"/>
+                        <itemNatureAgglomeratio id="mysticalagriculture:nature_agglomeratio"/>
+                        <itemNetherAgglomeratio id="mysticalagriculture:nether_agglomeratio"/>
+                        <itemPrismarineAgglomeratio id="mysticalagriculture:prismarine_agglomeratio"/>
+                        <itemWaterAgglomeratio id="mysticalagriculture:water_agglomeratio"/>
+                    </agglomeratios>
+                </magicalParts>
+                <cropEssence>
+                    <itemProsperityBlock id="mysticalagriculture:prosperity_block"/>
+                    <itemSouliumBlock id="mysticalagriculture:soulium_block"/>
+                    <itemProsperityGemstoneBlock id="mysticalagriculture:prosperity_gemstone_block"/>
+                    <itemSouliumGemstoneBlock id="mysticalagriculture:soulium_gemstone_block"/>
+                    <essenceBlocks>
+                        <itemInferiumBlock id="mysticalagriculture:inferium_block"/>
+                        <itemPrudentiumBlock id="mysticalagriculture:prudentium_block"/>
+                        <itemTertiumBlock id="mysticalagriculture:tertium_block"/>
+                        <itemImperiumBlock id="mysticalagriculture:imperium_block"/>
+                        <itemSupremiumBlock id="mysticalagriculture:supremium_block"/>
+                        <itemAwakenedSupremiumBlock id="mysticalagriculture:awakened_supremium_block"/>
+                    </essenceBlocks>
+                    <essenceGemBlock>
+                        <itemInferiumGemstoneBlock id="mysticalagriculture:inferium_gemstone_block"/>
+                        <itemPrudentiumGemstoneBlock id="mysticalagriculture:prudentium_gemstone_block"/>
+                        <itemTertiumGemstoneBlock id="mysticalagriculture:tertium_gemstone_block"/>
+                        <itemImperiumGemstoneBlock id="mysticalagriculture:imperium_gemstone_block"/>
+                        <itemSupremiumGemstoneBlock id="mysticalagriculture:supremium_gemstone_block"/>
+                        <itemAwakenedSupremiumGemstoneBlock id="mysticalagriculture:awakened_supremium_gemstone_block"/>
+                    </essenceGemBlock>
+                    <baseEssence>
+                        <itemAirEssence id="mysticalagriculture:air_essence"/>
+                        <itemAllthemodiumEssence id="mysticalagriculture:allthemodium_essence"/>
+                        <itemAluminumEssence id="mysticalagriculture:aluminum_essence"/>
+                        <itemAmberiteIngotEssence id="mysticalagriculture:amberite_ingot_essence"/>
+                        <itemAmethystBronzeEssence id="mysticalagriculture:amethyst_bronze_essence"/>
+                        <itemAmethystEssence id="mysticalagriculture:amethyst_essence"/>
+                        <itemAndesiteAlloyEssence id="mysticalagriculture:andesite_alloy_essence"/>
+                        <itemApatiteEssence id="mysticalagriculture:apatite_essence"/>
+                        <itemAquamarineEssence id="mysticalagriculture:aquamarine_essence"/>
+                        <itemArcaneGoldIngotEssence id="mysticalagriculture:arcane_gold_ingot_essence"/>
+                        <itemArmadilloEssence id="mysticalagriculture:armadillo_essence"/>
+                        <itemAureliteCrystalEssence id="mysticalagriculture:aurelite_crystal_essence"/>
+                        <itemAwakenedDraconiumEssence id="mysticalagriculture:awakened_draconium_essence"/>
+                        <itemAwakenedSupremiumEssence id="mysticalagriculture:awakened_supremium_essence"/>
+                        <itemAzureSilverEssence id="mysticalagriculture:azure_silver_essence"/>
+                        <itemBasaltEssence id="mysticalagriculture:basalt_essence"/>
+                        <itemBasalzEssence id="mysticalagriculture:basalz_essence"/>
+                        <itemBedrockiumIngotEssence id="mysticalagriculture:bedrockium_ingot_essence"/>
+                        <itemBetterGoldEssence id="mysticalagriculture:better_gold_essence"/>
+                        <itemBlackQuartzEssence id="mysticalagriculture:black_quartz_essence"/>
+                        <itemBlazeEssence id="mysticalagriculture:blaze_essence"/>
+                        <itemBlazeGoldEssence id="mysticalagriculture:blaze_gold_essence"/>
+                        <itemBlazingCrystalEssence id="mysticalagriculture:blazing_crystal_essence"/>
+                        <itemBlitzEssence id="mysticalagriculture:blitz_essence"/>
+                        <itemBlizzEssence id="mysticalagriculture:blizz_essence"/>
+                        <itemBrassEssence id="mysticalagriculture:brass_essence"/>
+                        <itemBreezeEssence id="mysticalagriculture:breeze_essence"/>
+                        <itemBronzeEssence id="mysticalagriculture:bronze_essence"/>
+                        <itemCajitaFelizEssence id="mysticalagriculture:cajita_feliz_essence"/>
+                        <itemCelestigemEssence id="mysticalagriculture:celestigem_essence"/>
+                        <itemCertusQuartzEssence id="mysticalagriculture:certus_quartz_essence"/>
+                        <itemChaosShardEssence id="mysticalagriculture:chaos_shard_essence"/>
+                        <itemChickenEssence id="mysticalagriculture:chicken_essence"/>
+                        <itemChromiumEssence id="mysticalagriculture:chromium_essence"/>
+                        <itemCoalEssence id="mysticalagriculture:coal_essence"/>
+                        <itemCobaltEssence id="mysticalagriculture:cobalt_essence"/>
+                        <itemCognitionEssence id="mysticalagriculture:cognition_essence"/>
+                        <itemComeraldEssence id="mysticalagriculture:comerald_essence"/>
+                        <itemCompressedIronEssence id="mysticalagriculture:compressed_iron_essence"/>
+                        <itemConductiveAlloyEssence id="mysticalagriculture:conductive_alloy_essence"/>
+                        <itemConstantanEssence id="mysticalagriculture:constantan_essence"/>
+                        <itemCopperAlloyEssence id="mysticalagriculture:copper_alloy_essence"/>
+                        <itemCopperEssence id="mysticalagriculture:copper_essence"/>
+                        <itemCoralEssence id="mysticalagriculture:coral_essence"/>
+                        <itemCowEssence id="mysticalagriculture:cow_essence"/>
+                        <itemCreeperEssence id="mysticalagriculture:creeper_essence"/>
+                        <itemCrimsonIronEssence id="mysticalagriculture:crimson_iron_essence"/>
+                        <itemCrystalMatrixEssence id="mysticalagriculture:crystal_matrix_essence"/>
+                        <itemCuarzorosaEssence id="mysticalagriculture:cuarzorosa_essence"/>
+                        <itemCyaniteEssence id="mysticalagriculture:cyanite_essence"/>
+                        <itemDarkGemEssence id="mysticalagriculture:dark_gem_essence"/>
+                        <itemDarkSteelEssence id="mysticalagriculture:dark_steel_essence"/>
+                        <itemDarkstoneEssence id="mysticalagriculture:darkstone_essence"/>
+                        <itemDeepslateEssence id="mysticalagriculture:deepslate_essence"/>
+                        <itemDemonIngotEssence id="mysticalagriculture:demon_ingot_essence"/>
+                        <itemDeorumIngotEssence id="mysticalagriculture:deorum_ingot_essence"/>
+                        <itemDiamondEssence id="mysticalagriculture:diamond_essence"/>
+                        <itemDirtEssence id="mysticalagriculture:dirt_essence"/>
+                        <itemDraconiumEssence id="mysticalagriculture:draconium_essence"/>
+                        <itemDragonEggEssence id="mysticalagriculture:dragon_egg_essence"/>
+                        <itemDyeEssence id="mysticalagriculture:dye_essence"/>
+                        <itemEarthEssence id="mysticalagriculture:earth_essence"/>
+                        <itemEclipseAlloyEssence id="mysticalagriculture:eclipse_alloy_essence"/>
+                        <itemElectrumEssence id="mysticalagriculture:electrum_essence"/>
+                        <itemElementiumEssence id="mysticalagriculture:elementium_essence"/>
+                        <itemElevatiumIngotEssence id="mysticalagriculture:elevatium_ingot_essence"/>
+                        <itemElinvonzeEssence id="mysticalagriculture:elinvonze_essence"/>
+                        <itemElyndriteEssence id="mysticalagriculture:elyndrite_essence"/>
+                        <itemEmeraldEssence id="mysticalagriculture:emerald_essence"/>
+                        <itemEnchantedIngotEssence id="mysticalagriculture:enchanted_ingot_essence"/>
+                        <itemEndEssence id="mysticalagriculture:end_essence"/>
+                        <itemEndSteelEssence id="mysticalagriculture:end_steel_essence"/>
+                        <itemEnderIngotEssence id="mysticalagriculture:ender_ingot_essence"/>
+                        <itemEnderiumEssence id="mysticalagriculture:enderium_essence"/>
+                        <itemEndermanEssence id="mysticalagriculture:enderman_essence"/>
+                        <itemEnergeticAlloyEssence id="mysticalagriculture:energetic_alloy_essence"/>
+                        <itemEnergizedSteelEssence id="mysticalagriculture:energized_steel_essence"/>
+                        <itemEntroEssence id="mysticalagriculture:entro_essence"/>
+                        <itemEntroIngotEssence id="mysticalagriculture:entro_ingot_essence"/>
+                        <itemEvilInfusedIronIngotEssence id="mysticalagriculture:evil_infused_iron_ingot_essence"/>
+                        <itemExperienceEssence id="mysticalagriculture:experience_essence"/>
+                        <itemFayroniumEssence id="mysticalagriculture:fayronium_essence"/>
+                        <itemFerricoreEssence id="mysticalagriculture:ferricore_essence"/>
+                        <itemFertilizedEssence id="mysticalagriculture:fertilized_essence"/>
+                        <itemFieryIngotEssence id="mysticalagriculture:fiery_ingot_essence"/>
+                        <itemFireEssence id="mysticalagriculture:fire_essence"/>
+                        <itemFishEssence id="mysticalagriculture:fish_essence"/>
+                        <itemFluixEssence id="mysticalagriculture:fluix_essence"/>
+                        <itemFluoriteEssence id="mysticalagriculture:fluorite_essence"/>
+                        <itemFluxDustEssence id="mysticalagriculture:flux_dust_essence"/>
+                        <itemFluxInfusedGemEssence id="mysticalagriculture:flux_infused_gem_essence"/>
+                        <itemFluxInfusedIngotEssence id="mysticalagriculture:flux_infused_ingot_essence"/>
+                        <itemGaiaSpiritEssence id="mysticalagriculture:gaia_spirit_essence"/>
+                        <itemGhastEssence id="mysticalagriculture:ghast_essence"/>
+                        <itemGlassEssence id="mysticalagriculture:glass_essence"/>
+                        <itemGlowstoneEssence id="mysticalagriculture:glowstone_essence"/>
+                        <itemGoldEssence id="mysticalagriculture:gold_essence"/>
+                        <itemGoriumIngotEssence id="mysticalagriculture:gorium_ingot_essence"/>
+                        <itemGrainsOfInfinityEssence id="mysticalagriculture:grains_of_infinity_essence"/>
+                        <itemGraphiteEssence id="mysticalagriculture:graphite_essence"/>
+                        <itemHepatizonEssence id="mysticalagriculture:hepatizon_essence"/>
+                        <itemHoneyEssence id="mysticalagriculture:honey_essence"/>
+                        <itemHopGraphiteEssence id="mysticalagriculture:hop_graphite_essence"/>
+                        <itemIceEssence id="mysticalagriculture:ice_essence"/>
+                        <itemImperiumEssence id="mysticalagriculture:imperium_essence"/>
+                        <itemImperiumEssenceEssence id="mysticalagriculture:imperium_essence_essence"/>
+                        <itemInferiumEssence id="mysticalagriculture:inferium_essence"/>
+                        <itemInferniumIngotEssence id="mysticalagriculture:infernium_ingot_essence"/>
+                        <itemInfinityEssence id="mysticalagriculture:infinity_essence"/>
+                        <itemInsaniumEssenceEssence id="mysticalagriculture:insanium_essence_essence"/>
+                        <itemInvarEssence id="mysticalagriculture:invar_essence"/>
+                        <itemIoniteIngotEssence id="mysticalagriculture:ionite_ingot_essence"/>
+                        <itemIridiumEssence id="mysticalagriculture:iridium_essence"/>
+                        <itemIronEssence id="mysticalagriculture:iron_essence"/>
+                        <itemIronwoodEssence id="mysticalagriculture:ironwood_essence"/>
+                        <itemKiviEssence id="mysticalagriculture:kivi_essence"/>
+                        <itemKnightmetalEssence id="mysticalagriculture:knightmetal_essence"/>
+                        <itemLapisLazuliEssence id="mysticalagriculture:lapis_lazuli_essence"/>
+                        <itemLeadEssence id="mysticalagriculture:lead_essence"/>
+                        <itemLightiumEssenceEssence id="mysticalagriculture:lightium_essence_essence"/>
+                        <itemLimestoneEssence id="mysticalagriculture:limestone_essence"/>
+                        <itemLuminiteIngotEssence id="mysticalagriculture:luminite_ingot_essence"/>
+                        <itemLumiumEssence id="mysticalagriculture:lumium_essence"/>
+                        <itemLustrousDustEssence id="mysticalagriculture:lustrous_dust_essence"/>
+                        <itemManasteelEssence id="mysticalagriculture:manasteel_essence"/>
+                        <itemManroniumSteelEssence id="mysticalagriculture:manronium_steel_essence"/>
+                        <itemManyedriteEssence id="mysticalagriculture:manyedrite_essence"/>
+                        <itemManyeriumEssence id="mysticalagriculture:manyerium_essence"/>
+                        <itemManyullynEssence id="mysticalagriculture:manyullyn_essence"/>
+                        <itemMarbleEssence id="mysticalagriculture:marble_essence"/>
+                        <itemMenrilEssence id="mysticalagriculture:menril_essence"/>
+                        <itemMithrydiumEssence id="mysticalagriculture:mithrydium_essence"/>
+                        <itemMysticalFlowerEssence id="mysticalagriculture:mystical_flower_essence"/>
+                        <itemNadieniteIngotEssence id="mysticalagriculture:nadienite_ingot_essence"/>
+                        <itemNaquadahEssence id="mysticalagriculture:naquadah_essence"/>
+                        <itemNatureEssence id="mysticalagriculture:nature_essence"/>
+                        <itemNetherEssence id="mysticalagriculture:nether_essence"/>
+                        <itemNetherQuartzEssence id="mysticalagriculture:nether_quartz_essence"/>
+                        <itemNetherStarEssence id="mysticalagriculture:nether_star_essence"/>
+                        <itemNetheriteEssence id="mysticalagriculture:netherite_essence"/>
+                        <itemNeutroniumEssence id="mysticalagriculture:neutronium_essence"/>
+                        <itemNickelEssence id="mysticalagriculture:nickel_essence"/>
+                        <itemNioticCrystalEssence id="mysticalagriculture:niotic_crystal_essence"/>
+                        <itemNitroCrystalEssence id="mysticalagriculture:nitro_crystal_essence"/>
+                        <itemObsidianEssence id="mysticalagriculture:obsidian_essence"/>
+                        <itemOrniumEssenceEssence id="mysticalagriculture:ornium_essence_essence"/>
+                        <itemOsmiriteIngotEssence id="mysticalagriculture:osmirite_ingot_essence"/>
+                        <itemOsmiumEssence id="mysticalagriculture:osmium_essence"/>
+                        <itemOuraniumEssenceEssence id="mysticalagriculture:ouranium_essence_essence"/>
+                        <itemPeridotEssence id="mysticalagriculture:peridot_essence"/>
+                        <itemPhantomEssence id="mysticalagriculture:phantom_essence"/>
+                        <itemPigEssence id="mysticalagriculture:pig_essence"/>
+                        <itemPigIronEssence id="mysticalagriculture:pig_iron_essence"/>
+                        <itemPinkSlimeEssence id="mysticalagriculture:pink_slime_essence"/>
+                        <itemPlaslitheriteEssence id="mysticalagriculture:plaslitherite_essence"/>
+                        <itemPlatinumEssence id="mysticalagriculture:platinum_essence"/>
+                        <itemPredicciondematrixEssence id="mysticalagriculture:predicciondematrix_essence"/>
+                        <itemPrismarineEssence id="mysticalagriculture:prismarine_essence"/>
+                        <itemPrometheumEssence id="mysticalagriculture:prometheum_essence"/>
+                        <itemProsperityShardEssence id="mysticalagriculture:prosperity_shard_essence"/>
+                        <itemPrudentiumEssence id="mysticalagriculture:prudentium_essence"/>
+                        <itemPrudentiumEssenceEssence id="mysticalagriculture:prudentium_essence_essence"/>
+                        <itemPulsatingAlloyEssence id="mysticalagriculture:pulsating_alloy_essence"/>
+                        <itemPyrestoneCrystalEssence id="mysticalagriculture:pyrestone_crystal_essence"/>
+                        <itemQuantumAlloyEssence id="mysticalagriculture:quantum_alloy_essence"/>
+                        <itemQuantumInfusedDustEssence id="mysticalagriculture:quantum_infused_dust_essence"/>
+                        <itemQuartzEnrichedIronEssence id="mysticalagriculture:quartz_enriched_iron_essence"/>
+                        <itemQueensSlimeEssence id="mysticalagriculture:queens_slime_essence"/>
+                        <itemQueensSteelEssence id="mysticalagriculture:queens_steel_essence"/>
+                        <itemRabbitEssence id="mysticalagriculture:rabbit_essence"/>
+                        <itemRedstoneAlloyEssence id="mysticalagriculture:redstone_alloy_essence"/>
+                        <itemRedstoneEssence id="mysticalagriculture:redstone_essence"/>
+                        <itemRedstoneingotEssence id="mysticalagriculture:redstoneingot_essence"/>
+                        <itemRefinedGlowstoneEssence id="mysticalagriculture:refined_glowstone_essence"/>
+                        <itemRefinedObsidianEssence id="mysticalagriculture:refined_obsidian_essence"/>
+                        <itemRockCrystalEssence id="mysticalagriculture:rock_crystal_essence"/>
+                        <itemRoseGoldEssence id="mysticalagriculture:rose_gold_essence"/>
+                        <itemRubberEssence id="mysticalagriculture:rubber_essence"/>
+                        <itemRubyEssence id="mysticalagriculture:ruby_essence"/>
+                        <itemSaltpeterEssence id="mysticalagriculture:saltpeter_essence"/>
+                        <itemSapphireEssence id="mysticalagriculture:sapphire_essence"/>
+                        <itemSculkEssence id="mysticalagriculture:sculk_essence"/>
+                        <itemSheepEssence id="mysticalagriculture:sheep_essence"/>
+                        <itemSignalumEssence id="mysticalagriculture:signalum_essence"/>
+                        <itemSiliconEssence id="mysticalagriculture:silicon_essence"/>
+                        <itemSilverEssence id="mysticalagriculture:silver_essence"/>
+                        <itemSkeletonEssence id="mysticalagriculture:skeleton_essence"/>
+                        <itemSkySteelIngotEssence id="mysticalagriculture:sky_steel_ingot_essence"/>
+                        <itemSkyStoneEssence id="mysticalagriculture:sky_stone_essence"/>
+                        <itemSlimeEssence id="mysticalagriculture:slime_essence"/>
+                        <itemSlimesteelEssence id="mysticalagriculture:slimesteel_essence"/>
+                        <itemSoulDustEssence id="mysticalagriculture:soul_dust_essence"/>
+                        <itemSoulariumEssence id="mysticalagriculture:soularium_essence"/>
+                        <itemSouliumEssence id="mysticalagriculture:soulium_essence"/>
+                        <itemSoulstoneCobbleEssence id="mysticalagriculture:soulstone_cobble_essence"/>
+                        <itemSourceGemEssence id="mysticalagriculture:source_gem_essence"/>
+                        <itemSpiderEssence id="mysticalagriculture:spider_essence"/>
+                        <itemSpiritGemEssence id="mysticalagriculture:spirit_gem_essence"/>
+                        <itemSpiritedCrystalEssence id="mysticalagriculture:spirited_crystal_essence"/>
+                        <itemSquidEssence id="mysticalagriculture:squid_essence"/>
+                        <itemStarmetalEssence id="mysticalagriculture:starmetal_essence"/>
+                        <itemSteelEssence id="mysticalagriculture:steel_essence"/>
+                        <itemSteeleafEssence id="mysticalagriculture:steeleaf_essence"/>
+                        <itemStoneEssence id="mysticalagriculture:stone_essence"/>
+                        <itemSulfurEssence id="mysticalagriculture:sulfur_essence"/>
+                        <itemSuperCacotasEssence id="mysticalagriculture:super_cacotas_essence"/>
+                        <itemSupremiumEssence id="mysticalagriculture:supremium_essence"/>
+                        <itemSupremiumEssenceEscEssence id="mysticalagriculture:supremium_essence_esc_essence"/>
+                        <itemTenebriteIngotEssence id="mysticalagriculture:tenebrite_ingot_essence"/>
+                        <itemTerrasteelEssence id="mysticalagriculture:terrasteel_essence"/>
+                        <itemTertiumEssence id="mysticalagriculture:tertium_essence"/>
+                        <itemTertiumEssenceEssence id="mysticalagriculture:tertium_essence_essence"/>
+                        <itemThaumaturgeAlumentumEssence id="mysticalagriculture:thaumaturge_alumentum_essence"/>
+                        <itemThaumaturgeAmberEssence id="mysticalagriculture:thaumaturge_amber_essence"/>
+                        <itemThaumaturgeBrassEssence id="mysticalagriculture:thaumaturge_brass_essence"/>
+                        <itemThaumaturgeCrystalAerEssence id="mysticalagriculture:thaumaturge_crystal_aer_essence"/>
+                        <itemThaumaturgeCrystalAquaEssence id="mysticalagriculture:thaumaturge_crystal_aqua_essence"/>
+                        <itemThaumaturgeCrystalIgnisEssence id="mysticalagriculture:thaumaturge_crystal_ignis_essence"/>
+                        <itemThaumaturgeCrystalOrdoEssence id="mysticalagriculture:thaumaturge_crystal_ordo_essence"/>
+                        <itemThaumaturgeCrystalPerditioEssence id="mysticalagriculture:thaumaturge_crystal_perditio_essence"/>
+                        <itemThaumaturgeCrystalTerraEssence id="mysticalagriculture:thaumaturge_crystal_terra_essence"/>
+                        <itemThaumaturgeCrystalVitiumEssence id="mysticalagriculture:thaumaturge_crystal_vitium_essence"/>
+                        <itemThaumaturgeQuicksilverEssence id="mysticalagriculture:thaumaturge_quicksilver_essence"/>
+                        <itemThaumaturgeSalisMundusEssence id="mysticalagriculture:thaumaturge_salis_mundus_essence"/>
+                        <itemThaumaturgeThaumiumEssence id="mysticalagriculture:thaumaturge_thaumium_essence"/>
+                        <itemThaumaturgeVoidMetalEssence id="mysticalagriculture:thaumaturge_void_metal_essence"/>
+                        <itemTinEssence id="mysticalagriculture:tin_essence"/>
+                        <itemTorniumEssenceEssence id="mysticalagriculture:tornium_essence_essence"/>
+                        <itemTurtleEssence id="mysticalagriculture:turtle_essence"/>
+                        <itemUmbriteIngotEssence id="mysticalagriculture:umbrite_ingot_essence"/>
+                        <itemUnexploredWoodEssence id="mysticalagriculture:unexplored_wood_essence"/>
+                        <itemUnobtainiumEssence id="mysticalagriculture:unobtainium_essence"/>
+                        <itemUnstableIngotEssence id="mysticalagriculture:unstable_ingot_essence"/>
+                        <itemUraniniteEssence id="mysticalagriculture:uraninite_essence"/>
+                        <itemUraniumEssence id="mysticalagriculture:uranium_essence"/>
+                        <itemVibraniumEssence id="mysticalagriculture:vibranium_essence"/>
+                        <itemVibrantAlloyEssence id="mysticalagriculture:vibrant_alloy_essence"/>
+                        <itemViriditeGemEssence id="mysticalagriculture:viridite_gem_essence"/>
+                        <itemWaterEssence id="mysticalagriculture:water_essence"/>
+                        <itemWitherSkeletonEssence id="mysticalagriculture:wither_skeleton_essence"/>
+                        <itemWoodEssence id="mysticalagriculture:wood_essence"/>
+                        <itemXychoriumGemEssence id="mysticalagriculture:xychorium_gem_essence"/>
+                        <itemYelloriumEssence id="mysticalagriculture:yellorium_essence"/>
+                        <itemZincEssence id="mysticalagriculture:zinc_essence"/>
+                        <itemZombieEssence id="mysticalagriculture:zombie_essence"/>
+                    </baseEssence>
+                </cropEssence>
+            </magicalCrops>
+        </magical>
+    </item>
+</stuff>

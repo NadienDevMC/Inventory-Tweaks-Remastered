@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <teleport>
+                <itemAdvancedChargedPorter id="rftoolsutility:advanced_charged_porter"/>
+                <itemChargedPorter id="rftoolsutility:charged_porter"/>
+            </teleport>
+        </tool>
+    </equipment>
+    <block>
+        <mechanism>
+            <machines>
+                <poweredCrafting>
+                    <itemCrafter1 id="rftoolsutility:crafter1"/>
+                    <itemCrafter2 id="rftoolsutility:crafter2"/>
+                    <itemCrafter3 id="rftoolsutility:crafter3"/>
+                </poweredCrafting>
+                <poweredSpawners>
+                    <itemSpawner id="rftoolsutility:spawner"/>
+                </poweredSpawners>
+                <remoteAccess>
+                    <itemDialingDevice id="rftoolsutility:dialing_device"/>
+                    <itemMatterReceiver id="rftoolsutility:matter_receiver"/>
+                    <itemMatterTransmitter id="rftoolsutility:matter_transmitter"/>
+                    <itemDestinationAnalyzer id="rftoolsutility:destination_analyzer"/>
+                    <itemMatterBeamer id="rftoolsutility:matter_beamer"/>
+                    <itemMatterBooster id="rftoolsutility:matter_booster"/>
+                    <itemSimpleDialer id="rftoolsutility:simple_dialer"/>
+                    <itemTeleportProbe id="rftoolsutility:teleport_probe"/>
+                </remoteAccess>
+                <redstoneLogic>
+                    <itemCounter id="rftoolsutility:counter"/>
+                    <itemInvchecker id="rftoolsutility:invchecker"/>
+                    <itemRedstoneInformation id="rftoolsutility:redstone_information"/>
+                    <itemScreen id="rftoolsutility:screen"/>
+                    <itemScreenController id="rftoolsutility:screen_controller"/>
+                    <itemScreenLink id="rftoolsutility:screen_link"/>
+                    <itemSensor id="rftoolsutility:sensor"/>
+                    <itemSequencer id="rftoolsutility:sequencer"/>
+                    <itemTimer id="rftoolsutility:timer"/>
+                    <itemRedstoneReceiver id="rftoolsutility:redstone_receiver"/>
+                    <itemRedstoneTransmitter id="rftoolsutility:redstone_transmitter"/>
+                    <itemTabletRedstone id="rftoolsutility:tablet_redstone"/>
+                    <itemTabletScreen id="rftoolsutility:tablet_screen"/>
+                </redstoneLogic>
+                <environment>
+                    <itemEnvironmentalController id="rftoolsutility:environmental_controller"/>
+                </environment>
+                <otherMachines>
+                    <itemAnalog id="rftoolsutility:analog"/>
+                    <itemCreativeScreen id="rftoolsutility:creative_screen"/>
+                    <itemDigit id="rftoolsutility:digit"/>
+                    <itemLogic id="rftoolsutility:logic"/>
+                    <itemWire id="rftoolsutility:wire"/>
+                </otherMachines>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <fluidStorage>
+            <fluidTanks>
+                <itemTank id="rftoolsutility:tank"/>
+            </fluidTanks>
+        </fluidStorage>
+        <syringes>
+            <itemSyringe id="rftoolsutility:syringe"/>
+        </syringes>
+        <parts>
+            <mechanicalParts>
+                <modules>
+                    <itemBlindnessModule id="rftoolsutility:blindness_module"/>
+                    <itemButtonModule id="rftoolsutility:button_module"/>
+                    <itemClockModule id="rftoolsutility:clock_module"/>
+                    <itemComputerModule id="rftoolsutility:computer_module"/>
+                    <itemCounterModule id="rftoolsutility:counter_module"/>
+                    <itemCounterplusModule id="rftoolsutility:counterplus_module"/>
+                    <itemElevatorButtonModule id="rftoolsutility:elevator_button_module"/>
+                    <itemEnergyModule id="rftoolsutility:energy_module"/>
+                    <itemEnergyplusModule id="rftoolsutility:energyplus_module"/>
+                    <itemFeatherfallingModule id="rftoolsutility:featherfalling_module"/>
+                    <itemFeatherfallingplusModule id="rftoolsutility:featherfallingplus_module"/>
+                    <itemFlightModule id="rftoolsutility:flight_module"/>
+                    <itemFluidModule id="rftoolsutility:fluid_module"/>
+                    <itemFluidplusModule id="rftoolsutility:fluidplus_module"/>
+                    <itemGlowingModule id="rftoolsutility:glowing_module"/>
+                    <itemHasteModule id="rftoolsutility:haste_module"/>
+                    <itemHasteplusModule id="rftoolsutility:hasteplus_module"/>
+                    <itemInventoryModule id="rftoolsutility:inventory_module"/>
+                    <itemInventoryplusModule id="rftoolsutility:inventoryplus_module"/>
+                    <itemLuckModule id="rftoolsutility:luck_module"/>
+                    <itemMachineinformationModule id="rftoolsutility:machineinformation_module"/>
+                    <itemModuleTemplate id="rftoolsutility:module_template"/>
+                    <itemModuleplusTemplate id="rftoolsutility:moduleplus_template"/>
+                    <itemNightvisionModule id="rftoolsutility:nightvision_module"/>
+                    <itemNoteleportModule id="rftoolsutility:noteleport_module"/>
+                    <itemPeacefulModule id="rftoolsutility:peaceful_module"/>
+                    <itemPoisonModule id="rftoolsutility:poison_module"/>
+                    <itemRedstoneModule id="rftoolsutility:redstone_module"/>
+                    <itemRegenerationModule id="rftoolsutility:regeneration_module"/>
+                    <itemRegenerationplusModule id="rftoolsutility:regenerationplus_module"/>
+                    <itemSaturationModule id="rftoolsutility:saturation_module"/>
+                    <itemSaturationplusModule id="rftoolsutility:saturationplus_module"/>
+                    <itemSlownessModule id="rftoolsutility:slowness_module"/>
+                    <itemSpeedModule id="rftoolsutility:speed_module"/>
+                    <itemSpeedplusModule id="rftoolsutility:speedplus_module"/>
+                    <itemStorageControlModule id="rftoolsutility:storage_control_module"/>
+                    <itemTextModule id="rftoolsutility:text_module"/>
+                    <itemWaterbreathingModule id="rftoolsutility:waterbreathing_module"/>
+                    <itemWeaknessModule id="rftoolsutility:weakness_module"/>
+                </modules>
+            </mechanicalParts>
+        </parts>
+    </item>
+</stuff>

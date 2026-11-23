@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <mechanism>
+            <basicCrafting>
+                <kitchen>
+                    <itemCookingTable id="cookingforblockheads:cooking_table"/>
+                    <itemMilkJar id="cookingforblockheads:milk_jar"/>
+                    <itemCowJar id="cookingforblockheads:cow_jar"/>
+                    <itemCuttingBoard id="cookingforblockheads:cutting_board"/>
+                    <itemFridge id="cookingforblockheads:fridge"/>
+                    <itemFruitBasket id="cookingforblockheads:fruit_basket"/>
+                    <itemHeatingUnit id="cookingforblockheads:heating_unit"/>
+                    <itemIceUnit id="cookingforblockheads:ice_unit"/>
+                    <itemCabinet id="cookingforblockheads:cabinet"/>
+                    <itemCounter id="cookingforblockheads:counter"/>
+                    <itemOven id="cookingforblockheads:oven"/>
+                    <itemPreservationChamber id="cookingforblockheads:preservation_chamber"/>
+                    <itemSink id="cookingforblockheads:sink"/>
+                    <itemSpiceRack id="cookingforblockheads:spice_rack"/>
+                    <itemToaster id="cookingforblockheads:toaster"/>
+                    <itemToolRack id="cookingforblockheads:tool_rack"/>
+                    <cookingTables>
+                        <itemBlackCookingTable id="cookingforblockheads:black_cooking_table"/>
+                        <itemBlueCookingTable id="cookingforblockheads:blue_cooking_table" mergePrevious="true"/>
+                        <itemBrownCookingTable id="cookingforblockheads:brown_cooking_table" mergePrevious="true"/>
+                        <itemCyanCookingTable id="cookingforblockheads:cyan_cooking_table" mergePrevious="true"/>
+                        <itemGrayCookingTable id="cookingforblockheads:gray_cooking_table" mergePrevious="true"/>
+                        <itemGreenCookingTable id="cookingforblockheads:green_cooking_table" mergePrevious="true"/>
+                        <itemLightBlueCookingTable id="cookingforblockheads:light_blue_cooking_table" mergePrevious="true"/>
+                        <itemLightGrayCookingTable id="cookingforblockheads:light_gray_cooking_table" mergePrevious="true"/>
+                        <itemLimeCookingTable id="cookingforblockheads:lime_cooking_table" mergePrevious="true"/>
+                        <itemMagentaCookingTable id="cookingforblockheads:magenta_cooking_table" mergePrevious="true"/>
+                        <itemOrangeCookingTable id="cookingforblockheads:orange_cooking_table" mergePrevious="true"/>
+                        <itemPinkCookingTable id="cookingforblockheads:pink_cooking_table" mergePrevious="true"/>
+                        <itemPurpleCookingTable id="cookingforblockheads:purple_cooking_table" mergePrevious="true"/>
+                        <itemRedCookingTable id="cookingforblockheads:red_cooking_table" mergePrevious="true"/>
+                        <itemWhiteCookingTable id="cookingforblockheads:white_cooking_table" mergePrevious="true"/>
+                        <itemYellowCookingTable id="cookingforblockheads:yellow_cooking_table" mergePrevious="true"/>
+                    </cookingTables>
+                    <cabinets>
+                        <itemBlackCabinet id="cookingforblockheads:black_cabinet"/>
+                        <itemBlueCabinet id="cookingforblockheads:blue_cabinet" mergePrevious="true"/>
+                        <itemBrownCabinet id="cookingforblockheads:brown_cabinet" mergePrevious="true"/>
+                        <itemCyanCabinet id="cookingforblockheads:cyan_cabinet" mergePrevious="true"/>
+                        <itemGrayCabinet id="cookingforblockheads:gray_cabinet" mergePrevious="true"/>
+                        <itemGreenCabinet id="cookingforblockheads:green_cabinet" mergePrevious="true"/>
+                        <itemLightBlueCabinet id="cookingforblockheads:light_blue_cabinet" mergePrevious="true"/>
+                        <itemLightGrayCabinet id="cookingforblockheads:light_gray_cabinet" mergePrevious="true"/>
+                        <itemLimeCabinet id="cookingforblockheads:lime_cabinet" mergePrevious="true"/>
+                        <itemMagentaCabinet id="cookingforblockheads:magenta_cabinet" mergePrevious="true"/>
+                        <itemOrangeCabinet id="cookingforblockheads:orange_cabinet" mergePrevious="true"/>
+                        <itemPinkCabinet id="cookingforblockheads:pink_cabinet" mergePrevious="true"/>
+                        <itemPurpleCabinet id="cookingforblockheads:purple_cabinet" mergePrevious="true"/>
+                        <itemRedCabinet id="cookingforblockheads:red_cabinet" mergePrevious="true"/>
+                        <itemWhiteCabinet id="cookingforblockheads:white_cabinet" mergePrevious="true"/>
+                        <itemYellowCabinet id="cookingforblockheads:yellow_cabinet" mergePrevious="true"/>
+                    </cabinets>
+                    <counters>
+                        <itemBlackCounter id="cookingforblockheads:black_counter"/>
+                        <itemBlueCounter id="cookingforblockheads:blue_counter" mergePrevious="true"/>
+                        <itemBrownCounter id="cookingforblockheads:brown_counter" mergePrevious="true"/>
+                        <itemCyanCounter id="cookingforblockheads:cyan_counter" mergePrevious="true"/>
+                        <itemGrayCounter id="cookingforblockheads:gray_counter" mergePrevious="true"/>
+                        <itemGreenCounter id="cookingforblockheads:green_counter" mergePrevious="true"/>
+                        <itemLightBlueCounter id="cookingforblockheads:light_blue_counter" mergePrevious="true"/>
+                        <itemLightGrayCounter id="cookingforblockheads:light_gray_counter" mergePrevious="true"/>
+                        <itemLimeCounter id="cookingforblockheads:lime_counter" mergePrevious="true"/>
+                        <itemMagentaCounter id="cookingforblockheads:magenta_counter" mergePrevious="true"/>
+                        <itemOrangeCounter id="cookingforblockheads:orange_counter" mergePrevious="true"/>
+                        <itemPinkCounter id="cookingforblockheads:pink_counter" mergePrevious="true"/>
+                        <itemPurpleCounter id="cookingforblockheads:purple_counter" mergePrevious="true"/>
+                        <itemRedCounter id="cookingforblockheads:red_counter" mergePrevious="true"/>
+                        <itemWhiteCounter id="cookingforblockheads:white_counter" mergePrevious="true"/>
+                        <itemYellowCounter id="cookingforblockheads:yellow_counter" mergePrevious="true"/>
+                    </counters>
+                    <fridges>
+                        <itemBlackFridge id="cookingforblockheads:black_fridge"/>
+                        <itemBlueFridge id="cookingforblockheads:blue_fridge" mergePrevious="true"/>
+                        <itemBrownFridge id="cookingforblockheads:brown_fridge" mergePrevious="true"/>
+                        <itemCyanFridge id="cookingforblockheads:cyan_fridge" mergePrevious="true"/>
+                        <itemGrayFridge id="cookingforblockheads:gray_fridge" mergePrevious="true"/>
+                        <itemGreenFridge id="cookingforblockheads:green_fridge" mergePrevious="true"/>
+                        <itemLightBlueFridge id="cookingforblockheads:light_blue_fridge" mergePrevious="true"/>
+                        <itemLightGrayFridge id="cookingforblockheads:light_gray_fridge" mergePrevious="true"/>
+                        <itemLimeFridge id="cookingforblockheads:lime_fridge" mergePrevious="true"/>
+                        <itemMagentaFridge id="cookingforblockheads:magenta_fridge" mergePrevious="true"/>
+                        <itemOrangeFridge id="cookingforblockheads:orange_fridge" mergePrevious="true"/>
+                        <itemPinkFridge id="cookingforblockheads:pink_fridge" mergePrevious="true"/>
+                        <itemPurpleFridge id="cookingforblockheads:purple_fridge" mergePrevious="true"/>
+                        <itemRedFridge id="cookingforblockheads:red_fridge" mergePrevious="true"/>
+                        <itemWhiteFridge id="cookingforblockheads:white_fridge" mergePrevious="true"/>
+                        <itemYellowFridge id="cookingforblockheads:yellow_fridge" mergePrevious="true"/>
+                    </fridges>
+                    <ovens>
+                        <itemBlackOven id="cookingforblockheads:black_oven"/>
+                        <itemBlueOven id="cookingforblockheads:blue_oven" mergePrevious="true"/>
+                        <itemBrownOven id="cookingforblockheads:brown_oven" mergePrevious="true"/>
+                        <itemCyanOven id="cookingforblockheads:cyan_oven" mergePrevious="true"/>
+                        <itemGrayOven id="cookingforblockheads:gray_oven" mergePrevious="true"/>
+                        <itemGreenOven id="cookingforblockheads:green_oven" mergePrevious="true"/>
+                        <itemLightBlueOven id="cookingforblockheads:light_blue_oven" mergePrevious="true"/>
+                        <itemLightGrayOven id="cookingforblockheads:light_gray_oven" mergePrevious="true"/>
+                        <itemLimeOven id="cookingforblockheads:lime_oven" mergePrevious="true"/>
+                        <itemMagentaOven id="cookingforblockheads:magenta_oven" mergePrevious="true"/>
+                        <itemOrangeOven id="cookingforblockheads:orange_oven" mergePrevious="true"/>
+                        <itemPinkOven id="cookingforblockheads:pink_oven" mergePrevious="true"/>
+                        <itemPurpleOven id="cookingforblockheads:purple_oven" mergePrevious="true"/>
+                        <itemRedOven id="cookingforblockheads:red_oven" mergePrevious="true"/>
+                        <itemWhiteOven id="cookingforblockheads:white_oven" mergePrevious="true"/>
+                        <itemYellowOven id="cookingforblockheads:yellow_oven" mergePrevious="true"/>
+                    </ovens>
+                    <sinks>
+                        <itemBlackSink id="cookingforblockheads:black_sink"/>
+                        <itemBlueSink id="cookingforblockheads:blue_sink" mergePrevious="true"/>
+                        <itemBrownSink id="cookingforblockheads:brown_sink" mergePrevious="true"/>
+                        <itemCyanSink id="cookingforblockheads:cyan_sink" mergePrevious="true"/>
+                        <itemGraySink id="cookingforblockheads:gray_sink" mergePrevious="true"/>
+                        <itemGreenSink id="cookingforblockheads:green_sink" mergePrevious="true"/>
+                        <itemLightBlueSink id="cookingforblockheads:light_blue_sink" mergePrevious="true"/>
+                        <itemLightGraySink id="cookingforblockheads:light_gray_sink" mergePrevious="true"/>
+                        <itemLimeSink id="cookingforblockheads:lime_sink" mergePrevious="true"/>
+                        <itemMagentaSink id="cookingforblockheads:magenta_sink" mergePrevious="true"/>
+                        <itemOrangeSink id="cookingforblockheads:orange_sink" mergePrevious="true"/>
+                        <itemPinkSink id="cookingforblockheads:pink_sink" mergePrevious="true"/>
+                        <itemPurpleSink id="cookingforblockheads:purple_sink" mergePrevious="true"/>
+                        <itemRedSink id="cookingforblockheads:red_sink" mergePrevious="true"/>
+                        <itemWhiteSink id="cookingforblockheads:white_sink" mergePrevious="true"/>
+                        <itemYellowSink id="cookingforblockheads:yellow_sink" mergePrevious="true"/>
+                    </sinks>
+                    <connectors>
+                        <itemBlackConnector id="cookingforblockheads:black_connector"/>
+                        <itemBlueConnector id="cookingforblockheads:blue_connector" mergePrevious="true"/>
+                        <itemBrownConnector id="cookingforblockheads:brown_connector" mergePrevious="true"/>
+                        <itemConnector id="cookingforblockheads:connector" mergePrevious="true"/>
+                        <itemCyanConnector id="cookingforblockheads:cyan_connector" mergePrevious="true"/>
+                        <itemGrayConnector id="cookingforblockheads:gray_connector" mergePrevious="true"/>
+                        <itemGreenConnector id="cookingforblockheads:green_connector" mergePrevious="true"/>
+                        <itemLightBlueConnector id="cookingforblockheads:light_blue_connector" mergePrevious="true"/>
+                        <itemLightGrayConnector id="cookingforblockheads:light_gray_connector" mergePrevious="true"/>
+                        <itemLimeConnector id="cookingforblockheads:lime_connector" mergePrevious="true"/>
+                        <itemMagentaConnector id="cookingforblockheads:magenta_connector" mergePrevious="true"/>
+                        <itemOrangeConnector id="cookingforblockheads:orange_connector" mergePrevious="true"/>
+                        <itemPinkConnector id="cookingforblockheads:pink_connector" mergePrevious="true"/>
+                        <itemPurpleConnector id="cookingforblockheads:purple_connector" mergePrevious="true"/>
+                        <itemRedConnector id="cookingforblockheads:red_connector" mergePrevious="true"/>
+                        <itemWhiteConnector id="cookingforblockheads:white_connector" mergePrevious="true"/>
+                        <itemYellowConnector id="cookingforblockheads:yellow_connector" mergePrevious="true"/>
+                    </connectors>
+                </kitchen>
+            </basicCrafting>
+        </mechanism>
+        <manufacturedBlock>
+            <constructionBlock>
+                <kitchenFloors>
+                    <itemBlackKitchenFloor id="cookingforblockheads:black_kitchen_floor"/>
+                    <itemBlueKitchenFloor id="cookingforblockheads:blue_kitchen_floor" mergePrevious="true"/>
+                    <itemBrownKitchenFloor id="cookingforblockheads:brown_kitchen_floor" mergePrevious="true"/>
+                    <itemCyanKitchenFloor id="cookingforblockheads:cyan_kitchen_floor" mergePrevious="true"/>
+                    <itemGrayKitchenFloor id="cookingforblockheads:gray_kitchen_floor" mergePrevious="true"/>
+                    <itemGreenKitchenFloor id="cookingforblockheads:green_kitchen_floor" mergePrevious="true"/>
+                    <itemLightBlueKitchenFloor id="cookingforblockheads:light_blue_kitchen_floor" mergePrevious="true"/>
+                    <itemLightGrayKitchenFloor id="cookingforblockheads:light_gray_kitchen_floor" mergePrevious="true"/>
+                    <itemLimeKitchenFloor id="cookingforblockheads:lime_kitchen_floor" mergePrevious="true"/>
+                    <itemMagentaKitchenFloor id="cookingforblockheads:magenta_kitchen_floor" mergePrevious="true"/>
+                    <itemOrangeKitchenFloor id="cookingforblockheads:orange_kitchen_floor" mergePrevious="true"/>
+                    <itemPinkKitchenFloor id="cookingforblockheads:pink_kitchen_floor" mergePrevious="true"/>
+                    <itemPurpleKitchenFloor id="cookingforblockheads:purple_kitchen_floor" mergePrevious="true"/>
+                    <itemRedKitchenFloor id="cookingforblockheads:red_kitchen_floor" mergePrevious="true"/>
+                    <itemWhiteKitchenFloor id="cookingforblockheads:white_kitchen_floor" mergePrevious="true"/>
+                    <itemYellowKitchenFloor id="cookingforblockheads:yellow_kitchen_floor" mergePrevious="true"/>
+                </kitchenFloors>
+            </constructionBlock>
+        </manufacturedBlock>
+    </block>
+    <item>
+        <utility>
+            <readableBooks>
+                <itemRecipeBook id="cookingforblockheads:recipe_book"/>
+                <itemCraftingBook id="cookingforblockheads:crafting_book"/>
+                <itemNoFilterEdition id="cookingforblockheads:no_filter_edition"/>
+            </readableBooks>
+        </utility>
+    </item>
+</stuff>

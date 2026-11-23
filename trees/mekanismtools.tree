@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <paxel>
+                <itemBronzePaxel id="mekanismtools:bronze_paxel"/>
+                <itemDiamondPaxel id="mekanismtools:diamond_paxel"/>
+                <itemGoldPaxel id="mekanismtools:gold_paxel"/>
+                <itemIronPaxel id="mekanismtools:iron_paxel"/>
+                <itemLapisLazuliPaxel id="mekanismtools:lapis_lazuli_paxel"/>
+                <itemNetheritePaxel id="mekanismtools:netherite_paxel"/>
+                <itemOsmiumPaxel id="mekanismtools:osmium_paxel"/>
+                <itemRefinedGlowstonePaxel id="mekanismtools:refined_glowstone_paxel"/>
+                <itemRefinedObsidianPaxel id="mekanismtools:refined_obsidian_paxel"/>
+                <itemSteelPaxel id="mekanismtools:steel_paxel"/>
+                <itemStonePaxel id="mekanismtools:stone_paxel"/>
+                <itemWoodPaxel id="mekanismtools:wood_paxel"/>
+            </paxel>
+            <pickaxe>
+                <itemBronzePickaxe id="mekanismtools:bronze_pickaxe"/>
+                <itemLapisLazuliPickaxe id="mekanismtools:lapis_lazuli_pickaxe"/>
+                <itemOsmiumPickaxe id="mekanismtools:osmium_pickaxe"/>
+                <itemRefinedGlowstonePickaxe id="mekanismtools:refined_glowstone_pickaxe"/>
+                <itemRefinedObsidianPickaxe id="mekanismtools:refined_obsidian_pickaxe"/>
+                <itemSteelPickaxe id="mekanismtools:steel_pickaxe"/>
+            </pickaxe>
+            <axe>
+                <itemBronzeAxe id="mekanismtools:bronze_axe"/>
+                <itemLapisLazuliAxe id="mekanismtools:lapis_lazuli_axe"/>
+                <itemOsmiumAxe id="mekanismtools:osmium_axe"/>
+                <itemRefinedGlowstoneAxe id="mekanismtools:refined_glowstone_axe"/>
+                <itemRefinedObsidianAxe id="mekanismtools:refined_obsidian_axe"/>
+                <itemSteelAxe id="mekanismtools:steel_axe"/>
+            </axe>
+            <shovel>
+                <itemBronzeShovel id="mekanismtools:bronze_shovel"/>
+                <itemLapisLazuliShovel id="mekanismtools:lapis_lazuli_shovel"/>
+                <itemOsmiumShovel id="mekanismtools:osmium_shovel"/>
+                <itemRefinedGlowstoneShovel id="mekanismtools:refined_glowstone_shovel"/>
+                <itemRefinedObsidianShovel id="mekanismtools:refined_obsidian_shovel"/>
+                <itemSteelShovel id="mekanismtools:steel_shovel"/>
+            </shovel>
+            <hoe>
+                <itemBronzeHoe id="mekanismtools:bronze_hoe"/>
+                <itemLapisLazuliHoe id="mekanismtools:lapis_lazuli_hoe"/>
+                <itemOsmiumHoe id="mekanismtools:osmium_hoe"/>
+                <itemRefinedGlowstoneHoe id="mekanismtools:refined_glowstone_hoe"/>
+                <itemRefinedObsidianHoe id="mekanismtools:refined_obsidian_hoe"/>
+                <itemSteelHoe id="mekanismtools:steel_hoe"/>
+            </hoe>
+        </tool>
+        <weapon>
+            <sword>
+                <itemBronzeSword id="mekanismtools:bronze_sword"/>
+                <itemLapisLazuliSword id="mekanismtools:lapis_lazuli_sword"/>
+                <itemOsmiumSword id="mekanismtools:osmium_sword"/>
+                <itemRefinedGlowstoneSword id="mekanismtools:refined_glowstone_sword"/>
+                <itemRefinedObsidianSword id="mekanismtools:refined_obsidian_sword"/>
+                <itemSteelSword id="mekanismtools:steel_sword"/>
+            </sword>
+            <shield>
+                <itemBronzeShield id="mekanismtools:bronze_shield"/>
+                <itemLapisLazuliShield id="mekanismtools:lapis_lazuli_shield"/>
+                <itemOsmiumShield id="mekanismtools:osmium_shield"/>
+                <itemRefinedGlowstoneShield id="mekanismtools:refined_glowstone_shield"/>
+                <itemRefinedObsidianShield id="mekanismtools:refined_obsidian_shield"/>
+                <itemSteelShield id="mekanismtools:steel_shield"/>
+            </shield>
+        </weapon>
+        <armor>
+            <helmet>
+                <itemBronzeHelmet id="mekanismtools:bronze_helmet"/>
+                <itemLapisLazuliHelmet id="mekanismtools:lapis_lazuli_helmet"/>
+                <itemOsmiumHelmet id="mekanismtools:osmium_helmet"/>
+                <itemRefinedGlowstoneHelmet id="mekanismtools:refined_glowstone_helmet"/>
+                <itemRefinedObsidianHelmet id="mekanismtools:refined_obsidian_helmet"/>
+                <itemSteelHelmet id="mekanismtools:steel_helmet"/>
+            </helmet>
+            <chestplate>
+                <itemBronzeChestplate id="mekanismtools:bronze_chestplate"/>
+                <itemLapisLazuliChestplate id="mekanismtools:lapis_lazuli_chestplate"/>
+                <itemOsmiumChestplate id="mekanismtools:osmium_chestplate"/>
+                <itemRefinedGlowstoneChestplate id="mekanismtools:refined_glowstone_chestplate"/>
+                <itemRefinedObsidianChestplate id="mekanismtools:refined_obsidian_chestplate"/>
+                <itemSteelChestplate id="mekanismtools:steel_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemBronzeLeggings id="mekanismtools:bronze_leggings"/>
+                <itemLapisLazuliLeggings id="mekanismtools:lapis_lazuli_leggings"/>
+                <itemOsmiumLeggings id="mekanismtools:osmium_leggings"/>
+                <itemRefinedGlowstoneLeggings id="mekanismtools:refined_glowstone_leggings"/>
+                <itemRefinedObsidianLeggings id="mekanismtools:refined_obsidian_leggings"/>
+                <itemSteelLeggings id="mekanismtools:steel_leggings"/>
+            </leggings>
+            <boots>
+                <itemBronzeBoots id="mekanismtools:bronze_boots"/>
+                <itemLapisLazuliBoots id="mekanismtools:lapis_lazuli_boots"/>
+                <itemOsmiumBoots id="mekanismtools:osmium_boots"/>
+                <itemRefinedGlowstoneBoots id="mekanismtools:refined_glowstone_boots"/>
+                <itemRefinedObsidianBoots id="mekanismtools:refined_obsidian_boots"/>
+                <itemSteelBoots id="mekanismtools:steel_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+</stuff>

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <sword>
+                <itemSteelSword id="railcraft:steel_sword"/>
+            </sword>
+        </weapon>
+        <tool>
+            <pickaxe>
+                <itemSteelPickaxe id="railcraft:steel_pickaxe"/>
+            </pickaxe>
+            <shovel>
+                <itemSteelShovel id="railcraft:steel_shovel"/>
+            </shovel>
+            <axe>
+                <itemSteelAxe id="railcraft:steel_axe"/>
+            </axe>
+            <hoe>
+                <itemSteelHoe id="railcraft:steel_hoe"/>
+            </hoe>
+            <shears>
+                <itemSteelShears id="railcraft:steel_shears"/>
+            </shears>
+            <crowbars>
+                <itemIronCrowbar id="railcraft:iron_crowbar"/>
+                <itemSteelCrowbar id="railcraft:steel_crowbar"/>
+                <itemDiamondCrowbar id="railcraft:diamond_crowbar"/>
+                <itemSeasonsCrowbar id="railcraft:seasons_crowbar"/>
+            </crowbars>
+            <spikeMauls>
+                <itemIronSpikeMaul id="railcraft:iron_spike_maul"/>
+                <itemSteelSpikeMaul id="railcraft:steel_spike_maul"/>
+                <itemDiamondSpikeMaul id="railcraft:diamond_spike_maul"/>
+            </spikeMauls>
+        </tool>
+        <armor>
+            <helmet>
+                <itemSteelHelmet id="railcraft:steel_helmet"/>
+                <itemGoggles id="railcraft:goggles"/>
+            </helmet>
+            <chestplate>
+                <itemSteelChestplate id="railcraft:steel_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemSteelLeggings id="railcraft:steel_leggings"/>
+                <itemOveralls id="railcraft:overalls"/>
+            </leggings>
+            <boots>
+                <itemSteelBoots id="railcraft:steel_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+    <block>
+        <naturalBlock>
+            <oreBlock>
+                <itemDeepslateLeadOre id="railcraft:deepslate_lead_ore"/>
+                <itemDeepslateNickelOre id="railcraft:deepslate_nickel_ore"/>
+                <itemDeepslateSilverOre id="railcraft:deepslate_silver_ore"/>
+                <itemDeepslateSulfurOre id="railcraft:deepslate_sulfur_ore"/>
+                <itemDeepslateTinOre id="railcraft:deepslate_tin_ore"/>
+                <itemDeepslateZincOre id="railcraft:deepslate_zinc_ore"/>
+                <itemFirestoneOre id="railcraft:firestone_ore"/>
+                <itemLeadOre id="railcraft:lead_ore"/>
+                <itemNickelOre id="railcraft:nickel_ore"/>
+                <itemSaltpeterOre id="railcraft:saltpeter_ore"/>
+                <itemSilverOre id="railcraft:silver_ore"/>
+                <itemSulfurOre id="railcraft:sulfur_ore"/>
+                <itemTinOre id="railcraft:tin_ore"/>
+                <itemZincOre id="railcraft:zinc_ore"/>
+            </oreBlock>
+            <stones>
+                <abyssalStone>
+                    <itemAbyssalBrickSlab id="railcraft:abyssal_brick_slab"/>
+                    <itemAbyssalBrickStairs id="railcraft:abyssal_brick_stairs"/>
+                    <itemAbyssalBricks id="railcraft:abyssal_bricks"/>
+                    <itemAbyssalCobblestone id="railcraft:abyssal_cobblestone"/>
+                    <itemAbyssalPaver id="railcraft:abyssal_paver"/>
+                    <itemAbyssalPaverSlab id="railcraft:abyssal_paver_slab"/>
+                    <itemAbyssalPaverStairs id="railcraft:abyssal_paver_stairs"/>
+                    <itemAbyssalStone id="railcraft:abyssal_stone"/>
+                    <itemChiseledAbyssalStone id="railcraft:chiseled_abyssal_stone"/>
+                    <itemEtchedAbyssalStone id="railcraft:etched_abyssal_stone"/>
+                    <itemPolishedAbyssalStone id="railcraft:polished_abyssal_stone"/>
+                </abyssalStone>
+                <quarriedStone>
+                    <itemChiseledQuarriedStone id="railcraft:chiseled_quarried_stone"/>
+                    <itemEtchedQuarriedStone id="railcraft:etched_quarried_stone"/>
+                    <itemPolishedQuarriedStone id="railcraft:polished_quarried_stone"/>
+                    <itemQuarriedBrickSlab id="railcraft:quarried_brick_slab"/>
+                    <itemQuarriedBrickStairs id="railcraft:quarried_brick_stairs"/>
+                    <itemQuarriedBricks id="railcraft:quarried_bricks"/>
+                    <itemQuarriedCobblestone id="railcraft:quarried_cobblestone"/>
+                    <itemQuarriedPaver id="railcraft:quarried_paver"/>
+                    <itemQuarriedPaverSlab id="railcraft:quarried_paver_slab"/>
+                    <itemQuarriedPaverStairs id="railcraft:quarried_paver_stairs"/>
+                    <itemQuarriedStone id="railcraft:quarried_stone"/>
+                </quarriedStone>
+            </stones>
+        </naturalBlock>
+        <manufacturedBlock>
+            <constructionBlock>
+                <oreBlock>
+                    <itemBrassBlock id="railcraft:brass_block"/>
+                    <itemBronzeBlock id="railcraft:bronze_block"/>
+                    <itemCoalCokeBlock id="railcraft:coal_coke_block"/>
+                    <itemInvarBlock id="railcraft:invar_block"/>
+                    <itemLeadBlock id="railcraft:lead_block"/>
+                    <itemNickelBlock id="railcraft:nickel_block"/>
+                    <itemSilverBlock id="railcraft:silver_block"/>
+                    <itemSteelBlock id="railcraft:steel_block"/>
+                    <itemTinBlock id="railcraft:tin_block"/>
+                    <itemZincBlock id="railcraft:zinc_block"/>
+                </oreBlock>
+                <glass>
+                    <strengthenedGlass>
+                        <itemWhiteStrengthenedGlass id="railcraft:white_strengthened_glass"/>
+                        <itemOrangeStrengthenedGlass id="railcraft:orange_strengthened_glass" mergePrevious="true"/>
+                        <itemMagentaStrengthenedGlass id="railcraft:magenta_strengthened_glass" mergePrevious="true"/>
+                        <itemLightBlueStrengthenedGlass id="railcraft:light_blue_strengthened_glass" mergePrevious="true"/>
+                        <itemYellowStrengthenedGlass id="railcraft:yellow_strengthened_glass" mergePrevious="true"/>
+                        <itemLimeStrengthenedGlass id="railcraft:lime_strengthened_glass" mergePrevious="true"/>
+                        <itemPinkStrengthenedGlass id="railcraft:pink_strengthened_glass" mergePrevious="true"/>
+                        <itemGrayStrengthenedGlass id="railcraft:gray_strengthened_glass" mergePrevious="true"/>
+                        <itemLightGrayStrengthenedGlass id="railcraft:light_gray_strengthened_glass" mergePrevious="true"/>
+                        <itemCyanStrengthenedGlass id="railcraft:cyan_strengthened_glass" mergePrevious="true"/>
+                        <itemPurpleStrengthenedGlass id="railcraft:purple_strengthened_glass" mergePrevious="true"/>
+                        <itemBlueStrengthenedGlass id="railcraft:blue_strengthened_glass" mergePrevious="true"/>
+                        <itemBrownStrengthenedGlass id="railcraft:brown_strengthened_glass" mergePrevious="true"/>
+                        <itemGreenStrengthenedGlass id="railcraft:green_strengthened_glass" mergePrevious="true"/>
+                        <itemRedStrengthenedGlass id="railcraft:red_strengthened_glass" mergePrevious="true"/>
+                        <itemBlackStrengthenedGlass id="railcraft:black_strengthened_glass" mergePrevious="true"/>
+                    </strengthenedGlass>
+                </glass>
+                <posts>
+                    <itemWhitePost id="railcraft:white_post"/>
+                    <itemOrangePost id="railcraft:orange_post" mergePrevious="true"/>
+                    <itemMagentaPost id="railcraft:magenta_post" mergePrevious="true"/>
+                    <itemLightBluePost id="railcraft:light_blue_post" mergePrevious="true"/>
+                    <itemYellowPost id="railcraft:yellow_post" mergePrevious="true"/>
+                    <itemLimePost id="railcraft:lime_post" mergePrevious="true"/>
+                    <itemPinkPost id="railcraft:pink_post" mergePrevious="true"/>
+                    <itemGrayPost id="railcraft:gray_post" mergePrevious="true"/>
+                    <itemLightGrayPost id="railcraft:light_gray_post" mergePrevious="true"/>
+                    <itemCyanPost id="railcraft:cyan_post" mergePrevious="true"/>
+                    <itemPurplePost id="railcraft:purple_post" mergePrevious="true"/>
+                    <itemBluePost id="railcraft:blue_post" mergePrevious="true"/>
+                    <itemBrownPost id="railcraft:brown_post" mergePrevious="true"/>
+                    <itemGreenPost id="railcraft:green_post" mergePrevious="true"/>
+                    <itemRedPost id="railcraft:red_post" mergePrevious="true"/>
+                    <itemBlackPost id="railcraft:black_post" mergePrevious="true"/>
+                </posts>
+                <roads>
+                    <itemBagOfCement id="railcraft:bag_of_cement"/>
+                </roads>
+            </constructionBlock>
+        </manufacturedBlock>
+        <mechanism>
+            <rails>
+                <woodenRails>
+                    <itemWoodenRail id="railcraft:wooden_rail"/>
+                    <itemWoodenRailbed id="railcraft:wooden_railbed"/>
+                    <itemWoodenTie id="railcraft:wooden_tie"/>
+                </woodenRails>
+                <railBeds>
+                    <itemStoneRailbed id="railcraft:stone_railbed"/>
+                    <itemStoneTie id="railcraft:stone_tie"/>
+                </railBeds>
+                <advancedRails>
+                    <itemStandardRail id="railcraft:standard_rail"/>
+                    <itemAdvancedRail id="railcraft:advanced_rail"/>
+                    <itemReinforcedRail id="railcraft:reinforced_rail"/>
+                    <itemElectricRail id="railcraft:electric_rail"/>
+                    <itemHighSpeedRail id="railcraft:high_speed_rail"/>
+                    <itemAbandonedTrack id="railcraft:abandoned_track"/>
+                    <itemStrapIronTrack id="railcraft:strap_iron_track" mergePrevious="true"/>
+                    <itemReinforcedTrack id="railcraft:reinforced_track" mergePrevious="true"/>
+                    <itemElectricTrack id="railcraft:electric_track" mergePrevious="true"/>
+                    <itemHighSpeedTrack id="railcraft:high_speed_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricTrack id="railcraft:high_speed_electric_track" mergePrevious="true"/>
+                    <itemAbandonedActivatorTrack id="railcraft:abandoned_activator_track"/>
+                    <itemIronActivatorTrack id="railcraft:iron_activator_track" mergePrevious="true"/>
+                    <itemStrapIronActivatorTrack id="railcraft:strap_iron_activator_track" mergePrevious="true"/>
+                    <itemReinforcedActivatorTrack id="railcraft:reinforced_activator_track" mergePrevious="true"/>
+                    <itemElectricActivatorTrack id="railcraft:electric_activator_track" mergePrevious="true"/>
+                    <itemHighSpeedActivatorTrack id="railcraft:high_speed_activator_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricActivatorTrack id="railcraft:high_speed_electric_activator_track" mergePrevious="true"/>
+                    <itemAbandonedBoosterTrack id="railcraft:abandoned_booster_track"/>
+                    <itemIronBoosterTrack id="railcraft:iron_booster_track" mergePrevious="true"/>
+                    <itemStrapIronBoosterTrack id="railcraft:strap_iron_booster_track" mergePrevious="true"/>
+                    <itemReinforcedBoosterTrack id="railcraft:reinforced_booster_track" mergePrevious="true"/>
+                    <itemElectricBoosterTrack id="railcraft:electric_booster_track" mergePrevious="true"/>
+                    <itemHighSpeedBoosterTrack id="railcraft:high_speed_booster_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricBoosterTrack id="railcraft:high_speed_electric_booster_track" mergePrevious="true"/>
+                    <itemAbandonedBufferStopTrack id="railcraft:abandoned_buffer_stop_track"/>
+                    <itemIronBufferStopTrack id="railcraft:iron_buffer_stop_track" mergePrevious="true"/>
+                    <itemStrapIronBufferStopTrack id="railcraft:strap_iron_buffer_stop_track" mergePrevious="true"/>
+                    <itemReinforcedBufferStopTrack id="railcraft:reinforced_buffer_stop_track" mergePrevious="true"/>
+                    <itemElectricBufferStopTrack id="railcraft:electric_buffer_stop_track" mergePrevious="true"/>
+                    <itemAbandonedControlTrack id="railcraft:abandoned_control_track"/>
+                    <itemIronControlTrack id="railcraft:iron_control_track" mergePrevious="true"/>
+                    <itemStrapIronControlTrack id="railcraft:strap_iron_control_track" mergePrevious="true"/>
+                    <itemReinforcedControlTrack id="railcraft:reinforced_control_track" mergePrevious="true"/>
+                    <itemElectricControlTrack id="railcraft:electric_control_track" mergePrevious="true"/>
+                    <itemAbandonedCouplerTrack id="railcraft:abandoned_coupler_track"/>
+                    <itemIronCouplerTrack id="railcraft:iron_coupler_track" mergePrevious="true"/>
+                    <itemStrapIronCouplerTrack id="railcraft:strap_iron_coupler_track" mergePrevious="true"/>
+                    <itemReinforcedCouplerTrack id="railcraft:reinforced_coupler_track" mergePrevious="true"/>
+                    <itemElectricCouplerTrack id="railcraft:electric_coupler_track" mergePrevious="true"/>
+                    <itemAbandonedDetectorTrack id="railcraft:abandoned_detector_track"/>
+                    <itemIronDetectorTrack id="railcraft:iron_detector_track" mergePrevious="true"/>
+                    <itemStrapIronDetectorTrack id="railcraft:strap_iron_detector_track" mergePrevious="true"/>
+                    <itemReinforcedDetectorTrack id="railcraft:reinforced_detector_track" mergePrevious="true"/>
+                    <itemElectricDetectorTrack id="railcraft:electric_detector_track" mergePrevious="true"/>
+                    <itemHighSpeedDetectorTrack id="railcraft:high_speed_detector_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricDetectorTrack id="railcraft:high_speed_electric_detector_track" mergePrevious="true"/>
+                    <itemAbandonedDisembarkingTrack id="railcraft:abandoned_disembarking_track"/>
+                    <itemIronDisembarkingTrack id="railcraft:iron_disembarking_track" mergePrevious="true"/>
+                    <itemStrapIronDisembarkingTrack id="railcraft:strap_iron_disembarking_track" mergePrevious="true"/>
+                    <itemReinforcedDisembarkingTrack id="railcraft:reinforced_disembarking_track" mergePrevious="true"/>
+                    <itemElectricDisembarkingTrack id="railcraft:electric_disembarking_track" mergePrevious="true"/>
+                    <itemAbandonedDumpingTrack id="railcraft:abandoned_dumping_track"/>
+                    <itemIronDumpingTrack id="railcraft:iron_dumping_track" mergePrevious="true"/>
+                    <itemStrapIronDumpingTrack id="railcraft:strap_iron_dumping_track" mergePrevious="true"/>
+                    <itemReinforcedDumpingTrack id="railcraft:reinforced_dumping_track" mergePrevious="true"/>
+                    <itemElectricDumpingTrack id="railcraft:electric_dumping_track" mergePrevious="true"/>
+                    <itemAbandonedEmbarkingTrack id="railcraft:abandoned_embarking_track"/>
+                    <itemIronEmbarkingTrack id="railcraft:iron_embarking_track" mergePrevious="true"/>
+                    <itemStrapIronEmbarkingTrack id="railcraft:strap_iron_embarking_track" mergePrevious="true"/>
+                    <itemReinforcedEmbarkingTrack id="railcraft:reinforced_embarking_track" mergePrevious="true"/>
+                    <itemElectricEmbarkingTrack id="railcraft:electric_embarking_track" mergePrevious="true"/>
+                    <itemAbandonedGatedTrack id="railcraft:abandoned_gated_track"/>
+                    <itemIronGatedTrack id="railcraft:iron_gated_track" mergePrevious="true"/>
+                    <itemStrapIronGatedTrack id="railcraft:strap_iron_gated_track" mergePrevious="true"/>
+                    <itemReinforcedGatedTrack id="railcraft:reinforced_gated_track" mergePrevious="true"/>
+                    <itemElectricGatedTrack id="railcraft:electric_gated_track" mergePrevious="true"/>
+                    <itemAbandonedJunctionTrack id="railcraft:abandoned_junction_track"/>
+                    <itemIronJunctionTrack id="railcraft:iron_junction_track" mergePrevious="true"/>
+                    <itemStrapIronJunctionTrack id="railcraft:strap_iron_junction_track" mergePrevious="true"/>
+                    <itemReinforcedJunctionTrack id="railcraft:reinforced_junction_track" mergePrevious="true"/>
+                    <itemElectricJunctionTrack id="railcraft:electric_junction_track" mergePrevious="true"/>
+                    <itemHighSpeedJunctionTrack id="railcraft:high_speed_junction_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricJunctionTrack id="railcraft:high_speed_electric_junction_track" mergePrevious="true"/>
+                    <itemAbandonedLauncherTrack id="railcraft:abandoned_launcher_track"/>
+                    <itemIronLauncherTrack id="railcraft:iron_launcher_track" mergePrevious="true"/>
+                    <itemStrapIronLauncherTrack id="railcraft:strap_iron_launcher_track" mergePrevious="true"/>
+                    <itemReinforcedLauncherTrack id="railcraft:reinforced_launcher_track" mergePrevious="true"/>
+                    <itemElectricLauncherTrack id="railcraft:electric_launcher_track" mergePrevious="true"/>
+                    <itemAbandonedLockingTrack id="railcraft:abandoned_locking_track"/>
+                    <itemIronLockingTrack id="railcraft:iron_locking_track" mergePrevious="true"/>
+                    <itemStrapIronLockingTrack id="railcraft:strap_iron_locking_track" mergePrevious="true"/>
+                    <itemReinforcedLockingTrack id="railcraft:reinforced_locking_track" mergePrevious="true"/>
+                    <itemElectricLockingTrack id="railcraft:electric_locking_track" mergePrevious="true"/>
+                    <itemHighSpeedLockingTrack id="railcraft:high_speed_locking_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricLockingTrack id="railcraft:high_speed_electric_locking_track" mergePrevious="true"/>
+                    <itemAbandonedLocomotiveTrack id="railcraft:abandoned_locomotive_track"/>
+                    <itemIronLocomotiveTrack id="railcraft:iron_locomotive_track" mergePrevious="true"/>
+                    <itemStrapIronLocomotiveTrack id="railcraft:strap_iron_locomotive_track" mergePrevious="true"/>
+                    <itemReinforcedLocomotiveTrack id="railcraft:reinforced_locomotive_track" mergePrevious="true"/>
+                    <itemElectricLocomotiveTrack id="railcraft:electric_locomotive_track" mergePrevious="true"/>
+                    <itemHighSpeedLocomotiveTrack id="railcraft:high_speed_locomotive_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricLocomotiveTrack id="railcraft:high_speed_electric_locomotive_track" mergePrevious="true"/>
+                    <itemAbandonedOneWayTrack id="railcraft:abandoned_one_way_track"/>
+                    <itemIronOneWayTrack id="railcraft:iron_one_way_track" mergePrevious="true"/>
+                    <itemStrapIronOneWayTrack id="railcraft:strap_iron_one_way_track" mergePrevious="true"/>
+                    <itemReinforcedOneWayTrack id="railcraft:reinforced_one_way_track" mergePrevious="true"/>
+                    <itemElectricOneWayTrack id="railcraft:electric_one_way_track" mergePrevious="true"/>
+                    <itemAbandonedRoutingTrack id="railcraft:abandoned_routing_track"/>
+                    <itemIronRoutingTrack id="railcraft:iron_routing_track" mergePrevious="true"/>
+                    <itemStrapIronRoutingTrack id="railcraft:strap_iron_routing_track" mergePrevious="true"/>
+                    <itemReinforcedRoutingTrack id="railcraft:reinforced_routing_track" mergePrevious="true"/>
+                    <itemElectricRoutingTrack id="railcraft:electric_routing_track" mergePrevious="true"/>
+                    <itemAbandonedThrottleTrack id="railcraft:abandoned_throttle_track"/>
+                    <itemIronThrottleTrack id="railcraft:iron_throttle_track" mergePrevious="true"/>
+                    <itemStrapIronThrottleTrack id="railcraft:strap_iron_throttle_track" mergePrevious="true"/>
+                    <itemReinforcedThrottleTrack id="railcraft:reinforced_throttle_track" mergePrevious="true"/>
+                    <itemElectricThrottleTrack id="railcraft:electric_throttle_track" mergePrevious="true"/>
+                    <itemHighSpeedThrottleTrack id="railcraft:high_speed_throttle_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricThrottleTrack id="railcraft:high_speed_electric_throttle_track" mergePrevious="true"/>
+                    <itemAbandonedTurnoutTrack id="railcraft:abandoned_turnout_track"/>
+                    <itemIronTurnoutTrack id="railcraft:iron_turnout_track" mergePrevious="true"/>
+                    <itemStrapIronTurnoutTrack id="railcraft:strap_iron_turnout_track" mergePrevious="true"/>
+                    <itemReinforcedTurnoutTrack id="railcraft:reinforced_turnout_track" mergePrevious="true"/>
+                    <itemElectricTurnoutTrack id="railcraft:electric_turnout_track" mergePrevious="true"/>
+                    <itemHighSpeedTurnoutTrack id="railcraft:high_speed_turnout_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricTurnoutTrack id="railcraft:high_speed_electric_turnout_track" mergePrevious="true"/>
+                    <itemAbandonedWhistleTrack id="railcraft:abandoned_whistle_track"/>
+                    <itemIronWhistleTrack id="railcraft:iron_whistle_track" mergePrevious="true"/>
+                    <itemStrapIronWhistleTrack id="railcraft:strap_iron_whistle_track" mergePrevious="true"/>
+                    <itemReinforcedWhistleTrack id="railcraft:reinforced_whistle_track" mergePrevious="true"/>
+                    <itemElectricWhistleTrack id="railcraft:electric_whistle_track" mergePrevious="true"/>
+                    <itemHighSpeedWhistleTrack id="railcraft:high_speed_whistle_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricWhistleTrack id="railcraft:high_speed_electric_whistle_track" mergePrevious="true"/>
+                    <itemAbandonedWyeTrack id="railcraft:abandoned_wye_track"/>
+                    <itemIronWyeTrack id="railcraft:iron_wye_track" mergePrevious="true"/>
+                    <itemStrapIronWyeTrack id="railcraft:strap_iron_wye_track" mergePrevious="true"/>
+                    <itemReinforcedWyeTrack id="railcraft:reinforced_wye_track" mergePrevious="true"/>
+                    <itemElectricWyeTrack id="railcraft:electric_wye_track" mergePrevious="true"/>
+                    <itemHighSpeedWyeTrack id="railcraft:high_speed_wye_track" mergePrevious="true"/>
+                    <itemHighSpeedElectricWyeTrack id="railcraft:high_speed_electric_wye_track" mergePrevious="true"/>
+                    <itemHighSpeedTransitionTrack id="railcraft:high_speed_transition_track"/>
+                    <itemHighSpeedElectricTransitionTrack id="railcraft:high_speed_electric_transition_track" mergePrevious="true"/>
+                    <itemElevatorTrack id="railcraft:elevator_track"/>
+                    <itemForceTrackEmitter id="railcraft:force_track_emitter"/>
+                </advancedRails>
+                <trackKits>
+                    <itemActivatorTrackKit id="railcraft:activator_track_kit"/>
+                    <itemBoosterTrackKit id="railcraft:booster_track_kit"/>
+                    <itemBufferStopTrackKit id="railcraft:buffer_stop_track_kit"/>
+                    <itemControlTrackKit id="railcraft:control_track_kit"/>
+                    <itemCouplerTrackKit id="railcraft:coupler_track_kit"/>
+                    <itemDetectorTrackKit id="railcraft:detector_track_kit"/>
+                    <itemDisembarkingTrackKit id="railcraft:disembarking_track_kit"/>
+                    <itemDumpingTrackKit id="railcraft:dumping_track_kit"/>
+                    <itemEmbarkingTrackKit id="railcraft:embarking_track_kit"/>
+                    <itemGatedTrackKit id="railcraft:gated_track_kit"/>
+                    <itemLauncherTrackKit id="railcraft:launcher_track_kit"/>
+                    <itemLockingTrackKit id="railcraft:locking_track_kit"/>
+                    <itemLocomotiveTrackKit id="railcraft:locomotive_track_kit"/>
+                    <itemOneWayTrackKit id="railcraft:one_way_track_kit"/>
+                    <itemRoutingTrackKit id="railcraft:routing_track_kit"/>
+                    <itemThrottleTrackKit id="railcraft:throttle_track_kit"/>
+                    <itemTransitionTrackKit id="railcraft:transition_track_kit"/>
+                    <itemWhistleTrackKit id="railcraft:whistle_track_kit"/>
+                </trackKits>
+                <trackTools>
+                    <itemTrackLayer id="railcraft:track_layer"/>
+                    <itemTrackRelayer id="railcraft:track_relayer"/>
+                    <itemTrackRemover id="railcraft:track_remover"/>
+                    <itemTrackUndercutter id="railcraft:track_undercutter"/>
+                    <itemTrackParts id="railcraft:track_parts"/>
+                    <itemSwitchTrackLever id="railcraft:switch_track_lever"/>
+                    <itemSwitchTrackMotor id="railcraft:switch_track_motor"/>
+                    <itemSwitchTrackRouter id="railcraft:switch_track_router"/>
+                    <itemWaterTankSiding id="railcraft:water_tank_siding"/>
+                </trackTools>
+            </rails>
+            <cartInteraction>
+                <itemCartDispenser id="railcraft:cart_dispenser"/>
+                <itemTrainDispenser id="railcraft:train_dispenser"/>
+                <itemItemLoader id="railcraft:item_loader"/>
+                <itemItemUnloader id="railcraft:item_unloader"/>
+                <itemAdvancedItemLoader id="railcraft:advanced_item_loader"/>
+                <itemAdvancedItemUnloader id="railcraft:advanced_item_unloader"/>
+                <itemFluidLoader id="railcraft:fluid_loader"/>
+                <itemFluidUnloader id="railcraft:fluid_unloader"/>
+                <itemFeedStation id="railcraft:feed_station"/>
+                <detectors>
+                    <itemAdvancedDetector id="railcraft:advanced_detector"/>
+                    <itemAgeDetector id="railcraft:age_detector"/>
+                    <itemAnimalDetector id="railcraft:animal_detector"/>
+                    <itemAnyDetector id="railcraft:any_detector"/>
+                    <itemEmptyDetector id="railcraft:empty_detector"/>
+                    <itemItemDetector id="railcraft:item_detector"/>
+                    <itemLocomotiveDetector id="railcraft:locomotive_detector"/>
+                    <itemMobDetector id="railcraft:mob_detector"/>
+                    <itemPlayerDetector id="railcraft:player_detector"/>
+                    <itemRoutingDetector id="railcraft:routing_detector"/>
+                    <itemSheepDetector id="railcraft:sheep_detector"/>
+                    <itemTankDetector id="railcraft:tank_detector"/>
+                    <itemTrainDetector id="railcraft:train_detector"/>
+                    <itemVillagerDetector id="railcraft:villager_detector"/>
+                </detectors>
+            </cartInteraction>
+            <signals>
+                <itemBlockSignal id="railcraft:block_signal"/>
+                <itemDualBlockSignal id="railcraft:dual_block_signal"/>
+                <itemDistantSignal id="railcraft:distant_signal"/>
+                <itemDualDistantSignal id="railcraft:dual_distant_signal"/>
+                <itemTokenSignal id="railcraft:token_signal"/>
+                <itemDualTokenSignal id="railcraft:dual_token_signal"/>
+                <itemTokenSignalBox id="railcraft:token_signal_box"/>
+                <itemSignalLamp id="railcraft:signal_lamp"/>
+                <itemSignalLabel id="railcraft:signal_label"/>
+                <itemSignalTuner id="railcraft:signal_tuner"/>
+                <itemSignalBlockSurveyor id="railcraft:signal_block_surveyor"/>
+                <signalBoxes>
+                    <itemAnalogSignalControllerBox id="railcraft:analog_signal_controller_box"/>
+                    <itemSignalBlockRelayBox id="railcraft:signal_block_relay_box"/>
+                    <itemSignalCapacitorBox id="railcraft:signal_capacitor_box"/>
+                    <itemSignalControllerBox id="railcraft:signal_controller_box"/>
+                    <itemSignalInterlockBox id="railcraft:signal_interlock_box"/>
+                    <itemSignalReceiverBox id="railcraft:signal_receiver_box"/>
+                    <itemSignalSequencerBox id="railcraft:signal_sequencer_box"/>
+                </signalBoxes>
+            </signals>
+            <basicCrafting>
+                <furnaces>
+                    <cokeOvens>
+                        <itemCokeOvenBricks id="railcraft:coke_oven_bricks"/>
+                    </cokeOvens>
+                    <blastFurnaces>
+                        <itemBlastFurnaceBricks id="railcraft:blast_furnace_bricks"/>
+                    </blastFurnaces>
+                </furnaces>
+                <anvils>
+                    <itemSteelAnvil id="railcraft:steel_anvil"/>
+                    <itemChippedSteelAnvil id="railcraft:chipped_steel_anvil"/>
+                    <itemDamagedSteelAnvil id="railcraft:damaged_steel_anvil"/>
+                </anvils>
+            </basicCrafting>
+            <machines>
+                <itemCrusher id="railcraft:crusher"/>
+                <itemManualRollingMachine id="railcraft:manual_rolling_machine"/>
+                <itemPoweredRollingMachine id="railcraft:powered_rolling_machine"/>
+                <itemSteamOven id="railcraft:steam_oven"/>
+                <chunkLoaders>
+                    <itemPersonalWorldSpike id="railcraft:personal_world_spike"/>
+                    <itemWorldSpike id="railcraft:world_spike"/>
+                </chunkLoaders>
+            </machines>
+            <generators>
+                <steamGenerators>
+                    <itemSteamTurbine id="railcraft:steam_turbine"/>
+                </steamGenerators>
+                <steamProducers>
+                    <itemSolidFueledFirebox id="railcraft:solid_fueled_firebox"/>
+                    <itemFluidFueledFirebox id="railcraft:fluid_fueled_firebox"/>
+                    <itemLowPressureSteamBoilerTank id="railcraft:low_pressure_steam_boiler_tank"/>
+                    <itemHighPressureSteamBoilerTank id="railcraft:high_pressure_steam_boiler_tank"/>
+                </steamProducers>
+            </generators>
+            <chargeGrid>
+                <itemChargeCoil id="railcraft:charge_coil"/>
+                <itemChargeMeter id="railcraft:charge_meter"/>
+                <itemChargeMotor id="railcraft:charge_motor"/>
+                <itemChargeSpoolSmall id="railcraft:charge_spool_small"/>
+                <itemChargeSpoolMedium id="railcraft:charge_spool_medium"/>
+                <itemChargeSpoolLarge id="railcraft:charge_spool_large"/>
+                <itemChargeTerminal id="railcraft:charge_terminal"/>
+                <batteries>
+                    <itemNickelIronBattery id="railcraft:nickel_iron_battery"/>
+                    <itemNickelZincBattery id="railcraft:nickel_zinc_battery"/>
+                    <itemZincCarbonBattery id="railcraft:zinc_carbon_battery"/>
+                    <itemZincCarbonBatteryEmpty id="railcraft:zinc_carbon_battery_empty"/>
+                    <itemZincSilverBattery id="railcraft:zinc_silver_battery"/>
+                    <itemZincSilverBatteryEmpty id="railcraft:zinc_silver_battery_empty"/>
+                </batteries>
+            </chargeGrid>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <itemTinRaw id="railcraft:tin_raw"/>
+            <itemTinIngot id="railcraft:tin_ingot"/>
+            <itemTinNugget id="railcraft:tin_nugget"/>
+            <itemLeadRaw id="railcraft:lead_raw"/>
+            <itemLeadIngot id="railcraft:lead_ingot"/>
+            <itemLeadNugget id="railcraft:lead_nugget"/>
+            <itemSilverRaw id="railcraft:silver_raw"/>
+            <itemSilverIngot id="railcraft:silver_ingot"/>
+            <itemSilverNugget id="railcraft:silver_nugget"/>
+            <itemNickelRaw id="railcraft:nickel_raw"/>
+            <itemNickelIngot id="railcraft:nickel_ingot"/>
+            <itemNickelNugget id="railcraft:nickel_nugget"/>
+            <itemZincRaw id="railcraft:zinc_raw"/>
+            <itemZincIngot id="railcraft:zinc_ingot"/>
+            <itemZincNugget id="railcraft:zinc_nugget"/>
+            <itemBronzeIngot id="railcraft:bronze_ingot"/>
+            <itemBronzeNugget id="railcraft:bronze_nugget"/>
+            <itemBrassIngot id="railcraft:brass_ingot"/>
+            <itemBrassNugget id="railcraft:brass_nugget"/>
+            <itemInvarIngot id="railcraft:invar_ingot"/>
+            <itemInvarNugget id="railcraft:invar_nugget"/>
+            <itemSteelIngot id="railcraft:steel_ingot"/>
+            <itemSteelNugget id="railcraft:steel_nugget"/>
+            <itemRawFirestone id="railcraft:raw_firestone"/>
+            <itemCutFirestone id="railcraft:cut_firestone"/>
+            <itemCrackedFirestone id="railcraft:cracked_firestone"/>
+            <itemRefinedFirestone id="railcraft:refined_firestone"/>
+            <itemCoalCoke id="railcraft:coal_coke"/>
+            <itemCharcoalDust id="railcraft:charcoal_dust"/>
+            <itemCoalDust id="railcraft:coal_dust"/>
+            <itemEnderDust id="railcraft:ender_dust"/>
+            <itemObsidianDust id="railcraft:obsidian_dust"/>
+            <itemSaltpeterDust id="railcraft:saltpeter_dust"/>
+            <itemSulfurDust id="railcraft:sulfur_dust"/>
+            <itemCrushedObsidian id="railcraft:crushed_obsidian"/>
+            <itemSlag id="railcraft:slag"/>
+        </miningResources>
+    </resources>
+    <item>
+        <parts>
+            <mechanicalParts>
+                <gear>
+                    <itemBrassGear id="railcraft:brass_gear"/>
+                    <itemBronzeGear id="railcraft:bronze_gear"/>
+                    <itemBushingGear id="railcraft:bushing_gear"/>
+                    <itemCopperGear id="railcraft:copper_gear"/>
+                    <itemGoldGear id="railcraft:gold_gear"/>
+                    <itemInvarGear id="railcraft:invar_gear"/>
+                    <itemIronGear id="railcraft:iron_gear"/>
+                    <itemLeadGear id="railcraft:lead_gear"/>
+                    <itemNickelGear id="railcraft:nickel_gear"/>
+                    <itemSilverGear id="railcraft:silver_gear"/>
+                    <itemSteelGear id="railcraft:steel_gear"/>
+                    <itemTinGear id="railcraft:tin_gear"/>
+                    <itemZincGear id="railcraft:zinc_gear"/>
+                </gear>
+                <plate>
+                    <itemBrassPlate id="railcraft:brass_plate"/>
+                    <itemBronzePlate id="railcraft:bronze_plate"/>
+                    <itemCopperPlate id="railcraft:copper_plate"/>
+                    <itemGoldPlate id="railcraft:gold_plate"/>
+                    <itemInvarPlate id="railcraft:invar_plate"/>
+                    <itemIronPlate id="railcraft:iron_plate"/>
+                    <itemLeadPlate id="railcraft:lead_plate"/>
+                    <itemNickelPlate id="railcraft:nickel_plate"/>
+                    <itemSilverPlate id="railcraft:silver_plate"/>
+                    <itemSteelPlate id="railcraft:steel_plate"/>
+                    <itemTinPlate id="railcraft:tin_plate"/>
+                    <itemZincPlate id="railcraft:zinc_plate"/>
+                </plate>
+                <electrodes>
+                    <itemBrassElectrode id="railcraft:brass_electrode"/>
+                    <itemBronzeElectrode id="railcraft:bronze_electrode"/>
+                    <itemCarbonElectrode id="railcraft:carbon_electrode"/>
+                    <itemCopperElectrode id="railcraft:copper_electrode"/>
+                    <itemGoldElectrode id="railcraft:gold_electrode"/>
+                    <itemInvarElectrode id="railcraft:invar_electrode"/>
+                    <itemIronElectrode id="railcraft:iron_electrode"/>
+                    <itemLeadElectrode id="railcraft:lead_electrode"/>
+                    <itemNickelElectrode id="railcraft:nickel_electrode"/>
+                    <itemSilverElectrode id="railcraft:silver_electrode"/>
+                    <itemSteelElectrode id="railcraft:steel_electrode"/>
+                    <itemTinElectrode id="railcraft:tin_electrode"/>
+                    <itemZincElectrode id="railcraft:zinc_electrode"/>
+                </electrodes>
+                <turbineParts>
+                    <itemTurbineBlade id="railcraft:turbine_blade"/>
+                    <itemTurbineDisk id="railcraft:turbine_disk"/>
+                    <itemTurbineRotor id="railcraft:turbine_rotor"/>
+                </turbineParts>
+                <tunnelBoreHeads>
+                    <itemBronzeTunnelBoreHead id="railcraft:bronze_tunnel_bore_head"/>
+                    <itemDiamondTunnelBoreHead id="railcraft:diamond_tunnel_bore_head"/>
+                    <itemIronTunnelBoreHead id="railcraft:iron_tunnel_bore_head"/>
+                    <itemSteelTunnelBoreHead id="railcraft:steel_tunnel_bore_head"/>
+                </tunnelBoreHeads>
+                <circuits>
+                    <itemControllerCircuit id="railcraft:controller_circuit"/>
+                    <itemRadioCircuit id="railcraft:radio_circuit"/>
+                    <itemReceiverCircuit id="railcraft:receiver_circuit"/>
+                    <itemSignalCircuit id="railcraft:signal_circuit"/>
+                </circuits>
+            </mechanicalParts>
+        </parts>
+        <fluidStorage>
+            <fluidMultiBlockTanks>
+                <itemWhiteIronTankWall id="railcraft:white_iron_tank_wall"/>
+                <itemOrangeIronTankWall id="railcraft:orange_iron_tank_wall" mergePrevious="true"/>
+                <itemMagentaIronTankWall id="railcraft:magenta_iron_tank_wall" mergePrevious="true"/>
+                <itemLightBlueIronTankWall id="railcraft:light_blue_iron_tank_wall" mergePrevious="true"/>
+                <itemYellowIronTankWall id="railcraft:yellow_iron_tank_wall" mergePrevious="true"/>
+                <itemLimeIronTankWall id="railcraft:lime_iron_tank_wall" mergePrevious="true"/>
+                <itemPinkIronTankWall id="railcraft:pink_iron_tank_wall" mergePrevious="true"/>
+                <itemGrayIronTankWall id="railcraft:gray_iron_tank_wall" mergePrevious="true"/>
+                <itemLightGrayIronTankWall id="railcraft:light_gray_iron_tank_wall" mergePrevious="true"/>
+                <itemCyanIronTankWall id="railcraft:cyan_iron_tank_wall" mergePrevious="true"/>
+                <itemPurpleIronTankWall id="railcraft:purple_iron_tank_wall" mergePrevious="true"/>
+                <itemBlueIronTankWall id="railcraft:blue_iron_tank_wall" mergePrevious="true"/>
+                <itemBrownIronTankWall id="railcraft:brown_iron_tank_wall" mergePrevious="true"/>
+                <itemGreenIronTankWall id="railcraft:green_iron_tank_wall" mergePrevious="true"/>
+                <itemRedIronTankWall id="railcraft:red_iron_tank_wall" mergePrevious="true"/>
+                <itemBlackIronTankWall id="railcraft:black_iron_tank_wall" mergePrevious="true"/>
+                <itemWhiteIronTankValve id="railcraft:white_iron_tank_valve"/>
+                <itemOrangeIronTankValve id="railcraft:orange_iron_tank_valve" mergePrevious="true"/>
+                <itemMagentaIronTankValve id="railcraft:magenta_iron_tank_valve" mergePrevious="true"/>
+                <itemLightBlueIronTankValve id="railcraft:light_blue_iron_tank_valve" mergePrevious="true"/>
+                <itemYellowIronTankValve id="railcraft:yellow_iron_tank_valve" mergePrevious="true"/>
+                <itemLimeIronTankValve id="railcraft:lime_iron_tank_valve" mergePrevious="true"/>
+                <itemPinkIronTankValve id="railcraft:pink_iron_tank_valve" mergePrevious="true"/>
+                <itemGrayIronTankValve id="railcraft:gray_iron_tank_valve" mergePrevious="true"/>
+                <itemLightGrayIronTankValve id="railcraft:light_gray_iron_tank_valve" mergePrevious="true"/>
+                <itemCyanIronTankValve id="railcraft:cyan_iron_tank_valve" mergePrevious="true"/>
+                <itemPurpleIronTankValve id="railcraft:purple_iron_tank_valve" mergePrevious="true"/>
+                <itemBlueIronTankValve id="railcraft:blue_iron_tank_valve" mergePrevious="true"/>
+                <itemBrownIronTankValve id="railcraft:brown_iron_tank_valve" mergePrevious="true"/>
+                <itemGreenIronTankValve id="railcraft:green_iron_tank_valve" mergePrevious="true"/>
+                <itemRedIronTankValve id="railcraft:red_iron_tank_valve" mergePrevious="true"/>
+                <itemBlackIronTankValve id="railcraft:black_iron_tank_valve" mergePrevious="true"/>
+                <itemWhiteIronTankGauge id="railcraft:white_iron_tank_gauge"/>
+                <itemOrangeIronTankGauge id="railcraft:orange_iron_tank_gauge" mergePrevious="true"/>
+                <itemMagentaIronTankGauge id="railcraft:magenta_iron_tank_gauge" mergePrevious="true"/>
+                <itemLightBlueIronTankGauge id="railcraft:light_blue_iron_tank_gauge" mergePrevious="true"/>
+                <itemYellowIronTankGauge id="railcraft:yellow_iron_tank_gauge" mergePrevious="true"/>
+                <itemLimeIronTankGauge id="railcraft:lime_iron_tank_gauge" mergePrevious="true"/>
+                <itemPinkIronTankGauge id="railcraft:pink_iron_tank_gauge" mergePrevious="true"/>
+                <itemGrayIronTankGauge id="railcraft:gray_iron_tank_gauge" mergePrevious="true"/>
+                <itemLightGrayIronTankGauge id="railcraft:light_gray_iron_tank_gauge" mergePrevious="true"/>
+                <itemCyanIronTankGauge id="railcraft:cyan_iron_tank_gauge" mergePrevious="true"/>
+                <itemPurpleIronTankGauge id="railcraft:purple_iron_tank_gauge" mergePrevious="true"/>
+                <itemBlueIronTankGauge id="railcraft:blue_iron_tank_gauge" mergePrevious="true"/>
+                <itemBrownIronTankGauge id="railcraft:brown_iron_tank_gauge" mergePrevious="true"/>
+                <itemGreenIronTankGauge id="railcraft:green_iron_tank_gauge" mergePrevious="true"/>
+                <itemRedIronTankGauge id="railcraft:red_iron_tank_gauge" mergePrevious="true"/>
+                <itemBlackIronTankGauge id="railcraft:black_iron_tank_gauge" mergePrevious="true"/>
+                <itemWhiteSteelTankWall id="railcraft:white_steel_tank_wall"/>
+                <itemOrangeSteelTankWall id="railcraft:orange_steel_tank_wall" mergePrevious="true"/>
+                <itemMagentaSteelTankWall id="railcraft:magenta_steel_tank_wall" mergePrevious="true"/>
+                <itemLightBlueSteelTankWall id="railcraft:light_blue_steel_tank_wall" mergePrevious="true"/>
+                <itemYellowSteelTankWall id="railcraft:yellow_steel_tank_wall" mergePrevious="true"/>
+                <itemLimeSteelTankWall id="railcraft:lime_steel_tank_wall" mergePrevious="true"/>
+                <itemPinkSteelTankWall id="railcraft:pink_steel_tank_wall" mergePrevious="true"/>
+                <itemGraySteelTankWall id="railcraft:gray_steel_tank_wall" mergePrevious="true"/>
+                <itemLightGraySteelTankWall id="railcraft:light_gray_steel_tank_wall" mergePrevious="true"/>
+                <itemCyanSteelTankWall id="railcraft:cyan_steel_tank_wall" mergePrevious="true"/>
+                <itemPurpleSteelTankWall id="railcraft:purple_steel_tank_wall" mergePrevious="true"/>
+                <itemBlueSteelTankWall id="railcraft:blue_steel_tank_wall" mergePrevious="true"/>
+                <itemBrownSteelTankWall id="railcraft:brown_steel_tank_wall" mergePrevious="true"/>
+                <itemGreenSteelTankWall id="railcraft:green_steel_tank_wall" mergePrevious="true"/>
+                <itemRedSteelTankWall id="railcraft:red_steel_tank_wall" mergePrevious="true"/>
+                <itemBlackSteelTankWall id="railcraft:black_steel_tank_wall" mergePrevious="true"/>
+                <itemWhiteSteelTankValve id="railcraft:white_steel_tank_valve"/>
+                <itemOrangeSteelTankValve id="railcraft:orange_steel_tank_valve" mergePrevious="true"/>
+                <itemMagentaSteelTankValve id="railcraft:magenta_steel_tank_valve" mergePrevious="true"/>
+                <itemLightBlueSteelTankValve id="railcraft:light_blue_steel_tank_valve" mergePrevious="true"/>
+                <itemYellowSteelTankValve id="railcraft:yellow_steel_tank_valve" mergePrevious="true"/>
+                <itemLimeSteelTankValve id="railcraft:lime_steel_tank_valve" mergePrevious="true"/>
+                <itemPinkSteelTankValve id="railcraft:pink_steel_tank_valve" mergePrevious="true"/>
+                <itemGraySteelTankValve id="railcraft:gray_steel_tank_valve" mergePrevious="true"/>
+                <itemLightGraySteelTankValve id="railcraft:light_gray_steel_tank_valve" mergePrevious="true"/>
+                <itemCyanSteelTankValve id="railcraft:cyan_steel_tank_valve" mergePrevious="true"/>
+                <itemPurpleSteelTankValve id="railcraft:purple_steel_tank_valve" mergePrevious="true"/>
+                <itemBlueSteelTankValve id="railcraft:blue_steel_tank_valve" mergePrevious="true"/>
+                <itemBrownSteelTankValve id="railcraft:brown_steel_tank_valve" mergePrevious="true"/>
+                <itemGreenSteelTankValve id="railcraft:green_steel_tank_valve" mergePrevious="true"/>
+                <itemRedSteelTankValve id="railcraft:red_steel_tank_valve" mergePrevious="true"/>
+                <itemBlackSteelTankValve id="railcraft:black_steel_tank_valve" mergePrevious="true"/>
+                <itemWhiteSteelTankGauge id="railcraft:white_steel_tank_gauge"/>
+                <itemOrangeSteelTankGauge id="railcraft:orange_steel_tank_gauge" mergePrevious="true"/>
+                <itemMagentaSteelTankGauge id="railcraft:magenta_steel_tank_gauge" mergePrevious="true"/>
+                <itemLightBlueSteelTankGauge id="railcraft:light_blue_steel_tank_gauge" mergePrevious="true"/>
+                <itemYellowSteelTankGauge id="railcraft:yellow_steel_tank_gauge" mergePrevious="true"/>
+                <itemLimeSteelTankGauge id="railcraft:lime_steel_tank_gauge" mergePrevious="true"/>
+                <itemPinkSteelTankGauge id="railcraft:pink_steel_tank_gauge" mergePrevious="true"/>
+                <itemGraySteelTankGauge id="railcraft:gray_steel_tank_gauge" mergePrevious="true"/>
+                <itemLightGraySteelTankGauge id="railcraft:light_gray_steel_tank_gauge" mergePrevious="true"/>
+                <itemCyanSteelTankGauge id="railcraft:cyan_steel_tank_gauge" mergePrevious="true"/>
+                <itemPurpleSteelTankGauge id="railcraft:purple_steel_tank_gauge" mergePrevious="true"/>
+                <itemBlueSteelTankGauge id="railcraft:blue_steel_tank_gauge" mergePrevious="true"/>
+                <itemBrownSteelTankGauge id="railcraft:brown_steel_tank_gauge" mergePrevious="true"/>
+                <itemGreenSteelTankGauge id="railcraft:green_steel_tank_gauge" mergePrevious="true"/>
+                <itemRedSteelTankGauge id="railcraft:red_steel_tank_gauge" mergePrevious="true"/>
+                <itemBlackSteelTankGauge id="railcraft:black_steel_tank_gauge" mergePrevious="true"/>
+            </fluidMultiBlockTanks>
+        </fluidStorage>
+        <vehicle>
+            <minecarts>
+                <itemSteamLocomotive id="railcraft:steam_locomotive"/>
+                <itemElectricLocomotive id="railcraft:electric_locomotive"/>
+                <itemCreativeLocomotive id="railcraft:creative_locomotive"/>
+                <itemTunnelBore id="railcraft:tunnel_bore"/>
+                <itemEnergyMinecart id="railcraft:energy_minecart"/>
+                <itemTankMinecart id="railcraft:tank_minecart"/>
+                <itemWorldSpikeMinecart id="railcraft:world_spike_minecart"/>
+            </minecarts>
+        </vehicle>
+        <bucket>
+            <itemCreosoteBucket id="railcraft:creosote_bucket"/>
+        </bucket>
+        <utility>
+            <readableBooks>
+                <itemLogbook id="railcraft:logbook"/>
+                <itemRoutingTableBook id="railcraft:routing_table_book"/>
+            </readableBooks>
+            <itemTicket id="railcraft:ticket"/>
+            <itemGoldenTicket id="railcraft:golden_ticket"/>
+            <itemWhistleTuner id="railcraft:whistle_tuner"/>
+        </utility>
+    </item>
+</stuff>

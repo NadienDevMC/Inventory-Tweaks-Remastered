@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <itemFlamethrower id="mekanism:flamethrower"/>
+            <munition>
+                <mekanismBow>
+                    <itemElectricBow id="mekanism:electric_bow"/>
+                </mekanismBow>
+            </munition>
+        </weapon>
+        <armor>
+            <helmet>
+                <itemHazmatMask id="mekanism:hazmat_mask"/>
+                <itemMekasuitHelmet id="mekanism:mekasuit_helmet"/>
+                <itemScubaMask id="mekanism:scuba_mask"/>
+            </helmet>
+            <chestplate>
+                <itemHazmatGown id="mekanism:hazmat_gown"/>
+                <itemJetpack id="mekanism:jetpack"/>
+                <itemJetpackArmored id="mekanism:jetpack_armored"/>
+                <itemMekasuitBodyarmor id="mekanism:mekasuit_bodyarmor"/>
+                <itemScubaTank id="mekanism:scuba_tank"/>
+            </chestplate>
+            <leggings>
+                <itemHazmatPants id="mekanism:hazmat_pants"/>
+                <itemMekasuitPants id="mekanism:mekasuit_pants"/>
+            </leggings>
+            <boots>
+                <itemFreeRunners id="mekanism:free_runners"/>
+                <itemFreeRunnersArmored id="mekanism:free_runners_armored"/>
+                <itemHazmatBoots id="mekanism:hazmat_boots"/>
+                <itemMekasuitBoots id="mekanism:mekasuit_boots"/>
+            </boots>
+        </armor>
+        <tool>
+            <multitool>
+                <itemAtomicDisassembler id="mekanism:atomic_disassembler"/>
+                <itemMekaTool id="mekanism:meka_tool"/>
+            </multitool>
+            <wrench>
+                <itemConfigurator id="mekanism:configurator"/>
+            </wrench>
+        </tool>
+    </equipment>
+    <block>
+        <mechanism>
+            <machines>
+                <remoteAccess>
+                    <itemTeleporterFrame id="mekanism:teleporter_frame"/>
+                    <itemTeleporter id="mekanism:teleporter"/>
+                </remoteAccess>
+                <factories>
+                    <itemAdvancedCombiningFactory id="mekanism:advanced_combining_factory"/>
+                    <itemBasicCombiningFactory id="mekanism:basic_combining_factory" mergePrevious="true"/>
+                    <itemEliteCombiningFactory id="mekanism:elite_combining_factory" mergePrevious="true"/>
+                    <itemUltimateCombiningFactory id="mekanism:ultimate_combining_factory" mergePrevious="true"/>
+                    <itemAdvancedCompressingFactory id="mekanism:advanced_compressing_factory"/>
+                    <itemBasicCompressingFactory id="mekanism:basic_compressing_factory" mergePrevious="true"/>
+                    <itemEliteCompressingFactory id="mekanism:elite_compressing_factory" mergePrevious="true"/>
+                    <itemUltimateCompressingFactory id="mekanism:ultimate_compressing_factory" mergePrevious="true"/>
+                    <itemAdvancedCrushingFactory id="mekanism:advanced_crushing_factory"/>
+                    <itemBasicCrushingFactory id="mekanism:basic_crushing_factory" mergePrevious="true"/>
+                    <itemEliteCrushingFactory id="mekanism:elite_crushing_factory" mergePrevious="true"/>
+                    <itemUltimateCrushingFactory id="mekanism:ultimate_crushing_factory" mergePrevious="true"/>
+                    <itemAdvancedEnrichingFactory id="mekanism:advanced_enriching_factory"/>
+                    <itemBasicEnrichingFactory id="mekanism:basic_enriching_factory" mergePrevious="true"/>
+                    <itemEliteEnrichingFactory id="mekanism:elite_enriching_factory" mergePrevious="true"/>
+                    <itemUltimateEnrichingFactory id="mekanism:ultimate_enriching_factory" mergePrevious="true"/>
+                    <itemAdvancedInfusingFactory id="mekanism:advanced_infusing_factory"/>
+                    <itemBasicInfusingFactory id="mekanism:basic_infusing_factory" mergePrevious="true"/>
+                    <itemEliteInfusingFactory id="mekanism:elite_infusing_factory" mergePrevious="true"/>
+                    <itemUltimateInfusingFactory id="mekanism:ultimate_infusing_factory" mergePrevious="true"/>
+                    <itemAdvancedInjectingFactory id="mekanism:advanced_injecting_factory"/>
+                    <itemBasicInjectingFactory id="mekanism:basic_injecting_factory" mergePrevious="true"/>
+                    <itemEliteInjectingFactory id="mekanism:elite_injecting_factory" mergePrevious="true"/>
+                    <itemUltimateInjectingFactory id="mekanism:ultimate_injecting_factory" mergePrevious="true"/>
+                    <itemAdvancedPurifyingFactory id="mekanism:advanced_purifying_factory"/>
+                    <itemBasicPurifyingFactory id="mekanism:basic_purifying_factory" mergePrevious="true"/>
+                    <itemElitePurifyingFactory id="mekanism:elite_purifying_factory" mergePrevious="true"/>
+                    <itemUltimatePurifyingFactory id="mekanism:ultimate_purifying_factory" mergePrevious="true"/>
+                    <itemAdvancedSawingFactory id="mekanism:advanced_sawing_factory"/>
+                    <itemBasicSawingFactory id="mekanism:basic_sawing_factory" mergePrevious="true"/>
+                    <itemEliteSawingFactory id="mekanism:elite_sawing_factory" mergePrevious="true"/>
+                    <itemUltimateSawingFactory id="mekanism:ultimate_sawing_factory" mergePrevious="true"/>
+                    <itemAdvancedSmeltingFactory id="mekanism:advanced_smelting_factory"/>
+                    <itemBasicSmeltingFactory id="mekanism:basic_smelting_factory" mergePrevious="true"/>
+                    <itemEliteSmeltingFactory id="mekanism:elite_smelting_factory" mergePrevious="true"/>
+                    <itemUltimateSmeltingFactory id="mekanism:ultimate_smelting_factory" mergePrevious="true"/>
+                </factories>
+                <energyStorage>
+                    <itemAdvancedEnergyCube id="mekanism:advanced_energy_cube"/>
+                    <itemBasicEnergyCube id="mekanism:basic_energy_cube" mergePrevious="true"/>
+                    <itemEliteEnergyCube id="mekanism:elite_energy_cube" mergePrevious="true"/>
+                    <itemUltimateEnergyCube id="mekanism:ultimate_energy_cube" mergePrevious="true"/>
+                    <itemCreativeEnergyCube id="mekanism:creative_energy_cube"/>
+                </energyStorage>
+                <processingMachines>
+                    <itemCombiner id="mekanism:combiner"/>
+                    <itemCrusher id="mekanism:crusher"/>
+                    <itemEnergizedSmelter id="mekanism:energized_smelter"/>
+                    <itemEnrichmentChamber id="mekanism:enrichment_chamber"/>
+                    <itemFormulaicAssemblicator id="mekanism:formulaic_assemblicator"/>
+                    <itemMetallurgicInfuser id="mekanism:metallurgic_infuser"/>
+                    <itemOsmiumCompressor id="mekanism:osmium_compressor"/>
+                    <itemPaintingMachine id="mekanism:painting_machine"/>
+                    <itemPigmentExtractor id="mekanism:pigment_extractor"/>
+                    <itemPigmentMixer id="mekanism:pigment_mixer"/>
+                    <itemPrecisionSawmill id="mekanism:precision_sawmill"/>
+                    <itemPurificationChamber id="mekanism:purification_chamber"/>
+                </processingMachines>
+                <chemicalMachines>
+                    <itemAntiprotonicNucleosynthesizer id="mekanism:antiprotonic_nucleosynthesizer"/>
+                    <itemChemicalCrystallizer id="mekanism:chemical_crystallizer"/>
+                    <itemChemicalDissolutionChamber id="mekanism:chemical_dissolution_chamber"/>
+                    <itemChemicalInfuser id="mekanism:chemical_infuser"/>
+                    <itemChemicalInjectionChamber id="mekanism:chemical_injection_chamber"/>
+                    <itemChemicalOxidizer id="mekanism:chemical_oxidizer"/>
+                    <itemChemicalWasher id="mekanism:chemical_washer"/>
+                    <itemElectrolyticSeparator id="mekanism:electrolytic_separator"/>
+                    <itemIsotopicCentrifuge id="mekanism:isotopic_centrifuge"/>
+                    <itemNutritionalLiquifier id="mekanism:nutritional_liquifier"/>
+                    <itemPressurizedReactionChamber id="mekanism:pressurized_reaction_chamber"/>
+                    <itemRotaryCondensentrator id="mekanism:rotary_condensentrator"/>
+                    <itemSolarNeutronActivator id="mekanism:solar_neutron_activator"/>
+                </chemicalMachines>
+                <fluidMachines>
+                    <itemElectricPump id="mekanism:electric_pump"/>
+                    <itemFluidicPlenisher id="mekanism:fluidic_plenisher"/>
+                    <itemPressureDisperser id="mekanism:pressure_disperser"/>
+                </fluidMachines>
+                <otherMachines>
+                    <itemChargepad id="mekanism:chargepad"/>
+                    <itemDigitalMiner id="mekanism:digital_miner"/>
+                    <itemDimensionalStabilizer id="mekanism:dimensional_stabilizer"/>
+                    <itemFuelwoodHeater id="mekanism:fuelwood_heater"/>
+                    <itemIndustrialAlarm id="mekanism:industrial_alarm"/>
+                    <itemLaser id="mekanism:laser"/>
+                    <itemLaserTractorBeam id="mekanism:laser_tractor_beam"/>
+                    <itemLogisticalSorter id="mekanism:logistical_sorter"/>
+                    <itemModificationStation id="mekanism:modification_station"/>
+                    <itemOredictionificator id="mekanism:oredictionificator"/>
+                    <itemQuantumEntangloporter id="mekanism:quantum_entangloporter"/>
+                    <itemResistiveHeater id="mekanism:resistive_heater"/>
+                    <itemSecurityDesk id="mekanism:security_desk"/>
+                    <itemSeismicVibrator id="mekanism:seismic_vibrator"/>
+                </otherMachines>
+                <qio>
+                    <itemQioDashboard id="mekanism:qio_dashboard"/>
+                    <itemQioDriveArray id="mekanism:qio_drive_array"/>
+                    <itemQioDriveBase id="mekanism:qio_drive_base"/>
+                    <itemQioDriveHyperDense id="mekanism:qio_drive_hyper_dense"/>
+                    <itemQioDriveSupermassive id="mekanism:qio_drive_supermassive"/>
+                    <itemQioDriveTimeDilating id="mekanism:qio_drive_time_dilating"/>
+                    <itemQioExporter id="mekanism:qio_exporter"/>
+                    <itemQioImporter id="mekanism:qio_importer"/>
+                    <itemQioRedstoneAdapter id="mekanism:qio_redstone_adapter"/>
+                </qio>
+                <multiblockParts>
+                    <itemAdvancedInductionCell id="mekanism:advanced_induction_cell"/>
+                    <itemAdvancedInductionProvider id="mekanism:advanced_induction_provider"/>
+                    <itemBasicInductionCell id="mekanism:basic_induction_cell"/>
+                    <itemBasicInductionProvider id="mekanism:basic_induction_provider"/>
+                    <itemBoilerCasing id="mekanism:boiler_casing"/>
+                    <itemBoilerValve id="mekanism:boiler_valve"/>
+                    <itemEliteInductionCell id="mekanism:elite_induction_cell"/>
+                    <itemEliteInductionProvider id="mekanism:elite_induction_provider"/>
+                    <itemInductionCasing id="mekanism:induction_casing"/>
+                    <itemInductionPort id="mekanism:induction_port"/>
+                    <itemSeismicReader id="mekanism:seismic_reader"/>
+                    <itemSpsCasing id="mekanism:sps_casing"/>
+                    <itemSpsPort id="mekanism:sps_port"/>
+                    <itemSteelCasing id="mekanism:steel_casing"/>
+                    <itemStructuralGlass id="mekanism:structural_glass"/>
+                    <itemSuperheatingElement id="mekanism:superheating_element"/>
+                    <itemThermalEvaporationBlock id="mekanism:thermal_evaporation_block"/>
+                    <itemThermalEvaporationController id="mekanism:thermal_evaporation_controller"/>
+                    <itemThermalEvaporationValve id="mekanism:thermal_evaporation_valve"/>
+                    <itemUltimateInductionCell id="mekanism:ultimate_induction_cell"/>
+                    <itemUltimateInductionProvider id="mekanism:ultimate_induction_provider"/>
+                </multiblockParts>
+            </machines>
+            <resourceTransfer>
+                <mechanicalPipes>
+                    <itemAdvancedMechanicalPipe id="mekanism:advanced_mechanical_pipe"/>
+                    <itemBasicMechanicalPipe id="mekanism:basic_mechanical_pipe" mergePrevious="true"/>
+                    <itemEliteMechanicalPipe id="mekanism:elite_mechanical_pipe" mergePrevious="true"/>
+                    <itemUltimateMechanicalPipe id="mekanism:ultimate_mechanical_pipe" mergePrevious="true"/>
+                </mechanicalPipes>
+                <pressurizedTubes>
+                    <itemAdvancedPressurizedTube id="mekanism:advanced_pressurized_tube"/>
+                    <itemBasicPressurizedTube id="mekanism:basic_pressurized_tube" mergePrevious="true"/>
+                    <itemElitePressurizedTube id="mekanism:elite_pressurized_tube" mergePrevious="true"/>
+                    <itemUltimatePressurizedTube id="mekanism:ultimate_pressurized_tube" mergePrevious="true"/>
+                </pressurizedTubes>
+                <universalCables>
+                    <itemAdvancedUniversalCable id="mekanism:advanced_universal_cable"/>
+                    <itemBasicUniversalCable id="mekanism:basic_universal_cable" mergePrevious="true"/>
+                    <itemEliteUniversalCable id="mekanism:elite_universal_cable" mergePrevious="true"/>
+                    <itemUltimateUniversalCable id="mekanism:ultimate_universal_cable" mergePrevious="true"/>
+                </universalCables>
+                <thermodynamicConductors>
+                    <itemAdvancedThermodynamicConductor id="mekanism:advanced_thermodynamic_conductor"/>
+                    <itemBasicThermodynamicConductor id="mekanism:basic_thermodynamic_conductor" mergePrevious="true"/>
+                    <itemEliteThermodynamicConductor id="mekanism:elite_thermodynamic_conductor" mergePrevious="true"/>
+                    <itemUltimateThermodynamicConductor id="mekanism:ultimate_thermodynamic_conductor" mergePrevious="true"/>
+                </thermodynamicConductors>
+                <logisticalTransporters>
+                    <itemAdvancedLogisticalTransporter id="mekanism:advanced_logistical_transporter"/>
+                    <itemBasicLogisticalTransporter id="mekanism:basic_logistical_transporter" mergePrevious="true"/>
+                    <itemEliteLogisticalTransporter id="mekanism:elite_logistical_transporter" mergePrevious="true"/>
+                    <itemUltimateLogisticalTransporter id="mekanism:ultimate_logistical_transporter" mergePrevious="true"/>
+                    <itemDiversionTransporter id="mekanism:diversion_transporter"/>
+                    <itemRestrictiveTransporter id="mekanism:restrictive_transporter"/>
+                </logisticalTransporters>
+            </resourceTransfer>
+        </mechanism>
+        <naturalBlock>
+            <oreBlock>
+                <itemDeepslateFluoriteOre id="mekanism:deepslate_fluorite_ore"/>
+                <itemDeepslateLeadOre id="mekanism:deepslate_lead_ore"/>
+                <itemDeepslateOsmiumOre id="mekanism:deepslate_osmium_ore"/>
+                <itemDeepslateSilverOre id="mekanism:deepslate_silver_ore"/>
+                <itemDeepslateTinOre id="mekanism:deepslate_tin_ore"/>
+                <itemDeepslateUraniumOre id="mekanism:deepslate_uranium_ore"/>
+                <itemFluoriteOre id="mekanism:fluorite_ore"/>
+                <itemLeadOre id="mekanism:lead_ore"/>
+                <itemOsmiumOre id="mekanism:osmium_ore"/>
+                <itemSilverOre id="mekanism:silver_ore"/>
+                <itemTinOre id="mekanism:tin_ore"/>
+                <itemUraniumOre id="mekanism:uranium_ore"/>
+            </oreBlock>
+        </naturalBlock>
+        <manufacturedBlock>
+            <storageBlocks>
+                <itemBlockBioFuel id="mekanism:block_bio_fuel"/>
+                <itemBlockBronze id="mekanism:block_bronze"/>
+                <itemBlockCharcoal id="mekanism:block_charcoal"/>
+                <itemBlockFluorite id="mekanism:block_fluorite"/>
+                <itemBlockLead id="mekanism:block_lead"/>
+                <itemBlockOsmium id="mekanism:block_osmium"/>
+                <itemBlockRawLead id="mekanism:block_raw_lead"/>
+                <itemBlockRawOsmium id="mekanism:block_raw_osmium"/>
+                <itemBlockRawTin id="mekanism:block_raw_tin"/>
+                <itemBlockRawUranium id="mekanism:block_raw_uranium"/>
+                <itemBlockRefinedGlowstone id="mekanism:block_refined_glowstone"/>
+                <itemBlockRefinedObsidian id="mekanism:block_refined_obsidian"/>
+                <itemBlockSalt id="mekanism:block_salt"/>
+                <itemBlockSteel id="mekanism:block_steel"/>
+                <itemBlockTin id="mekanism:block_tin"/>
+                <itemBlockUranium id="mekanism:block_uranium"/>
+            </storageBlocks>
+        </manufacturedBlock>
+    </block>
+    <resources>
+        <miningResources>
+            <enrichedMaterials>
+                <itemEnrichedIron id="mekanism:enriched_iron"/>
+                <itemEnrichedCarbon id="mekanism:enriched_carbon"/>
+                <itemEnrichedDiamond id="mekanism:enriched_diamond"/>
+                <itemEnrichedGold id="mekanism:enriched_gold"/>
+                <itemEnrichedRedstone id="mekanism:enriched_redstone"/>
+                <itemEnrichedRefinedObsidian id="mekanism:enriched_refined_obsidian"/>
+                <itemEnrichedTin id="mekanism:enriched_tin"/>
+            </enrichedMaterials>
+            <rawOres>
+                <itemRawLead id="mekanism:raw_lead"/>
+                <itemRawOsmium id="mekanism:raw_osmium"/>
+                <itemRawTin id="mekanism:raw_tin"/>
+                <itemRawUranium id="mekanism:raw_uranium"/>
+            </rawOres>
+            <clumps>
+                <itemClumpCopper id="mekanism:clump_copper"/>
+                <itemClumpGold id="mekanism:clump_gold"/>
+                <itemClumpIron id="mekanism:clump_iron"/>
+                <itemClumpLead id="mekanism:clump_lead"/>
+                <itemClumpOsmium id="mekanism:clump_osmium"/>
+                <itemClumpTin id="mekanism:clump_tin"/>
+                <itemClumpUranium id="mekanism:clump_uranium"/>
+            </clumps>
+            <dirtyDusts>
+                <itemDirtyDustCopper id="mekanism:dirty_dust_copper"/>
+                <itemDirtyDustGold id="mekanism:dirty_dust_gold"/>
+                <itemDirtyDustIron id="mekanism:dirty_dust_iron"/>
+                <itemDirtyDustLead id="mekanism:dirty_dust_lead"/>
+                <itemDirtyDustOsmium id="mekanism:dirty_dust_osmium"/>
+                <itemDirtyDustTin id="mekanism:dirty_dust_tin"/>
+                <itemDirtyDustUranium id="mekanism:dirty_dust_uranium"/>
+                <itemDirtyNetheriteScrap id="mekanism:dirty_netherite_scrap"/>
+            </dirtyDusts>
+            <dust>
+                <itemDustBronze id="mekanism:dust_bronze"/>
+                <itemDustCharcoal id="mekanism:dust_charcoal"/>
+                <itemDustCoal id="mekanism:dust_coal"/>
+                <itemDustCopper id="mekanism:dust_copper"/>
+                <itemDustDiamond id="mekanism:dust_diamond"/>
+                <itemDustEmerald id="mekanism:dust_emerald"/>
+                <itemDustFluorite id="mekanism:dust_fluorite"/>
+                <itemDustGold id="mekanism:dust_gold"/>
+                <itemDustIron id="mekanism:dust_iron"/>
+                <itemDustLapisLazuli id="mekanism:dust_lapis_lazuli"/>
+                <itemDustLead id="mekanism:dust_lead"/>
+                <itemDustLithium id="mekanism:dust_lithium"/>
+                <itemDustNetherite id="mekanism:dust_netherite"/>
+                <itemDustObsidian id="mekanism:dust_obsidian"/>
+                <itemDustOsmium id="mekanism:dust_osmium"/>
+                <itemDustQuartz id="mekanism:dust_quartz"/>
+                <itemDustRefinedObsidian id="mekanism:dust_refined_obsidian"/>
+                <itemDustSteel id="mekanism:dust_steel"/>
+                <itemDustSulfur id="mekanism:dust_sulfur"/>
+                <itemDustTin id="mekanism:dust_tin"/>
+                <itemDustUranium id="mekanism:dust_uranium"/>
+            </dust>
+            <shards>
+                <itemShardCopper id="mekanism:shard_copper"/>
+                <itemShardGold id="mekanism:shard_gold"/>
+                <itemShardIron id="mekanism:shard_iron"/>
+                <itemShardLead id="mekanism:shard_lead"/>
+                <itemShardOsmium id="mekanism:shard_osmium"/>
+                <itemShardTin id="mekanism:shard_tin"/>
+                <itemShardUranium id="mekanism:shard_uranium"/>
+            </shards>
+            <crystals>
+                <itemCrystalCopper id="mekanism:crystal_copper"/>
+                <itemCrystalGold id="mekanism:crystal_gold"/>
+                <itemCrystalIron id="mekanism:crystal_iron"/>
+                <itemCrystalLead id="mekanism:crystal_lead"/>
+                <itemCrystalOsmium id="mekanism:crystal_osmium"/>
+                <itemCrystalTin id="mekanism:crystal_tin"/>
+                <itemCrystalUranium id="mekanism:crystal_uranium"/>
+            </crystals>
+            <ingot>
+                <itemIngotBronze id="mekanism:ingot_bronze"/>
+                <itemIngotLead id="mekanism:ingot_lead"/>
+                <itemIngotOsmium id="mekanism:ingot_osmium"/>
+                <itemIngotRefinedGlowstone id="mekanism:ingot_refined_glowstone"/>
+                <itemIngotRefinedObsidian id="mekanism:ingot_refined_obsidian"/>
+                <itemIngotSteel id="mekanism:ingot_steel"/>
+                <itemIngotTin id="mekanism:ingot_tin"/>
+                <itemIngotUranium id="mekanism:ingot_uranium"/>
+            </ingot>
+            <nugget>
+                <itemNuggetBronze id="mekanism:nugget_bronze"/>
+                <itemNuggetLead id="mekanism:nugget_lead"/>
+                <itemNuggetOsmium id="mekanism:nugget_osmium"/>
+                <itemNuggetRefinedGlowstone id="mekanism:nugget_refined_glowstone"/>
+                <itemNuggetRefinedObsidian id="mekanism:nugget_refined_obsidian"/>
+                <itemNuggetSteel id="mekanism:nugget_steel"/>
+                <itemNuggetTin id="mekanism:nugget_tin"/>
+                <itemNuggetUranium id="mekanism:nugget_uranium"/>
+            </nugget>
+            <chemicalMaterials>
+                <itemDyeBase id="mekanism:dye_base"/>
+                <itemFluoriteGem id="mekanism:fluorite_gem"/>
+                <itemSalt id="mekanism:salt"/>
+                <itemSawdust id="mekanism:sawdust"/>
+                <itemSubstrate id="mekanism:substrate"/>
+                <itemYellowCakeUranium id="mekanism:yellow_cake_uranium"/>
+            </chemicalMaterials>
+        </miningResources>
+    </resources>
+    <item>
+        <utility>
+            <storage>
+                <barrels>
+                    <itemBasicBin id="mekanism:basic_bin"/>
+                    <itemAdvancedBin id="mekanism:advanced_bin"/>
+                    <itemEliteBin id="mekanism:elite_bin"/>
+                    <itemUltimateBin id="mekanism:ultimate_bin"/>
+                    <itemCreativeBin id="mekanism:creative_bin"/>
+                </barrels>
+                <mekanismStorage>
+                    <itemCardboardBox id="mekanism:cardboard_box"/>
+                    <itemCardboardBoxStorage id="mekanism:cardboard_box_storage"/>
+                    <itemPersonalBarrel id="mekanism:personal_barrel"/>
+                    <itemPersonalChest id="mekanism:personal_chest"/>
+                    <itemPortableQioDashboard id="mekanism:portable_qio_dashboard"/>
+                    <itemRadioactiveWasteBarrel id="mekanism:radioactive_waste_barrel"/>
+                </mekanismStorage>
+            </storage>
+            <readableBooks>
+                <itemDictionary id="mekanism:dictionary"/>
+            </readableBooks>
+            <mekanismTools>
+                <itemCanteen id="mekanism:canteen"/>
+                <itemConfigurationCard id="mekanism:configuration_card"/>
+                <itemCraftingFormula id="mekanism:crafting_formula"/>
+                <itemDosimeter id="mekanism:dosimeter"/>
+                <itemEnergyTablet id="mekanism:energy_tablet"/>
+                <itemGeigerCounter id="mekanism:geiger_counter"/>
+                <itemNetworkReader id="mekanism:network_reader"/>
+                <itemPortableTeleporter id="mekanism:portable_teleporter"/>
+                <itemRobitAllay id="mekanism:robit_allay"/>
+            </mekanismTools>
+        </utility>
+        <fluidStorage>
+            <fluidTanks>
+                <itemUltimateFluidTank id="mekanism:ultimate_fluid_tank"/>
+                <itemEliteFluidTank id="mekanism:elite_fluid_tank"/>
+                <itemAdvancedFluidTank id="mekanism:advanced_fluid_tank"/>
+                <itemBasicFluidTank id="mekanism:basic_fluid_tank"/>
+                <itemUltimateChemicalTank id="mekanism:ultimate_chemical_tank"/>
+                <itemEliteChemicalTank id="mekanism:elite_chemical_tank"/>
+                <itemAdvancedChemicalTank id="mekanism:advanced_chemical_tank"/>
+                <itemBasicChemicalTank id="mekanism:basic_chemical_tank"/>
+                <itemCreativeFluidTank id="mekanism:creative_fluid_tank"/>
+                <itemCreativeChemicalTank id="mekanism:creative_chemical_tank"/>
+            </fluidTanks>
+            <fluidMultiBlockTanks>
+                <itemDynamicTank id="mekanism:dynamic_tank"/>
+                <itemDynamicValve id="mekanism:dynamic_valve"/>
+            </fluidMultiBlockTanks>
+        </fluidStorage>
+        <parts>
+            <mechanicalParts>
+                <rods>
+                    <itemHdpeRod id="mekanism:hdpe_rod"/>
+                </rods>
+                <sheets>
+                    <itemHdpeSheet id="mekanism:hdpe_sheet"/>
+                </sheets>
+                <alloys>
+                    <itemAlloyAtomic id="mekanism:alloy_atomic"/>
+                    <itemAlloyInfused id="mekanism:alloy_infused"/>
+                    <itemAlloyReinforced id="mekanism:alloy_reinforced"/>
+                </alloys>
+                <hdpe>
+                    <itemHdpePellet id="mekanism:hdpe_pellet"/>
+                    <itemHdpeStick id="mekanism:hdpe_stick"/>
+                </hdpe>
+                <radioactiveMaterials>
+                    <itemPelletAntimatter id="mekanism:pellet_antimatter"/>
+                    <itemPelletPlutonium id="mekanism:pellet_plutonium"/>
+                    <itemPelletPolonium id="mekanism:pellet_polonium"/>
+                    <itemReprocessedFissileFragment id="mekanism:reprocessed_fissile_fragment"/>
+                </radioactiveMaterials>
+                <circuits>
+                    <itemAdvancedControlCircuit id="mekanism:advanced_control_circuit"/>
+                    <itemBasicControlCircuit id="mekanism:basic_control_circuit" mergePrevious="true"/>
+                    <itemEliteControlCircuit id="mekanism:elite_control_circuit" mergePrevious="true"/>
+                    <itemUltimateControlCircuit id="mekanism:ultimate_control_circuit" mergePrevious="true"/>
+                </circuits>
+                <tierInstallers>
+                    <itemAdvancedTierInstaller id="mekanism:advanced_tier_installer"/>
+                    <itemBasicTierInstaller id="mekanism:basic_tier_installer" mergePrevious="true"/>
+                    <itemEliteTierInstaller id="mekanism:elite_tier_installer" mergePrevious="true"/>
+                    <itemUltimateTierInstaller id="mekanism:ultimate_tier_installer" mergePrevious="true"/>
+                </tierInstallers>
+                <upgrades>
+                    <itemUpgradeAnchor id="mekanism:upgrade_anchor"/>
+                    <itemUpgradeChemical id="mekanism:upgrade_chemical"/>
+                    <itemUpgradeEnergy id="mekanism:upgrade_energy"/>
+                    <itemUpgradeFilter id="mekanism:upgrade_filter"/>
+                    <itemUpgradeMuffling id="mekanism:upgrade_muffling"/>
+                    <itemUpgradeSpeed id="mekanism:upgrade_speed"/>
+                    <itemUpgradeStoneGenerator id="mekanism:upgrade_stone_generator"/>
+                </upgrades>
+                <modules>
+                    <itemModuleAttackAmplificationUnit id="mekanism:module_attack_amplification_unit"/>
+                    <itemModuleBase id="mekanism:module_base"/>
+                    <itemModuleBlastingUnit id="mekanism:module_blasting_unit"/>
+                    <itemModuleChargeDistributionUnit id="mekanism:module_charge_distribution_unit"/>
+                    <itemModuleColorModulationUnit id="mekanism:module_color_modulation_unit"/>
+                    <itemModuleDosimeterUnit id="mekanism:module_dosimeter_unit"/>
+                    <itemModuleElectrolyticBreathingUnit id="mekanism:module_electrolytic_breathing_unit"/>
+                    <itemModuleElytraUnit id="mekanism:module_elytra_unit"/>
+                    <itemModuleEnergyUnit id="mekanism:module_energy_unit"/>
+                    <itemModuleExcavationEscalationUnit id="mekanism:module_excavation_escalation_unit"/>
+                    <itemModuleFarmingUnit id="mekanism:module_farming_unit"/>
+                    <itemModuleFortuneUnit id="mekanism:module_fortune_unit"/>
+                    <itemModuleFrostWalkerUnit id="mekanism:module_frost_walker_unit"/>
+                    <itemModuleGeigerUnit id="mekanism:module_geiger_unit"/>
+                    <itemModuleGravitationalModulatingUnit id="mekanism:module_gravitational_modulating_unit"/>
+                    <itemModuleGyroscopicStabilizationUnit id="mekanism:module_gyroscopic_stabilization_unit"/>
+                    <itemModuleHydraulicPropulsionUnit id="mekanism:module_hydraulic_propulsion_unit"/>
+                    <itemModuleHydrostaticRepulsorUnit id="mekanism:module_hydrostatic_repulsor_unit"/>
+                    <itemModuleInhalationPurificationUnit id="mekanism:module_inhalation_purification_unit"/>
+                    <itemModuleJetpackUnit id="mekanism:module_jetpack_unit"/>
+                    <itemModuleLaserDissipationUnit id="mekanism:module_laser_dissipation_unit"/>
+                    <itemModuleLocomotiveBoostingUnit id="mekanism:module_locomotive_boosting_unit"/>
+                    <itemModuleMagneticAttractionUnit id="mekanism:module_magnetic_attraction_unit"/>
+                    <itemModuleMotorizedServoUnit id="mekanism:module_motorized_servo_unit"/>
+                    <itemModuleNutritionalInjectionUnit id="mekanism:module_nutritional_injection_unit"/>
+                    <itemModuleRadiationShieldingUnit id="mekanism:module_radiation_shielding_unit"/>
+                    <itemModuleShearingUnit id="mekanism:module_shearing_unit"/>
+                    <itemModuleSilkTouchUnit id="mekanism:module_silk_touch_unit"/>
+                    <itemModuleSoulSurferUnit id="mekanism:module_soul_surfer_unit"/>
+                    <itemModuleTeleportationUnit id="mekanism:module_teleportation_unit"/>
+                    <itemModuleVeinMiningUnit id="mekanism:module_vein_mining_unit"/>
+                    <itemModuleVisionEnhancementUnit id="mekanism:module_vision_enhancement_unit"/>
+                </modules>
+                <otherParts>
+                    <itemElectrolyticCore id="mekanism:electrolytic_core"/>
+                    <itemLaserAmplifier id="mekanism:laser_amplifier"/>
+                    <itemSuperchargedCoil id="mekanism:supercharged_coil"/>
+                    <itemTeleportationCore id="mekanism:teleportation_core"/>
+                </otherParts>
+            </mechanicalParts>
+        </parts>
+        <plant>
+            <plantMatter>
+                <itemBioFuel id="mekanism:bio_fuel"/>
+            </plantMatter>
+        </plant>
+        <digital>
+            <robots>
+                <itemRobit id="mekanism:robit"/>
+            </robots>
+        </digital>
+        <bucket>
+            <mekanismBuckets>
+                <itemBrineBucket id="mekanism:brine_bucket"/>
+                <itemChlorineBucket id="mekanism:chlorine_bucket"/>
+                <itemEtheneBucket id="mekanism:ethene_bucket"/>
+                <itemHeavyWaterBucket id="mekanism:heavy_water_bucket"/>
+                <itemHydrofluoricAcidBucket id="mekanism:hydrofluoric_acid_bucket"/>
+                <itemHydrogenBucket id="mekanism:hydrogen_bucket"/>
+                <itemHydrogenChlorideBucket id="mekanism:hydrogen_chloride_bucket"/>
+                <itemLithiumBucket id="mekanism:lithium_bucket"/>
+                <itemNutritionalPasteBucket id="mekanism:nutritional_paste_bucket"/>
+                <itemOxygenBucket id="mekanism:oxygen_bucket"/>
+                <itemSodiumBucket id="mekanism:sodium_bucket"/>
+                <itemSteamBucket id="mekanism:steam_bucket"/>
+                <itemSulfurDioxideBucket id="mekanism:sulfur_dioxide_bucket"/>
+                <itemSulfurTrioxideBucket id="mekanism:sulfur_trioxide_bucket"/>
+                <itemSulfuricAcidBucket id="mekanism:sulfuric_acid_bucket"/>
+                <itemSuperheatedSodiumBucket id="mekanism:superheated_sodium_bucket"/>
+                <itemUraniumHexafluorideBucket id="mekanism:uranium_hexafluoride_bucket"/>
+                <itemUraniumOxideBucket id="mekanism:uranium_oxide_bucket"/>
+            </mekanismBuckets>
+        </bucket>
+    </item>
+</stuff>

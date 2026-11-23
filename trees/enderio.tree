@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <glass>
+                    <clearGlass>
+                        <itemClearGlass id="enderio:clear_glass"/>
+                        <itemClearGlassBlack id="enderio:clear_glass_black" mergePrevious="true"/>
+                        <itemClearGlassBlue id="enderio:clear_glass_blue" mergePrevious="true"/>
+                        <itemClearGlassBrown id="enderio:clear_glass_brown" mergePrevious="true"/>
+                        <itemClearGlassCyan id="enderio:clear_glass_cyan" mergePrevious="true"/>
+                        <itemClearGlassGray id="enderio:clear_glass_gray" mergePrevious="true"/>
+                        <itemClearGlassGreen id="enderio:clear_glass_green" mergePrevious="true"/>
+                        <itemClearGlassLightBlue id="enderio:clear_glass_light_blue" mergePrevious="true"/>
+                        <itemClearGlassLightGray id="enderio:clear_glass_light_gray" mergePrevious="true"/>
+                        <itemClearGlassLime id="enderio:clear_glass_lime" mergePrevious="true"/>
+                        <itemClearGlassMagenta id="enderio:clear_glass_magenta" mergePrevious="true"/>
+                        <itemClearGlassOrange id="enderio:clear_glass_orange" mergePrevious="true"/>
+                        <itemClearGlassPink id="enderio:clear_glass_pink" mergePrevious="true"/>
+                        <itemClearGlassPurple id="enderio:clear_glass_purple" mergePrevious="true"/>
+                        <itemClearGlassRed id="enderio:clear_glass_red" mergePrevious="true"/>
+                        <itemClearGlassWhite id="enderio:clear_glass_white" mergePrevious="true"/>
+                        <itemClearGlassYellow id="enderio:clear_glass_yellow" mergePrevious="true"/>
+                        <itemClearGlassA id="enderio:clear_glass_a"/>
+                        <itemClearGlassABlack id="enderio:clear_glass_a_black" mergePrevious="true"/>
+                        <itemClearGlassABlue id="enderio:clear_glass_a_blue" mergePrevious="true"/>
+                        <itemClearGlassABrown id="enderio:clear_glass_a_brown" mergePrevious="true"/>
+                        <itemClearGlassACyan id="enderio:clear_glass_a_cyan" mergePrevious="true"/>
+                        <itemClearGlassAGray id="enderio:clear_glass_a_gray" mergePrevious="true"/>
+                        <itemClearGlassAGreen id="enderio:clear_glass_a_green" mergePrevious="true"/>
+                        <itemClearGlassALightBlue id="enderio:clear_glass_a_light_blue" mergePrevious="true"/>
+                        <itemClearGlassALightGray id="enderio:clear_glass_a_light_gray" mergePrevious="true"/>
+                        <itemClearGlassALime id="enderio:clear_glass_a_lime" mergePrevious="true"/>
+                        <itemClearGlassAMagenta id="enderio:clear_glass_a_magenta" mergePrevious="true"/>
+                        <itemClearGlassAOrange id="enderio:clear_glass_a_orange" mergePrevious="true"/>
+                        <itemClearGlassAPink id="enderio:clear_glass_a_pink" mergePrevious="true"/>
+                        <itemClearGlassAPurple id="enderio:clear_glass_a_purple" mergePrevious="true"/>
+                        <itemClearGlassARed id="enderio:clear_glass_a_red" mergePrevious="true"/>
+                        <itemClearGlassAWhite id="enderio:clear_glass_a_white" mergePrevious="true"/>
+                        <itemClearGlassAYellow id="enderio:clear_glass_a_yellow" mergePrevious="true"/>
+                        <itemClearGlassD id="enderio:clear_glass_d"/>
+                        <itemClearGlassDBlack id="enderio:clear_glass_d_black" mergePrevious="true"/>
+                        <itemClearGlassDBlue id="enderio:clear_glass_d_blue" mergePrevious="true"/>
+                        <itemClearGlassDBrown id="enderio:clear_glass_d_brown" mergePrevious="true"/>
+                        <itemClearGlassDCyan id="enderio:clear_glass_d_cyan" mergePrevious="true"/>
+                        <itemClearGlassDGray id="enderio:clear_glass_d_gray" mergePrevious="true"/>
+                        <itemClearGlassDGreen id="enderio:clear_glass_d_green" mergePrevious="true"/>
+                        <itemClearGlassDLightBlue id="enderio:clear_glass_d_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDLightGray id="enderio:clear_glass_d_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDLime id="enderio:clear_glass_d_lime" mergePrevious="true"/>
+                        <itemClearGlassDMagenta id="enderio:clear_glass_d_magenta" mergePrevious="true"/>
+                        <itemClearGlassDOrange id="enderio:clear_glass_d_orange" mergePrevious="true"/>
+                        <itemClearGlassDPink id="enderio:clear_glass_d_pink" mergePrevious="true"/>
+                        <itemClearGlassDPurple id="enderio:clear_glass_d_purple" mergePrevious="true"/>
+                        <itemClearGlassDRed id="enderio:clear_glass_d_red" mergePrevious="true"/>
+                        <itemClearGlassDWhite id="enderio:clear_glass_d_white" mergePrevious="true"/>
+                        <itemClearGlassDYellow id="enderio:clear_glass_d_yellow" mergePrevious="true"/>
+                        <itemClearGlassDa id="enderio:clear_glass_da"/>
+                        <itemClearGlassDaBlack id="enderio:clear_glass_da_black" mergePrevious="true"/>
+                        <itemClearGlassDaBlue id="enderio:clear_glass_da_blue" mergePrevious="true"/>
+                        <itemClearGlassDaBrown id="enderio:clear_glass_da_brown" mergePrevious="true"/>
+                        <itemClearGlassDaCyan id="enderio:clear_glass_da_cyan" mergePrevious="true"/>
+                        <itemClearGlassDaGray id="enderio:clear_glass_da_gray" mergePrevious="true"/>
+                        <itemClearGlassDaGreen id="enderio:clear_glass_da_green" mergePrevious="true"/>
+                        <itemClearGlassDaLightBlue id="enderio:clear_glass_da_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDaLightGray id="enderio:clear_glass_da_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDaLime id="enderio:clear_glass_da_lime" mergePrevious="true"/>
+                        <itemClearGlassDaMagenta id="enderio:clear_glass_da_magenta" mergePrevious="true"/>
+                        <itemClearGlassDaOrange id="enderio:clear_glass_da_orange" mergePrevious="true"/>
+                        <itemClearGlassDaPink id="enderio:clear_glass_da_pink" mergePrevious="true"/>
+                        <itemClearGlassDaPurple id="enderio:clear_glass_da_purple" mergePrevious="true"/>
+                        <itemClearGlassDaRed id="enderio:clear_glass_da_red" mergePrevious="true"/>
+                        <itemClearGlassDaWhite id="enderio:clear_glass_da_white" mergePrevious="true"/>
+                        <itemClearGlassDaYellow id="enderio:clear_glass_da_yellow" mergePrevious="true"/>
+                        <itemClearGlassDm id="enderio:clear_glass_dm"/>
+                        <itemClearGlassDmBlack id="enderio:clear_glass_dm_black" mergePrevious="true"/>
+                        <itemClearGlassDmBlue id="enderio:clear_glass_dm_blue" mergePrevious="true"/>
+                        <itemClearGlassDmBrown id="enderio:clear_glass_dm_brown" mergePrevious="true"/>
+                        <itemClearGlassDmCyan id="enderio:clear_glass_dm_cyan" mergePrevious="true"/>
+                        <itemClearGlassDmGray id="enderio:clear_glass_dm_gray" mergePrevious="true"/>
+                        <itemClearGlassDmGreen id="enderio:clear_glass_dm_green" mergePrevious="true"/>
+                        <itemClearGlassDmLightBlue id="enderio:clear_glass_dm_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDmLightGray id="enderio:clear_glass_dm_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDmLime id="enderio:clear_glass_dm_lime" mergePrevious="true"/>
+                        <itemClearGlassDmMagenta id="enderio:clear_glass_dm_magenta" mergePrevious="true"/>
+                        <itemClearGlassDmOrange id="enderio:clear_glass_dm_orange" mergePrevious="true"/>
+                        <itemClearGlassDmPink id="enderio:clear_glass_dm_pink" mergePrevious="true"/>
+                        <itemClearGlassDmPurple id="enderio:clear_glass_dm_purple" mergePrevious="true"/>
+                        <itemClearGlassDmRed id="enderio:clear_glass_dm_red" mergePrevious="true"/>
+                        <itemClearGlassDmWhite id="enderio:clear_glass_dm_white" mergePrevious="true"/>
+                        <itemClearGlassDmYellow id="enderio:clear_glass_dm_yellow" mergePrevious="true"/>
+                        <itemClearGlassDna id="enderio:clear_glass_dna"/>
+                        <itemClearGlassDnaBlack id="enderio:clear_glass_dna_black" mergePrevious="true"/>
+                        <itemClearGlassDnaBlue id="enderio:clear_glass_dna_blue" mergePrevious="true"/>
+                        <itemClearGlassDnaBrown id="enderio:clear_glass_dna_brown" mergePrevious="true"/>
+                        <itemClearGlassDnaCyan id="enderio:clear_glass_dna_cyan" mergePrevious="true"/>
+                        <itemClearGlassDnaGray id="enderio:clear_glass_dna_gray" mergePrevious="true"/>
+                        <itemClearGlassDnaGreen id="enderio:clear_glass_dna_green" mergePrevious="true"/>
+                        <itemClearGlassDnaLightBlue id="enderio:clear_glass_dna_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDnaLightGray id="enderio:clear_glass_dna_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDnaLime id="enderio:clear_glass_dna_lime" mergePrevious="true"/>
+                        <itemClearGlassDnaMagenta id="enderio:clear_glass_dna_magenta" mergePrevious="true"/>
+                        <itemClearGlassDnaOrange id="enderio:clear_glass_dna_orange" mergePrevious="true"/>
+                        <itemClearGlassDnaPink id="enderio:clear_glass_dna_pink" mergePrevious="true"/>
+                        <itemClearGlassDnaPurple id="enderio:clear_glass_dna_purple" mergePrevious="true"/>
+                        <itemClearGlassDnaRed id="enderio:clear_glass_dna_red" mergePrevious="true"/>
+                        <itemClearGlassDnaWhite id="enderio:clear_glass_dna_white" mergePrevious="true"/>
+                        <itemClearGlassDnaYellow id="enderio:clear_glass_dna_yellow" mergePrevious="true"/>
+                        <itemClearGlassDnm id="enderio:clear_glass_dnm"/>
+                        <itemClearGlassDnmBlack id="enderio:clear_glass_dnm_black" mergePrevious="true"/>
+                        <itemClearGlassDnmBlue id="enderio:clear_glass_dnm_blue" mergePrevious="true"/>
+                        <itemClearGlassDnmBrown id="enderio:clear_glass_dnm_brown" mergePrevious="true"/>
+                        <itemClearGlassDnmCyan id="enderio:clear_glass_dnm_cyan" mergePrevious="true"/>
+                        <itemClearGlassDnmGray id="enderio:clear_glass_dnm_gray" mergePrevious="true"/>
+                        <itemClearGlassDnmGreen id="enderio:clear_glass_dnm_green" mergePrevious="true"/>
+                        <itemClearGlassDnmLightBlue id="enderio:clear_glass_dnm_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDnmLightGray id="enderio:clear_glass_dnm_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDnmLime id="enderio:clear_glass_dnm_lime" mergePrevious="true"/>
+                        <itemClearGlassDnmMagenta id="enderio:clear_glass_dnm_magenta" mergePrevious="true"/>
+                        <itemClearGlassDnmOrange id="enderio:clear_glass_dnm_orange" mergePrevious="true"/>
+                        <itemClearGlassDnmPink id="enderio:clear_glass_dnm_pink" mergePrevious="true"/>
+                        <itemClearGlassDnmPurple id="enderio:clear_glass_dnm_purple" mergePrevious="true"/>
+                        <itemClearGlassDnmRed id="enderio:clear_glass_dnm_red" mergePrevious="true"/>
+                        <itemClearGlassDnmWhite id="enderio:clear_glass_dnm_white" mergePrevious="true"/>
+                        <itemClearGlassDnmYellow id="enderio:clear_glass_dnm_yellow" mergePrevious="true"/>
+                        <itemClearGlassDnp id="enderio:clear_glass_dnp"/>
+                        <itemClearGlassDnpBlack id="enderio:clear_glass_dnp_black" mergePrevious="true"/>
+                        <itemClearGlassDnpBlue id="enderio:clear_glass_dnp_blue" mergePrevious="true"/>
+                        <itemClearGlassDnpBrown id="enderio:clear_glass_dnp_brown" mergePrevious="true"/>
+                        <itemClearGlassDnpCyan id="enderio:clear_glass_dnp_cyan" mergePrevious="true"/>
+                        <itemClearGlassDnpGray id="enderio:clear_glass_dnp_gray" mergePrevious="true"/>
+                        <itemClearGlassDnpGreen id="enderio:clear_glass_dnp_green" mergePrevious="true"/>
+                        <itemClearGlassDnpLightBlue id="enderio:clear_glass_dnp_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDnpLightGray id="enderio:clear_glass_dnp_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDnpLime id="enderio:clear_glass_dnp_lime" mergePrevious="true"/>
+                        <itemClearGlassDnpMagenta id="enderio:clear_glass_dnp_magenta" mergePrevious="true"/>
+                        <itemClearGlassDnpOrange id="enderio:clear_glass_dnp_orange" mergePrevious="true"/>
+                        <itemClearGlassDnpPink id="enderio:clear_glass_dnp_pink" mergePrevious="true"/>
+                        <itemClearGlassDnpPurple id="enderio:clear_glass_dnp_purple" mergePrevious="true"/>
+                        <itemClearGlassDnpRed id="enderio:clear_glass_dnp_red" mergePrevious="true"/>
+                        <itemClearGlassDnpWhite id="enderio:clear_glass_dnp_white" mergePrevious="true"/>
+                        <itemClearGlassDnpYellow id="enderio:clear_glass_dnp_yellow" mergePrevious="true"/>
+                        <itemClearGlassDp id="enderio:clear_glass_dp"/>
+                        <itemClearGlassDpBlack id="enderio:clear_glass_dp_black" mergePrevious="true"/>
+                        <itemClearGlassDpBlue id="enderio:clear_glass_dp_blue" mergePrevious="true"/>
+                        <itemClearGlassDpBrown id="enderio:clear_glass_dp_brown" mergePrevious="true"/>
+                        <itemClearGlassDpCyan id="enderio:clear_glass_dp_cyan" mergePrevious="true"/>
+                        <itemClearGlassDpGray id="enderio:clear_glass_dp_gray" mergePrevious="true"/>
+                        <itemClearGlassDpGreen id="enderio:clear_glass_dp_green" mergePrevious="true"/>
+                        <itemClearGlassDpLightBlue id="enderio:clear_glass_dp_light_blue" mergePrevious="true"/>
+                        <itemClearGlassDpLightGray id="enderio:clear_glass_dp_light_gray" mergePrevious="true"/>
+                        <itemClearGlassDpLime id="enderio:clear_glass_dp_lime" mergePrevious="true"/>
+                        <itemClearGlassDpMagenta id="enderio:clear_glass_dp_magenta" mergePrevious="true"/>
+                        <itemClearGlassDpOrange id="enderio:clear_glass_dp_orange" mergePrevious="true"/>
+                        <itemClearGlassDpPink id="enderio:clear_glass_dp_pink" mergePrevious="true"/>
+                        <itemClearGlassDpPurple id="enderio:clear_glass_dp_purple" mergePrevious="true"/>
+                        <itemClearGlassDpRed id="enderio:clear_glass_dp_red" mergePrevious="true"/>
+                        <itemClearGlassDpWhite id="enderio:clear_glass_dp_white" mergePrevious="true"/>
+                        <itemClearGlassDpYellow id="enderio:clear_glass_dp_yellow" mergePrevious="true"/>
+                        <itemClearGlassE id="enderio:clear_glass_e"/>
+                        <itemClearGlassEBlack id="enderio:clear_glass_e_black" mergePrevious="true"/>
+                        <itemClearGlassEBlue id="enderio:clear_glass_e_blue" mergePrevious="true"/>
+                        <itemClearGlassEBrown id="enderio:clear_glass_e_brown" mergePrevious="true"/>
+                        <itemClearGlassECyan id="enderio:clear_glass_e_cyan" mergePrevious="true"/>
+                        <itemClearGlassEGray id="enderio:clear_glass_e_gray" mergePrevious="true"/>
+                        <itemClearGlassEGreen id="enderio:clear_glass_e_green" mergePrevious="true"/>
+                        <itemClearGlassELightBlue id="enderio:clear_glass_e_light_blue" mergePrevious="true"/>
+                        <itemClearGlassELightGray id="enderio:clear_glass_e_light_gray" mergePrevious="true"/>
+                        <itemClearGlassELime id="enderio:clear_glass_e_lime" mergePrevious="true"/>
+                        <itemClearGlassEMagenta id="enderio:clear_glass_e_magenta" mergePrevious="true"/>
+                        <itemClearGlassEOrange id="enderio:clear_glass_e_orange" mergePrevious="true"/>
+                        <itemClearGlassEPink id="enderio:clear_glass_e_pink" mergePrevious="true"/>
+                        <itemClearGlassEPurple id="enderio:clear_glass_e_purple" mergePrevious="true"/>
+                        <itemClearGlassERed id="enderio:clear_glass_e_red" mergePrevious="true"/>
+                        <itemClearGlassEWhite id="enderio:clear_glass_e_white" mergePrevious="true"/>
+                        <itemClearGlassEYellow id="enderio:clear_glass_e_yellow" mergePrevious="true"/>
+                        <itemClearGlassEa id="enderio:clear_glass_ea"/>
+                        <itemClearGlassEaBlack id="enderio:clear_glass_ea_black" mergePrevious="true"/>
+                        <itemClearGlassEaBlue id="enderio:clear_glass_ea_blue" mergePrevious="true"/>
+                        <itemClearGlassEaBrown id="enderio:clear_glass_ea_brown" mergePrevious="true"/>
+                        <itemClearGlassEaCyan id="enderio:clear_glass_ea_cyan" mergePrevious="true"/>
+                        <itemClearGlassEaGray id="enderio:clear_glass_ea_gray" mergePrevious="true"/>
+                        <itemClearGlassEaGreen id="enderio:clear_glass_ea_green" mergePrevious="true"/>
+                        <itemClearGlassEaLightBlue id="enderio:clear_glass_ea_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEaLightGray id="enderio:clear_glass_ea_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEaLime id="enderio:clear_glass_ea_lime" mergePrevious="true"/>
+                        <itemClearGlassEaMagenta id="enderio:clear_glass_ea_magenta" mergePrevious="true"/>
+                        <itemClearGlassEaOrange id="enderio:clear_glass_ea_orange" mergePrevious="true"/>
+                        <itemClearGlassEaPink id="enderio:clear_glass_ea_pink" mergePrevious="true"/>
+                        <itemClearGlassEaPurple id="enderio:clear_glass_ea_purple" mergePrevious="true"/>
+                        <itemClearGlassEaRed id="enderio:clear_glass_ea_red" mergePrevious="true"/>
+                        <itemClearGlassEaWhite id="enderio:clear_glass_ea_white" mergePrevious="true"/>
+                        <itemClearGlassEaYellow id="enderio:clear_glass_ea_yellow" mergePrevious="true"/>
+                        <itemClearGlassEm id="enderio:clear_glass_em"/>
+                        <itemClearGlassEmBlack id="enderio:clear_glass_em_black" mergePrevious="true"/>
+                        <itemClearGlassEmBlue id="enderio:clear_glass_em_blue" mergePrevious="true"/>
+                        <itemClearGlassEmBrown id="enderio:clear_glass_em_brown" mergePrevious="true"/>
+                        <itemClearGlassEmCyan id="enderio:clear_glass_em_cyan" mergePrevious="true"/>
+                        <itemClearGlassEmGray id="enderio:clear_glass_em_gray" mergePrevious="true"/>
+                        <itemClearGlassEmGreen id="enderio:clear_glass_em_green" mergePrevious="true"/>
+                        <itemClearGlassEmLightBlue id="enderio:clear_glass_em_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEmLightGray id="enderio:clear_glass_em_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEmLime id="enderio:clear_glass_em_lime" mergePrevious="true"/>
+                        <itemClearGlassEmMagenta id="enderio:clear_glass_em_magenta" mergePrevious="true"/>
+                        <itemClearGlassEmOrange id="enderio:clear_glass_em_orange" mergePrevious="true"/>
+                        <itemClearGlassEmPink id="enderio:clear_glass_em_pink" mergePrevious="true"/>
+                        <itemClearGlassEmPurple id="enderio:clear_glass_em_purple" mergePrevious="true"/>
+                        <itemClearGlassEmRed id="enderio:clear_glass_em_red" mergePrevious="true"/>
+                        <itemClearGlassEmWhite id="enderio:clear_glass_em_white" mergePrevious="true"/>
+                        <itemClearGlassEmYellow id="enderio:clear_glass_em_yellow" mergePrevious="true"/>
+                        <itemClearGlassEna id="enderio:clear_glass_ena"/>
+                        <itemClearGlassEnaBlack id="enderio:clear_glass_ena_black" mergePrevious="true"/>
+                        <itemClearGlassEnaBlue id="enderio:clear_glass_ena_blue" mergePrevious="true"/>
+                        <itemClearGlassEnaBrown id="enderio:clear_glass_ena_brown" mergePrevious="true"/>
+                        <itemClearGlassEnaCyan id="enderio:clear_glass_ena_cyan" mergePrevious="true"/>
+                        <itemClearGlassEnaGray id="enderio:clear_glass_ena_gray" mergePrevious="true"/>
+                        <itemClearGlassEnaGreen id="enderio:clear_glass_ena_green" mergePrevious="true"/>
+                        <itemClearGlassEnaLightBlue id="enderio:clear_glass_ena_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEnaLightGray id="enderio:clear_glass_ena_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEnaLime id="enderio:clear_glass_ena_lime" mergePrevious="true"/>
+                        <itemClearGlassEnaMagenta id="enderio:clear_glass_ena_magenta" mergePrevious="true"/>
+                        <itemClearGlassEnaOrange id="enderio:clear_glass_ena_orange" mergePrevious="true"/>
+                        <itemClearGlassEnaPink id="enderio:clear_glass_ena_pink" mergePrevious="true"/>
+                        <itemClearGlassEnaPurple id="enderio:clear_glass_ena_purple" mergePrevious="true"/>
+                        <itemClearGlassEnaRed id="enderio:clear_glass_ena_red" mergePrevious="true"/>
+                        <itemClearGlassEnaWhite id="enderio:clear_glass_ena_white" mergePrevious="true"/>
+                        <itemClearGlassEnaYellow id="enderio:clear_glass_ena_yellow" mergePrevious="true"/>
+                        <itemClearGlassEnm id="enderio:clear_glass_enm"/>
+                        <itemClearGlassEnmBlack id="enderio:clear_glass_enm_black" mergePrevious="true"/>
+                        <itemClearGlassEnmBlue id="enderio:clear_glass_enm_blue" mergePrevious="true"/>
+                        <itemClearGlassEnmBrown id="enderio:clear_glass_enm_brown" mergePrevious="true"/>
+                        <itemClearGlassEnmCyan id="enderio:clear_glass_enm_cyan" mergePrevious="true"/>
+                        <itemClearGlassEnmGray id="enderio:clear_glass_enm_gray" mergePrevious="true"/>
+                        <itemClearGlassEnmGreen id="enderio:clear_glass_enm_green" mergePrevious="true"/>
+                        <itemClearGlassEnmLightBlue id="enderio:clear_glass_enm_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEnmLightGray id="enderio:clear_glass_enm_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEnmLime id="enderio:clear_glass_enm_lime" mergePrevious="true"/>
+                        <itemClearGlassEnmMagenta id="enderio:clear_glass_enm_magenta" mergePrevious="true"/>
+                        <itemClearGlassEnmOrange id="enderio:clear_glass_enm_orange" mergePrevious="true"/>
+                        <itemClearGlassEnmPink id="enderio:clear_glass_enm_pink" mergePrevious="true"/>
+                        <itemClearGlassEnmPurple id="enderio:clear_glass_enm_purple" mergePrevious="true"/>
+                        <itemClearGlassEnmRed id="enderio:clear_glass_enm_red" mergePrevious="true"/>
+                        <itemClearGlassEnmWhite id="enderio:clear_glass_enm_white" mergePrevious="true"/>
+                        <itemClearGlassEnmYellow id="enderio:clear_glass_enm_yellow" mergePrevious="true"/>
+                        <itemClearGlassEnp id="enderio:clear_glass_enp"/>
+                        <itemClearGlassEnpBlack id="enderio:clear_glass_enp_black" mergePrevious="true"/>
+                        <itemClearGlassEnpBlue id="enderio:clear_glass_enp_blue" mergePrevious="true"/>
+                        <itemClearGlassEnpBrown id="enderio:clear_glass_enp_brown" mergePrevious="true"/>
+                        <itemClearGlassEnpCyan id="enderio:clear_glass_enp_cyan" mergePrevious="true"/>
+                        <itemClearGlassEnpGray id="enderio:clear_glass_enp_gray" mergePrevious="true"/>
+                        <itemClearGlassEnpGreen id="enderio:clear_glass_enp_green" mergePrevious="true"/>
+                        <itemClearGlassEnpLightBlue id="enderio:clear_glass_enp_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEnpLightGray id="enderio:clear_glass_enp_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEnpLime id="enderio:clear_glass_enp_lime" mergePrevious="true"/>
+                        <itemClearGlassEnpMagenta id="enderio:clear_glass_enp_magenta" mergePrevious="true"/>
+                        <itemClearGlassEnpOrange id="enderio:clear_glass_enp_orange" mergePrevious="true"/>
+                        <itemClearGlassEnpPink id="enderio:clear_glass_enp_pink" mergePrevious="true"/>
+                        <itemClearGlassEnpPurple id="enderio:clear_glass_enp_purple" mergePrevious="true"/>
+                        <itemClearGlassEnpRed id="enderio:clear_glass_enp_red" mergePrevious="true"/>
+                        <itemClearGlassEnpWhite id="enderio:clear_glass_enp_white" mergePrevious="true"/>
+                        <itemClearGlassEnpYellow id="enderio:clear_glass_enp_yellow" mergePrevious="true"/>
+                        <itemClearGlassEp id="enderio:clear_glass_ep"/>
+                        <itemClearGlassEpBlack id="enderio:clear_glass_ep_black" mergePrevious="true"/>
+                        <itemClearGlassEpBlue id="enderio:clear_glass_ep_blue" mergePrevious="true"/>
+                        <itemClearGlassEpBrown id="enderio:clear_glass_ep_brown" mergePrevious="true"/>
+                        <itemClearGlassEpCyan id="enderio:clear_glass_ep_cyan" mergePrevious="true"/>
+                        <itemClearGlassEpGray id="enderio:clear_glass_ep_gray" mergePrevious="true"/>
+                        <itemClearGlassEpGreen id="enderio:clear_glass_ep_green" mergePrevious="true"/>
+                        <itemClearGlassEpLightBlue id="enderio:clear_glass_ep_light_blue" mergePrevious="true"/>
+                        <itemClearGlassEpLightGray id="enderio:clear_glass_ep_light_gray" mergePrevious="true"/>
+                        <itemClearGlassEpLime id="enderio:clear_glass_ep_lime" mergePrevious="true"/>
+                        <itemClearGlassEpMagenta id="enderio:clear_glass_ep_magenta" mergePrevious="true"/>
+                        <itemClearGlassEpOrange id="enderio:clear_glass_ep_orange" mergePrevious="true"/>
+                        <itemClearGlassEpPink id="enderio:clear_glass_ep_pink" mergePrevious="true"/>
+                        <itemClearGlassEpPurple id="enderio:clear_glass_ep_purple" mergePrevious="true"/>
+                        <itemClearGlassEpRed id="enderio:clear_glass_ep_red" mergePrevious="true"/>
+                        <itemClearGlassEpWhite id="enderio:clear_glass_ep_white" mergePrevious="true"/>
+                        <itemClearGlassEpYellow id="enderio:clear_glass_ep_yellow" mergePrevious="true"/>
+                        <itemClearGlassM id="enderio:clear_glass_m"/>
+                        <itemClearGlassMBlack id="enderio:clear_glass_m_black" mergePrevious="true"/>
+                        <itemClearGlassMBlue id="enderio:clear_glass_m_blue" mergePrevious="true"/>
+                        <itemClearGlassMBrown id="enderio:clear_glass_m_brown" mergePrevious="true"/>
+                        <itemClearGlassMCyan id="enderio:clear_glass_m_cyan" mergePrevious="true"/>
+                        <itemClearGlassMGray id="enderio:clear_glass_m_gray" mergePrevious="true"/>
+                        <itemClearGlassMGreen id="enderio:clear_glass_m_green" mergePrevious="true"/>
+                        <itemClearGlassMLightBlue id="enderio:clear_glass_m_light_blue" mergePrevious="true"/>
+                        <itemClearGlassMLightGray id="enderio:clear_glass_m_light_gray" mergePrevious="true"/>
+                        <itemClearGlassMLime id="enderio:clear_glass_m_lime" mergePrevious="true"/>
+                        <itemClearGlassMMagenta id="enderio:clear_glass_m_magenta" mergePrevious="true"/>
+                        <itemClearGlassMOrange id="enderio:clear_glass_m_orange" mergePrevious="true"/>
+                        <itemClearGlassMPink id="enderio:clear_glass_m_pink" mergePrevious="true"/>
+                        <itemClearGlassMPurple id="enderio:clear_glass_m_purple" mergePrevious="true"/>
+                        <itemClearGlassMRed id="enderio:clear_glass_m_red" mergePrevious="true"/>
+                        <itemClearGlassMWhite id="enderio:clear_glass_m_white" mergePrevious="true"/>
+                        <itemClearGlassMYellow id="enderio:clear_glass_m_yellow" mergePrevious="true"/>
+                        <itemClearGlassNa id="enderio:clear_glass_na"/>
+                        <itemClearGlassNaBlack id="enderio:clear_glass_na_black" mergePrevious="true"/>
+                        <itemClearGlassNaBlue id="enderio:clear_glass_na_blue" mergePrevious="true"/>
+                        <itemClearGlassNaBrown id="enderio:clear_glass_na_brown" mergePrevious="true"/>
+                        <itemClearGlassNaCyan id="enderio:clear_glass_na_cyan" mergePrevious="true"/>
+                        <itemClearGlassNaGray id="enderio:clear_glass_na_gray" mergePrevious="true"/>
+                        <itemClearGlassNaGreen id="enderio:clear_glass_na_green" mergePrevious="true"/>
+                        <itemClearGlassNaLightBlue id="enderio:clear_glass_na_light_blue" mergePrevious="true"/>
+                        <itemClearGlassNaLightGray id="enderio:clear_glass_na_light_gray" mergePrevious="true"/>
+                        <itemClearGlassNaLime id="enderio:clear_glass_na_lime" mergePrevious="true"/>
+                        <itemClearGlassNaMagenta id="enderio:clear_glass_na_magenta" mergePrevious="true"/>
+                        <itemClearGlassNaOrange id="enderio:clear_glass_na_orange" mergePrevious="true"/>
+                        <itemClearGlassNaPink id="enderio:clear_glass_na_pink" mergePrevious="true"/>
+                        <itemClearGlassNaPurple id="enderio:clear_glass_na_purple" mergePrevious="true"/>
+                        <itemClearGlassNaRed id="enderio:clear_glass_na_red" mergePrevious="true"/>
+                        <itemClearGlassNaWhite id="enderio:clear_glass_na_white" mergePrevious="true"/>
+                        <itemClearGlassNaYellow id="enderio:clear_glass_na_yellow" mergePrevious="true"/>
+                        <itemClearGlassNm id="enderio:clear_glass_nm"/>
+                        <itemClearGlassNmBlack id="enderio:clear_glass_nm_black" mergePrevious="true"/>
+                        <itemClearGlassNmBlue id="enderio:clear_glass_nm_blue" mergePrevious="true"/>
+                        <itemClearGlassNmBrown id="enderio:clear_glass_nm_brown" mergePrevious="true"/>
+                        <itemClearGlassNmCyan id="enderio:clear_glass_nm_cyan" mergePrevious="true"/>
+                        <itemClearGlassNmGray id="enderio:clear_glass_nm_gray" mergePrevious="true"/>
+                        <itemClearGlassNmGreen id="enderio:clear_glass_nm_green" mergePrevious="true"/>
+                        <itemClearGlassNmLightBlue id="enderio:clear_glass_nm_light_blue" mergePrevious="true"/>
+                        <itemClearGlassNmLightGray id="enderio:clear_glass_nm_light_gray" mergePrevious="true"/>
+                        <itemClearGlassNmLime id="enderio:clear_glass_nm_lime" mergePrevious="true"/>
+                        <itemClearGlassNmMagenta id="enderio:clear_glass_nm_magenta" mergePrevious="true"/>
+                        <itemClearGlassNmOrange id="enderio:clear_glass_nm_orange" mergePrevious="true"/>
+                        <itemClearGlassNmPink id="enderio:clear_glass_nm_pink" mergePrevious="true"/>
+                        <itemClearGlassNmPurple id="enderio:clear_glass_nm_purple" mergePrevious="true"/>
+                        <itemClearGlassNmRed id="enderio:clear_glass_nm_red" mergePrevious="true"/>
+                        <itemClearGlassNmWhite id="enderio:clear_glass_nm_white" mergePrevious="true"/>
+                        <itemClearGlassNmYellow id="enderio:clear_glass_nm_yellow" mergePrevious="true"/>
+                        <itemClearGlassNp id="enderio:clear_glass_np"/>
+                        <itemClearGlassNpBlack id="enderio:clear_glass_np_black" mergePrevious="true"/>
+                        <itemClearGlassNpBlue id="enderio:clear_glass_np_blue" mergePrevious="true"/>
+                        <itemClearGlassNpBrown id="enderio:clear_glass_np_brown" mergePrevious="true"/>
+                        <itemClearGlassNpCyan id="enderio:clear_glass_np_cyan" mergePrevious="true"/>
+                        <itemClearGlassNpGray id="enderio:clear_glass_np_gray" mergePrevious="true"/>
+                        <itemClearGlassNpGreen id="enderio:clear_glass_np_green" mergePrevious="true"/>
+                        <itemClearGlassNpLightBlue id="enderio:clear_glass_np_light_blue" mergePrevious="true"/>
+                        <itemClearGlassNpLightGray id="enderio:clear_glass_np_light_gray" mergePrevious="true"/>
+                        <itemClearGlassNpLime id="enderio:clear_glass_np_lime" mergePrevious="true"/>
+                        <itemClearGlassNpMagenta id="enderio:clear_glass_np_magenta" mergePrevious="true"/>
+                        <itemClearGlassNpOrange id="enderio:clear_glass_np_orange" mergePrevious="true"/>
+                        <itemClearGlassNpPink id="enderio:clear_glass_np_pink" mergePrevious="true"/>
+                        <itemClearGlassNpPurple id="enderio:clear_glass_np_purple" mergePrevious="true"/>
+                        <itemClearGlassNpRed id="enderio:clear_glass_np_red" mergePrevious="true"/>
+                        <itemClearGlassNpWhite id="enderio:clear_glass_np_white" mergePrevious="true"/>
+                        <itemClearGlassNpYellow id="enderio:clear_glass_np_yellow" mergePrevious="true"/>
+                        <itemClearGlassP id="enderio:clear_glass_p"/>
+                        <itemClearGlassPBlack id="enderio:clear_glass_p_black" mergePrevious="true"/>
+                        <itemClearGlassPBlue id="enderio:clear_glass_p_blue" mergePrevious="true"/>
+                        <itemClearGlassPBrown id="enderio:clear_glass_p_brown" mergePrevious="true"/>
+                        <itemClearGlassPCyan id="enderio:clear_glass_p_cyan" mergePrevious="true"/>
+                        <itemClearGlassPGray id="enderio:clear_glass_p_gray" mergePrevious="true"/>
+                        <itemClearGlassPGreen id="enderio:clear_glass_p_green" mergePrevious="true"/>
+                        <itemClearGlassPLightBlue id="enderio:clear_glass_p_light_blue" mergePrevious="true"/>
+                        <itemClearGlassPLightGray id="enderio:clear_glass_p_light_gray" mergePrevious="true"/>
+                        <itemClearGlassPLime id="enderio:clear_glass_p_lime" mergePrevious="true"/>
+                        <itemClearGlassPMagenta id="enderio:clear_glass_p_magenta" mergePrevious="true"/>
+                        <itemClearGlassPOrange id="enderio:clear_glass_p_orange" mergePrevious="true"/>
+                        <itemClearGlassPPink id="enderio:clear_glass_p_pink" mergePrevious="true"/>
+                        <itemClearGlassPPurple id="enderio:clear_glass_p_purple" mergePrevious="true"/>
+                        <itemClearGlassPRed id="enderio:clear_glass_p_red" mergePrevious="true"/>
+                        <itemClearGlassPWhite id="enderio:clear_glass_p_white" mergePrevious="true"/>
+                        <itemClearGlassPYellow id="enderio:clear_glass_p_yellow" mergePrevious="true"/>
+                    </clearGlass>
+                    <fusedQuartz>
+                        <itemFusedQuartz id="enderio:fused_quartz"/>
+                        <itemFusedQuartzBlack id="enderio:fused_quartz_black" mergePrevious="true"/>
+                        <itemFusedQuartzBlue id="enderio:fused_quartz_blue" mergePrevious="true"/>
+                        <itemFusedQuartzBrown id="enderio:fused_quartz_brown" mergePrevious="true"/>
+                        <itemFusedQuartzCyan id="enderio:fused_quartz_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzGray id="enderio:fused_quartz_gray" mergePrevious="true"/>
+                        <itemFusedQuartzGreen id="enderio:fused_quartz_green" mergePrevious="true"/>
+                        <itemFusedQuartzLightBlue id="enderio:fused_quartz_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzLightGray id="enderio:fused_quartz_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzLime id="enderio:fused_quartz_lime" mergePrevious="true"/>
+                        <itemFusedQuartzMagenta id="enderio:fused_quartz_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzOrange id="enderio:fused_quartz_orange" mergePrevious="true"/>
+                        <itemFusedQuartzPink id="enderio:fused_quartz_pink" mergePrevious="true"/>
+                        <itemFusedQuartzPurple id="enderio:fused_quartz_purple" mergePrevious="true"/>
+                        <itemFusedQuartzRed id="enderio:fused_quartz_red" mergePrevious="true"/>
+                        <itemFusedQuartzWhite id="enderio:fused_quartz_white" mergePrevious="true"/>
+                        <itemFusedQuartzYellow id="enderio:fused_quartz_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzA id="enderio:fused_quartz_a"/>
+                        <itemFusedQuartzABlack id="enderio:fused_quartz_a_black" mergePrevious="true"/>
+                        <itemFusedQuartzABlue id="enderio:fused_quartz_a_blue" mergePrevious="true"/>
+                        <itemFusedQuartzABrown id="enderio:fused_quartz_a_brown" mergePrevious="true"/>
+                        <itemFusedQuartzACyan id="enderio:fused_quartz_a_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzAGray id="enderio:fused_quartz_a_gray" mergePrevious="true"/>
+                        <itemFusedQuartzAGreen id="enderio:fused_quartz_a_green" mergePrevious="true"/>
+                        <itemFusedQuartzALightBlue id="enderio:fused_quartz_a_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzALightGray id="enderio:fused_quartz_a_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzALime id="enderio:fused_quartz_a_lime" mergePrevious="true"/>
+                        <itemFusedQuartzAMagenta id="enderio:fused_quartz_a_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzAOrange id="enderio:fused_quartz_a_orange" mergePrevious="true"/>
+                        <itemFusedQuartzAPink id="enderio:fused_quartz_a_pink" mergePrevious="true"/>
+                        <itemFusedQuartzAPurple id="enderio:fused_quartz_a_purple" mergePrevious="true"/>
+                        <itemFusedQuartzARed id="enderio:fused_quartz_a_red" mergePrevious="true"/>
+                        <itemFusedQuartzAWhite id="enderio:fused_quartz_a_white" mergePrevious="true"/>
+                        <itemFusedQuartzAYellow id="enderio:fused_quartz_a_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzD id="enderio:fused_quartz_d"/>
+                        <itemFusedQuartzDBlack id="enderio:fused_quartz_d_black" mergePrevious="true"/>
+                        <itemFusedQuartzDBlue id="enderio:fused_quartz_d_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDBrown id="enderio:fused_quartz_d_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDCyan id="enderio:fused_quartz_d_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDGray id="enderio:fused_quartz_d_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDGreen id="enderio:fused_quartz_d_green" mergePrevious="true"/>
+                        <itemFusedQuartzDLightBlue id="enderio:fused_quartz_d_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDLightGray id="enderio:fused_quartz_d_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDLime id="enderio:fused_quartz_d_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDMagenta id="enderio:fused_quartz_d_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDOrange id="enderio:fused_quartz_d_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDPink id="enderio:fused_quartz_d_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDPurple id="enderio:fused_quartz_d_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDRed id="enderio:fused_quartz_d_red" mergePrevious="true"/>
+                        <itemFusedQuartzDWhite id="enderio:fused_quartz_d_white" mergePrevious="true"/>
+                        <itemFusedQuartzDYellow id="enderio:fused_quartz_d_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDa id="enderio:fused_quartz_da"/>
+                        <itemFusedQuartzDaBlack id="enderio:fused_quartz_da_black" mergePrevious="true"/>
+                        <itemFusedQuartzDaBlue id="enderio:fused_quartz_da_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDaBrown id="enderio:fused_quartz_da_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDaCyan id="enderio:fused_quartz_da_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDaGray id="enderio:fused_quartz_da_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDaGreen id="enderio:fused_quartz_da_green" mergePrevious="true"/>
+                        <itemFusedQuartzDaLightBlue id="enderio:fused_quartz_da_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDaLightGray id="enderio:fused_quartz_da_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDaLime id="enderio:fused_quartz_da_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDaMagenta id="enderio:fused_quartz_da_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDaOrange id="enderio:fused_quartz_da_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDaPink id="enderio:fused_quartz_da_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDaPurple id="enderio:fused_quartz_da_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDaRed id="enderio:fused_quartz_da_red" mergePrevious="true"/>
+                        <itemFusedQuartzDaWhite id="enderio:fused_quartz_da_white" mergePrevious="true"/>
+                        <itemFusedQuartzDaYellow id="enderio:fused_quartz_da_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDm id="enderio:fused_quartz_dm"/>
+                        <itemFusedQuartzDmBlack id="enderio:fused_quartz_dm_black" mergePrevious="true"/>
+                        <itemFusedQuartzDmBlue id="enderio:fused_quartz_dm_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDmBrown id="enderio:fused_quartz_dm_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDmCyan id="enderio:fused_quartz_dm_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDmGray id="enderio:fused_quartz_dm_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDmGreen id="enderio:fused_quartz_dm_green" mergePrevious="true"/>
+                        <itemFusedQuartzDmLightBlue id="enderio:fused_quartz_dm_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDmLightGray id="enderio:fused_quartz_dm_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDmLime id="enderio:fused_quartz_dm_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDmMagenta id="enderio:fused_quartz_dm_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDmOrange id="enderio:fused_quartz_dm_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDmPink id="enderio:fused_quartz_dm_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDmPurple id="enderio:fused_quartz_dm_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDmRed id="enderio:fused_quartz_dm_red" mergePrevious="true"/>
+                        <itemFusedQuartzDmWhite id="enderio:fused_quartz_dm_white" mergePrevious="true"/>
+                        <itemFusedQuartzDmYellow id="enderio:fused_quartz_dm_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDna id="enderio:fused_quartz_dna"/>
+                        <itemFusedQuartzDnaBlack id="enderio:fused_quartz_dna_black" mergePrevious="true"/>
+                        <itemFusedQuartzDnaBlue id="enderio:fused_quartz_dna_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnaBrown id="enderio:fused_quartz_dna_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDnaCyan id="enderio:fused_quartz_dna_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDnaGray id="enderio:fused_quartz_dna_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnaGreen id="enderio:fused_quartz_dna_green" mergePrevious="true"/>
+                        <itemFusedQuartzDnaLightBlue id="enderio:fused_quartz_dna_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnaLightGray id="enderio:fused_quartz_dna_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnaLime id="enderio:fused_quartz_dna_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDnaMagenta id="enderio:fused_quartz_dna_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDnaOrange id="enderio:fused_quartz_dna_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDnaPink id="enderio:fused_quartz_dna_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDnaPurple id="enderio:fused_quartz_dna_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDnaRed id="enderio:fused_quartz_dna_red" mergePrevious="true"/>
+                        <itemFusedQuartzDnaWhite id="enderio:fused_quartz_dna_white" mergePrevious="true"/>
+                        <itemFusedQuartzDnaYellow id="enderio:fused_quartz_dna_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDnm id="enderio:fused_quartz_dnm"/>
+                        <itemFusedQuartzDnmBlack id="enderio:fused_quartz_dnm_black" mergePrevious="true"/>
+                        <itemFusedQuartzDnmBlue id="enderio:fused_quartz_dnm_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnmBrown id="enderio:fused_quartz_dnm_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDnmCyan id="enderio:fused_quartz_dnm_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDnmGray id="enderio:fused_quartz_dnm_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnmGreen id="enderio:fused_quartz_dnm_green" mergePrevious="true"/>
+                        <itemFusedQuartzDnmLightBlue id="enderio:fused_quartz_dnm_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnmLightGray id="enderio:fused_quartz_dnm_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnmLime id="enderio:fused_quartz_dnm_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDnmMagenta id="enderio:fused_quartz_dnm_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDnmOrange id="enderio:fused_quartz_dnm_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDnmPink id="enderio:fused_quartz_dnm_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDnmPurple id="enderio:fused_quartz_dnm_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDnmRed id="enderio:fused_quartz_dnm_red" mergePrevious="true"/>
+                        <itemFusedQuartzDnmWhite id="enderio:fused_quartz_dnm_white" mergePrevious="true"/>
+                        <itemFusedQuartzDnmYellow id="enderio:fused_quartz_dnm_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDnp id="enderio:fused_quartz_dnp"/>
+                        <itemFusedQuartzDnpBlack id="enderio:fused_quartz_dnp_black" mergePrevious="true"/>
+                        <itemFusedQuartzDnpBlue id="enderio:fused_quartz_dnp_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnpBrown id="enderio:fused_quartz_dnp_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDnpCyan id="enderio:fused_quartz_dnp_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDnpGray id="enderio:fused_quartz_dnp_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnpGreen id="enderio:fused_quartz_dnp_green" mergePrevious="true"/>
+                        <itemFusedQuartzDnpLightBlue id="enderio:fused_quartz_dnp_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDnpLightGray id="enderio:fused_quartz_dnp_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDnpLime id="enderio:fused_quartz_dnp_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDnpMagenta id="enderio:fused_quartz_dnp_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDnpOrange id="enderio:fused_quartz_dnp_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDnpPink id="enderio:fused_quartz_dnp_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDnpPurple id="enderio:fused_quartz_dnp_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDnpRed id="enderio:fused_quartz_dnp_red" mergePrevious="true"/>
+                        <itemFusedQuartzDnpWhite id="enderio:fused_quartz_dnp_white" mergePrevious="true"/>
+                        <itemFusedQuartzDnpYellow id="enderio:fused_quartz_dnp_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzDp id="enderio:fused_quartz_dp"/>
+                        <itemFusedQuartzDpBlack id="enderio:fused_quartz_dp_black" mergePrevious="true"/>
+                        <itemFusedQuartzDpBlue id="enderio:fused_quartz_dp_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDpBrown id="enderio:fused_quartz_dp_brown" mergePrevious="true"/>
+                        <itemFusedQuartzDpCyan id="enderio:fused_quartz_dp_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzDpGray id="enderio:fused_quartz_dp_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDpGreen id="enderio:fused_quartz_dp_green" mergePrevious="true"/>
+                        <itemFusedQuartzDpLightBlue id="enderio:fused_quartz_dp_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzDpLightGray id="enderio:fused_quartz_dp_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzDpLime id="enderio:fused_quartz_dp_lime" mergePrevious="true"/>
+                        <itemFusedQuartzDpMagenta id="enderio:fused_quartz_dp_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzDpOrange id="enderio:fused_quartz_dp_orange" mergePrevious="true"/>
+                        <itemFusedQuartzDpPink id="enderio:fused_quartz_dp_pink" mergePrevious="true"/>
+                        <itemFusedQuartzDpPurple id="enderio:fused_quartz_dp_purple" mergePrevious="true"/>
+                        <itemFusedQuartzDpRed id="enderio:fused_quartz_dp_red" mergePrevious="true"/>
+                        <itemFusedQuartzDpWhite id="enderio:fused_quartz_dp_white" mergePrevious="true"/>
+                        <itemFusedQuartzDpYellow id="enderio:fused_quartz_dp_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzE id="enderio:fused_quartz_e"/>
+                        <itemFusedQuartzEBlack id="enderio:fused_quartz_e_black" mergePrevious="true"/>
+                        <itemFusedQuartzEBlue id="enderio:fused_quartz_e_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEBrown id="enderio:fused_quartz_e_brown" mergePrevious="true"/>
+                        <itemFusedQuartzECyan id="enderio:fused_quartz_e_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEGray id="enderio:fused_quartz_e_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEGreen id="enderio:fused_quartz_e_green" mergePrevious="true"/>
+                        <itemFusedQuartzELightBlue id="enderio:fused_quartz_e_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzELightGray id="enderio:fused_quartz_e_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzELime id="enderio:fused_quartz_e_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEMagenta id="enderio:fused_quartz_e_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEOrange id="enderio:fused_quartz_e_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEPink id="enderio:fused_quartz_e_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEPurple id="enderio:fused_quartz_e_purple" mergePrevious="true"/>
+                        <itemFusedQuartzERed id="enderio:fused_quartz_e_red" mergePrevious="true"/>
+                        <itemFusedQuartzEWhite id="enderio:fused_quartz_e_white" mergePrevious="true"/>
+                        <itemFusedQuartzEYellow id="enderio:fused_quartz_e_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEa id="enderio:fused_quartz_ea"/>
+                        <itemFusedQuartzEaBlack id="enderio:fused_quartz_ea_black" mergePrevious="true"/>
+                        <itemFusedQuartzEaBlue id="enderio:fused_quartz_ea_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEaBrown id="enderio:fused_quartz_ea_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEaCyan id="enderio:fused_quartz_ea_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEaGray id="enderio:fused_quartz_ea_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEaGreen id="enderio:fused_quartz_ea_green" mergePrevious="true"/>
+                        <itemFusedQuartzEaLightBlue id="enderio:fused_quartz_ea_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEaLightGray id="enderio:fused_quartz_ea_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEaLime id="enderio:fused_quartz_ea_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEaMagenta id="enderio:fused_quartz_ea_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEaOrange id="enderio:fused_quartz_ea_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEaPink id="enderio:fused_quartz_ea_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEaPurple id="enderio:fused_quartz_ea_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEaRed id="enderio:fused_quartz_ea_red" mergePrevious="true"/>
+                        <itemFusedQuartzEaWhite id="enderio:fused_quartz_ea_white" mergePrevious="true"/>
+                        <itemFusedQuartzEaYellow id="enderio:fused_quartz_ea_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEm id="enderio:fused_quartz_em"/>
+                        <itemFusedQuartzEmBlack id="enderio:fused_quartz_em_black" mergePrevious="true"/>
+                        <itemFusedQuartzEmBlue id="enderio:fused_quartz_em_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEmBrown id="enderio:fused_quartz_em_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEmCyan id="enderio:fused_quartz_em_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEmGray id="enderio:fused_quartz_em_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEmGreen id="enderio:fused_quartz_em_green" mergePrevious="true"/>
+                        <itemFusedQuartzEmLightBlue id="enderio:fused_quartz_em_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEmLightGray id="enderio:fused_quartz_em_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEmLime id="enderio:fused_quartz_em_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEmMagenta id="enderio:fused_quartz_em_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEmOrange id="enderio:fused_quartz_em_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEmPink id="enderio:fused_quartz_em_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEmPurple id="enderio:fused_quartz_em_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEmRed id="enderio:fused_quartz_em_red" mergePrevious="true"/>
+                        <itemFusedQuartzEmWhite id="enderio:fused_quartz_em_white" mergePrevious="true"/>
+                        <itemFusedQuartzEmYellow id="enderio:fused_quartz_em_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEna id="enderio:fused_quartz_ena"/>
+                        <itemFusedQuartzEnaBlack id="enderio:fused_quartz_ena_black" mergePrevious="true"/>
+                        <itemFusedQuartzEnaBlue id="enderio:fused_quartz_ena_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnaBrown id="enderio:fused_quartz_ena_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEnaCyan id="enderio:fused_quartz_ena_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEnaGray id="enderio:fused_quartz_ena_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnaGreen id="enderio:fused_quartz_ena_green" mergePrevious="true"/>
+                        <itemFusedQuartzEnaLightBlue id="enderio:fused_quartz_ena_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnaLightGray id="enderio:fused_quartz_ena_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnaLime id="enderio:fused_quartz_ena_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEnaMagenta id="enderio:fused_quartz_ena_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEnaOrange id="enderio:fused_quartz_ena_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEnaPink id="enderio:fused_quartz_ena_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEnaPurple id="enderio:fused_quartz_ena_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEnaRed id="enderio:fused_quartz_ena_red" mergePrevious="true"/>
+                        <itemFusedQuartzEnaWhite id="enderio:fused_quartz_ena_white" mergePrevious="true"/>
+                        <itemFusedQuartzEnaYellow id="enderio:fused_quartz_ena_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEnm id="enderio:fused_quartz_enm"/>
+                        <itemFusedQuartzEnmBlack id="enderio:fused_quartz_enm_black" mergePrevious="true"/>
+                        <itemFusedQuartzEnmBlue id="enderio:fused_quartz_enm_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnmBrown id="enderio:fused_quartz_enm_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEnmCyan id="enderio:fused_quartz_enm_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEnmGray id="enderio:fused_quartz_enm_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnmGreen id="enderio:fused_quartz_enm_green" mergePrevious="true"/>
+                        <itemFusedQuartzEnmLightBlue id="enderio:fused_quartz_enm_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnmLightGray id="enderio:fused_quartz_enm_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnmLime id="enderio:fused_quartz_enm_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEnmMagenta id="enderio:fused_quartz_enm_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEnmOrange id="enderio:fused_quartz_enm_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEnmPink id="enderio:fused_quartz_enm_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEnmPurple id="enderio:fused_quartz_enm_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEnmRed id="enderio:fused_quartz_enm_red" mergePrevious="true"/>
+                        <itemFusedQuartzEnmWhite id="enderio:fused_quartz_enm_white" mergePrevious="true"/>
+                        <itemFusedQuartzEnmYellow id="enderio:fused_quartz_enm_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEnp id="enderio:fused_quartz_enp"/>
+                        <itemFusedQuartzEnpBlack id="enderio:fused_quartz_enp_black" mergePrevious="true"/>
+                        <itemFusedQuartzEnpBlue id="enderio:fused_quartz_enp_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnpBrown id="enderio:fused_quartz_enp_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEnpCyan id="enderio:fused_quartz_enp_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEnpGray id="enderio:fused_quartz_enp_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnpGreen id="enderio:fused_quartz_enp_green" mergePrevious="true"/>
+                        <itemFusedQuartzEnpLightBlue id="enderio:fused_quartz_enp_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEnpLightGray id="enderio:fused_quartz_enp_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEnpLime id="enderio:fused_quartz_enp_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEnpMagenta id="enderio:fused_quartz_enp_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEnpOrange id="enderio:fused_quartz_enp_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEnpPink id="enderio:fused_quartz_enp_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEnpPurple id="enderio:fused_quartz_enp_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEnpRed id="enderio:fused_quartz_enp_red" mergePrevious="true"/>
+                        <itemFusedQuartzEnpWhite id="enderio:fused_quartz_enp_white" mergePrevious="true"/>
+                        <itemFusedQuartzEnpYellow id="enderio:fused_quartz_enp_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzEp id="enderio:fused_quartz_ep"/>
+                        <itemFusedQuartzEpBlack id="enderio:fused_quartz_ep_black" mergePrevious="true"/>
+                        <itemFusedQuartzEpBlue id="enderio:fused_quartz_ep_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEpBrown id="enderio:fused_quartz_ep_brown" mergePrevious="true"/>
+                        <itemFusedQuartzEpCyan id="enderio:fused_quartz_ep_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzEpGray id="enderio:fused_quartz_ep_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEpGreen id="enderio:fused_quartz_ep_green" mergePrevious="true"/>
+                        <itemFusedQuartzEpLightBlue id="enderio:fused_quartz_ep_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzEpLightGray id="enderio:fused_quartz_ep_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzEpLime id="enderio:fused_quartz_ep_lime" mergePrevious="true"/>
+                        <itemFusedQuartzEpMagenta id="enderio:fused_quartz_ep_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzEpOrange id="enderio:fused_quartz_ep_orange" mergePrevious="true"/>
+                        <itemFusedQuartzEpPink id="enderio:fused_quartz_ep_pink" mergePrevious="true"/>
+                        <itemFusedQuartzEpPurple id="enderio:fused_quartz_ep_purple" mergePrevious="true"/>
+                        <itemFusedQuartzEpRed id="enderio:fused_quartz_ep_red" mergePrevious="true"/>
+                        <itemFusedQuartzEpWhite id="enderio:fused_quartz_ep_white" mergePrevious="true"/>
+                        <itemFusedQuartzEpYellow id="enderio:fused_quartz_ep_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzM id="enderio:fused_quartz_m"/>
+                        <itemFusedQuartzMBlack id="enderio:fused_quartz_m_black" mergePrevious="true"/>
+                        <itemFusedQuartzMBlue id="enderio:fused_quartz_m_blue" mergePrevious="true"/>
+                        <itemFusedQuartzMBrown id="enderio:fused_quartz_m_brown" mergePrevious="true"/>
+                        <itemFusedQuartzMCyan id="enderio:fused_quartz_m_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzMGray id="enderio:fused_quartz_m_gray" mergePrevious="true"/>
+                        <itemFusedQuartzMGreen id="enderio:fused_quartz_m_green" mergePrevious="true"/>
+                        <itemFusedQuartzMLightBlue id="enderio:fused_quartz_m_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzMLightGray id="enderio:fused_quartz_m_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzMLime id="enderio:fused_quartz_m_lime" mergePrevious="true"/>
+                        <itemFusedQuartzMMagenta id="enderio:fused_quartz_m_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzMOrange id="enderio:fused_quartz_m_orange" mergePrevious="true"/>
+                        <itemFusedQuartzMPink id="enderio:fused_quartz_m_pink" mergePrevious="true"/>
+                        <itemFusedQuartzMPurple id="enderio:fused_quartz_m_purple" mergePrevious="true"/>
+                        <itemFusedQuartzMRed id="enderio:fused_quartz_m_red" mergePrevious="true"/>
+                        <itemFusedQuartzMWhite id="enderio:fused_quartz_m_white" mergePrevious="true"/>
+                        <itemFusedQuartzMYellow id="enderio:fused_quartz_m_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzNa id="enderio:fused_quartz_na"/>
+                        <itemFusedQuartzNaBlack id="enderio:fused_quartz_na_black" mergePrevious="true"/>
+                        <itemFusedQuartzNaBlue id="enderio:fused_quartz_na_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNaBrown id="enderio:fused_quartz_na_brown" mergePrevious="true"/>
+                        <itemFusedQuartzNaCyan id="enderio:fused_quartz_na_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzNaGray id="enderio:fused_quartz_na_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNaGreen id="enderio:fused_quartz_na_green" mergePrevious="true"/>
+                        <itemFusedQuartzNaLightBlue id="enderio:fused_quartz_na_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNaLightGray id="enderio:fused_quartz_na_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNaLime id="enderio:fused_quartz_na_lime" mergePrevious="true"/>
+                        <itemFusedQuartzNaMagenta id="enderio:fused_quartz_na_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzNaOrange id="enderio:fused_quartz_na_orange" mergePrevious="true"/>
+                        <itemFusedQuartzNaPink id="enderio:fused_quartz_na_pink" mergePrevious="true"/>
+                        <itemFusedQuartzNaPurple id="enderio:fused_quartz_na_purple" mergePrevious="true"/>
+                        <itemFusedQuartzNaRed id="enderio:fused_quartz_na_red" mergePrevious="true"/>
+                        <itemFusedQuartzNaWhite id="enderio:fused_quartz_na_white" mergePrevious="true"/>
+                        <itemFusedQuartzNaYellow id="enderio:fused_quartz_na_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzNm id="enderio:fused_quartz_nm"/>
+                        <itemFusedQuartzNmBlack id="enderio:fused_quartz_nm_black" mergePrevious="true"/>
+                        <itemFusedQuartzNmBlue id="enderio:fused_quartz_nm_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNmBrown id="enderio:fused_quartz_nm_brown" mergePrevious="true"/>
+                        <itemFusedQuartzNmCyan id="enderio:fused_quartz_nm_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzNmGray id="enderio:fused_quartz_nm_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNmGreen id="enderio:fused_quartz_nm_green" mergePrevious="true"/>
+                        <itemFusedQuartzNmLightBlue id="enderio:fused_quartz_nm_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNmLightGray id="enderio:fused_quartz_nm_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNmLime id="enderio:fused_quartz_nm_lime" mergePrevious="true"/>
+                        <itemFusedQuartzNmMagenta id="enderio:fused_quartz_nm_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzNmOrange id="enderio:fused_quartz_nm_orange" mergePrevious="true"/>
+                        <itemFusedQuartzNmPink id="enderio:fused_quartz_nm_pink" mergePrevious="true"/>
+                        <itemFusedQuartzNmPurple id="enderio:fused_quartz_nm_purple" mergePrevious="true"/>
+                        <itemFusedQuartzNmRed id="enderio:fused_quartz_nm_red" mergePrevious="true"/>
+                        <itemFusedQuartzNmWhite id="enderio:fused_quartz_nm_white" mergePrevious="true"/>
+                        <itemFusedQuartzNmYellow id="enderio:fused_quartz_nm_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzNp id="enderio:fused_quartz_np"/>
+                        <itemFusedQuartzNpBlack id="enderio:fused_quartz_np_black" mergePrevious="true"/>
+                        <itemFusedQuartzNpBlue id="enderio:fused_quartz_np_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNpBrown id="enderio:fused_quartz_np_brown" mergePrevious="true"/>
+                        <itemFusedQuartzNpCyan id="enderio:fused_quartz_np_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzNpGray id="enderio:fused_quartz_np_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNpGreen id="enderio:fused_quartz_np_green" mergePrevious="true"/>
+                        <itemFusedQuartzNpLightBlue id="enderio:fused_quartz_np_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzNpLightGray id="enderio:fused_quartz_np_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzNpLime id="enderio:fused_quartz_np_lime" mergePrevious="true"/>
+                        <itemFusedQuartzNpMagenta id="enderio:fused_quartz_np_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzNpOrange id="enderio:fused_quartz_np_orange" mergePrevious="true"/>
+                        <itemFusedQuartzNpPink id="enderio:fused_quartz_np_pink" mergePrevious="true"/>
+                        <itemFusedQuartzNpPurple id="enderio:fused_quartz_np_purple" mergePrevious="true"/>
+                        <itemFusedQuartzNpRed id="enderio:fused_quartz_np_red" mergePrevious="true"/>
+                        <itemFusedQuartzNpWhite id="enderio:fused_quartz_np_white" mergePrevious="true"/>
+                        <itemFusedQuartzNpYellow id="enderio:fused_quartz_np_yellow" mergePrevious="true"/>
+                        <itemFusedQuartzP id="enderio:fused_quartz_p"/>
+                        <itemFusedQuartzPBlack id="enderio:fused_quartz_p_black" mergePrevious="true"/>
+                        <itemFusedQuartzPBlue id="enderio:fused_quartz_p_blue" mergePrevious="true"/>
+                        <itemFusedQuartzPBrown id="enderio:fused_quartz_p_brown" mergePrevious="true"/>
+                        <itemFusedQuartzPCyan id="enderio:fused_quartz_p_cyan" mergePrevious="true"/>
+                        <itemFusedQuartzPGray id="enderio:fused_quartz_p_gray" mergePrevious="true"/>
+                        <itemFusedQuartzPGreen id="enderio:fused_quartz_p_green" mergePrevious="true"/>
+                        <itemFusedQuartzPLightBlue id="enderio:fused_quartz_p_light_blue" mergePrevious="true"/>
+                        <itemFusedQuartzPLightGray id="enderio:fused_quartz_p_light_gray" mergePrevious="true"/>
+                        <itemFusedQuartzPLime id="enderio:fused_quartz_p_lime" mergePrevious="true"/>
+                        <itemFusedQuartzPMagenta id="enderio:fused_quartz_p_magenta" mergePrevious="true"/>
+                        <itemFusedQuartzPOrange id="enderio:fused_quartz_p_orange" mergePrevious="true"/>
+                        <itemFusedQuartzPPink id="enderio:fused_quartz_p_pink" mergePrevious="true"/>
+                        <itemFusedQuartzPPurple id="enderio:fused_quartz_p_purple" mergePrevious="true"/>
+                        <itemFusedQuartzPRed id="enderio:fused_quartz_p_red" mergePrevious="true"/>
+                        <itemFusedQuartzPWhite id="enderio:fused_quartz_p_white" mergePrevious="true"/>
+                        <itemFusedQuartzPYellow id="enderio:fused_quartz_p_yellow" mergePrevious="true"/>
+                    </fusedQuartz>
+                </glass>
+                <slabs>
+                    <paintedSlabs>
+                        <itemPaintedSlab id="enderio:painted_slab"/>
+                    </paintedSlabs>
+                </slabs>
+                <stairs>
+                    <paintedStairs>
+                        <itemPaintedStairs id="enderio:painted_stairs"/>
+                    </paintedStairs>
+                </stairs>
+                <paintedBlocks>
+                    <itemPaintedCraftingTable id="enderio:painted_crafting_table"/>
+                    <itemPaintedGlowstone id="enderio:painted_glowstone"/>
+                    <itemPaintedRedstoneBlock id="enderio:painted_redstone_block"/>
+                    <itemPaintedSand id="enderio:painted_sand"/>
+                    <itemPaintedTravelAnchor id="enderio:painted_travel_anchor"/>
+                </paintedBlocks>
+                <bars>
+                    <itemDarkSteelBars id="enderio:dark_steel_bars"/>
+                    <itemEndSteelBars id="enderio:end_steel_bars"/>
+                </bars>
+                <ladders>
+                    <itemDarkSteelLadder id="enderio:dark_steel_ladder"/>
+                </ladders>
+            </constructionBlock>
+            <fence>
+                <paintedFences>
+                    <itemPaintedFence id="enderio:painted_fence"/>
+                    <itemPaintedFenceGate id="enderio:painted_fence_gate"/>
+                </paintedFences>
+            </fence>
+            <stoneWall>
+                <itemPaintedWall id="enderio:painted_wall"/>
+            </stoneWall>
+            <storageBlocks>
+                <itemConductiveAlloyBlock id="enderio:conductive_alloy_block"/>
+                <itemDarkSteelBlock id="enderio:dark_steel_block"/>
+                <itemEndSteelBlock id="enderio:end_steel_block"/>
+                <itemEnergeticAlloyBlock id="enderio:energetic_alloy_block"/>
+                <itemPulsatingAlloyBlock id="enderio:pulsating_alloy_block"/>
+                <itemRedstoneAlloyBlock id="enderio:redstone_alloy_block"/>
+                <itemReinforcedObsidianBlock id="enderio:reinforced_obsidian_block"/>
+                <itemSoulariumBlock id="enderio:soularium_block"/>
+                <itemVibrantAlloyBlock id="enderio:vibrant_alloy_block"/>
+            </storageBlocks>
+        </manufacturedBlock>
+        <mechanism>
+            <doors>
+                <trapdoor>
+                    <itemPaintedTrapdoor id="enderio:painted_trapdoor"/>
+                    <itemDarkSteelTrapdoor id="enderio:dark_steel_trapdoor"/>
+                </trapdoor>
+                <enderioDoors>
+                    <itemDarkSteelDoor id="enderio:dark_steel_door"/>
+                </enderioDoors>
+            </doors>
+            <pressurePlates>
+                <enderioPressurePlates>
+                    <itemDarkSteelPressurePlate id="enderio:dark_steel_pressure_plate"/>
+                    <itemPaintedWoodenPressurePlate id="enderio:painted_wooden_pressure_plate"/>
+                    <itemSilentAcaciaPressurePlate id="enderio:silent_acacia_pressure_plate"/>
+                    <itemSilentBirchPressurePlate id="enderio:silent_birch_pressure_plate"/>
+                    <itemSilentCrimsonPressurePlate id="enderio:silent_crimson_pressure_plate"/>
+                    <itemSilentDarkOakPressurePlate id="enderio:silent_dark_oak_pressure_plate"/>
+                    <itemSilentDarkSteelPressurePlate id="enderio:silent_dark_steel_pressure_plate"/>
+                    <itemSilentHeavyWeightedPressurePlate id="enderio:silent_heavy_weighted_pressure_plate"/>
+                    <itemSilentJunglePressurePlate id="enderio:silent_jungle_pressure_plate"/>
+                    <itemSilentLightWeightedPressurePlate id="enderio:silent_light_weighted_pressure_plate"/>
+                    <itemSilentOakPressurePlate id="enderio:silent_oak_pressure_plate"/>
+                    <itemSilentPolishedBlackstonePressurePlate id="enderio:silent_polished_blackstone_pressure_plate"/>
+                    <itemSilentSoulariumPressurePlate id="enderio:silent_soularium_pressure_plate"/>
+                    <itemSilentSprucePressurePlate id="enderio:silent_spruce_pressure_plate"/>
+                    <itemSilentStonePressurePlate id="enderio:silent_stone_pressure_plate"/>
+                    <itemSilentWarpedPressurePlate id="enderio:silent_warped_pressure_plate"/>
+                    <itemSoulariumPressurePlate id="enderio:soularium_pressure_plate"/>
+                </enderioPressurePlates>
+            </pressurePlates>
+            <levers>
+                <resettingLevers>
+                    <itemResettingLeverFive id="enderio:resetting_lever_five"/>
+                    <itemResettingLeverFiveInv id="enderio:resetting_lever_five_inv"/>
+                    <itemResettingLeverSixty id="enderio:resetting_lever_sixty"/>
+                    <itemResettingLeverSixtyInv id="enderio:resetting_lever_sixty_inv"/>
+                    <itemResettingLeverTen id="enderio:resetting_lever_ten"/>
+                    <itemResettingLeverTenInv id="enderio:resetting_lever_ten_inv"/>
+                    <itemResettingLeverThirty id="enderio:resetting_lever_thirty"/>
+                    <itemResettingLeverThirtyInv id="enderio:resetting_lever_thirty_inv"/>
+                    <itemResettingLeverThreeHundred id="enderio:resetting_lever_three_hundred"/>
+                    <itemResettingLeverThreeHundredInv id="enderio:resetting_lever_three_hundred_inv"/>
+                </resettingLevers>
+            </levers>
+            <machines>
+                <capacitorBanks>
+                    <itemAdvancedCapacitorBank id="enderio:advanced_capacitor_bank"/>
+                    <itemAlchemicalBrassCapacitorBank id="enderio:alchemical_brass_capacitor_bank"/>
+                    <itemBasicCapacitorBank id="enderio:basic_capacitor_bank"/>
+                    <itemThaumiumCapacitorBank id="enderio:thaumium_capacitor_bank"/>
+                    <itemVibrantCapacitorBank id="enderio:vibrant_capacitor_bank"/>
+                    <itemVoidMetalCapacitorBank id="enderio:void_metal_capacitor_bank"/>
+                </capacitorBanks>
+                <obelisks>
+                    <itemAttractorObelisk id="enderio:attractor_obelisk"/>
+                    <itemAversionObelisk id="enderio:aversion_obelisk"/>
+                    <itemInhibitorObelisk id="enderio:inhibitor_obelisk"/>
+                    <itemRelocatorObelisk id="enderio:relocator_obelisk"/>
+                    <itemWeatherObelisk id="enderio:weather_obelisk"/>
+                    <itemXpObelisk id="enderio:xp_obelisk"/>
+                </obelisks>
+                <enderioMachines>
+                    <itemAlloySmelter id="enderio:alloy_smelter"/>
+                    <itemBlockDetector id="enderio:block_detector"/>
+                    <itemBrokenSpawner id="enderio:broken_spawner"/>
+                    <itemCrafter id="enderio:crafter"/>
+                    <itemCreativePower id="enderio:creative_power"/>
+                    <itemDrain id="enderio:drain"/>
+                    <itemElectromagnet id="enderio:electromagnet"/>
+                    <itemEnchanter id="enderio:enchanter"/>
+                    <itemFarmingStation id="enderio:farming_station"/>
+                    <itemImpulseHopper id="enderio:impulse_hopper"/>
+                    <itemPaintingMachine id="enderio:painting_machine"/>
+                    <itemPoweredSpawner id="enderio:powered_spawner"/>
+                    <itemSagMill id="enderio:sag_mill"/>
+                    <itemSliceAndSplice id="enderio:slice_and_splice"/>
+                    <itemSoulBinder id="enderio:soul_binder"/>
+                    <itemTravelAnchor id="enderio:travel_anchor"/>
+                    <itemVacuumChest id="enderio:vacuum_chest"/>
+                    <itemVat id="enderio:vat"/>
+                    <itemXpVacuum id="enderio:xp_vacuum"/>
+                    <itemZLogicController id="enderio:z_logic_controller"/>
+                </enderioMachines>
+                <chargers>
+                    <itemWiredCharger id="enderio:wired_charger"/>
+                    <itemWirelessCharger id="enderio:wireless_charger"/>
+                    <itemWirelessChargerAntenna id="enderio:wireless_charger_antenna"/>
+                    <itemWirelessChargerAntennaAdvanced id="enderio:wireless_charger_antenna_advanced"/>
+                </chargers>
+            </machines>
+            <resourceTransfer>
+                <conduits>
+                    <itemConduit id="enderio:conduit"/>
+                    <itemConduitBinder id="enderio:conduit_binder"/>
+                    <itemConduitBinderComposite id="enderio:conduit_binder_composite"/>
+                    <itemConduitFacade id="enderio:conduit_facade"/>
+                    <itemHardenedConduitFacade id="enderio:hardened_conduit_facade"/>
+                    <itemTransparentConduitFacade id="enderio:transparent_conduit_facade"/>
+                    <itemTransparentHardenedConduitFacade id="enderio:transparent_hardened_conduit_facade"/>
+                </conduits>
+            </resourceTransfer>
+            <generators>
+                <enderioGenerators>
+                    <itemSoulEngine id="enderio:soul_engine"/>
+                    <itemStirlingGenerator id="enderio:stirling_generator"/>
+                </enderioGenerators>
+            </generators>
+        </mechanism>
+    </block>
+    <item>
+        <utility>
+            <filters>
+                <redstoneFilters>
+                    <itemRedstoneAndFilter id="enderio:redstone_and_filter"/>
+                    <itemRedstoneCountingFilter id="enderio:redstone_counting_filter"/>
+                    <itemRedstoneNandFilter id="enderio:redstone_nand_filter"/>
+                    <itemRedstoneNorFilter id="enderio:redstone_nor_filter"/>
+                    <itemRedstoneNotFilter id="enderio:redstone_not_filter"/>
+                    <itemRedstoneOrFilter id="enderio:redstone_or_filter"/>
+                    <itemRedstoneSensorFilter id="enderio:redstone_sensor_filter"/>
+                    <itemRedstoneTimerFilter id="enderio:redstone_timer_filter"/>
+                    <itemRedstoneToggleFilter id="enderio:redstone_toggle_filter"/>
+                    <itemRedstoneXnorFilter id="enderio:redstone_xnor_filter"/>
+                    <itemRedstoneXorFilter id="enderio:redstone_xor_filter"/>
+                </redstoneFilters>
+                <itemFilters>
+                    <itemAdvancedItemFilter id="enderio:advanced_item_filter"/>
+                    <itemBasicChemicalFilter id="enderio:basic_chemical_filter"/>
+                    <itemBasicFluidFilter id="enderio:basic_fluid_filter"/>
+                    <itemBasicItemFilter id="enderio:basic_item_filter"/>
+                    <itemBasicSoulFilter id="enderio:basic_soul_filter"/>
+                    <itemBigAdvancedItemFilter id="enderio:big_advanced_item_filter"/>
+                    <itemBigItemFilter id="enderio:big_item_filter"/>
+                    <itemLimitedItemFilter id="enderio:limited_item_filter"/>
+                </itemFilters>
+            </filters>
+            <tokens>
+                <itemAnimalToken id="enderio:animal_token"/>
+                <itemMonsterToken id="enderio:monster_token"/>
+                <itemPlayerToken id="enderio:player_token"/>
+            </tokens>
+            <soulVials>
+                <itemSoulVial id="enderio:soul_vial"/>
+                <itemSoulVialFilled id="enderio:soul_vial_filled"/>
+                <itemVoidVial id="enderio:void_vial"/>
+                <itemVoidVialFilled id="enderio:void_vial_filled"/>
+            </soulVials>
+        </utility>
+        <parts>
+            <mechanicalParts>
+                <capacitors>
+                    <itemBasicCapacitor id="enderio:basic_capacitor"/>
+                    <itemDoubleLayerCapacitor id="enderio:double_layer_capacitor"/>
+                    <itemLootCapacitor id="enderio:loot_capacitor"/>
+                    <itemOctadicCapacitor id="enderio:octadic_capacitor"/>
+                </capacitors>
+                <grindingBalls>
+                    <itemConductiveAlloyGrindingBall id="enderio:conductive_alloy_grinding_ball"/>
+                    <itemDarkSteelGrindingBall id="enderio:dark_steel_grinding_ball"/>
+                    <itemEndSteelGrindingBall id="enderio:end_steel_grinding_ball"/>
+                    <itemEnergeticAlloyGrindingBall id="enderio:energetic_alloy_grinding_ball"/>
+                    <itemPulsatingAlloyGrindingBall id="enderio:pulsating_alloy_grinding_ball"/>
+                    <itemRedstoneAlloyGrindingBall id="enderio:redstone_alloy_grinding_ball"/>
+                    <itemSoulariumGrindingBall id="enderio:soularium_grinding_ball"/>
+                    <itemVibrantAlloyGrindingBall id="enderio:vibrant_alloy_grinding_ball"/>
+                </grindingBalls>
+                <gear>
+                    <itemDarkBimetalGear id="enderio:dark_bimetal_gear"/>
+                    <itemEnergizedGear id="enderio:energized_gear"/>
+                    <itemIronGear id="enderio:iron_gear"/>
+                    <itemVibrantGear id="enderio:vibrant_gear"/>
+                </gear>
+                <photovoltaics>
+                    <itemEnergeticPhotovoltaicModule id="enderio:energetic_photovoltaic_module"/>
+                    <itemPhotovoltaicCell id="enderio:photovoltaic_cell"/>
+                    <itemPhotovoltaicComposite id="enderio:photovoltaic_composite"/>
+                    <itemPhotovoltaicPlate id="enderio:photovoltaic_plate"/>
+                    <itemPulsatingPhotovoltaicModule id="enderio:pulsating_photovoltaic_module"/>
+                    <itemVibrantPhotovoltaicModule id="enderio:vibrant_photovoltaic_module"/>
+                </photovoltaics>
+                <otherParts>
+                    <itemEnderResonator id="enderio:ender_resonator"/>
+                    <itemEnsouledChassis id="enderio:ensouled_chassis"/>
+                    <itemFrankNZombie id="enderio:frank_n_zombie"/>
+                    <itemGuardianDiode id="enderio:guardian_diode"/>
+                    <itemIndustrialInsulation id="enderio:industrial_insulation"/>
+                    <itemMindKiller id="enderio:mind_killer"/>
+                    <itemNutritiousStick id="enderio:nutritious_stick"/>
+                    <itemPlantMatterBrown id="enderio:plant_matter_brown"/>
+                    <itemPlantMatterGreen id="enderio:plant_matter_green"/>
+                    <itemSentientEnder id="enderio:sentient_ender"/>
+                    <itemSilicon id="enderio:silicon"/>
+                    <itemSkeletalContractor id="enderio:skeletal_contractor"/>
+                    <itemSoulChain id="enderio:soul_chain"/>
+                    <itemSuspiciousSeed id="enderio:suspicious_seed"/>
+                    <itemVoidChassis id="enderio:void_chassis"/>
+                    <itemZombieElectrode id="enderio:zombie_electrode"/>
+                </otherParts>
+            </mechanicalParts>
+        </parts>
+        <bucket>
+            <enderioBuckets>
+                <itemCloudSeedBucket id="enderio:cloud_seed_bucket"/>
+                <itemCloudSeedConcentratedBucket id="enderio:cloud_seed_concentrated_bucket"/>
+                <itemDewOfTheVoidBucket id="enderio:dew_of_the_void_bucket"/>
+                <itemFireWaterBucket id="enderio:fire_water_bucket"/>
+                <itemHootchBucket id="enderio:hootch_bucket"/>
+                <itemLiquidDarknessBucket id="enderio:liquid_darkness_bucket"/>
+                <itemLiquidSunshineBucket id="enderio:liquid_sunshine_bucket"/>
+                <itemNutrientDistillationBucket id="enderio:nutrient_distillation_bucket"/>
+                <itemRocketFuelBucket id="enderio:rocket_fuel_bucket"/>
+                <itemVaporOfLevityBucket id="enderio:vapor_of_levity_bucket"/>
+                <itemXpJuiceBucket id="enderio:xp_juice_bucket"/>
+            </enderioBuckets>
+        </bucket>
+        <fluidStorage>
+            <fluidTanks>
+                <itemFluidTank id="enderio:fluid_tank"/>
+                <itemPressurizedFluidTank id="enderio:pressurized_fluid_tank"/>
+            </fluidTanks>
+        </fluidStorage>
+        <decoration>
+            <enderioMisc>
+                <itemEnderface id="enderio:enderface"/>
+                <itemEnderios id="enderio:enderios"/>
+                <itemEndermanHead id="enderio:enderman_head"/>
+                <itemNiard id="enderio:niard"/>
+                <itemSoiredne id="enderio:soiredne"/>
+            </enderioMisc>
+        </decoration>
+    </item>
+    <equipment>
+        <tool>
+            <wrench>
+                <itemConduitProbe id="enderio:conduit_probe"/>
+                <itemConduitProbeCopy id="enderio:conduit_probe_copy"/>
+                <itemYetaWrench id="enderio:yeta_wrench"/>
+            </wrench>
+            <enderioTools>
+                <itemColdFireIgniter id="enderio:cold_fire_igniter"/>
+                <itemCoordinateSelector id="enderio:coordinate_selector"/>
+                <itemExperienceRod id="enderio:experience_rod"/>
+                <itemGlider id="enderio:glider"/>
+                <itemGliderWing id="enderio:glider_wing"/>
+                <itemInfinityRod id="enderio:infinity_rod"/>
+                <itemLocationPrintout id="enderio:location_printout"/>
+                <itemStaffOfLevity id="enderio:staff_of_levity"/>
+                <itemStaffOfTravelling id="enderio:staff_of_travelling"/>
+            </enderioTools>
+        </tool>
+        <weapon>
+            <sword>
+                <itemDarkSteelSword id="enderio:dark_steel_sword"/>
+            </sword>
+        </weapon>
+    </equipment>
+    <resources>
+        <miningResources>
+            <ingot>
+                <itemConductiveAlloyIngot id="enderio:conductive_alloy_ingot"/>
+                <itemDarkSteelIngot id="enderio:dark_steel_ingot"/>
+                <itemEndSteelIngot id="enderio:end_steel_ingot"/>
+                <itemEnergeticAlloyIngot id="enderio:energetic_alloy_ingot"/>
+                <itemPulsatingAlloyIngot id="enderio:pulsating_alloy_ingot"/>
+                <itemRedstoneAlloyIngot id="enderio:redstone_alloy_ingot"/>
+                <itemSoulariumIngot id="enderio:soularium_ingot"/>
+                <itemVibrantAlloyIngot id="enderio:vibrant_alloy_ingot"/>
+            </ingot>
+            <nugget>
+                <itemConductiveAlloyNugget id="enderio:conductive_alloy_nugget"/>
+                <itemDarkSteelNugget id="enderio:dark_steel_nugget"/>
+                <itemEndSteelNugget id="enderio:end_steel_nugget"/>
+                <itemEnergeticAlloyNugget id="enderio:energetic_alloy_nugget"/>
+                <itemPulsatingAlloyNugget id="enderio:pulsating_alloy_nugget"/>
+                <itemRedstoneAlloyNugget id="enderio:redstone_alloy_nugget"/>
+                <itemSoulariumNugget id="enderio:soularium_nugget"/>
+                <itemVibrantAlloyNugget id="enderio:vibrant_alloy_nugget"/>
+            </nugget>
+            <dust>
+                <itemConfusingPowder id="enderio:confusing_powder"/>
+                <itemEnderCrystalPowder id="enderio:ender_crystal_powder"/>
+                <itemGrainsOfInfinity id="enderio:grains_of_infinity"/>
+                <itemPowderedCoal id="enderio:powdered_coal"/>
+                <itemPowderedCopper id="enderio:powdered_copper"/>
+                <itemPowderedEnderPearl id="enderio:powdered_ender_pearl"/>
+                <itemPowderedGold id="enderio:powdered_gold"/>
+                <itemPowderedIron id="enderio:powdered_iron"/>
+                <itemPowderedLapisLazuli id="enderio:powdered_lapis_lazuli"/>
+                <itemPowderedObsidian id="enderio:powdered_obsidian"/>
+                <itemPowderedQuartz id="enderio:powdered_quartz"/>
+                <itemPowderedTin id="enderio:powdered_tin"/>
+                <itemPrescientPowder id="enderio:prescient_powder"/>
+                <itemPulsatingPowder id="enderio:pulsating_powder"/>
+                <itemSoulPowder id="enderio:soul_powder"/>
+                <itemVibrantPowder id="enderio:vibrant_powder"/>
+                <itemWitheringPowder id="enderio:withering_powder"/>
+            </dust>
+            <gem>
+                <itemEnderCrystal id="enderio:ender_crystal"/>
+                <itemEnticingCrystal id="enderio:enticing_crystal"/>
+                <itemPrescientCrystal id="enderio:prescient_crystal"/>
+                <itemPulsatingCrystal id="enderio:pulsating_crystal"/>
+                <itemVibrantCrystal id="enderio:vibrant_crystal"/>
+                <itemWeatherCrystal id="enderio:weather_crystal"/>
+            </gem>
+        </miningResources>
+    </resources>
+</stuff>

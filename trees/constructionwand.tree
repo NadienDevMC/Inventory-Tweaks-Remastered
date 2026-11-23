@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <wands>
+                <itemInfinityWand id="constructionwand:infinity_wand"/>
+                <itemDiamondWand id="constructionwand:diamond_wand"/>
+                <itemCoreDestruction id="constructionwand:core_destruction"/>
+                <itemIronWand id="constructionwand:iron_wand"/>
+                <itemStoneWand id="constructionwand:stone_wand"/>
+                <itemCoreAngel id="constructionwand:core_angel"/>
+                <itemCopperWand id="constructionwand:copper_wand"/>
+                <itemCopperWandCoreAngel id="constructionwand:copper_wand_core_angel"/>
+                <itemCopperWandCoreDestruction id="constructionwand:copper_wand_core_destruction"/>
+                <itemCopperWandCoreExchange id="constructionwand:copper_wand_core_exchange"/>
+                <itemCoreExchange id="constructionwand:core_exchange"/>
+                <itemDiamondWandCoreAngel id="constructionwand:diamond_wand_core_angel"/>
+                <itemDiamondWandCoreDestruction id="constructionwand:diamond_wand_core_destruction"/>
+                <itemDiamondWandCoreExchange id="constructionwand:diamond_wand_core_exchange"/>
+                <itemGoldWand id="constructionwand:gold_wand"/>
+                <itemGoldWandCoreAngel id="constructionwand:gold_wand_core_angel"/>
+                <itemGoldWandCoreDestruction id="constructionwand:gold_wand_core_destruction"/>
+                <itemGoldWandCoreExchange id="constructionwand:gold_wand_core_exchange"/>
+                <itemInfinityWandCoreAngel id="constructionwand:infinity_wand_core_angel"/>
+                <itemInfinityWandCoreDestruction id="constructionwand:infinity_wand_core_destruction"/>
+                <itemInfinityWandCoreExchange id="constructionwand:infinity_wand_core_exchange"/>
+                <itemIronWandCoreAngel id="constructionwand:iron_wand_core_angel"/>
+                <itemIronWandCoreDestruction id="constructionwand:iron_wand_core_destruction"/>
+                <itemIronWandCoreExchange id="constructionwand:iron_wand_core_exchange"/>
+                <itemNetheriteWand id="constructionwand:netherite_wand"/>
+                <itemNetheriteWandCoreAngel id="constructionwand:netherite_wand_core_angel"/>
+                <itemNetheriteWandCoreDestruction id="constructionwand:netherite_wand_core_destruction"/>
+                <itemNetheriteWandCoreExchange id="constructionwand:netherite_wand_core_exchange"/>
+                <itemStoneWandCoreAngel id="constructionwand:stone_wand_core_angel"/>
+                <itemStoneWandCoreDestruction id="constructionwand:stone_wand_core_destruction"/>
+                <itemStoneWandCoreExchange id="constructionwand:stone_wand_core_exchange"/>
+                <itemWoodWand id="constructionwand:wood_wand"/>
+                <itemWoodWandCoreAngel id="constructionwand:wood_wand_core_angel"/>
+                <itemWoodWandCoreDestruction id="constructionwand:wood_wand_core_destruction"/>
+                <itemWoodWandCoreExchange id="constructionwand:wood_wand_core_exchange"/>
+            </wands>
+        </tool>
+    </equipment>
+    <item>
+        <parts>
+            <toolUpgrades>
+                <itemEnergyUpgrade id="constructionwand:energy_upgrade"/>
+            </toolUpgrades>
+        </parts>
+        <utility>
+            <storage>
+                <voidStorage>
+                    <voidBags>
+                        <itemVoidSack id="constructionwand:void_sack"/>
+                    </voidBags>
+                </voidStorage>
+            </storage>
+        </utility>
+    </item>
+</stuff>

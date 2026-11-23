@@ -1,0 +1,47 @@
+{
+  "_comment": [
+    "Menus of other mods that Inventory Tweaks knows how to handle. An entry applies to its class and to its subclasses.",
+    "Entries of config/InvTweaks/menu_compat.json (same format) are read after these and win over them.",
+    "Keys: class (required), showButtons (default true), validInventory (default false), validChest (default false),",
+    "largeChest (default false), rowSize (default 9, or \"auto\" to count the chest columns on the screen),",
+    "chestSlots (public method of the menu without parameters returning the number of leading chest slots or a collection",
+    "of the chest slots; without it, every slot that is not the player's inventory is the chest),",
+    "inventoryButtons (default false: the sorting buttons sort the player's inventory and nothing else of the menu is",
+    "ever touched; implies validInventory). Other keys, like comment, are ignored."
+  ],
+  "menus": [
+    {
+      "class": "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageContainerMenuBase",
+      "comment": "Sophisticated Storage (barrels, chests, shulker boxes) and Sophisticated Backpacks. The storage slots come first in the menu; upgrade slots are not menu slots.",
+      "validChest": true,
+      "validInventory": true,
+      "rowSize": "auto",
+      "chestSlots": "getNumberOfStorageInventorySlots"
+    },
+    {
+      "class": "appeng.menu.me.common.MEStorageMenu",
+      "comment": "Applied Energistics 2 terminals: ME, crafting and pattern encoding terminals, their wireless versions and the ME chest. Only the player's inventory is sorted.",
+      "inventoryButtons": true
+    },
+    {
+      "class": "appeng.menu.implementations.PatternAccessTermMenu",
+      "comment": "Applied Energistics 2 pattern access terminal. Only the player's inventory is sorted.",
+      "inventoryButtons": true
+    },
+    {
+      "class": "de.mari_023.ae2wtlib.wct.WCTMenu",
+      "comment": "AE2 Wireless Terminal Library: wireless crafting terminal (also opened by the universal terminal).",
+      "inventoryButtons": true
+    },
+    {
+      "class": "de.mari_023.ae2wtlib.wet.WETMenu",
+      "comment": "AE2 Wireless Terminal Library: wireless pattern encoding terminal (also opened by the universal terminal).",
+      "inventoryButtons": true
+    },
+    {
+      "class": "de.mari_023.ae2wtlib.wat.WATMenu",
+      "comment": "AE2 Wireless Terminal Library: wireless pattern access terminal (also opened by the universal terminal).",
+      "inventoryButtons": true
+    }
+  ]
+}

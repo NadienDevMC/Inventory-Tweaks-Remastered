@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <wrench>
+                <itemWrench id="bigreactors:wrench"/>
+            </wrench>
+        </tool>
+    </equipment>
+    <item>
+        <utility>
+            <readableBooks>
+                <itemErguide id="bigreactors:erguide"/>
+            </readableBooks>
+        </utility>
+        <bucket>
+            <itemBlutoniumBucket id="bigreactors:blutonium_bucket"/>
+            <itemCryomisiBucket id="bigreactors:cryomisi_bucket"/>
+            <itemCyaniteBucket id="bigreactors:cyanite_bucket"/>
+            <itemMagentiteBucket id="bigreactors:magentite_bucket"/>
+            <itemRedfrigiumBucket id="bigreactors:redfrigium_bucket"/>
+            <itemRossiniteBucket id="bigreactors:rossinite_bucket"/>
+            <itemSteamBucket id="bigreactors:steam_bucket"/>
+            <itemTangeriumBucket id="bigreactors:tangerium_bucket"/>
+            <itemVerderiumBucket id="bigreactors:verderium_bucket"/>
+            <itemYelloriumBucket id="bigreactors:yellorium_bucket"/>
+        </bucket>
+    </item>
+    <block>
+        <naturalBlock>
+            <oreBlock>
+                <itemAnglesiteOre id="bigreactors:anglesite_ore"/>
+                <itemBenitoiteOre id="bigreactors:benitoite_ore"/>
+                <itemYelloriteOre id="bigreactors:yellorite_ore"/>
+                <itemDeepslateYelloriteOre id="bigreactors:deepslate_yellorite_ore"/>
+            </oreBlock>
+        </naturalBlock>
+        <manufacturedBlock>
+            <constructionBlock>
+                <oreBlock>
+                    <itemRawYelloriumBlock id="bigreactors:raw_yellorium_block"/>
+                    <itemYelloriumBlock id="bigreactors:yellorium_block"/>
+                    <itemCyaniteBlock id="bigreactors:cyanite_block"/>
+                    <itemBlutoniumBlock id="bigreactors:blutonium_block"/>
+                    <itemGraphiteBlock id="bigreactors:graphite_block"/>
+                    <itemInaniteBlock id="bigreactors:inanite_block"/>
+                    <itemInsaniteBlock id="bigreactors:insanite_block"/>
+                    <itemLudicriteBlock id="bigreactors:ludicrite_block"/>
+                    <itemMagentiteBlock id="bigreactors:magentite_block"/>
+                    <itemRidiculiteBlock id="bigreactors:ridiculite_block"/>
+                </oreBlock>
+            </constructionBlock>
+        </manufacturedBlock>
+        <mechanism>
+            <generators>
+                <nuclearGenerators>
+                    <itemBasicReactorcasing id="bigreactors:basic_reactorcasing"/>
+                    <itemReinforcedReactorcasing id="bigreactors:reinforced_reactorcasing" mergePrevious="true"/>
+                    <itemBasicReactorchargingportfe id="bigreactors:basic_reactorchargingportfe"/>
+                    <itemReinforcedReactorchargingportfe id="bigreactors:reinforced_reactorchargingportfe" mergePrevious="true"/>
+                    <itemReinforcedReactorcomputerport id="bigreactors:reinforced_reactorcomputerport"/>
+                    <itemBasicReactorcontroller id="bigreactors:basic_reactorcontroller"/>
+                    <itemReinforcedReactorcontroller id="bigreactors:reinforced_reactorcontroller" mergePrevious="true"/>
+                    <itemBasicReactorcontrolrod id="bigreactors:basic_reactorcontrolrod"/>
+                    <itemReinforcedReactorcontrolrod id="bigreactors:reinforced_reactorcontrolrod" mergePrevious="true"/>
+                    <itemReinforcedReactorcreativewatergenerator id="bigreactors:reinforced_reactorcreativewatergenerator"/>
+                    <itemReinforcedReactorfluidaccessport id="bigreactors:reinforced_reactorfluidaccessport"/>
+                    <itemReinforcedReactorfluidportForgeActive id="bigreactors:reinforced_reactorfluidport_forge_active"/>
+                    <itemReinforcedReactorfluidportForgePassive id="bigreactors:reinforced_reactorfluidport_forge_passive"/>
+                    <itemReinforcedReactorfluidportMekanismPassive id="bigreactors:reinforced_reactorfluidport_mekanism_passive"/>
+                    <itemBasicReactorfuelrod id="bigreactors:basic_reactorfuelrod"/>
+                    <itemReinforcedReactorfuelrod id="bigreactors:reinforced_reactorfuelrod" mergePrevious="true"/>
+                    <itemBasicReactorglass id="bigreactors:basic_reactorglass"/>
+                    <itemReinforcedReactorglass id="bigreactors:reinforced_reactorglass" mergePrevious="true"/>
+                    <itemBasicReactorpowertapfeActive id="bigreactors:basic_reactorpowertapfe_active"/>
+                    <itemReinforcedReactorpowertapfeActive id="bigreactors:reinforced_reactorpowertapfe_active" mergePrevious="true"/>
+                    <itemBasicReactorpowertapfePassive id="bigreactors:basic_reactorpowertapfe_passive"/>
+                    <itemReinforcedReactorpowertapfePassive id="bigreactors:reinforced_reactorpowertapfe_passive" mergePrevious="true"/>
+                    <itemBasicReactorredstoneport id="bigreactors:basic_reactorredstoneport"/>
+                    <itemReinforcedReactorredstoneport id="bigreactors:reinforced_reactorredstoneport" mergePrevious="true"/>
+                    <itemBasicReactorsolidaccessport id="bigreactors:basic_reactorsolidaccessport"/>
+                    <itemReinforcedReactorsolidaccessport id="bigreactors:reinforced_reactorsolidaccessport" mergePrevious="true"/>
+                </nuclearGenerators>
+                <turbineGenerators>
+                    <itemBasicTurbinecasing id="bigreactors:basic_turbinecasing"/>
+                    <itemReinforcedTurbinecasing id="bigreactors:reinforced_turbinecasing" mergePrevious="true"/>
+                    <itemBasicTurbinechargingportfe id="bigreactors:basic_turbinechargingportfe"/>
+                    <itemReinforcedTurbinechargingportfe id="bigreactors:reinforced_turbinechargingportfe" mergePrevious="true"/>
+                    <itemReinforcedTurbinecomputerport id="bigreactors:reinforced_turbinecomputerport"/>
+                    <itemBasicTurbinecontroller id="bigreactors:basic_turbinecontroller"/>
+                    <itemReinforcedTurbinecontroller id="bigreactors:reinforced_turbinecontroller" mergePrevious="true"/>
+                    <itemBasicTurbinecreativesteamgenerator id="bigreactors:basic_turbinecreativesteamgenerator"/>
+                    <itemReinforcedTurbinecreativesteamgenerator id="bigreactors:reinforced_turbinecreativesteamgenerator" mergePrevious="true"/>
+                    <itemBasicTurbinefluidportForgeActive id="bigreactors:basic_turbinefluidport_forge_active"/>
+                    <itemReinforcedTurbinefluidportForgeActive id="bigreactors:reinforced_turbinefluidport_forge_active" mergePrevious="true"/>
+                    <itemBasicTurbinefluidportForgePassive id="bigreactors:basic_turbinefluidport_forge_passive"/>
+                    <itemReinforcedTurbinefluidportForgePassive id="bigreactors:reinforced_turbinefluidport_forge_passive" mergePrevious="true"/>
+                    <itemBasicTurbineglass id="bigreactors:basic_turbineglass"/>
+                    <itemReinforcedTurbineglass id="bigreactors:reinforced_turbineglass" mergePrevious="true"/>
+                    <itemBasicTurbinepowertapfeActive id="bigreactors:basic_turbinepowertapfe_active"/>
+                    <itemReinforcedTurbinepowertapfeActive id="bigreactors:reinforced_turbinepowertapfe_active" mergePrevious="true"/>
+                    <itemBasicTurbinepowertapfePassive id="bigreactors:basic_turbinepowertapfe_passive"/>
+                    <itemReinforcedTurbinepowertapfePassive id="bigreactors:reinforced_turbinepowertapfe_passive" mergePrevious="true"/>
+                    <itemBasicTurbineredstoneport id="bigreactors:basic_turbineredstoneport"/>
+                    <itemReinforcedTurbineredstoneport id="bigreactors:reinforced_turbineredstoneport" mergePrevious="true"/>
+                    <itemBasicTurbinerotorbearing id="bigreactors:basic_turbinerotorbearing"/>
+                    <itemReinforcedTurbinerotorbearing id="bigreactors:reinforced_turbinerotorbearing" mergePrevious="true"/>
+                    <itemBasicTurbinerotorblade id="bigreactors:basic_turbinerotorblade"/>
+                    <itemReinforcedTurbinerotorblade id="bigreactors:reinforced_turbinerotorblade" mergePrevious="true"/>
+                    <itemBasicTurbinerotorshaft id="bigreactors:basic_turbinerotorshaft"/>
+                    <itemReinforcedTurbinerotorshaft id="bigreactors:reinforced_turbinerotorshaft" mergePrevious="true"/>
+                </turbineGenerators>
+            </generators>
+            <machines>
+                <energizers>
+                    <itemEnergizercasing id="bigreactors:energizercasing"/>
+                    <itemEnergizercell id="bigreactors:energizercell"/>
+                    <itemEnergizerchargingportFe id="bigreactors:energizerchargingport_fe"/>
+                    <itemEnergizercomputerport id="bigreactors:energizercomputerport"/>
+                    <itemEnergizercontroller id="bigreactors:energizercontroller"/>
+                    <itemEnergizerpowerportFe id="bigreactors:energizerpowerport_fe"/>
+                    <itemEnergizerpowerportFeActive id="bigreactors:energizerpowerport_fe_active"/>
+                    <itemEnergycore id="bigreactors:energycore"/>
+                </energizers>
+                <fluidizers>
+                    <itemFluidizercasing id="bigreactors:fluidizercasing"/>
+                    <itemFluidizercontroller id="bigreactors:fluidizercontroller"/>
+                    <itemFluidizerfluidinjector id="bigreactors:fluidizerfluidinjector"/>
+                    <itemFluidizerglass id="bigreactors:fluidizerglass"/>
+                    <itemFluidizeroutputport id="bigreactors:fluidizeroutputport"/>
+                    <itemFluidizerpowerport id="bigreactors:fluidizerpowerport"/>
+                    <itemFluidizersolidinjector id="bigreactors:fluidizersolidinjector"/>
+                </fluidizers>
+                <reprocessors>
+                    <itemReprocessorcasing id="bigreactors:reprocessorcasing"/>
+                    <itemReprocessorcollector id="bigreactors:reprocessorcollector"/>
+                    <itemReprocessorcontroller id="bigreactors:reprocessorcontroller"/>
+                    <itemReprocessorfluidinjector id="bigreactors:reprocessorfluidinjector"/>
+                    <itemReprocessorglass id="bigreactors:reprocessorglass"/>
+                    <itemReprocessoroutputport id="bigreactors:reprocessoroutputport"/>
+                    <itemReprocessorpowerport id="bigreactors:reprocessorpowerport"/>
+                    <itemReprocessorwasteinjector id="bigreactors:reprocessorwasteinjector"/>
+                </reprocessors>
+            </machines>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <itemRawYellorium id="bigreactors:raw_yellorium"/>
+            <itemYelloriumIngot id="bigreactors:yellorium_ingot"/>
+            <itemCyaniteIngot id="bigreactors:cyanite_ingot"/>
+            <itemBlutoniumIngot id="bigreactors:blutonium_ingot"/>
+            <itemGraphiteIngot id="bigreactors:graphite_ingot"/>
+            <itemInaniteIngot id="bigreactors:inanite_ingot"/>
+            <itemInsaniteIngot id="bigreactors:insanite_ingot"/>
+            <itemLudicriteIngot id="bigreactors:ludicrite_ingot"/>
+            <itemMagentiteIngot id="bigreactors:magentite_ingot"/>
+            <itemRidiculiteIngot id="bigreactors:ridiculite_ingot"/>
+            <itemAnglesiteCrystal id="bigreactors:anglesite_crystal"/>
+            <itemBenitoiteCrystal id="bigreactors:benitoite_crystal"/>
+        </miningResources>
+    </resources>
+</stuff>

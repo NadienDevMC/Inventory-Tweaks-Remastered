@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "nadiendev.inventorytweaksrevived.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "EditBoxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

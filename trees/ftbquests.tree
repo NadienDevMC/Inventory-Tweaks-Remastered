@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <manufacturedBlock>
+            <banner>
+                <itemBanner id="ftbquests:banner"/>
+            </banner>
+        </manufacturedBlock>
+        <mechanism>
+            <itemBarrier id="ftbquests:barrier"/>
+            <itemDetector id="ftbquests:detector"/>
+            <itemStageBarrier id="ftbquests:stage_barrier"/>
+            <machines>
+                <questScreens>
+                    <itemScreen1 id="ftbquests:screen_1"/>
+                    <itemScreen3 id="ftbquests:screen_3"/>
+                    <itemScreen5 id="ftbquests:screen_5"/>
+                    <itemScreen7 id="ftbquests:screen_7"/>
+                    <itemTaskScreenConfigurator id="ftbquests:task_screen_configurator"/>
+                </questScreens>
+            </machines>
+        </mechanism>
+    </block>
+    <item>
+        <utility>
+            <itemCustomIcon id="ftbquests:custom_icon"/>
+            <storage>
+                <treasureContainers>
+                    <itemMissingItem id="ftbquests:missing_item"/>
+                    <itemLootcrate id="ftbquests:lootcrate"/>
+                    <itemLootCrateOpener id="ftbquests:loot_crate_opener"/>
+                </treasureContainers>
+            </storage>
+            <readableBooks>
+                <itemBook id="ftbquests:book"/>
+            </readableBooks>
+        </utility>
+    </item>
+</stuff>

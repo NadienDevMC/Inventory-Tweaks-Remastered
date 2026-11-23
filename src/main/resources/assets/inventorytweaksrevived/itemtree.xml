@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <sword>
+                <sword tag="minecraft:swords"/>
+                <ironSword id="iron_sword"/>
+                <diamondSword id="diamond_sword"/>
+                <stoneSword id="stone_sword"/>
+                <goldSword id="golden_sword"/>
+                <woodSword id="wooden_sword"/>
+                <netheriteSword id="netherite_sword"/>
+            </sword>
+            <shield>
+                <shield class="ItemShield"/>
+                <shield id="shield" mergePrevious="true"/>
+            </shield>
+            <munition>
+                <bow class="ItemBow"/>
+                <bow id="bow" mergePrevious="true"/>
+                <crossbow id="crossbow"/>
+                <arrow tag="minecraft:arrows"/>
+                <arrow id="arrow" mergePrevious="true"/>
+                <spectralArrow id="spectral_arrow"/>
+                <tippedArrow id="tipped_arrow"/>
+                <snowball id="snowball"/>
+            </munition>
+            <trident id="trident"/>
+            <mace id="mace"/>
+            <windCharge id="wind_charge"/>
+        </weapon>
+        <tool>
+            <pickaxe>
+                <pickaxe tag="minecraft:pickaxes"/>
+                <diamondPickaxe id="diamond_pickaxe"/>
+                <goldPickaxe id="golden_pickaxe"/>
+                <ironPickaxe id="iron_pickaxe"/>
+                <stonePickaxe id="stone_pickaxe"/>
+                <woodPickaxe id="wooden_pickaxe"/>
+                <netheritePickaxe id="netherite_pickaxe"/>
+            </pickaxe>
+            <shovel>
+                <shovel tag="minecraft:shovels"/>
+                <goldShovel id="golden_shovel"/>
+                <diamondShovel id="diamond_shovel"/>
+                <ironShovel id="iron_shovel"/>
+                <stoneShovel id="stone_shovel"/>
+                <woodShovel id="wooden_shovel"/>
+                <netheriteShovel id="netherite_shovel"/>
+            </shovel>
+            <axe>
+                <axe tag="minecraft:axes"/>
+                <goldAxe id="golden_axe"/>
+                <diamondAxe id="diamond_axe"/>
+                <ironAxe id="iron_axe"/>
+                <stoneAxe id="stone_axe"/>
+                <woodAxe id="wooden_axe"/>
+                <netheriteAxe id="netherite_axe"/>
+            </axe>
+            <hoe>
+                <hoe tag="minecraft:hoes"/>
+                <goldHoe id="golden_hoe"/>
+                <diamondHoe id="diamond_hoe"/>
+                <ironHoe id="iron_hoe"/>
+                <stoneHoe id="stone_hoe"/>
+                <woodHoe id="wooden_hoe"/>
+                <netheriteHoe id="netherite_hoe"/>
+            </hoe>
+            <shears>
+                <ironShears id="shears"/>
+                <shears class="ItemShears" mergePrevious="true"/>
+            </shears>
+            <fishingRod id="fishing_rod"/>
+            <carrotOnAStick id="carrot_on_a_stick"/>
+            <warpedFungusOnAStick id="warped_fungus_on_a_stick"/>
+            <brush id="brush"/>
+            <debugStick id="debug_stick"/>
+        </tool>
+        <armor>
+            <helmet>
+                <helmet tag="minecraft:head_armor"/>
+                <diamondHelmet id="diamond_helmet"/>
+                <chainHelmet id="chainmail_helmet"/>
+                <ironHelmet id="iron_helmet"/>
+                <goldHelmet id="golden_helmet"/>
+                <leatherHelmet id="leather_helmet"/>
+                <netheriteHelmet id="netherite_helmet"/>
+                <turtleHelmet id="turtle_helmet"/>
+            </helmet>
+            <chestplate>
+                <chestplate tag="minecraft:chest_armor"/>
+                <diamondChestplate id="diamond_chestplate"/>
+                <chainChestplate id="chainmail_chestplate"/>
+                <ironChestplate id="iron_chestplate"/>
+                <goldChestplate id="golden_chestplate"/>
+                <leatherChestplate id="leather_chestplate"/>
+                <netheriteChestplate id="netherite_chestplate"/>
+                <elytra id="elytra"/>
+            </chestplate>
+            <leggings>
+                <leggings tag="minecraft:leg_armor"/>
+                <diamondLeggings id="diamond_leggings"/>
+                <chainLeggings id="chainmail_leggings"/>
+                <ironLeggings id="iron_leggings"/>
+                <goldLeggings id="golden_leggings"/>
+                <leatherLeggings id="leather_leggings"/>
+                <netheriteLeggings id="netherite_leggings"/>
+            </leggings>
+            <boots>
+                <boots tag="minecraft:foot_armor"/>
+                <diamondBoots id="diamond_boots"/>
+                <chainBoots id="chainmail_boots"/>
+                <ironBoots id="iron_boots"/>
+                <goldBoots id="golden_boots"/>
+                <leatherBoots id="leather_boots"/>
+                <netheriteBoots id="netherite_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+    <block>
+        <naturalBlock>
+            <stones>
+                <stone>
+                    <rawStone>
+                        <smoothstone id="stone"/>
+                        <granite id="granite"/>
+                        <diorite id="diorite"/>
+                        <andesite id="andesite"/>
+                    </rawStone>
+                    <polishedStone>
+                        <polishedGranite id="polished_granite"/>
+                        <polishedDiorite id="polished_diorite"/>
+                        <polishedAndesite id="polished_andesite"/>
+                        <smoothStoneBlock id="smooth_stone"/>
+                    </polishedStone>
+                </stone>
+                <cobblestone id="cobblestone"/>
+                <mossStone id="mossy_cobblestone"/>
+                <endStones>
+                    <endStone id="end_stone"/>
+                    <whiteStone id="end_stone" mergePrevious="true"/>
+                </endStones>
+                <prismarine>
+                    <rawPrismarine id="prismarine"/>
+                    <prismarineBricks id="prismarine_bricks"/>
+                    <darkPrismarine id="dark_prismarine"/>
+                </prismarine>
+                <purpurBlock id="purpur_block"/>
+                <deepslate>
+                    <deepslate id="deepslate"/>
+                    <cobbledDeepslate id="cobbled_deepslate"/>
+                    <polishedDeepslate id="polished_deepslate"/>
+                    <deepslateBricks id="deepslate_bricks"/>
+                    <deepslateTiles id="deepslate_tiles"/>
+                    <chiseledDeepslate id="chiseled_deepslate"/>
+                    <crackedDeepslateBricks id="cracked_deepslate_bricks"/>
+                    <crackedDeepslateTiles id="cracked_deepslate_tiles"/>
+                </deepslate>
+                <tuff>
+                    <tuff id="tuff"/>
+                    <polishedTuff id="polished_tuff"/>
+                    <tuffBricks id="tuff_bricks"/>
+                    <chiseledTuff id="chiseled_tuff"/>
+                    <chiseledTuffBricks id="chiseled_tuff_bricks"/>
+                </tuff>
+                <blackstone>
+                    <blackstone id="blackstone"/>
+                    <polishedBlackstone id="polished_blackstone"/>
+                    <polishedBlackstoneBricks id="polished_blackstone_bricks"/>
+                    <crackedPolishedBlackstoneBricks id="cracked_polished_blackstone_bricks"/>
+                    <chiseledPolishedBlackstone id="chiseled_polished_blackstone"/>
+                    <gildedBlackstone id="gilded_blackstone"/>
+                </blackstone>
+                <calcite id="calcite"/>
+                <dripstoneBlock id="dripstone_block"/>
+                <pointedDripstone id="pointed_dripstone"/>
+                <basalt id="basalt"/>
+                <polishedBasalt id="polished_basalt"/>
+                <smoothBasalt id="smooth_basalt"/>
+            </stones>
+            <oreBlock>
+                <coalOreBlock id="coal_ore"/>
+                <redstoneOreBlock>
+                    <unlitRedstoneOreBlock id="redstone_ore"/>
+                </redstoneOreBlock>
+                <lapisLazuliOreBlock id="lapis_ore"/>
+                <diamondOreBlock id="diamond_ore"/>
+                <emeraldOreBlock id="emerald_ore"/>
+                <copperOreBlock id="copper_ore"/>
+                <deepslateCoalOreBlock id="deepslate_coal_ore"/>
+                <deepslateIronOreBlock id="deepslate_iron_ore"/>
+                <deepslateCopperOreBlock id="deepslate_copper_ore"/>
+                <deepslateGoldOreBlock id="deepslate_gold_ore"/>
+                <deepslateRedstoneOreBlock id="deepslate_redstone_ore"/>
+                <deepslateLapisOreBlock id="deepslate_lapis_ore"/>
+                <deepslateDiamondOreBlock id="deepslate_diamond_ore"/>
+                <deepslateEmeraldOreBlock id="deepslate_emerald_ore"/>
+                <netherGoldOreBlock id="nether_gold_ore"/>
+                <ancientDebris id="ancient_debris"/>
+            </oreBlock>
+            <dirts>
+                <dirt id="dirt"/>
+                <coarseDirt id="coarse_dirt"/>
+                <grasslessDirt id="coarse_dirt" mergePrevious="true"/>
+                <podzol id="podzol"/>
+                <rootedDirt id="rooted_dirt"/>
+                <mud id="mud"/>
+                <packedMud id="packed_mud"/>
+            </dirts>
+            <wood>
+                <oakWood id="oak_log"/>
+                <birchWood id="birch_log"/>
+                <spruceWood id="spruce_log"/>
+                <jungleWood id="jungle_log"/>
+                <acaciaWood id="acacia_log"/>
+                <darkOakWood id="dark_oak_log"/>
+                <mangroveWood id="mangrove_log"/>
+                <cherryWood id="cherry_log"/>
+                <crimsonStem id="crimson_stem"/>
+                <warpedStem id="warped_stem"/>
+                <bambooBlock id="bamboo_block"/>
+                <strippedOakLog id="stripped_oak_log"/>
+                <strippedBirchLog id="stripped_birch_log"/>
+                <strippedSpruceLog id="stripped_spruce_log"/>
+                <strippedJungleLog id="stripped_jungle_log"/>
+                <strippedAcaciaLog id="stripped_acacia_log"/>
+                <strippedDarkOakLog id="stripped_dark_oak_log"/>
+                <strippedMangroveLog id="stripped_mangrove_log"/>
+                <strippedCherryLog id="stripped_cherry_log"/>
+                <strippedCrimsonStem id="stripped_crimson_stem"/>
+                <strippedWarpedStem id="stripped_warped_stem"/>
+                <strippedBambooBlock id="stripped_bamboo_block"/>
+                <oakWoodBlock id="oak_wood"/>
+                <birchWoodBlock id="birch_wood"/>
+                <spruceWoodBlock id="spruce_wood"/>
+                <jungleWoodBlock id="jungle_wood"/>
+                <acaciaWoodBlock id="acacia_wood"/>
+                <darkOakWoodBlock id="dark_oak_wood"/>
+                <mangroveWoodBlock id="mangrove_wood"/>
+                <cherryWoodBlock id="cherry_wood"/>
+                <crimsonHyphae id="crimson_hyphae"/>
+                <warpedHyphae id="warped_hyphae"/>
+                <strippedOakWood id="stripped_oak_wood"/>
+                <strippedBirchWood id="stripped_birch_wood"/>
+                <strippedSpruceWood id="stripped_spruce_wood"/>
+                <strippedJungleWood id="stripped_jungle_wood"/>
+                <strippedAcaciaWood id="stripped_acacia_wood"/>
+                <strippedDarkOakWood id="stripped_dark_oak_wood"/>
+                <strippedMangroveWood id="stripped_mangrove_wood"/>
+                <strippedCherryWood id="stripped_cherry_wood"/>
+                <strippedCrimsonHyphae id="stripped_crimson_hyphae"/>
+                <strippedWarpedHyphae id="stripped_warped_hyphae"/>
+                <woodDict tag="minecraft:logs"/>
+            </wood>
+            <sands>
+                <sand id="sand"/>
+                <plainSand id="sand" mergePrevious="true"/>
+                <redSand id="red_sand"/>
+                <suspiciousSand id="suspicious_sand"/>
+                <sandstone>
+                    <classicSandstone id="sandstone"/>
+                    <creeperSandstone id="chiseled_sandstone"/>
+                    <smoothSandstone id="smooth_sandstone"/>
+                    <cutSandstone id="cut_sandstone"/>
+                    <redSandstone id="red_sandstone"/>
+                    <chiseledRedSandstone id="chiseled_red_sandstone"/>
+                    <smoothRedSandstone id="smooth_red_sandstone"/>
+                    <cutRedSandstone id="cut_red_sandstone"/>
+                </sandstone>
+            </sands>
+            <gravel id="gravel"/>
+            <suspiciousGravel id="suspicious_gravel"/>
+            <clayBlock id="clay"/>
+            <netherBlock>
+                <glowstoneBlock id="glowstone"/>
+                <netherrack id="netherrack"/>
+                <soulSand id="soul_sand"/>
+                <soulSoil id="soul_soil"/>
+                <quartzOreBlock id="nether_quartz_ore"/>
+                <crimsonNylium id="crimson_nylium"/>
+                <warpedNylium id="warped_nylium"/>
+                <shroomlight id="shroomlight"/>
+                <crimsonRoots id="crimson_roots"/>
+                <warpedRoots id="warped_roots"/>
+                <netherSprouts id="nether_sprouts"/>
+                <weepingVines id="weeping_vines"/>
+                <twistingVines id="twisting_vines"/>
+            </netherBlock>
+            <web id="cobweb"/>
+            <cobweb id="cobweb" mergePrevious="true"/>
+            <monsterSpawner id="spawner"/>
+            <trialSpawner id="trial_spawner"/>
+            <vault id="vault"/>
+            <bedrock id="bedrock"/>
+            <reinforcedDeepslate id="reinforced_deepslate"/>
+            <sponge>
+                <drySponge id="sponge"/>
+                <wetSponge id="wet_sponge"/>
+            </sponge>
+            <grass id="grass_block"/>
+            <grassPath id="dirt_path"/>
+            <mycelium id="mycelium"/>
+            <mushroomGrass id="mycelium" mergePrevious="true"/>
+            <farmland id="farmland"/>
+            <snow id="snow"/>
+            <snowBlock id="snow_block"/>
+            <ice id="ice"/>
+            <packedIce id="packed_ice"/>
+            <blueIce id="blue_ice"/>
+            <endPortalFrame id="end_portal_frame"/>
+            <air id="air"/>
+            <obsidian id="obsidian"/>
+            <cryingObsidian id="crying_obsidian"/>
+            <mushroomBlock>
+                <hugeBrownMushroom id="brown_mushroom_block"/>
+                <hugeRedMushroom id="red_mushroom_block"/>
+                <mushroomStem id="mushroom_stem"/>
+            </mushroomBlock>
+            <dragonEgg id="dragon_egg"/>
+            <turtleEgg id="turtle_egg"/>
+            <snifferEgg id="sniffer_egg"/>
+            <frogspawn id="frogspawn"/>
+            <hiddenSilverfish>
+                <infestedStone id="infested_stone"/>
+                <infestedCobblestone id="infested_cobblestone"/>
+                <infestedStoneBricks id="infested_stone_bricks"/>
+                <infestedMossyStoneBricks id="infested_mossy_stone_bricks"/>
+                <infestedCrackedStoneBricks id="infested_cracked_stone_bricks"/>
+                <infestedChiseledStoneBricks id="infested_chiseled_stone_bricks"/>
+                <infestedDeepslate id="infested_deepslate"/>
+            </hiddenSilverfish>
+            <seaLantern id="sea_lantern"/>
+            <ochreFroglight id="ochre_froglight"/>
+            <verdantFroglight id="verdant_froglight"/>
+            <pearlescentFroglight id="pearlescent_froglight"/>
+            <magma id="magma_block"/>
+            <heavyCore id="heavy_core"/>
+            <amethyst>
+                <amethystBlock id="amethyst_block"/>
+                <buddingAmethyst id="budding_amethyst"/>
+                <smallAmethystBud id="small_amethyst_bud"/>
+                <mediumAmethystBud id="medium_amethyst_bud"/>
+                <largeAmethystBud id="large_amethyst_bud"/>
+                <amethystCluster id="amethyst_cluster"/>
+            </amethyst>
+            <sculkBlocks>
+                <sculkBlock id="sculk"/>
+                <sculkVein id="sculk_vein"/>
+                <sculkCatalyst id="sculk_catalyst"/>
+                <sculkShrieker id="sculk_shrieker"/>
+            </sculkBlocks>
+        </naturalBlock>
+        <wool>
+            <whiteWool id="white_wool"/>
+            <orangeWool id="orange_wool"/>
+            <magentaWool id="magenta_wool"/>
+            <lightBlueWool id="light_blue_wool"/>
+            <yellowWool id="yellow_wool"/>
+            <lightGreenWool id="lime_wool"/>
+            <limeWool id="lime_wool" mergePrevious="true"/>
+            <pinkWool id="pink_wool"/>
+            <grayWool id="gray_wool"/>
+            <lightGrayWool id="light_gray_wool"/>
+            <cyanWool id="cyan_wool"/>
+            <purpleWool id="purple_wool"/>
+            <blueWool id="blue_wool"/>
+            <brownWool id="brown_wool"/>
+            <greenWool id="green_wool"/>
+            <darkGreenWool id="green_wool" mergePrevious="true"/>
+            <redWool id="red_wool"/>
+            <blackWool id="black_wool"/>
+            <woolDict tag="minecraft:wool"/>
+        </wool>
+        <manufacturedBlock>
+            <ladder id="ladder"/>
+            <scaffolding id="scaffolding"/>
+            <fence>
+                <woodenFence>
+                    <oakFence id="oak_fence"/>
+                    <spruceFence id="spruce_fence"/>
+                    <birchFence id="birch_fence"/>
+                    <jungleFence id="jungle_fence"/>
+                    <acaciaFence id="acacia_fence"/>
+                    <darkOakFence id="dark_oak_fence"/>
+                    <mangroveFence id="mangrove_fence"/>
+                    <cherryFence id="cherry_fence"/>
+                    <bambooFence id="bamboo_fence"/>
+                    <crimsonFence id="crimson_fence"/>
+                    <warpedFence id="warped_fence"/>
+                    <woodenFenceDict tag="minecraft:wooden_fences"/>
+                </woodenFence>
+                <netherFence id="nether_brick_fence"/>
+                <netherBrickFence id="nether_brick_fence" mergePrevious="true"/>
+                <fenceDict tag="minecraft:fences"/>
+                <fenceGate>
+                    <oakFenceGate id="oak_fence_gate"/>
+                    <spruceFenceGate id="spruce_fence_gate"/>
+                    <birchFenceGate id="birch_fence_gate"/>
+                    <jungleFenceGate id="jungle_fence_gate"/>
+                    <acaciaFenceGate id="acacia_fence_gate"/>
+                    <darkOakFenceGate id="dark_oak_fence_gate"/>
+                    <mangroveFenceGate id="mangrove_fence_gate"/>
+                    <cherryFenceGate id="cherry_fence_gate"/>
+                    <bambooFenceGate id="bamboo_fence_gate"/>
+                    <crimsonFenceGate id="crimson_fence_gate"/>
+                    <warpedFenceGate id="warped_fence_gate"/>
+                    <fenceGateDict tag="minecraft:fence_gates"/>
+                </fenceGate>
+            </fence>
+            <carpet>
+                <whiteCarpet id="white_carpet"/>
+                <orangeCarpet id="orange_carpet"/>
+                <magentaCarpet id="magenta_carpet"/>
+                <lightBlueCarpet id="light_blue_carpet"/>
+                <yellowCarpet id="yellow_carpet"/>
+                <lightGreenCarpet id="lime_carpet"/>
+                <limeCarpet id="lime_carpet" mergePrevious="true"/>
+                <pinkCarpet id="pink_carpet"/>
+                <grayCarpet id="gray_carpet"/>
+                <lightGrayCarpet id="light_gray_carpet"/>
+                <cyanCarpet id="cyan_carpet"/>
+                <purpleCarpet id="purple_carpet"/>
+                <blueCarpet id="blue_carpet"/>
+                <brownCarpet id="brown_carpet"/>
+                <greenCarpet id="green_carpet"/>
+                <darkGreenCarpet id="green_carpet" mergePrevious="true"/>
+                <redCarpet id="red_carpet"/>
+                <blackCarpet id="black_carpet"/>
+                <mossCarpet id="moss_carpet"/>
+                <carpetDict tag="minecraft:wool_carpets"/>
+            </carpet>
+            <stoneWall>
+                <cobblestoneWall id="cobblestone_wall"/>
+                <mossyCobblestoneWall id="mossy_cobblestone_wall"/>
+                <stoneBrickWall id="stone_brick_wall"/>
+                <mossyStoneBrickWall id="mossy_stone_brick_wall"/>
+                <brickWall id="brick_wall"/>
+                <sandstoneWall id="sandstone_wall"/>
+                <redSandstoneWall id="red_sandstone_wall"/>
+                <netherBrickWall id="nether_brick_wall"/>
+                <redNetherBrickWall id="red_nether_brick_wall"/>
+                <endStoneBrickWall id="end_stone_brick_wall"/>
+                <prismarineWall id="prismarine_wall"/>
+                <graniteWall id="granite_wall"/>
+                <dioriteWall id="diorite_wall"/>
+                <andesiteWall id="andesite_wall"/>
+                <blackstoneWall id="blackstone_wall"/>
+                <polishedBlackstoneWall id="polished_blackstone_wall"/>
+                <polishedBlackstoneBrickWall id="polished_blackstone_brick_wall"/>
+                <deepslateBrickWall id="deepslate_brick_wall"/>
+                <deepslateTileWall id="deepslate_tile_wall"/>
+                <cobbledDeepslateWall id="cobbled_deepslate_wall"/>
+                <polishedDeepslateWall id="polished_deepslate_wall"/>
+                <mudBrickWall id="mud_brick_wall"/>
+                <tuffWall id="tuff_wall"/>
+                <polishedTuffWall id="polished_tuff_wall"/>
+                <tuffBrickWall id="tuff_brick_wall"/>
+                <wallDict tag="minecraft:walls"/>
+            </stoneWall>
+            <jackOLantern id="jack_o_lantern"/>
+            <constructionBlock>
+                <woodenPlank>
+                    <oakPlank id="oak_planks"/>
+                    <sprucePlank id="spruce_planks"/>
+                    <birchPlank id="birch_planks"/>
+                    <junglePlank id="jungle_planks"/>
+                    <acaciaPlank id="acacia_planks"/>
+                    <darkOakPlank id="dark_oak_planks"/>
+                    <mangrovePlank id="mangrove_planks"/>
+                    <cherryPlank id="cherry_planks"/>
+                    <bambooPlank id="bamboo_planks"/>
+                    <crimsonPlank id="crimson_planks"/>
+                    <warpedPlank id="warped_planks"/>
+                    <bambooMosaic id="bamboo_mosaic"/>
+                    <woodenPlankDict tag="minecraft:planks"/>
+                </woodenPlank>
+                <bricks>
+                    <brick id="bricks"/>
+                    <brickBlock id="bricks" mergePrevious="true"/>
+                    <stoneBricks>
+                        <normalStoneBrick id="stone_bricks"/>
+                        <mossyStoneBrick id="mossy_stone_bricks"/>
+                        <crackedStoneBrick id="cracked_stone_bricks"/>
+                        <circleStoneBrick id="chiseled_stone_bricks"/>
+                        <chiseledStoneBrick id="chiseled_stone_bricks" mergePrevious="true"/>
+                        <endStoneBricks id="end_stone_bricks"/>
+                    </stoneBricks>
+                    <netherBricks>
+                        <netherBrick id="nether_bricks"/>
+                        <redNetherBrick id="red_nether_bricks"/>
+                        <crackedNetherBricks id="cracked_nether_bricks"/>
+                        <chiseledNetherBricks id="chiseled_nether_bricks"/>
+                    </netherBricks>
+                    <mudBricks id="mud_bricks"/>
+                </bricks>
+                <hardenedClay id="terracotta"/>
+                <stainedClay>
+                    <whiteStainedClay id="white_terracotta"/>
+                    <orangeStainedClay id="orange_terracotta"/>
+                    <magentaStainedClay id="magenta_terracotta"/>
+                    <lightBlueStainedClay id="light_blue_terracotta"/>
+                    <yellowStainedClay id="yellow_terracotta"/>
+                    <lightGreenStainedClay id="lime_terracotta"/>
+                    <limeStainedClay id="lime_terracotta" mergePrevious="true"/>
+                    <pinkStainedClay id="pink_terracotta"/>
+                    <grayStainedClay id="gray_terracotta"/>
+                    <lightGrayStainedClay id="light_gray_terracotta"/>
+                    <cyanStainedClay id="cyan_terracotta"/>
+                    <purpleStainedClay id="purple_terracotta"/>
+                    <blueStainedClay id="blue_terracotta"/>
+                    <brownStainedClay id="brown_terracotta"/>
+                    <greenStainedClay id="green_terracotta"/>
+                    <darkGreenStainedClay id="green_terracotta" mergePrevious="true"/>
+                    <redStainedClay id="red_terracotta"/>
+                    <blackStainedClay id="black_terracotta"/>
+                    <terracottaDict tag="minecraft:terracotta"/>
+                </stainedClay>
+                <concrete>
+                    <whiteConcrete id="white_concrete"/>
+                    <orangeConcrete id="orange_concrete"/>
+                    <magentaConcrete id="magenta_concrete"/>
+                    <lightBlueConcrete id="light_blue_concrete"/>
+                    <yellowConcrete id="yellow_concrete"/>
+                    <lightGreenConcrete id="lime_concrete"/>
+                    <limeConcrete id="lime_concrete" mergePrevious="true"/>
+                    <pinkConcrete id="pink_concrete"/>
+                    <grayConcrete id="gray_concrete"/>
+                    <lightGrayConcrete id="light_gray_concrete"/>
+                    <cyanConcrete id="cyan_concrete"/>
+                    <purpleConcrete id="purple_concrete"/>
+                    <blueConcrete id="blue_concrete"/>
+                    <brownConcrete id="brown_concrete"/>
+                    <greenConcrete id="green_concrete"/>
+                    <darkGreenConcrete id="green_concrete" mergePrevious="true"/>
+                    <redConcrete id="red_concrete"/>
+                    <blackConcrete id="black_concrete"/>
+                </concrete>
+                <concretePowder>
+                    <whiteConcretePowder id="white_concrete_powder"/>
+                    <orangeConcretePowder id="orange_concrete_powder"/>
+                    <magentaConcretePowder id="magenta_concrete_powder"/>
+                    <lightBlueConcretePowder id="light_blue_concrete_powder"/>
+                    <yellowConcretePowder id="yellow_concrete_powder"/>
+                    <lightGreenConcretePowder id="lime_concrete_powder"/>
+                    <limeConcretePowder id="lime_concrete_powder" mergePrevious="true"/>
+                    <pinkConcretePowder id="pink_concrete_powder"/>
+                    <grayConcretePowder id="gray_concrete_powder"/>
+                    <lightGrayConcretePowder id="light_gray_concrete_powder"/>
+                    <cyanConcretePowder id="cyan_concrete_powder"/>
+                    <purpleConcretePowder id="purple_concrete_powder"/>
+                    <blueConcretePowder id="blue_concrete_powder"/>
+                    <brownConcretePowder id="brown_concrete_powder"/>
+                    <greenConcretePowder id="green_concrete_powder"/>
+                    <darkGreenConcretePowder id="green_concrete_powder" mergePrevious="true"/>
+                    <redConcretePowder id="red_concrete_powder"/>
+                    <blackConcretePowder id="black_concrete_powder"/>
+                </concretePowder>
+                <glazedTerracotta>
+                    <whiteGlazedTerracotta id="white_glazed_terracotta"/>
+                    <orangeGlazedTerracotta id="orange_glazed_terracotta"/>
+                    <magentaGlazedTerracotta id="magenta_glazed_terracotta"/>
+                    <lightBlueGlazedTerracotta id="light_blue_glazed_terracotta"/>
+                    <yellowGlazedTerracotta id="yellow_glazed_terracotta"/>
+                    <lightGreenGlazedTerracotta id="lime_glazed_terracotta"/>
+                    <limeGlazedTerracotta id="lime_glazed_terracotta" mergePrevious="true"/>
+                    <pinkGlazedTerracotta id="pink_glazed_terracotta"/>
+                    <grayGlazedTerracotta id="gray_glazed_terracotta"/>
+                    <lightGrayGlazedTerracotta id="light_gray_glazed_terracotta"/>
+                    <cyanGlazedTerracotta id="cyan_glazed_terracotta"/>
+                    <purpleGlazedTerracotta id="purple_glazed_terracotta"/>
+                    <blueGlazedTerracotta id="blue_glazed_terracotta"/>
+                    <brownGlazedTerracotta id="brown_glazed_terracotta"/>
+                    <greenGlazedTerracotta id="green_glazed_terracotta"/>
+                    <darkGreenGlazedTerracotta id="green_glazed_terracotta" mergePrevious="true"/>
+                    <redGlazedTerracotta id="red_glazed_terracotta"/>
+                    <blackGlazedTerracotta id="black_glazed_terracotta"/>
+                    <silverGlazedTerracotta id="light_gray_glazed_terracotta" mergePrevious="true"/>
+                </glazedTerracotta>
+                <glass>
+                    <glassBlock id="glass"/>
+                    <glassPane id="glass_pane"/>
+                    <tintedGlass id="tinted_glass"/>
+                </glass>
+                <stainedGlass>
+                    <stainedGlassBlock>
+                        <whiteStainedGlassBlock id="white_stained_glass"/>
+                        <orangeStainedGlassBlock id="orange_stained_glass"/>
+                        <magentaStainedGlassBlock id="magenta_stained_glass"/>
+                        <lightBlueStainedGlassBlock id="light_blue_stained_glass"/>
+                        <yellowStainedGlassBlock id="yellow_stained_glass"/>
+                        <lightGreenStainedGlassBlock id="lime_stained_glass"/>
+                        <limeStainedGlassBlock id="lime_stained_glass" mergePrevious="true"/>
+                        <pinkStainedGlassBlock id="pink_stained_glass"/>
+                        <grayStainedGlassBlock id="gray_stained_glass"/>
+                        <lightGrayStainedGlassBlock id="light_gray_stained_glass"/>
+                        <cyanStainedGlassBlock id="cyan_stained_glass"/>
+                        <purpleStainedGlassBlock id="purple_stained_glass"/>
+                        <blueStainedGlassBlock id="blue_stained_glass"/>
+                        <brownStainedGlassBlock id="brown_stained_glass"/>
+                        <greenStainedGlassBlock id="green_stained_glass"/>
+                        <darkGreenStainedGlassBlock id="green_stained_glass" mergePrevious="true"/>
+                        <redStainedGlassBlock id="red_stained_glass"/>
+                        <blackStainedGlassBlock id="black_stained_glass"/>
+                    </stainedGlassBlock>
+                    <stainedGlassPane>
+                        <whiteStainedGlassPane id="white_stained_glass_pane"/>
+                        <orangeStainedGlassPane id="orange_stained_glass_pane"/>
+                        <magentaStainedGlassPane id="magenta_stained_glass_pane"/>
+                        <lightBlueStainedGlassPane id="light_blue_stained_glass_pane"/>
+                        <yellowStainedGlassPane id="yellow_stained_glass_pane"/>
+                        <lightGreenStainedGlassPane id="lime_stained_glass_pane"/>
+                        <limeStainedGlassPane id="lime_stained_glass_pane" mergePrevious="true"/>
+                        <pinkStainedGlassPane id="pink_stained_glass_pane"/>
+                        <grayStainedGlassPane id="gray_stained_glass_pane"/>
+                        <lightGrayStainedGlassPane id="light_gray_stained_glass_pane"/>
+                        <cyanStainedGlassPane id="cyan_stained_glass_pane"/>
+                        <purpleStainedGlassPane id="purple_stained_glass_pane"/>
+                        <blueStainedGlassPane id="blue_stained_glass_pane"/>
+                        <brownStainedGlassPane id="brown_stained_glass_pane"/>
+                        <greenStainedGlassPane id="green_stained_glass_pane"/>
+                        <darkGreenStainedGlassPane id="green_stained_glass_pane" mergePrevious="true"/>
+                        <redStainedGlassPane id="red_stained_glass_pane"/>
+                        <blackStainedGlassPane id="black_stained_glass_pane"/>
+                    </stainedGlassPane>
+                </stainedGlass>
+                <ironBars id="iron_bars"/>
+                <chain id="chain"/>
+                <stairs>
+                    <woodenStairs>
+                        <oakWoodStairs id="oak_stairs"/>
+                        <spruceWoodStairs id="spruce_stairs"/>
+                        <birchWoodStairs id="birch_stairs"/>
+                        <jungleWoodStairs id="jungle_stairs"/>
+                        <acaciaWoodStairs id="acacia_stairs"/>
+                        <darkOakWoodStairs id="dark_oak_stairs"/>
+                        <mangroveWoodStairs id="mangrove_stairs"/>
+                        <cherryWoodStairs id="cherry_stairs"/>
+                        <bambooWoodStairs id="bamboo_stairs"/>
+                        <crimsonWoodStairs id="crimson_stairs"/>
+                        <warpedWoodStairs id="warped_stairs"/>
+                        <bambooMosaicStairs id="bamboo_mosaic_stairs"/>
+                        <woodenStairsDict tag="minecraft:wooden_stairs"/>
+                    </woodenStairs>
+                    <cobblestoneStairs id="cobblestone_stairs"/>
+                    <stoneStairs id="stone_stairs"/>
+                    <stoneBrickStairs id="stone_brick_stairs"/>
+                    <brickStairs id="brick_stairs"/>
+                    <netherStairs id="nether_brick_stairs"/>
+                    <netherBrickStairs id="nether_brick_stairs" mergePrevious="true"/>
+                    <sandstoneStairs id="sandstone_stairs"/>
+                    <quartzStairs id="quartz_stairs"/>
+                    <purpurStairs id="purpur_stairs"/>
+                    <graniteStairs id="granite_stairs"/>
+                    <polishedGraniteStairs id="polished_granite_stairs"/>
+                    <dioriteStairs id="diorite_stairs"/>
+                    <polishedDioriteStairs id="polished_diorite_stairs"/>
+                    <andesiteStairs id="andesite_stairs"/>
+                    <polishedAndesiteStairs id="polished_andesite_stairs"/>
+                    <mossyCobblestoneStairs id="mossy_cobblestone_stairs"/>
+                    <mossyStoneBrickStairs id="mossy_stone_brick_stairs"/>
+                    <smoothSandstoneStairs id="smooth_sandstone_stairs"/>
+                    <redSandstoneStairs id="red_sandstone_stairs"/>
+                    <smoothRedSandstoneStairs id="smooth_red_sandstone_stairs"/>
+                    <prismarineStairs id="prismarine_stairs"/>
+                    <prismarineBrickStairs id="prismarine_brick_stairs"/>
+                    <darkPrismarineStairs id="dark_prismarine_stairs"/>
+                    <redNetherBrickStairs id="red_nether_brick_stairs"/>
+                    <endStoneBrickStairs id="end_stone_brick_stairs"/>
+                    <smoothQuartzStairs id="smooth_quartz_stairs"/>
+                    <mudBrickStairs id="mud_brick_stairs"/>
+                    <cobbledDeepslateStairs id="cobbled_deepslate_stairs"/>
+                    <polishedDeepslateStairs id="polished_deepslate_stairs"/>
+                    <deepslateBrickStairs id="deepslate_brick_stairs"/>
+                    <deepslateTileStairs id="deepslate_tile_stairs"/>
+                    <blackstoneStairs id="blackstone_stairs"/>
+                    <polishedBlackstoneStairs id="polished_blackstone_stairs"/>
+                    <polishedBlackstoneBrickStairs id="polished_blackstone_brick_stairs"/>
+                    <tuffStairs id="tuff_stairs"/>
+                    <polishedTuffStairs id="polished_tuff_stairs"/>
+                    <tuffBrickStairs id="tuff_brick_stairs"/>
+                    <cutCopperStairs id="cut_copper_stairs"/>
+                    <exposedCutCopperStairs id="exposed_cut_copper_stairs"/>
+                    <weatheredCutCopperStairs id="weathered_cut_copper_stairs"/>
+                    <oxidizedCutCopperStairs id="oxidized_cut_copper_stairs"/>
+                    <waxedCutCopperStairs id="waxed_cut_copper_stairs"/>
+                    <waxedExposedCutCopperStairs id="waxed_exposed_cut_copper_stairs"/>
+                    <waxedWeatheredCutCopperStairs id="waxed_weathered_cut_copper_stairs"/>
+                    <waxedOxidizedCutCopperStairs id="waxed_oxidized_cut_copper_stairs"/>
+                    <stairsDict tag="minecraft:stairs"/>
+                </stairs>
+                <slabs>
+                    <woodenSlabs>
+                        <oakWoodSlab id="oak_slab"/>
+                        <spruceWoodSlab id="spruce_slab"/>
+                        <birchWoodSlab id="birch_slab"/>
+                        <jungleWoodSlab id="jungle_slab"/>
+                        <acaciaWoodSlab id="acacia_slab"/>
+                        <darkOakWoodSlab id="dark_oak_slab"/>
+                        <mangroveWoodSlab id="mangrove_slab"/>
+                        <cherryWoodSlab id="cherry_slab"/>
+                        <bambooWoodSlab id="bamboo_slab"/>
+                        <crimsonWoodSlab id="crimson_slab"/>
+                        <warpedWoodSlab id="warped_slab"/>
+                        <bambooMosaicSlab id="bamboo_mosaic_slab"/>
+                        <woodenSlabsDict tag="minecraft:wooden_slabs"/>
+                    </woodenSlabs>
+                    <stoneSlab id="stone_slab"/>
+                    <smoothStoneSlab id="smooth_stone_slab"/>
+                    <sandstoneSlab id="sandstone_slab"/>
+                    <cobblestoneSlab id="cobblestone_slab"/>
+                    <brickSlab id="brick_slab"/>
+                    <stoneBrickSlab id="stone_brick_slab"/>
+                    <netherBrickSlab id="nether_brick_slab"/>
+                    <quartzSlab id="quartz_slab"/>
+                    <purpurSlab id="purpur_slab"/>
+                    <graniteSlab id="granite_slab"/>
+                    <polishedGraniteSlab id="polished_granite_slab"/>
+                    <dioriteSlab id="diorite_slab"/>
+                    <polishedDioriteSlab id="polished_diorite_slab"/>
+                    <andesiteSlab id="andesite_slab"/>
+                    <polishedAndesiteSlab id="polished_andesite_slab"/>
+                    <mossyCobblestoneSlab id="mossy_cobblestone_slab"/>
+                    <mossyStoneBrickSlab id="mossy_stone_brick_slab"/>
+                    <cutSandstoneSlab id="cut_sandstone_slab"/>
+                    <smoothSandstoneSlab id="smooth_sandstone_slab"/>
+                    <redSandstoneSlab id="red_sandstone_slab"/>
+                    <smoothRedSandstoneSlab id="smooth_red_sandstone_slab"/>
+                    <prismarineSlab id="prismarine_slab"/>
+                    <prismarineBrickSlab id="prismarine_brick_slab"/>
+                    <darkPrismarineSlab id="dark_prismarine_slab"/>
+                    <redNetherBrickSlab id="red_nether_brick_slab"/>
+                    <endStoneBrickSlab id="end_stone_brick_slab"/>
+                    <smoothQuartzSlab id="smooth_quartz_slab"/>
+                    <mudBrickSlab id="mud_brick_slab"/>
+                    <cobbledDeepslateSlab id="cobbled_deepslate_slab"/>
+                    <polishedDeepslateSlab id="polished_deepslate_slab"/>
+                    <deepslateBrickSlab id="deepslate_brick_slab"/>
+                    <deepslateTileSlab id="deepslate_tile_slab"/>
+                    <blackstoneSlab id="blackstone_slab"/>
+                    <polishedBlackstoneSlab id="polished_blackstone_slab"/>
+                    <polishedBlackstoneBrickSlab id="polished_blackstone_brick_slab"/>
+                    <tuffSlab id="tuff_slab"/>
+                    <polishedTuffSlab id="polished_tuff_slab"/>
+                    <tuffBrickSlab id="tuff_brick_slab"/>
+                    <cutRedSandstoneSlab id="cut_red_sandstone_slab"/>
+                    <petrifiedOakSlab id="petrified_oak_slab"/>
+                    <cutCopperSlab id="cut_copper_slab"/>
+                    <exposedCutCopperSlab id="exposed_cut_copper_slab"/>
+                    <weatheredCutCopperSlab id="weathered_cut_copper_slab"/>
+                    <oxidizedCutCopperSlab id="oxidized_cut_copper_slab"/>
+                    <waxedCutCopperSlab id="waxed_cut_copper_slab"/>
+                    <waxedExposedCutCopperSlab id="waxed_exposed_cut_copper_slab"/>
+                    <waxedWeatheredCutCopperSlab id="waxed_weathered_cut_copper_slab"/>
+                    <waxedOxidizedCutCopperSlab id="waxed_oxidized_cut_copper_slab"/>
+                    <slabsDict tag="minecraft:slabs"/>
+                </slabs>
+                <oreBlock>
+                    <coalBlock id="coal_block"/>
+                    <ironBlock id="iron_block"/>
+                    <goldBlock id="gold_block"/>
+                    <redstoneBlock id="redstone_block"/>
+                    <lapisLazuliBlock id="lapis_block"/>
+                    <diamondBlock id="diamond_block"/>
+                    <emeraldBlock id="emerald_block"/>
+                    <quartzBlock id="quartz_block"/>
+                    <chiseledQuartzBlock id="chiseled_quartz_block"/>
+                    <quartzBricks id="quartz_bricks"/>
+                    <quartzPillar id="quartz_pillar"/>
+                    <smoothQuartz id="smooth_quartz"/>
+                    <copperBlock id="copper_block"/>
+                    <netheriteBlock id="netherite_block"/>
+                    <rawIronBlock id="raw_iron_block"/>
+                    <rawGoldBlock id="raw_gold_block"/>
+                    <rawCopperBlock id="raw_copper_block"/>
+                </oreBlock>
+                <copperBlocks>
+                    <exposedCopper id="exposed_copper"/>
+                    <weatheredCopper id="weathered_copper"/>
+                    <oxidizedCopper id="oxidized_copper"/>
+                    <waxedCopperBlock id="waxed_copper_block"/>
+                    <waxedExposedCopper id="waxed_exposed_copper"/>
+                    <waxedWeatheredCopper id="waxed_weathered_copper"/>
+                    <waxedOxidizedCopper id="waxed_oxidized_copper"/>
+                    <chiseledCopperBlocks>
+                        <chiseledCopper id="chiseled_copper"/>
+                        <exposedChiseledCopper id="exposed_chiseled_copper"/>
+                        <weatheredChiseledCopper id="weathered_chiseled_copper"/>
+                        <oxidizedChiseledCopper id="oxidized_chiseled_copper"/>
+                        <waxedChiseledCopper id="waxed_chiseled_copper"/>
+                        <waxedExposedChiseledCopper id="waxed_exposed_chiseled_copper"/>
+                        <waxedWeatheredChiseledCopper id="waxed_weathered_chiseled_copper"/>
+                        <waxedOxidizedChiseledCopper id="waxed_oxidized_chiseled_copper"/>
+                    </chiseledCopperBlocks>
+                    <copperGrates>
+                        <copperGrate id="copper_grate"/>
+                        <exposedCopperGrate id="exposed_copper_grate"/>
+                        <weatheredCopperGrate id="weathered_copper_grate"/>
+                        <oxidizedCopperGrate id="oxidized_copper_grate"/>
+                        <waxedCopperGrate id="waxed_copper_grate"/>
+                        <waxedExposedCopperGrate id="waxed_exposed_copper_grate"/>
+                        <waxedWeatheredCopperGrate id="waxed_weathered_copper_grate"/>
+                        <waxedOxidizedCopperGrate id="waxed_oxidized_copper_grate"/>
+                    </copperGrates>
+                    <cutCopperBlocks>
+                        <cutCopper id="cut_copper"/>
+                        <exposedCutCopper id="exposed_cut_copper"/>
+                        <weatheredCutCopper id="weathered_cut_copper"/>
+                        <oxidizedCutCopper id="oxidized_cut_copper"/>
+                        <waxedCutCopper id="waxed_cut_copper"/>
+                        <waxedExposedCutCopper id="waxed_exposed_cut_copper"/>
+                        <waxedWeatheredCutCopper id="waxed_weathered_cut_copper"/>
+                        <waxedOxidizedCutCopper id="waxed_oxidized_cut_copper"/>
+                    </cutCopperBlocks>
+                </copperBlocks>
+                <hayBale id="hay_block"/>
+                <driedKelpBlock id="dried_kelp_block"/>
+                <honeycombBlock id="honeycomb_block"/>
+                <stick id="stick"/>
+                <stickDict tag="c:rods/wooden"/>
+                <purpurPillar id="purpur_pillar"/>
+                <netherWartBlock id="nether_wart_block"/>
+                <warpedWartBlock id="warped_wart_block"/>
+                <boneBlock id="bone_block"/>
+            </constructionBlock>
+            <banner>
+                <whiteBanner id="white_banner"/>
+                <orangeBanner id="orange_banner"/>
+                <magentaBanner id="magenta_banner"/>
+                <lightBlueBanner id="light_blue_banner"/>
+                <yellowBanner id="yellow_banner"/>
+                <limeBanner id="lime_banner"/>
+                <pinkBanner id="pink_banner"/>
+                <grayBanner id="gray_banner"/>
+                <lightGrayBanner id="light_gray_banner"/>
+                <cyanBanner id="cyan_banner"/>
+                <purpleBanner id="purple_banner"/>
+                <blueBanner id="blue_banner"/>
+                <brownBanner id="brown_banner"/>
+                <greenBanner id="green_banner"/>
+                <redBanner id="red_banner"/>
+                <blackBanner id="black_banner"/>
+                <itemBanner tag="minecraft:banners"/>
+                <bannerPattern>
+                    <creeperBannerPattern id="creeper_banner_pattern"/>
+                    <skullBannerPattern id="skull_banner_pattern"/>
+                    <flowerBannerPattern id="flower_banner_pattern"/>
+                    <mojangBannerPattern id="mojang_banner_pattern"/>
+                    <globeBannerPattern id="globe_banner_pattern"/>
+                    <piglinBannerPattern id="piglin_banner_pattern"/>
+                    <flowBannerPattern id="flow_banner_pattern"/>
+                    <gusterBannerPattern id="guster_banner_pattern"/>
+                </bannerPattern>
+            </banner>
+            <itemBlock>
+                <cauldronBlock id="cauldron"/>
+                <brewingStandBlock id="brewing_stand"/>
+            </itemBlock>
+        </manufacturedBlock>
+        <mechanism>
+            <rails>
+                <simpleRails id="rail"/>
+                <poweredRails id="powered_rail"/>
+                <detectorRails id="detector_rail"/>
+                <activatorRails id="activator_rail"/>
+                <railDict tag="minecraft:rails"/>
+            </rails>
+            <lighting>
+                <torch id="torch"/>
+                <soulTorch id="soul_torch"/>
+                <lantern id="lantern"/>
+                <soulLantern id="soul_lantern"/>
+                <campfire id="campfire"/>
+                <soulCampfire id="soul_campfire"/>
+                <lamp id="redstone_lamp"/>
+                <redstoneLamp id="redstone_lamp" mergePrevious="true"/>
+                <copperBulb id="copper_bulb"/>
+                <exposedCopperBulb id="exposed_copper_bulb"/>
+                <weatheredCopperBulb id="weathered_copper_bulb"/>
+                <oxidizedCopperBulb id="oxidized_copper_bulb"/>
+                <waxedCopperBulb id="waxed_copper_bulb"/>
+                <waxedExposedCopperBulb id="waxed_exposed_copper_bulb"/>
+                <waxedWeatheredCopperBulb id="waxed_weathered_copper_bulb"/>
+                <waxedOxidizedCopperBulb id="waxed_oxidized_copper_bulb"/>
+            </lighting>
+            <pistons>
+                <piston id="piston"/>
+                <stickyPiston id="sticky_piston"/>
+            </pistons>
+            <lever id="lever"/>
+            <pressurePlates>
+                <pressurePlateWood tag="minecraft:wooden_pressure_plates"/>
+                <oakPressurePlate id="oak_pressure_plate"/>
+                <sprucePressurePlate id="spruce_pressure_plate"/>
+                <birchPressurePlate id="birch_pressure_plate"/>
+                <junglePressurePlate id="jungle_pressure_plate"/>
+                <acaciaPressurePlate id="acacia_pressure_plate"/>
+                <darkOakPressurePlate id="dark_oak_pressure_plate"/>
+                <mangrovePressurePlate id="mangrove_pressure_plate"/>
+                <cherryPressurePlate id="cherry_pressure_plate"/>
+                <bambooPressurePlate id="bamboo_pressure_plate"/>
+                <crimsonPressurePlate id="crimson_pressure_plate"/>
+                <warpedPressurePlate id="warped_pressure_plate"/>
+                <pressurePlateStone id="stone_pressure_plate"/>
+                <pressurePlatePolishedBlackstone id="polished_blackstone_pressure_plate"/>
+                <weightedPressurePlates>
+                    <weightedPressurePlateLight id="light_weighted_pressure_plate"/>
+                    <weightedPressurePlateHeavy id="heavy_weighted_pressure_plate"/>
+                </weightedPressurePlates>
+            </pressurePlates>
+            <buttons>
+                <stoneButton id="stone_button"/>
+                <polishedBlackstoneButton id="polished_blackstone_button"/>
+                <woodenButton tag="minecraft:wooden_buttons"/>
+                <oakButton id="oak_button"/>
+                <spruceButton id="spruce_button"/>
+                <birchButton id="birch_button"/>
+                <jungleButton id="jungle_button"/>
+                <acaciaButton id="acacia_button"/>
+                <darkOakButton id="dark_oak_button"/>
+                <mangroveButton id="mangrove_button"/>
+                <cherryButton id="cherry_button"/>
+                <bambooButton id="bamboo_button"/>
+                <crimsonButton id="crimson_button"/>
+                <warpedButton id="warped_button"/>
+                <buttonDict tag="minecraft:buttons"/>
+            </buttons>
+            <doors>
+                <woodenDoor>
+                    <woodenDoorDict tag="minecraft:wooden_doors"/>
+                    <oakDoor id="oak_door"/>
+                    <spruceDoor id="spruce_door"/>
+                    <birchDoor id="birch_door"/>
+                    <jungleDoor id="jungle_door"/>
+                    <acaciaDoor id="acacia_door"/>
+                    <darkOakDoor id="dark_oak_door"/>
+                    <mangroveDoor id="mangrove_door"/>
+                    <cherryDoor id="cherry_door"/>
+                    <bambooDoor id="bamboo_door"/>
+                    <crimsonDoor id="crimson_door"/>
+                    <warpedDoor id="warped_door"/>
+                </woodenDoor>
+                <ironDoor id="iron_door"/>
+                <copperDoor id="copper_door"/>
+                <exposedCopperDoor id="exposed_copper_door"/>
+                <weatheredCopperDoor id="weathered_copper_door"/>
+                <oxidizedCopperDoor id="oxidized_copper_door"/>
+                <waxedCopperDoor id="waxed_copper_door"/>
+                <waxedExposedCopperDoor id="waxed_exposed_copper_door"/>
+                <waxedWeatheredCopperDoor id="waxed_weathered_copper_door"/>
+                <waxedOxidizedCopperDoor id="waxed_oxidized_copper_door"/>
+                <trapdoor>
+                    <woodenTrapdoor tag="minecraft:wooden_trapdoors"/>
+                    <oakTrapdoor id="oak_trapdoor"/>
+                    <spruceTrapdoor id="spruce_trapdoor"/>
+                    <birchTrapdoor id="birch_trapdoor"/>
+                    <jungleTrapdoor id="jungle_trapdoor"/>
+                    <acaciaTrapdoor id="acacia_trapdoor"/>
+                    <darkOakTrapdoor id="dark_oak_trapdoor"/>
+                    <mangroveTrapdoor id="mangrove_trapdoor"/>
+                    <cherryTrapdoor id="cherry_trapdoor"/>
+                    <bambooTrapdoor id="bamboo_trapdoor"/>
+                    <crimsonTrapdoor id="crimson_trapdoor"/>
+                    <warpedTrapdoor id="warped_trapdoor"/>
+                    <ironTrapdoor id="iron_trapdoor"/>
+                    <copperTrapdoor id="copper_trapdoor"/>
+                    <exposedCopperTrapdoor id="exposed_copper_trapdoor"/>
+                    <weatheredCopperTrapdoor id="weathered_copper_trapdoor"/>
+                    <oxidizedCopperTrapdoor id="oxidized_copper_trapdoor"/>
+                    <waxedCopperTrapdoor id="waxed_copper_trapdoor"/>
+                    <waxedExposedCopperTrapdoor id="waxed_exposed_copper_trapdoor"/>
+                    <waxedWeatheredCopperTrapdoor id="waxed_weathered_copper_trapdoor"/>
+                    <waxedOxidizedCopperTrapdoor id="waxed_oxidized_copper_trapdoor"/>
+                    <trapdoorDict tag="minecraft:trapdoors"/>
+                </trapdoor>
+                <doorDict tag="minecraft:doors"/>
+            </doors>
+            <redstoneTorch id="redstone_torch"/>
+            <redstoneRepeater id="repeater"/>
+            <dispenser id="dispenser"/>
+            <noteBlock id="note_block"/>
+            <commandBlocks>
+                <commandBlock id="command_block"/>
+                <repeatingCommandBlock id="repeating_command_block"/>
+                <chainCommandBlock id="chain_command_block"/>
+            </commandBlocks>
+            <observer id="observer"/>
+            <daylightSensor id="daylight_detector"/>
+            <redstoneBlock id="redstone_block"/>
+            <hopper id="hopper"/>
+            <dropper id="dropper"/>
+            <redstoneComparator id="comparator"/>
+            <crafter id="crafter"/>
+            <slimeBlock id="slime_block"/>
+            <honeyBlock id="honey_block"/>
+            <target id="target"/>
+            <lightningRod id="lightning_rod"/>
+            <sculkSensor id="sculk_sensor"/>
+            <calibratedSculkSensor id="calibrated_sculk_sensor"/>
+            <barrier id="barrier"/>
+            <structureBlock id="structure_block"/>
+            <jigsaw id="jigsaw"/>
+            <light id="light"/>
+            <structureVoid id="structure_void"/>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <goldOreBlock id="gold_ore"/>
+            <goldOreBlockDict tag="c:ores/gold"/>
+            <silverOreBlockDict tag="c:ores/silver"/>
+            <leadOreBlockDict tag="c:ores/lead"/>
+            <ironOreBlock id="iron_ore"/>
+            <ironOreBlockDict tag="c:ores/iron"/>
+            <copperOreBlockDict tag="c:ores/copper"/>
+            <tinOreBlockDict tag="c:ores/tin"/>
+            <goldDustDict tag="c:dusts/gold"/>
+            <silverDustDict tag="c:dusts/silver"/>
+            <leadDustDict tag="c:dusts/lead"/>
+            <bronzeDustDict tag="c:dusts/bronze"/>
+            <brassDustDict tag="c:dusts/brass"/>
+            <ironDustDict tag="c:dusts/iron"/>
+            <tinDustDict tag="c:dusts/tin"/>
+            <copperDustDict tag="c:dusts/copper"/>
+            <coal id="coal"/>
+            <charcoal id="charcoal"/>
+            <gold id="gold_ingot"/>
+            <goldDict tag="c:ingots/gold"/>
+            <silverDict tag="c:ingots/silver"/>
+            <leadDict tag="c:ingots/lead"/>
+            <bronzeDict tag="c:ingots/bronze"/>
+            <brassDict tag="c:ingots/brass"/>
+            <iron id="iron_ingot"/>
+            <ironDict tag="c:ingots/iron"/>
+            <tinDict tag="c:ingots/tin"/>
+            <copper id="copper_ingot"/>
+            <copperDict tag="c:ingots/copper"/>
+            <netheriteIngot id="netherite_ingot"/>
+            <netheriteScrap id="netherite_scrap"/>
+            <rawIron id="raw_iron"/>
+            <rawGold id="raw_gold"/>
+            <rawCopper id="raw_copper"/>
+            <diamond id="diamond"/>
+            <emerald id="emerald"/>
+            <redstone id="redstone"/>
+            <glowstoneDust id="glowstone_dust"/>
+            <clayBrick id="brick"/>
+            <netherBrickIngot id="nether_brick"/>
+            <clay id="clay_ball"/>
+            <flint id="flint"/>
+            <netherQuartz id="quartz"/>
+            <amethystShard id="amethyst_shard"/>
+        </miningResources>
+        <huntingResources>
+            <egg id="egg"/>
+            <bone id="bone"/>
+            <leather id="leather"/>
+            <rabbitHide id="rabbit_hide"/>
+            <string id="string"/>
+            <feather id="feather"/>
+            <gunpowder id="gunpowder"/>
+            <slimeball id="slime_ball"/>
+            <enderPearl id="ender_pearl"/>
+            <blazeRod id="blaze_rod"/>
+            <ghastTear id="ghast_tear"/>
+            <ironNugget id="iron_nugget"/>
+            <goldNugget id="gold_nugget"/>
+            <netherStar id="nether_star"/>
+            <prismarineCrystals id="prismarine_crystals"/>
+            <prismarineCrystal id="prismarine_crystals" mergePrevious="true"/>
+            <prismarineShard id="prismarine_shard"/>
+            <shulkerShell id="shulker_shell"/>
+            <totemOfUndying id="totem_of_undying"/>
+            <phantomMembrane id="phantom_membrane"/>
+            <scute id="turtle_scute"/>
+            <armadilloScute id="armadillo_scute"/>
+            <nautilusShell id="nautilus_shell"/>
+            <heartOfTheSea id="heart_of_the_sea"/>
+            <breezeRod id="breeze_rod"/>
+            <glowInkSac id="glow_ink_sac"/>
+            <honeycomb id="honeycomb"/>
+            <echoShard id="echo_shard"/>
+        </huntingResources>
+        <farmingResources>
+            <milk id="milk_bucket"/>
+            <wheat id="wheat"/>
+            <paper id="paper"/>
+            <book id="book"/>
+            <sugarCane id="sugar_cane"/>
+            <popChorusFruit id="popped_chorus_fruit"/>
+        </farmingResources>
+        <dye>
+            <boneMeal id="bone_meal"/>
+            <whiteDye id="white_dye"/>
+            <whiteDye tag="c:dyes/white" mergePrevious="true"/>
+            <inkSac id="ink_sac"/>
+            <blackDye id="black_dye"/>
+            <blackDye tag="c:dyes/black" mergePrevious="true"/>
+            <roseRed id="red_dye"/>
+            <redDye id="red_dye" mergePrevious="true"/>
+            <redDye tag="c:dyes/red" mergePrevious="true"/>
+            <cactusGreen id="green_dye"/>
+            <greenDye id="green_dye" mergePrevious="true"/>
+            <greenDye tag="c:dyes/green" mergePrevious="true"/>
+            <cocoaBeans id="cocoa_beans"/>
+            <brownDye id="brown_dye"/>
+            <brownDye tag="c:dyes/brown" mergePrevious="true"/>
+            <lapisLazuli id="lapis_lazuli"/>
+            <lapisLazuliDye id="lapis_lazuli" mergePrevious="true"/>
+            <blueDye id="blue_dye"/>
+            <blueDye tag="c:dyes/blue" mergePrevious="true"/>
+            <purpleDye id="purple_dye"/>
+            <purpleDye tag="c:dyes/purple" mergePrevious="true"/>
+            <cyanDye id="cyan_dye"/>
+            <cyanDye tag="c:dyes/cyan" mergePrevious="true"/>
+            <lightGrayDye id="light_gray_dye"/>
+            <lightGrayDye tag="c:dyes/light_gray" mergePrevious="true"/>
+            <grayDye id="gray_dye"/>
+            <grayDye tag="c:dyes/gray" mergePrevious="true"/>
+            <pinkDye id="pink_dye"/>
+            <pinkDye tag="c:dyes/pink" mergePrevious="true"/>
+            <limeDye id="lime_dye"/>
+            <limeDye tag="c:dyes/lime" mergePrevious="true"/>
+            <dandelionYellow id="yellow_dye"/>
+            <yellowDye id="yellow_dye" mergePrevious="true"/>
+            <yellowDye tag="c:dyes/yellow" mergePrevious="true"/>
+            <lightBlueDye id="light_blue_dye"/>
+            <lightBlueDye tag="c:dyes/light_blue" mergePrevious="true"/>
+            <magentaDye id="magenta_dye"/>
+            <magentaDye tag="c:dyes/magenta" mergePrevious="true"/>
+            <orangeDye id="orange_dye"/>
+            <orangeDye tag="c:dyes/orange" mergePrevious="true"/>
+        </dye>
+    </resources>
+    <item>
+        <utility>
+            <torch id="torch"/>
+            <endRod id="end_rod"/>
+            <flintAndSteel id="flint_and_steel"/>
+            <fireCharge id="fire_charge"/>
+            <craftingTable id="crafting_table"/>
+            <furnace id="furnace"/>
+            <smoker id="smoker"/>
+            <blastFurnace id="blast_furnace"/>
+            <stonecutter id="stonecutter"/>
+            <smithingTable id="smithing_table"/>
+            <cartographyTable id="cartography_table"/>
+            <fletchingTable id="fletching_table"/>
+            <grindstone id="grindstone"/>
+            <loom id="loom"/>
+            <composter id="composter"/>
+            <barrel id="barrel"/>
+            <lectern id="lectern"/>
+            <beeNest id="bee_nest"/>
+            <beehive id="beehive"/>
+            <bell id="bell"/>
+            <chests>
+                <chest id="chest"/>
+                <chest id="trapped_chest"/>
+                <enderChest id="ender_chest"/>
+                <shulkerBox id="shulker_box"/>
+                <whiteShulkerBox id="white_shulker_box"/>
+                <orangeShulkerBox id="orange_shulker_box"/>
+                <magentaShulkerBox id="magenta_shulker_box"/>
+                <lightBlueShulkerBox id="light_blue_shulker_box"/>
+                <yellowShulkerBox id="yellow_shulker_box"/>
+                <lightGreenShulkerBox id="lime_shulker_box"/>
+                <limeShulkerBox id="lime_shulker_box" mergePrevious="true"/>
+                <pinkShulkerBox id="pink_shulker_box"/>
+                <grayShulkerBox id="gray_shulker_box"/>
+                <lightGrayShulkerBox id="light_gray_shulker_box"/>
+                <cyanShulkerBox id="cyan_shulker_box"/>
+                <purpleShulkerBox id="purple_shulker_box"/>
+                <blueShulkerBox id="blue_shulker_box"/>
+                <brownShulkerBox id="brown_shulker_box"/>
+                <greenShulkerBox id="green_shulker_box"/>
+                <darkGreenShulkerBox id="green_shulker_box" mergePrevious="true"/>
+                <redShulkerBox id="red_shulker_box"/>
+                <blackShulkerBox id="black_shulker_box"/>
+                <silverShulkerBox id="light_gray_shulker_box" mergePrevious="true"/>
+            </chests>
+            <bundle id="bundle"/>
+            <beacon id="beacon"/>
+            <conduit id="conduit"/>
+            <respawnAnchor id="respawn_anchor"/>
+            <anvil id="anvil"/>
+            <chippedAnvil id="chipped_anvil"/>
+            <damagedAnvil id="damaged_anvil"/>
+            <jukebox id="jukebox"/>
+            <beds>
+                <whiteBed id="white_bed"/>
+                <orangeBed id="orange_bed"/>
+                <magentaBed id="magenta_bed"/>
+                <lightBlueBed id="light_blue_bed"/>
+                <yellowBed id="yellow_bed"/>
+                <limeBed id="lime_bed"/>
+                <pinkBed id="pink_bed"/>
+                <grayBed id="gray_bed"/>
+                <lightGrayBed id="light_gray_bed"/>
+                <cyanBed id="cyan_bed"/>
+                <purpleBed id="purple_bed"/>
+                <blueBed id="blue_bed"/>
+                <brownBed id="brown_bed"/>
+                <greenBed id="green_bed"/>
+                <redBed id="red_bed"/>
+                <blackBed id="black_bed"/>
+            </beds>
+            <bed tag="minecraft:beds"/>
+            <readableBooks>
+                <bookAndQuill id="writable_book"/>
+                <writtenBook id="written_book"/>
+            </readableBooks>
+            <enchantedBook id="enchanted_book"/>
+            <tnt id="tnt"/>
+            <tripwireHook id="tripwire_hook"/>
+            <bowl id="bowl"/>
+            <cauldron id="cauldron"/>
+            <brewingStand id="brewing_stand"/>
+            <enchantmentTable id="enchanting_table"/>
+            <eyeOfEnder id="ender_eye"/>
+            <enderEye id="ender_eye" mergePrevious="true"/>
+            <spawnEggs>
+                <allaySpawnEgg id="allay_spawn_egg"/>
+                <armadilloSpawnEgg id="armadillo_spawn_egg"/>
+                <axolotlSpawnEgg id="axolotl_spawn_egg"/>
+                <batSpawnEgg id="bat_spawn_egg"/>
+                <beeSpawnEgg id="bee_spawn_egg"/>
+                <blazeSpawnEgg id="blaze_spawn_egg"/>
+                <boggedSpawnEgg id="bogged_spawn_egg"/>
+                <breezeSpawnEgg id="breeze_spawn_egg"/>
+                <camelSpawnEgg id="camel_spawn_egg"/>
+                <catSpawnEgg id="cat_spawn_egg"/>
+                <caveSpiderSpawnEgg id="cave_spider_spawn_egg"/>
+                <chickenSpawnEgg id="chicken_spawn_egg"/>
+                <codSpawnEgg id="cod_spawn_egg"/>
+                <cowSpawnEgg id="cow_spawn_egg"/>
+                <creeperSpawnEgg id="creeper_spawn_egg"/>
+                <dolphinSpawnEgg id="dolphin_spawn_egg"/>
+                <donkeySpawnEgg id="donkey_spawn_egg"/>
+                <drownedSpawnEgg id="drowned_spawn_egg"/>
+                <elderGuardianSpawnEgg id="elder_guardian_spawn_egg"/>
+                <enderDragonSpawnEgg id="ender_dragon_spawn_egg"/>
+                <endermanSpawnEgg id="enderman_spawn_egg"/>
+                <endermiteSpawnEgg id="endermite_spawn_egg"/>
+                <evokerSpawnEgg id="evoker_spawn_egg"/>
+                <foxSpawnEgg id="fox_spawn_egg"/>
+                <frogSpawnEgg id="frog_spawn_egg"/>
+                <ghastSpawnEgg id="ghast_spawn_egg"/>
+                <glowSquidSpawnEgg id="glow_squid_spawn_egg"/>
+                <goatSpawnEgg id="goat_spawn_egg"/>
+                <guardianSpawnEgg id="guardian_spawn_egg"/>
+                <hoglinSpawnEgg id="hoglin_spawn_egg"/>
+                <horseSpawnEgg id="horse_spawn_egg"/>
+                <huskSpawnEgg id="husk_spawn_egg"/>
+                <ironGolemSpawnEgg id="iron_golem_spawn_egg"/>
+                <llamaSpawnEgg id="llama_spawn_egg"/>
+                <magmaCubeSpawnEgg id="magma_cube_spawn_egg"/>
+                <mooshroomSpawnEgg id="mooshroom_spawn_egg"/>
+                <muleSpawnEgg id="mule_spawn_egg"/>
+                <ocelotSpawnEgg id="ocelot_spawn_egg"/>
+                <pandaSpawnEgg id="panda_spawn_egg"/>
+                <parrotSpawnEgg id="parrot_spawn_egg"/>
+                <phantomSpawnEgg id="phantom_spawn_egg"/>
+                <pigSpawnEgg id="pig_spawn_egg"/>
+                <piglinBruteSpawnEgg id="piglin_brute_spawn_egg"/>
+                <piglinSpawnEgg id="piglin_spawn_egg"/>
+                <pillagerSpawnEgg id="pillager_spawn_egg"/>
+                <polarBearSpawnEgg id="polar_bear_spawn_egg"/>
+                <pufferfishSpawnEgg id="pufferfish_spawn_egg"/>
+                <rabbitSpawnEgg id="rabbit_spawn_egg"/>
+                <ravagerSpawnEgg id="ravager_spawn_egg"/>
+                <salmonSpawnEgg id="salmon_spawn_egg"/>
+                <sheepSpawnEgg id="sheep_spawn_egg"/>
+                <shulkerSpawnEgg id="shulker_spawn_egg"/>
+                <silverfishSpawnEgg id="silverfish_spawn_egg"/>
+                <skeletonHorseSpawnEgg id="skeleton_horse_spawn_egg"/>
+                <skeletonSpawnEgg id="skeleton_spawn_egg"/>
+                <slimeSpawnEgg id="slime_spawn_egg"/>
+                <snifferSpawnEgg id="sniffer_spawn_egg"/>
+                <snowGolemSpawnEgg id="snow_golem_spawn_egg"/>
+                <spiderSpawnEgg id="spider_spawn_egg"/>
+                <squidSpawnEgg id="squid_spawn_egg"/>
+                <straySpawnEgg id="stray_spawn_egg"/>
+                <striderSpawnEgg id="strider_spawn_egg"/>
+                <tadpoleSpawnEgg id="tadpole_spawn_egg"/>
+                <traderLlamaSpawnEgg id="trader_llama_spawn_egg"/>
+                <tropicalFishSpawnEgg id="tropical_fish_spawn_egg"/>
+                <turtleSpawnEgg id="turtle_spawn_egg"/>
+                <vexSpawnEgg id="vex_spawn_egg"/>
+                <villagerSpawnEgg id="villager_spawn_egg"/>
+                <vindicatorSpawnEgg id="vindicator_spawn_egg"/>
+                <wanderingTraderSpawnEgg id="wandering_trader_spawn_egg"/>
+                <wardenSpawnEgg id="warden_spawn_egg"/>
+                <witchSpawnEgg id="witch_spawn_egg"/>
+                <witherSkeletonSpawnEgg id="wither_skeleton_spawn_egg"/>
+                <witherSpawnEgg id="wither_spawn_egg"/>
+                <wolfSpawnEgg id="wolf_spawn_egg"/>
+                <zoglinSpawnEgg id="zoglin_spawn_egg"/>
+                <zombieHorseSpawnEgg id="zombie_horse_spawn_egg"/>
+                <zombieSpawnEgg id="zombie_spawn_egg"/>
+                <zombieVillagerSpawnEgg id="zombie_villager_spawn_egg"/>
+                <zombifiedPiglinSpawnEgg id="zombified_piglin_spawn_egg"/>
+            </spawnEggs>
+            <spawnerEgg class="ItemMonsterPlacer"/>
+            <nameTag id="name_tag"/>
+            <animalLead id="lead"/>
+            <horseArmor>
+                <ironHorseArmor id="iron_horse_armor"/>
+                <goldHorseArmor id="golden_horse_armor"/>
+                <diamondHorseArmor id="diamond_horse_armor"/>
+                <leatherHorseArmor id="leather_horse_armor"/>
+            </horseArmor>
+            <wolfArmor id="wolf_armor"/>
+            <trialKey id="trial_key"/>
+            <ominousTrialKey id="ominous_trial_key"/>
+            <knoweldgeBook id="knowledge_book"/>
+            <smithingTemplate>
+                <netheriteUpgradeTemplate id="netherite_upgrade_smithing_template"/>
+                <boltTrim id="bolt_armor_trim_smithing_template"/>
+                <coastTrim id="coast_armor_trim_smithing_template"/>
+                <duneTrim id="dune_armor_trim_smithing_template"/>
+                <eyeTrim id="eye_armor_trim_smithing_template"/>
+                <flowTrim id="flow_armor_trim_smithing_template"/>
+                <hostTrim id="host_armor_trim_smithing_template"/>
+                <raiserTrim id="raiser_armor_trim_smithing_template"/>
+                <ribTrim id="rib_armor_trim_smithing_template"/>
+                <sentryTrim id="sentry_armor_trim_smithing_template"/>
+                <shaperTrim id="shaper_armor_trim_smithing_template"/>
+                <silenceTrim id="silence_armor_trim_smithing_template"/>
+                <snoutTrim id="snout_armor_trim_smithing_template"/>
+                <spireTrim id="spire_armor_trim_smithing_template"/>
+                <tideTrim id="tide_armor_trim_smithing_template"/>
+                <vexTrim id="vex_armor_trim_smithing_template"/>
+                <wardTrim id="ward_armor_trim_smithing_template"/>
+                <wayfinderTrim id="wayfinder_armor_trim_smithing_template"/>
+                <wildTrim id="wild_armor_trim_smithing_template"/>
+                <armorTrimTemplate tag="minecraft:trim_templates"/>
+            </smithingTemplate>
+            <anglerSherd id="angler_pottery_sherd"/>
+            <archerSherd id="archer_pottery_sherd"/>
+            <armsUpSherd id="arms_up_pottery_sherd"/>
+            <bladeSherd id="blade_pottery_sherd"/>
+            <brewerSherd id="brewer_pottery_sherd"/>
+            <burnSherd id="burn_pottery_sherd"/>
+            <dangerSherd id="danger_pottery_sherd"/>
+            <explorerSherd id="explorer_pottery_sherd"/>
+            <flowSherd id="flow_pottery_sherd"/>
+            <friendSherd id="friend_pottery_sherd"/>
+            <gusterSherd id="guster_pottery_sherd"/>
+            <heartSherd id="heart_pottery_sherd"/>
+            <heartbreakSherd id="heartbreak_pottery_sherd"/>
+            <howlSherd id="howl_pottery_sherd"/>
+            <minerSherd id="miner_pottery_sherd"/>
+            <mournerSherd id="mourner_pottery_sherd"/>
+            <plentySherd id="plenty_pottery_sherd"/>
+            <prizeSherd id="prize_pottery_sherd"/>
+            <scrapeSherd id="scrape_pottery_sherd"/>
+            <sheafSherd id="sheaf_pottery_sherd"/>
+            <shelterSherd id="shelter_pottery_sherd"/>
+            <skullSherd id="skull_pottery_sherd"/>
+            <snortSherd id="snort_pottery_sherd"/>
+            <potterySherd tag="minecraft:decorated_pot_sherds"/>
+            <decoratedPot id="decorated_pot"/>
+        </utility>
+        <bucket>
+            <emptyBucket id="bucket"/>
+            <waterBucket id="water_bucket"/>
+            <lavaBucket id="lava_bucket"/>
+            <powderSnowBucket id="powder_snow_bucket"/>
+            <mobBucket>
+                <codBucket id="cod_bucket"/>
+                <salmonBucket id="salmon_bucket"/>
+                <pufferfishBucket id="pufferfish_bucket"/>
+                <tropicalFishBucket id="tropical_fish_bucket"/>
+                <axolotlBucket id="axolotl_bucket"/>
+                <tadpoleBucket id="tadpole_bucket"/>
+            </mobBucket>
+        </bucket>
+        <instrument>
+            <clock id="clock"/>
+            <compass id="compass"/>
+            <recoveryCompass id="recovery_compass"/>
+            <lodestone id="lodestone"/>
+            <spyglass id="spyglass"/>
+            <emptyMap id="map"/>
+            <map id="filled_map"/>
+            <filledMap id="filled_map" mergePrevious="true"/>
+            <goatHorn id="goat_horn"/>
+        </instrument>
+        <vehicle>
+            <oakBoat id="oak_boat"/>
+            <spruceBoat id="spruce_boat"/>
+            <birchBoat id="birch_boat"/>
+            <jungleBoat id="jungle_boat"/>
+            <acaciaBoat id="acacia_boat"/>
+            <darkOakBoat id="dark_oak_boat"/>
+            <mangroveBoat id="mangrove_boat"/>
+            <cherryBoat id="cherry_boat"/>
+            <bambooRaft id="bamboo_raft"/>
+            <oakChestBoat id="oak_chest_boat"/>
+            <spruceChestBoat id="spruce_chest_boat"/>
+            <birchChestBoat id="birch_chest_boat"/>
+            <jungleChestBoat id="jungle_chest_boat"/>
+            <acaciaChestBoat id="acacia_chest_boat"/>
+            <darkOakChestBoat id="dark_oak_chest_boat"/>
+            <mangroveChestBoat id="mangrove_chest_boat"/>
+            <cherryChestBoat id="cherry_chest_boat"/>
+            <bambooChestRaft id="bamboo_chest_raft"/>
+            <boat tag="minecraft:boats"/>
+            <chestBoat tag="minecraft:chest_boats"/>
+            <minecarts>
+                <minecart id="minecart"/>
+                <poweredMinecart id="furnace_minecart"/>
+                <storageMinecart id="chest_minecart"/>
+                <tntMinecart id="tnt_minecart"/>
+                <hopperMinecart id="hopper_minecart"/>
+                <commandBlockMinecart id="command_block_minecart"/>
+            </minecarts>
+            <saddle id="saddle"/>
+        </vehicle>
+        <decoration>
+            <bed tag="minecraft:beds"/>
+            <painting id="painting"/>
+            <sign>
+                <sign tag="minecraft:signs"/>
+                <oakSign id="oak_sign"/>
+                <spruceSign id="spruce_sign"/>
+                <birchSign id="birch_sign"/>
+                <jungleSign id="jungle_sign"/>
+                <acaciaSign id="acacia_sign"/>
+                <darkOakSign id="dark_oak_sign"/>
+                <mangroveSign id="mangrove_sign"/>
+                <cherrySign id="cherry_sign"/>
+                <bambooSign id="bamboo_sign"/>
+                <crimsonSign id="crimson_sign"/>
+                <warpedSign id="warped_sign"/>
+                <oakHangingSign id="oak_hanging_sign"/>
+                <spruceHangingSign id="spruce_hanging_sign"/>
+                <birchHangingSign id="birch_hanging_sign"/>
+                <jungleHangingSign id="jungle_hanging_sign"/>
+                <acaciaHangingSign id="acacia_hanging_sign"/>
+                <darkOakHangingSign id="dark_oak_hanging_sign"/>
+                <mangroveHangingSign id="mangrove_hanging_sign"/>
+                <cherryHangingSign id="cherry_hanging_sign"/>
+                <bambooHangingSign id="bamboo_hanging_sign"/>
+                <crimsonHangingSign id="crimson_hanging_sign"/>
+                <warpedHangingSign id="warped_hanging_sign"/>
+                <hangingSign tag="minecraft:hanging_signs"/>
+            </sign>
+            <bookShelf id="bookshelf"/>
+            <chiseledBookshelf id="chiseled_bookshelf"/>
+            <flowerPot id="flower_pot"/>
+            <itemFrame id="item_frame"/>
+            <frame id="item_frame" mergePrevious="true"/>
+            <glowItemFrame id="glow_item_frame"/>
+            <skeletonSkull id="skeleton_skull"/>
+            <witherSkeletonSkull id="wither_skeleton_skull"/>
+            <playerHead id="player_head"/>
+            <zombieHead id="zombie_head"/>
+            <creeperHead id="creeper_head"/>
+            <piglinHead id="piglin_head"/>
+            <dragonHead id="dragon_head"/>
+            <head tag="minecraft:skulls"/>
+            <musicDisc>
+                <musicDisc13 id="music_disc_13"/>
+                <musicDiscCat id="music_disc_cat"/>
+                <musicDiscBlocks id="music_disc_blocks"/>
+                <musicDiscChirp id="music_disc_chirp"/>
+                <musicDiscFar id="music_disc_far"/>
+                <musicDiscMall id="music_disc_mall"/>
+                <musicDiscMellohi id="music_disc_mellohi"/>
+                <musicDiscStal id="music_disc_stal"/>
+                <musicDiscStrad id="music_disc_strad"/>
+                <musicDiscWard id="music_disc_ward"/>
+                <musicDisc11 id="music_disc_11"/>
+                <musicDiskWait id="music_disc_wait"/>
+                <musicDiscOtherside id="music_disc_otherside"/>
+                <musicDiscRelic id="music_disc_relic"/>
+                <musicDiscPigstep id="music_disc_pigstep"/>
+                <musicDisc5 id="music_disc_5"/>
+                <musicDiscCreator id="music_disc_creator"/>
+                <musicDiscCreatorMusicBox id="music_disc_creator_music_box"/>
+                <musicDiscPrecipice id="music_disc_precipice"/>
+                <discFragment5 id="disc_fragment_5"/>
+                <musicDiscDict tag="c:music_discs"/>
+            </musicDisc>
+            <flowerPotBlock id="flower_pot" mergePrevious="true"/>
+            <headBlock tag="minecraft:skulls"/>
+            <armorStand id="armor_stand"/>
+            <endCrystal id="end_crystal"/>
+            <candle>
+                <candle id="candle"/>
+                <whiteCandle id="white_candle"/>
+                <orangeCandle id="orange_candle"/>
+                <magentaCandle id="magenta_candle"/>
+                <lightBlueCandle id="light_blue_candle"/>
+                <yellowCandle id="yellow_candle"/>
+                <lightGreenCandle id="lime_candle"/>
+                <limeCandle id="lime_candle" mergePrevious="true"/>
+                <pinkCandle id="pink_candle"/>
+                <grayCandle id="gray_candle"/>
+                <lightGrayCandle id="light_gray_candle"/>
+                <cyanCandle id="cyan_candle"/>
+                <purpleCandle id="purple_candle"/>
+                <blueCandle id="blue_candle"/>
+                <brownCandle id="brown_candle"/>
+                <greenCandle id="green_candle"/>
+                <darkGreenCandle id="green_candle" mergePrevious="true"/>
+                <redCandle id="red_candle"/>
+                <blackCandle id="black_candle"/>
+                <candleDict tag="minecraft:candles"/>
+            </candle>
+        </decoration>
+        <food>
+            <edibleFood>
+                <mushroomStew id="mushroom_stew"/>
+                <beetrootSoup id="beetroot_soup"/>
+                <suspiciousStew id="suspicious_stew"/>
+                <cookedFood>
+                    <cookedPorkchop id="cooked_porkchop"/>
+                    <cookedFish id="cooked_cod"/>
+                    <cookedSalmon id="cooked_salmon"/>
+                    <steak id="cooked_beef"/>
+                    <cookedChicken id="cooked_chicken"/>
+                    <bakedPotato id="baked_potato"/>
+                    <cookedMutton id="cooked_mutton"/>
+                    <cookedRabbit id="cooked_rabbit"/>
+                    <rabbitStew id="rabbit_stew"/>
+                </cookedFood>
+                <bread id="bread"/>
+                <pumpkinPie id="pumpkin_pie"/>
+                <melonSlice id="melon_slice"/>
+                <chorusFruit id="chorus_fruit"/>
+                <beetroot id="beetroot"/>
+                <sweetBerries id="sweet_berries"/>
+                <glowBerries id="glow_berries"/>
+                <driedKelp id="dried_kelp"/>
+                <honeyBottle id="honey_bottle"/>
+                <carrot>
+                    <carrot id="carrot"/>
+                    <goldenCarrot id="golden_carrot"/>
+                </carrot>
+                <apple>
+                    <appleRed id="apple"/>
+                    <appleGolden id="golden_apple"/>
+                    <appleEnchantedGolden id="enchanted_golden_apple"/>
+                </apple>
+                <cookie id="cookie"/>
+                <rawFood>
+                    <rawPorkchop id="porkchop"/>
+                    <rawFish id="cod"/>
+                    <rawSalmon id="salmon"/>
+                    <clownfish id="tropical_fish"/>
+                    <rawBeef id="beef"/>
+                    <rawChicken id="chicken"/>
+                    <potato id="potato"/>
+                    <rawMutton id="mutton"/>
+                    <rawRabbit id="rabbit"/>
+                </rawFood>
+            </edibleFood>
+            <poisonedFood>
+                <rottenFlesh id="rotten_flesh"/>
+                <spiderEye id="spider_eye"/>
+                <poisonedPotato id="poisonous_potato"/>
+                <poisonousPotato id="poisonous_potato" mergePrevious="true"/>
+                <pufferfish id="pufferfish"/>
+            </poisonedFood>
+            <unedibleFood>
+                <cake id="cake"/>
+                <sugar id="sugar"/>
+                <cakeBlock id="cake" mergePrevious="true"/>
+            </unedibleFood>
+        </food>
+        <plant>
+            <flower>
+                <flowerChorus id="chorus_flower"/>
+                <flowerYellow id="dandelion"/>
+                <dandelion id="dandelion" mergePrevious="true"/>
+                <flowerRed>
+                    <poppy id="poppy"/>
+                    <tulipRed id="red_tulip"/>
+                </flowerRed>
+                <flowerLightBlue id="blue_orchid"/>
+                <blueOrchid id="blue_orchid" mergePrevious="true"/>
+                <flowerMagenta id="allium"/>
+                <allium id="allium" mergePrevious="true"/>
+                <flowerLightGray>
+                    <azureBluet id="azure_bluet"/>
+                    <tulipWhite id="white_tulip"/>
+                </flowerLightGray>
+                <flowerOrange id="orange_tulip"/>
+                <flowerPink id="pink_tulip"/>
+                <tulip>
+                    <tulipRed id="red_tulip"/>
+                    <tulipWhite id="white_tulip"/>
+                    <tulipOrange id="orange_tulip"/>
+                    <tulipPink id="pink_tulip"/>
+                </tulip>
+                <doublePlant>
+                    <sunflower id="sunflower"/>
+                    <lilac id="lilac"/>
+                    <roseBush id="rose_bush"/>
+                    <peony id="peony"/>
+                </doublePlant>
+                <cornflower id="cornflower"/>
+                <lilyOfTheValley id="lily_of_the_valley"/>
+                <oxeyeDaisy id="oxeye_daisy"/>
+                <witherRose id="wither_rose"/>
+                <torchflower id="torchflower"/>
+                <pitcherPlant id="pitcher_plant"/>
+                <pinkPetals id="pink_petals"/>
+                <flowerDict tag="minecraft:flowers"/>
+            </flower>
+            <mushroom>
+                <mushroomBrown id="brown_mushroom"/>
+                <mushroomRed id="red_mushroom"/>
+                <crimsonFungus id="crimson_fungus"/>
+                <warpedFungus id="warped_fungus"/>
+            </mushroom>
+            <sapling>
+                <oakSapling id="oak_sapling"/>
+                <spruceSapling id="spruce_sapling"/>
+                <birchSapling id="birch_sapling"/>
+                <jungleSapling id="jungle_sapling"/>
+                <acaciaSapling id="acacia_sapling"/>
+                <darkOakSapling id="dark_oak_sapling"/>
+                <cherrySapling id="cherry_sapling"/>
+                <mangrovePropagule id="mangrove_propagule"/>
+                <azalea id="azalea"/>
+                <floweringAzalea id="flowering_azalea"/>
+                <saplingDict tag="minecraft:saplings"/>
+            </sapling>
+            <leaves>
+                <oakLeaves id="oak_leaves"/>
+                <spruceLeaves id="spruce_leaves"/>
+                <birchLeaves id="birch_leaves"/>
+                <jungleLeaves id="jungle_leaves"/>
+                <acaciaLeaves id="acacia_leaves"/>
+                <darkOakLeaves id="dark_oak_leaves"/>
+                <mangroveLeaves id="mangrove_leaves"/>
+                <cherryLeaves id="cherry_leaves"/>
+                <azaleaLeaves id="azalea_leaves"/>
+                <floweringAzaleaLeaves id="flowering_azalea_leaves"/>
+                <leavesDict tag="minecraft:leaves"/>
+            </leaves>
+            <seed>
+                <wheatSeed id="wheat_seeds"/>
+                <pumpkinSeed id="pumpkin_seeds"/>
+                <melonSeed id="melon_seeds"/>
+                <beetrootSeeds id="beetroot_seeds"/>
+                <torchflowerSeeds id="torchflower_seeds"/>
+                <pitcherPod id="pitcher_pod"/>
+            </seed>
+            <netherWart id="nether_wart"/>
+            <sugarCane id="sugar_cane"/>
+            <vines id="vine"/>
+            <cactus id="cactus"/>
+            <reed id="sugar_cane"/>
+            <melon id="melon"/>
+            <pumpkin id="pumpkin"/>
+            <carvedPumpkin id="carved_pumpkin"/>
+            <tallGrass id="short_grass"/>
+            <fern id="fern"/>
+            <largeFern id="large_fern"/>
+            <tallGrassDouble id="tall_grass"/>
+            <deadShrub id="dead_bush"/>
+            <deadBush id="dead_bush" mergePrevious="true"/>
+            <lilyPad id="lily_pad"/>
+            <chorusPlant id="chorus_plant"/>
+            <bamboo id="bamboo"/>
+            <kelp id="kelp"/>
+            <seagrass id="seagrass"/>
+            <seaPickle id="sea_pickle"/>
+            <coral>
+                <coralPlant>
+                    <tubeCoral id="tube_coral"/>
+                    <brainCoral id="brain_coral"/>
+                    <bubbleCoral id="bubble_coral"/>
+                    <fireCoral id="fire_coral"/>
+                    <hornCoral id="horn_coral"/>
+                    <deadTubeCoral id="dead_tube_coral"/>
+                    <deadBrainCoral id="dead_brain_coral"/>
+                    <deadBubbleCoral id="dead_bubble_coral"/>
+                    <deadFireCoral id="dead_fire_coral"/>
+                    <deadHornCoral id="dead_horn_coral"/>
+                </coralPlant>
+                <coralBlock>
+                    <tubeCoralBlock id="tube_coral_block"/>
+                    <brainCoralBlock id="brain_coral_block"/>
+                    <bubbleCoralBlock id="bubble_coral_block"/>
+                    <fireCoralBlock id="fire_coral_block"/>
+                    <hornCoralBlock id="horn_coral_block"/>
+                    <deadTubeCoralBlock id="dead_tube_coral_block"/>
+                    <deadBrainCoralBlock id="dead_brain_coral_block"/>
+                    <deadBubbleCoralBlock id="dead_bubble_coral_block"/>
+                    <deadFireCoralBlock id="dead_fire_coral_block"/>
+                    <deadHornCoralBlock id="dead_horn_coral_block"/>
+                </coralBlock>
+                <coralFan>
+                    <tubeCoralFan id="tube_coral_fan"/>
+                    <brainCoralFan id="brain_coral_fan"/>
+                    <bubbleCoralFan id="bubble_coral_fan"/>
+                    <fireCoralFan id="fire_coral_fan"/>
+                    <hornCoralFan id="horn_coral_fan"/>
+                    <deadTubeCoralFan id="dead_tube_coral_fan"/>
+                    <deadBrainCoralFan id="dead_brain_coral_fan"/>
+                    <deadBubbleCoralFan id="dead_bubble_coral_fan"/>
+                    <deadFireCoralFan id="dead_fire_coral_fan"/>
+                    <deadHornCoralFan id="dead_horn_coral_fan"/>
+                </coralFan>
+            </coral>
+            <mossBlock id="moss_block"/>
+            <glowLichen id="glow_lichen"/>
+            <hangingRoots id="hanging_roots"/>
+            <bigDripleaf id="big_dripleaf"/>
+            <smallDripleaf id="small_dripleaf"/>
+            <sporeBlossom id="spore_blossom"/>
+            <mangroveRoots id="mangrove_roots"/>
+            <muddyMangroveRoots id="muddy_mangrove_roots"/>
+        </plant>
+        <fireworks id="firework_rocket"/>
+        <fireworkStar id="firework_star"/>
+        <potion>
+            <drinkablePotion>
+                <potion id="potion"/>
+            </drinkablePotion>
+            <splashPotion>
+                <splashPotion id="splash_potion"/>
+            </splashPotion>
+            <lingeringPotion>
+                <lingeringPotion id="lingering_potion"/>
+            </lingeringPotion>
+            <ominousBottle id="ominous_bottle"/>
+            <bottleOEnchanting id="experience_bottle"/>
+            <bottleEnchanting id="experience_bottle" mergePrevious="true"/>
+        </potion>
+        <glassBottle id="glass_bottle"/>
+        <potionIngredient>
+            <dragonsBreath id="dragon_breath"/>
+            <netherWart id="nether_wart"/>
+            <redstone id="redstone"/>
+            <glowstoneDust id="glowstone_dust"/>
+            <sugar id="sugar"/>
+            <ghastTear id="ghast_tear"/>
+            <spiderEye id="spider_eye"/>
+            <fermentedSpiderEye id="fermented_spider_eye"/>
+            <blazePowder id="blaze_powder"/>
+            <magmaCream id="magma_cream"/>
+            <glisteringMelon id="glistering_melon_slice"/>
+            <rabbitsFoot id="rabbit_foot"/>
+            <rabbitFoot id="rabbit_foot" mergePrevious="true"/>
+        </potionIngredient>
+    </item>
+</stuff>

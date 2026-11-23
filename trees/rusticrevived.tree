@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <item>
+        <bucket>
+            <rusticBuckets>
+                <rusticAleWortBucket id="rusticrevived:ale_wort_bucket"/>
+                <rusticAppleJuiceBucket id="rusticrevived:apple_juice_bucket"/>
+                <rusticGoldenAppleJuiceBucket id="rusticrevived:golden_apple_juice_bucket"/>
+                <rusticGrapeJuiceBucket id="rusticrevived:grape_juice_bucket"/>
+                <rusticHoneyBucket id="rusticrevived:honey_bucket"/>
+                <rusticIronberryJuiceBucket id="rusticrevived:ironberry_juice_bucket"/>
+                <rusticOliveOilBucket id="rusticrevived:olive_oil_bucket"/>
+                <rusticVantaOilBucket id="rusticrevived:vanta_oil_bucket"/>
+                <rusticWildberryJuiceBucket id="rusticrevived:wildberry_juice_bucket"/>
+            </rusticBuckets>
+        </bucket>
+        <potion>
+            <rusticFluidBottles>
+                <rusticElixir id="rusticrevived:elixir"/>
+                <rusticFluidBottle id="rusticrevived:fluid_bottle"/>
+                <rusticFluidBottleAle id="rusticrevived:fluid_bottle_ale"/>
+                <rusticFluidBottleAmbrosia id="rusticrevived:fluid_bottle_ambrosia"/>
+                <rusticFluidBottleCider id="rusticrevived:fluid_bottle_cider"/>
+                <rusticFluidBottleIronWine id="rusticrevived:fluid_bottle_iron_wine"/>
+                <rusticFluidBottleMead id="rusticrevived:fluid_bottle_mead"/>
+                <rusticFluidBottleWildberryWine id="rusticrevived:fluid_bottle_wildberry_wine"/>
+                <rusticFluidBottleWine id="rusticrevived:fluid_bottle_wine"/>
+            </rusticFluidBottles>
+        </potion>
+        <plant>
+            <sapling>
+                <rusticSaplings>
+                    <rusticAppleSapling id="rusticrevived:apple_sapling"/>
+                    <rusticIronwoodSapling id="rusticrevived:ironwood_sapling"/>
+                    <rusticOliveSapling id="rusticrevived:olive_sapling"/>
+                </rusticSaplings>
+            </sapling>
+            <leaves>
+                <rusticLeaves>
+                    <rusticAppleLeaves id="rusticrevived:apple_leaves"/>
+                    <rusticIronwoodLeaves id="rusticrevived:ironwood_leaves"/>
+                    <rusticOliveLeaves id="rusticrevived:olive_leaves"/>
+                </rusticLeaves>
+            </leaves>
+            <seed>
+                <rusticSeeds>
+                    <rusticAppleSeeds id="rusticrevived:apple_seeds"/>
+                    <rusticChiliPepperSeeds id="rusticrevived:chili_pepper_seeds"/>
+                    <rusticCoreRoot id="rusticrevived:core_root"/>
+                    <rusticGrapeStem id="rusticrevived:grape_stem"/>
+                    <rusticTomatoSeeds id="rusticrevived:tomato_seeds"/>
+                </rusticSeeds>
+            </seed>
+            <flower>
+                <rusticHerbs>
+                    <rusticAloeVera id="rusticrevived:aloe_vera"/>
+                    <rusticBloodOrchid id="rusticrevived:blood_orchid"/>
+                    <rusticChamomile id="rusticrevived:chamomile"/>
+                    <rusticCloudsbluff id="rusticrevived:cloudsbluff"/>
+                    <rusticCohosh id="rusticrevived:cohosh"/>
+                    <rusticCropStake id="rusticrevived:crop_stake"/>
+                    <rusticGinseng id="rusticrevived:ginseng"/>
+                    <rusticHorsetail id="rusticrevived:horsetail"/>
+                    <rusticMarshMallow id="rusticrevived:marsh_mallow"/>
+                    <rusticVantaLily id="rusticrevived:vanta_lily"/>
+                    <rusticWildberryBush id="rusticrevived:wildberry_bush"/>
+                    <rusticWindThistle id="rusticrevived:wind_thistle"/>
+                </rusticHerbs>
+            </flower>
+            <mushroom>
+                <rusticMushrooms>
+                    <rusticDeathstalkMushroom id="rusticrevived:deathstalk_mushroom"/>
+                    <rusticMooncapMushroom id="rusticrevived:mooncap_mushroom"/>
+                </rusticMushrooms>
+            </mushroom>
+        </plant>
+        <food>
+            <rusticFoods>
+                <rusticBee id="rusticrevived:bee"/>
+                <rusticChiliPepper id="rusticrevived:chili_pepper"/>
+                <rusticGhostPepper id="rusticrevived:ghost_pepper"/>
+                <rusticGrapes id="rusticrevived:grapes"/>
+                <rusticHoneycomb id="rusticrevived:honeycomb"/>
+                <rusticIronberries id="rusticrevived:ironberries"/>
+                <rusticOlives id="rusticrevived:olives"/>
+                <rusticTomato id="rusticrevived:tomato"/>
+                <rusticWildberries id="rusticrevived:wildberries"/>
+            </rusticFoods>
+        </food>
+        <decoration>
+            <rusticCandles>
+                <rusticCandle id="rusticrevived:candle"/>
+                <rusticCandleDouble id="rusticrevived:candle_double"/>
+                <rusticCandleDoubleGold id="rusticrevived:candle_double_gold"/>
+                <rusticCandleDoubleSilver id="rusticrevived:candle_double_silver"/>
+                <rusticCandleGold id="rusticrevived:candle_gold"/>
+                <rusticCandleLever id="rusticrevived:candle_lever"/>
+                <rusticCandleLeverGold id="rusticrevived:candle_lever_gold"/>
+                <rusticCandleLeverSilver id="rusticrevived:candle_lever_silver"/>
+                <rusticCandleSilver id="rusticrevived:candle_silver"/>
+                <rusticChain id="rusticrevived:chain"/>
+                <rusticChainGold id="rusticrevived:chain_gold"/>
+                <rusticChainSilver id="rusticrevived:chain_silver"/>
+                <rusticChandelier id="rusticrevived:chandelier"/>
+                <rusticChandelierGold id="rusticrevived:chandelier_gold"/>
+                <rusticChandelierSilver id="rusticrevived:chandelier_silver"/>
+                <rusticRope id="rusticrevived:rope"/>
+            </rusticCandles>
+        </decoration>
+        <potionIngredient>
+            <rusticIngredients>
+                <rusticBeeswax id="rusticrevived:beeswax"/>
+                <rusticGoldDust id="rusticrevived:gold_dust"/>
+                <rusticTallow id="rusticrevived:tallow"/>
+                <rusticTinyIronDust id="rusticrevived:tiny_iron_dust"/>
+            </rusticIngredients>
+        </potionIngredient>
+    </item>
+    <block>
+        <mechanism>
+            <lighting>
+                <rusticLighting>
+                    <rusticGoldenLantern id="rusticrevived:golden_lantern"/>
+                    <rusticIronLantern id="rusticrevived:iron_lantern"/>
+                    <rusticIronTorch id="rusticrevived:iron_torch"/>
+                    <rusticLanternWood id="rusticrevived:lantern_wood"/>
+                    <rusticSilverLantern id="rusticrevived:silver_lantern"/>
+                </rusticLighting>
+            </lighting>
+            <doors>
+                <rusticDoors>
+                    <rusticIronwoodDoor id="rusticrevived:ironwood_door"/>
+                    <rusticOliveDoor id="rusticrevived:olive_door"/>
+                </rusticDoors>
+            </doors>
+            <rusticMachines>
+                <rusticAlmanac id="rusticrevived:almanac"/>
+                <rusticApiary id="rusticrevived:apiary"/>
+                <rusticBarrel id="rusticrevived:barrel"/>
+                <rusticBeehive id="rusticrevived:beehive"/>
+                <rusticBrewingBarrel id="rusticrevived:brewing_barrel"/>
+                <rusticCondenser id="rusticrevived:condenser"/>
+                <rusticCondenserAdvanced id="rusticrevived:condenser_advanced"/>
+                <rusticCrushingTub id="rusticrevived:crushing_tub"/>
+                <rusticErisBannerPattern id="rusticrevived:eris_banner_pattern"/>
+                <rusticEvaporatingBasin id="rusticrevived:evaporating_basin"/>
+                <rusticFertileSoil id="rusticrevived:fertile_soil"/>
+                <rusticLiquidBarrel id="rusticrevived:liquid_barrel"/>
+                <rusticRetort id="rusticrevived:retort"/>
+                <rusticRetortAdvanced id="rusticrevived:retort_advanced"/>
+            </rusticMachines>
+        </mechanism>
+        <manufacturedBlock>
+            <fence>
+                <rusticFences>
+                    <rusticIronwoodFence id="rusticrevived:ironwood_fence"/>
+                    <rusticIronwoodFenceGate id="rusticrevived:ironwood_fence_gate"/>
+                    <rusticOliveFence id="rusticrevived:olive_fence"/>
+                    <rusticOliveFenceGate id="rusticrevived:olive_fence_gate"/>
+                </rusticFences>
+            </fence>
+            <rusticFurniture>
+                <rusticCabinet id="rusticrevived:cabinet"/>
+                <rusticChairAcacia id="rusticrevived:chair_acacia"/>
+                <rusticChairBamboo id="rusticrevived:chair_bamboo"/>
+                <rusticChairBirch id="rusticrevived:chair_birch"/>
+                <rusticChairCherry id="rusticrevived:chair_cherry"/>
+                <rusticChairCrimson id="rusticrevived:chair_crimson"/>
+                <rusticChairDarkOak id="rusticrevived:chair_dark_oak"/>
+                <rusticChairIronwood id="rusticrevived:chair_ironwood"/>
+                <rusticChairJungle id="rusticrevived:chair_jungle"/>
+                <rusticChairMangrove id="rusticrevived:chair_mangrove"/>
+                <rusticChairOak id="rusticrevived:chair_oak"/>
+                <rusticChairOlive id="rusticrevived:chair_olive"/>
+                <rusticChairSpruce id="rusticrevived:chair_spruce"/>
+                <rusticChairWarped id="rusticrevived:chair_warped"/>
+                <rusticGargoyle id="rusticrevived:gargoyle"/>
+                <rusticTableAcacia id="rusticrevived:table_acacia"/>
+                <rusticTableBamboo id="rusticrevived:table_bamboo"/>
+                <rusticTableBirch id="rusticrevived:table_birch"/>
+                <rusticTableCherry id="rusticrevived:table_cherry"/>
+                <rusticTableCrimson id="rusticrevived:table_crimson"/>
+                <rusticTableDarkOak id="rusticrevived:table_dark_oak"/>
+                <rusticTableIronwood id="rusticrevived:table_ironwood"/>
+                <rusticTableJungle id="rusticrevived:table_jungle"/>
+                <rusticTableMangrove id="rusticrevived:table_mangrove"/>
+                <rusticTableOak id="rusticrevived:table_oak"/>
+                <rusticTableOlive id="rusticrevived:table_olive"/>
+                <rusticTableSpruce id="rusticrevived:table_spruce"/>
+                <rusticTableWarped id="rusticrevived:table_warped"/>
+                <rusticVase id="rusticrevived:vase"/>
+            </rusticFurniture>
+            <constructionBlock>
+                <rusticPillars>
+                    <rusticAndesitePillar id="rusticrevived:andesite_pillar"/>
+                    <rusticBasaltPillar id="rusticrevived:basalt_pillar"/>
+                    <rusticDioritePillar id="rusticrevived:diorite_pillar"/>
+                    <rusticGranitePillar id="rusticrevived:granite_pillar"/>
+                    <rusticLimestonePillar id="rusticrevived:limestone_pillar"/>
+                    <rusticMarblePillar id="rusticrevived:marble_pillar"/>
+                    <rusticSlatePillar id="rusticrevived:slate_pillar"/>
+                    <rusticStonePillar id="rusticrevived:stone_pillar"/>
+                </rusticPillars>
+                <rusticConstruction>
+                    <rusticClayWall id="rusticrevived:clay_wall"/>
+                    <rusticClayWallCross id="rusticrevived:clay_wall_cross"/>
+                    <rusticClayWallDiag id="rusticrevived:clay_wall_diag"/>
+                    <rusticIronLattice id="rusticrevived:iron_lattice"/>
+                    <rusticIronwoodSlab id="rusticrevived:ironwood_slab"/>
+                    <rusticIronwoodStairs id="rusticrevived:ironwood_stairs"/>
+                    <rusticOliveSlab id="rusticrevived:olive_slab"/>
+                    <rusticOliveStairs id="rusticrevived:olive_stairs"/>
+                    <rusticPaintedWoodBlack id="rusticrevived:painted_wood_black"/>
+                    <rusticPaintedWoodBlue id="rusticrevived:painted_wood_blue"/>
+                    <rusticPaintedWoodBrown id="rusticrevived:painted_wood_brown"/>
+                    <rusticPaintedWoodCyan id="rusticrevived:painted_wood_cyan"/>
+                    <rusticPaintedWoodGray id="rusticrevived:painted_wood_gray"/>
+                    <rusticPaintedWoodGreen id="rusticrevived:painted_wood_green"/>
+                    <rusticPaintedWoodLightBlue id="rusticrevived:painted_wood_light_blue"/>
+                    <rusticPaintedWoodLightGray id="rusticrevived:painted_wood_light_gray"/>
+                    <rusticPaintedWoodLime id="rusticrevived:painted_wood_lime"/>
+                    <rusticPaintedWoodMagenta id="rusticrevived:painted_wood_magenta"/>
+                    <rusticPaintedWoodOrange id="rusticrevived:painted_wood_orange"/>
+                    <rusticPaintedWoodPink id="rusticrevived:painted_wood_pink"/>
+                    <rusticPaintedWoodPurple id="rusticrevived:painted_wood_purple"/>
+                    <rusticPaintedWoodRed id="rusticrevived:painted_wood_red"/>
+                    <rusticPaintedWoodWhite id="rusticrevived:painted_wood_white"/>
+                    <rusticPaintedWoodYellow id="rusticrevived:painted_wood_yellow"/>
+                    <rusticSlate id="rusticrevived:slate"/>
+                    <rusticSlateBrick id="rusticrevived:slate_brick"/>
+                    <rusticSlateBrickSlab id="rusticrevived:slate_brick_slab"/>
+                    <rusticSlateBrickStairs id="rusticrevived:slate_brick_stairs"/>
+                    <rusticSlateChiseled id="rusticrevived:slate_chiseled"/>
+                    <rusticSlatePavement id="rusticrevived:slate_pavement"/>
+                    <rusticSlateRoof id="rusticrevived:slate_roof"/>
+                    <rusticSlateRoofSlab id="rusticrevived:slate_roof_slab"/>
+                    <rusticSlateRoofStairs id="rusticrevived:slate_roof_stairs"/>
+                    <rusticSlateTile id="rusticrevived:slate_tile"/>
+                </rusticConstruction>
+            </constructionBlock>
+        </manufacturedBlock>
+        <naturalBlock>
+            <wood>
+                <rusticLogs>
+                    <rusticCarvedIronwood id="rusticrevived:carved_ironwood"/>
+                    <rusticCarvedOliveWood id="rusticrevived:carved_olive_wood"/>
+                    <rusticIronwoodLog id="rusticrevived:ironwood_log"/>
+                    <rusticIronwoodPlanks id="rusticrevived:ironwood_planks"/>
+                    <rusticOliveLog id="rusticrevived:olive_log"/>
+                    <rusticOlivePlanks id="rusticrevived:olive_planks"/>
+                </rusticLogs>
+            </wood>
+        </naturalBlock>
+    </block>
+</stuff>

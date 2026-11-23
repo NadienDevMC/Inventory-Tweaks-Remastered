@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <item>
+        <magical>
+            <botania>
+                <lights>
+                    <itemLivingwood id="botania:livingwood"/>
+                </lights>
+            </botania>
+        </magical>
+        <plant>
+            <flower>
+                <miniSpecialFlowers>
+                    <itemAgricarnationChibi id="botania:agricarnation_chibi"/>
+                    <itemBellethornChibi id="botania:bellethorn_chibi"/>
+                    <itemBubbellChibi id="botania:bubbell_chibi"/>
+                    <itemClayconiaChibi id="botania:clayconia_chibi"/>
+                    <itemHopperhockChibi id="botania:hopperhock_chibi"/>
+                    <itemJiyuuliaChibi id="botania:jiyuulia_chibi"/>
+                    <itemMarimorphosisChibi id="botania:marimorphosis_chibi"/>
+                    <itemRannuncarpusChibi id="botania:rannuncarpus_chibi"/>
+                    <itemSolegnoliaChibi id="botania:solegnolia_chibi"/>
+                    <itemTangleberrieChibi id="botania:tangleberrie_chibi"/>
+                </miniSpecialFlowers>
+                <specialFlowers>
+                    <itemAgricarnation id="botania:agricarnation"/>
+                    <itemAsgardandelion id="botania:asgardandelion"/>
+                    <itemBellethorn id="botania:bellethorn"/>
+                    <itemBergamute id="botania:bergamute"/>
+                    <itemBubbell id="botania:bubbell"/>
+                    <itemClayconia id="botania:clayconia"/>
+                    <itemCrysanthermum id="botania:crysanthermum"/>
+                    <itemDaffomill id="botania:daffomill"/>
+                    <itemDandelifeon id="botania:dandelifeon"/>
+                    <itemDreadthorn id="botania:dreadthorn"/>
+                    <itemEndoflame id="botania:endoflame"/>
+                    <itemEntropinnyum id="botania:entropinnyum"/>
+                    <itemExoflame id="botania:exoflame"/>
+                    <itemFallenKanade id="botania:fallen_kanade"/>
+                    <itemGourmaryllis id="botania:gourmaryllis"/>
+                    <itemHeiseiDream id="botania:heisei_dream"/>
+                    <itemHopperhock id="botania:hopperhock"/>
+                    <itemHyacidus id="botania:hyacidus"/>
+                    <itemHydroangeas id="botania:hydroangeas"/>
+                    <itemJadedAmaranthus id="botania:jaded_amaranthus"/>
+                    <itemJiyuulia id="botania:jiyuulia"/>
+                    <itemKekimurus id="botania:kekimurus"/>
+                    <itemLabellia id="botania:labellia"/>
+                    <itemLoonium id="botania:loonium"/>
+                    <itemManastar id="botania:manastar"/>
+                    <itemMarimorphosis id="botania:marimorphosis"/>
+                    <itemMedumone id="botania:medumone"/>
+                    <itemMunchdew id="botania:munchdew"/>
+                    <itemNarslimmus id="botania:narslimmus"/>
+                    <itemOrechid id="botania:orechid"/>
+                    <itemOrechidIgnem id="botania:orechid_ignem"/>
+                    <itemPollidisiac id="botania:pollidisiac"/>
+                    <itemPureDaisy id="botania:pure_daisy"/>
+                    <itemRafflowsia id="botania:rafflowsia"/>
+                    <itemRannuncarpus id="botania:rannuncarpus"/>
+                    <itemRosaArcana id="botania:rosa_arcana"/>
+                    <itemShulkMeNot id="botania:shulk_me_not"/>
+                    <itemSolegnolia id="botania:solegnolia"/>
+                    <itemSpectranthemum id="botania:spectranthemum"/>
+                    <itemSpectrolus id="botania:spectrolus"/>
+                    <itemTangleberrie id="botania:tangleberrie"/>
+                    <itemThermalily id="botania:thermalily"/>
+                    <itemTigerseye id="botania:tigerseye"/>
+                    <itemVinculotus id="botania:vinculotus"/>
+                    <itemWitherManaRose id="botania:wither_mana_rose"/>
+                    <itemBlackLotus id="botania:black_lotus"/>
+                    <itemBlackerLotus id="botania:blacker_lotus"/>
+                    <itemDeathlyLotus id="botania:deathly_lotus"/>
+                    <itemMysticalBifrostFlower id="botania:mystical_bifrost_flower"/>
+                    <itemTallMysticalBifrostFlower id="botania:tall_mystical_bifrost_flower"/>
+                    <itemUnactivatedWitherManaRose id="botania:unactivated_wither_mana_rose"/>
+                    <itemWiltedLotus id="botania:wilted_lotus"/>
+                </specialFlowers>
+                <floatingSpecialFlowers>
+                    <itemFloatingAgricarnation id="botania:floating_agricarnation"/>
+                    <itemFloatingAgricarnationChibi id="botania:floating_agricarnation_chibi"/>
+                    <itemFloatingAsgardandelion id="botania:floating_asgardandelion"/>
+                    <itemFloatingBellethorn id="botania:floating_bellethorn"/>
+                    <itemFloatingBellethornChibi id="botania:floating_bellethorn_chibi"/>
+                    <itemFloatingBergamute id="botania:floating_bergamute"/>
+                    <itemFloatingBubbell id="botania:floating_bubbell"/>
+                    <itemFloatingBubbellChibi id="botania:floating_bubbell_chibi"/>
+                    <itemFloatingClayconia id="botania:floating_clayconia"/>
+                    <itemFloatingClayconiaChibi id="botania:floating_clayconia_chibi"/>
+                    <itemFloatingCrysanthermum id="botania:floating_crysanthermum"/>
+                    <itemFloatingDaffomill id="botania:floating_daffomill"/>
+                    <itemFloatingDandelifeon id="botania:floating_dandelifeon"/>
+                    <itemFloatingDreadthorn id="botania:floating_dreadthorn"/>
+                    <itemFloatingEndoflame id="botania:floating_endoflame"/>
+                    <itemFloatingEntropinnyum id="botania:floating_entropinnyum"/>
+                    <itemFloatingExoflame id="botania:floating_exoflame"/>
+                    <itemFloatingFallenKanade id="botania:floating_fallen_kanade"/>
+                    <itemFloatingGourmaryllis id="botania:floating_gourmaryllis"/>
+                    <itemFloatingHeiseiDream id="botania:floating_heisei_dream"/>
+                    <itemFloatingHopperhock id="botania:floating_hopperhock"/>
+                    <itemFloatingHopperhockChibi id="botania:floating_hopperhock_chibi"/>
+                    <itemFloatingHyacidus id="botania:floating_hyacidus"/>
+                    <itemFloatingHydroangeas id="botania:floating_hydroangeas"/>
+                    <itemFloatingJadedAmaranthus id="botania:floating_jaded_amaranthus"/>
+                    <itemFloatingJiyuulia id="botania:floating_jiyuulia"/>
+                    <itemFloatingJiyuuliaChibi id="botania:floating_jiyuulia_chibi"/>
+                    <itemFloatingKekimurus id="botania:floating_kekimurus"/>
+                    <itemFloatingLabellia id="botania:floating_labellia"/>
+                    <itemFloatingLoonium id="botania:floating_loonium"/>
+                    <itemFloatingManastar id="botania:floating_manastar"/>
+                    <itemFloatingMarimorphosis id="botania:floating_marimorphosis"/>
+                    <itemFloatingMarimorphosisChibi id="botania:floating_marimorphosis_chibi"/>
+                    <itemFloatingMedumone id="botania:floating_medumone"/>
+                    <itemFloatingMunchdew id="botania:floating_munchdew"/>
+                    <itemFloatingNarslimmus id="botania:floating_narslimmus"/>
+                    <itemFloatingOrechid id="botania:floating_orechid"/>
+                    <itemFloatingOrechidIgnem id="botania:floating_orechid_ignem"/>
+                    <itemFloatingPollidisiac id="botania:floating_pollidisiac"/>
+                    <itemFloatingPureDaisy id="botania:floating_pure_daisy"/>
+                    <itemFloatingRafflowsia id="botania:floating_rafflowsia"/>
+                    <itemFloatingRannuncarpus id="botania:floating_rannuncarpus"/>
+                    <itemFloatingRannuncarpusChibi id="botania:floating_rannuncarpus_chibi"/>
+                    <itemFloatingRosaArcana id="botania:floating_rosa_arcana"/>
+                    <itemFloatingShulkMeNot id="botania:floating_shulk_me_not"/>
+                    <itemFloatingSolegnolia id="botania:floating_solegnolia"/>
+                    <itemFloatingSolegnoliaChibi id="botania:floating_solegnolia_chibi"/>
+                    <itemFloatingSpectranthemum id="botania:floating_spectranthemum"/>
+                    <itemFloatingSpectrolus id="botania:floating_spectrolus"/>
+                    <itemFloatingTangleberrie id="botania:floating_tangleberrie"/>
+                    <itemFloatingTangleberrieChibi id="botania:floating_tangleberrie_chibi"/>
+                    <itemFloatingThermalily id="botania:floating_thermalily"/>
+                    <itemFloatingTigerseye id="botania:floating_tigerseye"/>
+                    <itemFloatingVinculotus id="botania:floating_vinculotus"/>
+                    <itemFloatingWitherManaRose id="botania:floating_wither_mana_rose"/>
+                </floatingSpecialFlowers>
+                <floatingMysticalFlowers>
+                    <itemBlackFloatingFlower id="botania:black_floating_flower"/>
+                    <itemBlueFloatingFlower id="botania:blue_floating_flower" mergePrevious="true"/>
+                    <itemBrownFloatingFlower id="botania:brown_floating_flower" mergePrevious="true"/>
+                    <itemCyanFloatingFlower id="botania:cyan_floating_flower" mergePrevious="true"/>
+                    <itemGrayFloatingFlower id="botania:gray_floating_flower" mergePrevious="true"/>
+                    <itemGreenFloatingFlower id="botania:green_floating_flower" mergePrevious="true"/>
+                    <itemLightBlueFloatingFlower id="botania:light_blue_floating_flower" mergePrevious="true"/>
+                    <itemLightGrayFloatingFlower id="botania:light_gray_floating_flower" mergePrevious="true"/>
+                    <itemLimeFloatingFlower id="botania:lime_floating_flower" mergePrevious="true"/>
+                    <itemMagentaFloatingFlower id="botania:magenta_floating_flower" mergePrevious="true"/>
+                    <itemOrangeFloatingFlower id="botania:orange_floating_flower" mergePrevious="true"/>
+                    <itemPinkFloatingFlower id="botania:pink_floating_flower" mergePrevious="true"/>
+                    <itemPurpleFloatingFlower id="botania:purple_floating_flower" mergePrevious="true"/>
+                    <itemRedFloatingFlower id="botania:red_floating_flower" mergePrevious="true"/>
+                    <itemWhiteFloatingFlower id="botania:white_floating_flower" mergePrevious="true"/>
+                    <itemYellowFloatingFlower id="botania:yellow_floating_flower" mergePrevious="true"/>
+                </floatingMysticalFlowers>
+                <mysticalFlowers>
+                    <itemBlackMysticalFlower id="botania:black_mystical_flower"/>
+                    <itemBlueMysticalFlower id="botania:blue_mystical_flower" mergePrevious="true"/>
+                    <itemBrownMysticalFlower id="botania:brown_mystical_flower" mergePrevious="true"/>
+                    <itemCyanMysticalFlower id="botania:cyan_mystical_flower" mergePrevious="true"/>
+                    <itemGrayMysticalFlower id="botania:gray_mystical_flower" mergePrevious="true"/>
+                    <itemGreenMysticalFlower id="botania:green_mystical_flower" mergePrevious="true"/>
+                    <itemLightBlueMysticalFlower id="botania:light_blue_mystical_flower" mergePrevious="true"/>
+                    <itemLightGrayMysticalFlower id="botania:light_gray_mystical_flower" mergePrevious="true"/>
+                    <itemLimeMysticalFlower id="botania:lime_mystical_flower" mergePrevious="true"/>
+                    <itemMagentaMysticalFlower id="botania:magenta_mystical_flower" mergePrevious="true"/>
+                    <itemOrangeMysticalFlower id="botania:orange_mystical_flower" mergePrevious="true"/>
+                    <itemPinkMysticalFlower id="botania:pink_mystical_flower" mergePrevious="true"/>
+                    <itemPurpleMysticalFlower id="botania:purple_mystical_flower" mergePrevious="true"/>
+                    <itemRedMysticalFlower id="botania:red_mystical_flower" mergePrevious="true"/>
+                    <itemWhiteMysticalFlower id="botania:white_mystical_flower" mergePrevious="true"/>
+                    <itemYellowMysticalFlower id="botania:yellow_mystical_flower" mergePrevious="true"/>
+                </mysticalFlowers>
+                <shinyFlowers>
+                    <itemBlackShinyFlower id="botania:black_shiny_flower"/>
+                    <itemBlueShinyFlower id="botania:blue_shiny_flower" mergePrevious="true"/>
+                    <itemBrownShinyFlower id="botania:brown_shiny_flower" mergePrevious="true"/>
+                    <itemCyanShinyFlower id="botania:cyan_shiny_flower" mergePrevious="true"/>
+                    <itemGrayShinyFlower id="botania:gray_shiny_flower" mergePrevious="true"/>
+                    <itemGreenShinyFlower id="botania:green_shiny_flower" mergePrevious="true"/>
+                    <itemLightBlueShinyFlower id="botania:light_blue_shiny_flower" mergePrevious="true"/>
+                    <itemLightGrayShinyFlower id="botania:light_gray_shiny_flower" mergePrevious="true"/>
+                    <itemLimeShinyFlower id="botania:lime_shiny_flower" mergePrevious="true"/>
+                    <itemMagentaShinyFlower id="botania:magenta_shiny_flower" mergePrevious="true"/>
+                    <itemOrangeShinyFlower id="botania:orange_shiny_flower" mergePrevious="true"/>
+                    <itemPinkShinyFlower id="botania:pink_shiny_flower" mergePrevious="true"/>
+                    <itemPurpleShinyFlower id="botania:purple_shiny_flower" mergePrevious="true"/>
+                    <itemRedShinyFlower id="botania:red_shiny_flower" mergePrevious="true"/>
+                    <itemWhiteShinyFlower id="botania:white_shiny_flower" mergePrevious="true"/>
+                    <itemYellowShinyFlower id="botania:yellow_shiny_flower" mergePrevious="true"/>
+                </shinyFlowers>
+                <doubleFlowers>
+                    <itemBlackDoubleFlower id="botania:black_double_flower"/>
+                    <itemBlueDoubleFlower id="botania:blue_double_flower" mergePrevious="true"/>
+                    <itemBrownDoubleFlower id="botania:brown_double_flower" mergePrevious="true"/>
+                    <itemCyanDoubleFlower id="botania:cyan_double_flower" mergePrevious="true"/>
+                    <itemGrayDoubleFlower id="botania:gray_double_flower" mergePrevious="true"/>
+                    <itemGreenDoubleFlower id="botania:green_double_flower" mergePrevious="true"/>
+                    <itemLightBlueDoubleFlower id="botania:light_blue_double_flower" mergePrevious="true"/>
+                    <itemLightGrayDoubleFlower id="botania:light_gray_double_flower" mergePrevious="true"/>
+                    <itemLimeDoubleFlower id="botania:lime_double_flower" mergePrevious="true"/>
+                    <itemMagentaDoubleFlower id="botania:magenta_double_flower" mergePrevious="true"/>
+                    <itemOrangeDoubleFlower id="botania:orange_double_flower" mergePrevious="true"/>
+                    <itemPinkDoubleFlower id="botania:pink_double_flower" mergePrevious="true"/>
+                    <itemPurpleDoubleFlower id="botania:purple_double_flower" mergePrevious="true"/>
+                    <itemRedDoubleFlower id="botania:red_double_flower" mergePrevious="true"/>
+                    <itemWhiteDoubleFlower id="botania:white_double_flower" mergePrevious="true"/>
+                    <itemYellowDoubleFlower id="botania:yellow_double_flower" mergePrevious="true"/>
+                </doubleFlowers>
+                <petals>
+                    <itemBlackPetal id="botania:black_petal"/>
+                    <itemBluePetal id="botania:blue_petal" mergePrevious="true"/>
+                    <itemBrownPetal id="botania:brown_petal" mergePrevious="true"/>
+                    <itemCyanPetal id="botania:cyan_petal" mergePrevious="true"/>
+                    <itemGrayPetal id="botania:gray_petal" mergePrevious="true"/>
+                    <itemGreenPetal id="botania:green_petal" mergePrevious="true"/>
+                    <itemLightBluePetal id="botania:light_blue_petal" mergePrevious="true"/>
+                    <itemLightGrayPetal id="botania:light_gray_petal" mergePrevious="true"/>
+                    <itemLimePetal id="botania:lime_petal" mergePrevious="true"/>
+                    <itemMagentaPetal id="botania:magenta_petal" mergePrevious="true"/>
+                    <itemOrangePetal id="botania:orange_petal" mergePrevious="true"/>
+                    <itemPinkPetal id="botania:pink_petal" mergePrevious="true"/>
+                    <itemPurplePetal id="botania:purple_petal" mergePrevious="true"/>
+                    <itemRedPetal id="botania:red_petal" mergePrevious="true"/>
+                    <itemWhitePetal id="botania:white_petal" mergePrevious="true"/>
+                    <itemYellowPetal id="botania:yellow_petal" mergePrevious="true"/>
+                    <itemMysticalBifrostPetal id="botania:mystical_bifrost_petal"/>
+                </petals>
+            </flower>
+            <mushroom>
+                <botaniaMushrooms>
+                    <itemBlackMushroom id="botania:black_mushroom"/>
+                    <itemBlueMushroom id="botania:blue_mushroom" mergePrevious="true"/>
+                    <itemBrownMushroom id="botania:brown_mushroom" mergePrevious="true"/>
+                    <itemCyanMushroom id="botania:cyan_mushroom" mergePrevious="true"/>
+                    <itemGrayMushroom id="botania:gray_mushroom" mergePrevious="true"/>
+                    <itemGreenMushroom id="botania:green_mushroom" mergePrevious="true"/>
+                    <itemLightBlueMushroom id="botania:light_blue_mushroom" mergePrevious="true"/>
+                    <itemLightGrayMushroom id="botania:light_gray_mushroom" mergePrevious="true"/>
+                    <itemLimeMushroom id="botania:lime_mushroom" mergePrevious="true"/>
+                    <itemMagentaMushroom id="botania:magenta_mushroom" mergePrevious="true"/>
+                    <itemOrangeMushroom id="botania:orange_mushroom" mergePrevious="true"/>
+                    <itemPinkMushroom id="botania:pink_mushroom" mergePrevious="true"/>
+                    <itemPurpleMushroom id="botania:purple_mushroom" mergePrevious="true"/>
+                    <itemRedMushroom id="botania:red_mushroom" mergePrevious="true"/>
+                    <itemWhiteMushroom id="botania:white_mushroom" mergePrevious="true"/>
+                    <itemYellowMushroom id="botania:yellow_mushroom" mergePrevious="true"/>
+                </botaniaMushrooms>
+            </mushroom>
+            <leaves>
+                <iridescentLeaves>
+                    <itemBlackIridescentLeaves id="botania:black_iridescent_leaves"/>
+                    <itemBlueIridescentLeaves id="botania:blue_iridescent_leaves" mergePrevious="true"/>
+                    <itemBrownIridescentLeaves id="botania:brown_iridescent_leaves" mergePrevious="true"/>
+                    <itemCyanIridescentLeaves id="botania:cyan_iridescent_leaves" mergePrevious="true"/>
+                    <itemGrayIridescentLeaves id="botania:gray_iridescent_leaves" mergePrevious="true"/>
+                    <itemGreenIridescentLeaves id="botania:green_iridescent_leaves" mergePrevious="true"/>
+                    <itemLightBlueIridescentLeaves id="botania:light_blue_iridescent_leaves" mergePrevious="true"/>
+                    <itemLightGrayIridescentLeaves id="botania:light_gray_iridescent_leaves" mergePrevious="true"/>
+                    <itemLimeIridescentLeaves id="botania:lime_iridescent_leaves" mergePrevious="true"/>
+                    <itemMagentaIridescentLeaves id="botania:magenta_iridescent_leaves" mergePrevious="true"/>
+                    <itemOrangeIridescentLeaves id="botania:orange_iridescent_leaves" mergePrevious="true"/>
+                    <itemPinkIridescentLeaves id="botania:pink_iridescent_leaves" mergePrevious="true"/>
+                    <itemPurpleIridescentLeaves id="botania:purple_iridescent_leaves" mergePrevious="true"/>
+                    <itemRedIridescentLeaves id="botania:red_iridescent_leaves" mergePrevious="true"/>
+                    <itemWhiteIridescentLeaves id="botania:white_iridescent_leaves" mergePrevious="true"/>
+                    <itemYellowIridescentLeaves id="botania:yellow_iridescent_leaves" mergePrevious="true"/>
+                </iridescentLeaves>
+                <botaniaLeaves>
+                    <itemBifrostLeaves id="botania:bifrost_leaves"/>
+                    <itemDryLeaves id="botania:dry_leaves"/>
+                    <itemGoldenLeaves id="botania:golden_leaves"/>
+                    <itemHornLeaves id="botania:horn_leaves"/>
+                    <itemInfernalLeaves id="botania:infernal_leaves"/>
+                    <itemInfusedLeaves id="botania:infused_leaves"/>
+                    <itemMutatedLeaves id="botania:mutated_leaves"/>
+                    <itemScorchedLeaves id="botania:scorched_leaves"/>
+                    <itemSealingLeaves id="botania:sealing_leaves"/>
+                    <itemThunderousLeaves id="botania:thunderous_leaves"/>
+                    <itemVividLeaves id="botania:vivid_leaves"/>
+                </botaniaLeaves>
+            </leaves>
+            <seed>
+                <iridescentSeeds>
+                    <itemBlackIridescentSeeds id="botania:black_iridescent_seeds"/>
+                    <itemBlueIridescentSeeds id="botania:blue_iridescent_seeds" mergePrevious="true"/>
+                    <itemBrownIridescentSeeds id="botania:brown_iridescent_seeds" mergePrevious="true"/>
+                    <itemCyanIridescentSeeds id="botania:cyan_iridescent_seeds" mergePrevious="true"/>
+                    <itemGrayIridescentSeeds id="botania:gray_iridescent_seeds" mergePrevious="true"/>
+                    <itemGreenIridescentSeeds id="botania:green_iridescent_seeds" mergePrevious="true"/>
+                    <itemLightBlueIridescentSeeds id="botania:light_blue_iridescent_seeds" mergePrevious="true"/>
+                    <itemLightGrayIridescentSeeds id="botania:light_gray_iridescent_seeds" mergePrevious="true"/>
+                    <itemLimeIridescentSeeds id="botania:lime_iridescent_seeds" mergePrevious="true"/>
+                    <itemMagentaIridescentSeeds id="botania:magenta_iridescent_seeds" mergePrevious="true"/>
+                    <itemOrangeIridescentSeeds id="botania:orange_iridescent_seeds" mergePrevious="true"/>
+                    <itemPinkIridescentSeeds id="botania:pink_iridescent_seeds" mergePrevious="true"/>
+                    <itemPurpleIridescentSeeds id="botania:purple_iridescent_seeds" mergePrevious="true"/>
+                    <itemRedIridescentSeeds id="botania:red_iridescent_seeds" mergePrevious="true"/>
+                    <itemWhiteIridescentSeeds id="botania:white_iridescent_seeds" mergePrevious="true"/>
+                    <itemYellowIridescentSeeds id="botania:yellow_iridescent_seeds" mergePrevious="true"/>
+                </iridescentSeeds>
+                <botaniaSeeds>
+                    <itemBifrostSeeds id="botania:bifrost_seeds"/>
+                    <itemDrySeeds id="botania:dry_seeds"/>
+                    <itemGoldenSeeds id="botania:golden_seeds"/>
+                    <itemGrassSeeds id="botania:grass_seeds"/>
+                    <itemInfusedSeeds id="botania:infused_seeds"/>
+                    <itemMutatedSeeds id="botania:mutated_seeds"/>
+                    <itemMyceliumSeeds id="botania:mycelium_seeds"/>
+                    <itemPodzolSeeds id="botania:podzol_seeds"/>
+                    <itemScorchedSeeds id="botania:scorched_seeds"/>
+                    <itemVividSeeds id="botania:vivid_seeds"/>
+                </botaniaSeeds>
+            </seed>
+            <sapling>
+                <botaniaSaplings>
+                    <itemInfernalOakSapling id="botania:infernal_oak_sapling"/>
+                    <itemIridescentSapling id="botania:iridescent_sapling"/>
+                    <itemSealingOakSapling id="botania:sealing_oak_sapling"/>
+                    <itemThunderousOakSapling id="botania:thunderous_oak_sapling"/>
+                </botaniaSaplings>
+            </sapling>
+        </plant>
+        <parts>
+            <mechanicalParts>
+                <lenses>
+                    <itemLensBounce id="botania:lens_bounce"/>
+                    <itemLensDamage id="botania:lens_damage"/>
+                    <itemLensEfficiency id="botania:lens_efficiency"/>
+                    <itemLensExplosive id="botania:lens_explosive"/>
+                    <itemLensFire id="botania:lens_fire"/>
+                    <itemLensFirework id="botania:lens_firework"/>
+                    <itemLensFlare id="botania:lens_flare"/>
+                    <itemLensGravity id="botania:lens_gravity"/>
+                    <itemLensInfluence id="botania:lens_influence"/>
+                    <itemLensLight id="botania:lens_light"/>
+                    <itemLensMagnet id="botania:lens_magnet"/>
+                    <itemLensMessenger id="botania:lens_messenger"/>
+                    <itemLensMine id="botania:lens_mine"/>
+                    <itemLensNormal id="botania:lens_normal"/>
+                    <itemLensPaint id="botania:lens_paint"/>
+                    <itemLensPhantom id="botania:lens_phantom"/>
+                    <itemLensPiston id="botania:lens_piston"/>
+                    <itemLensPower id="botania:lens_power"/>
+                    <itemLensRedirect id="botania:lens_redirect"/>
+                    <itemLensSpeed id="botania:lens_speed"/>
+                    <itemLensStorm id="botania:lens_storm"/>
+                    <itemLensTime id="botania:lens_time"/>
+                    <itemLensTripwire id="botania:lens_tripwire"/>
+                    <itemLensWarp id="botania:lens_warp"/>
+                    <itemLensWeight id="botania:lens_weight"/>
+                    <itemPhantomFlashLens id="botania:phantom_flash_lens"/>
+                </lenses>
+                <runes>
+                    <itemRuneAir id="botania:rune_air"/>
+                    <itemRuneAutumn id="botania:rune_autumn"/>
+                    <itemRuneDeception id="botania:rune_deception"/>
+                    <itemRuneEarth id="botania:rune_earth"/>
+                    <itemRuneEnvy id="botania:rune_envy"/>
+                    <itemRuneFire id="botania:rune_fire"/>
+                    <itemRuneGluttony id="botania:rune_gluttony"/>
+                    <itemRuneGreed id="botania:rune_greed"/>
+                    <itemRuneLust id="botania:rune_lust"/>
+                    <itemRuneMana id="botania:rune_mana"/>
+                    <itemRunePride id="botania:rune_pride"/>
+                    <itemRuneSloth id="botania:rune_sloth"/>
+                    <itemRuneSpring id="botania:rune_spring"/>
+                    <itemRuneSummer id="botania:rune_summer"/>
+                    <itemRuneWater id="botania:rune_water"/>
+                    <itemRuneWinter id="botania:rune_winter"/>
+                    <itemRuneWrath id="botania:rune_wrath"/>
+                </runes>
+                <upgrades>
+                    <itemAlfsteelStackUpgrade id="botania:alfsteel_stack_upgrade"/>
+                    <itemBreweryUpgrade id="botania:brewery_upgrade"/>
+                    <itemElementiumStackUpgrade id="botania:elementium_stack_upgrade"/>
+                    <itemElementiumToTerrasteelTierUpgrade id="botania:elementium_to_terrasteel_tier_upgrade"/>
+                    <itemElvenPortalUpgrade id="botania:elven_portal_upgrade"/>
+                    <itemGaiaStackUpgrade id="botania:gaia_stack_upgrade"/>
+                    <itemGaiaToAlfsteelTierUpgrade id="botania:gaia_to_alfsteel_tier_upgrade"/>
+                    <itemManaLinkUpgrade id="botania:mana_link_upgrade"/>
+                    <itemManaPileUpgrade id="botania:mana_pile_upgrade"/>
+                    <itemManasteelStackUpgrade id="botania:manasteel_stack_upgrade"/>
+                    <itemManasteelToElementiumTierUpgrade id="botania:manasteel_to_elementium_tier_upgrade"/>
+                    <itemNetheriteToManasteelTierUpgrade id="botania:netherite_to_manasteel_tier_upgrade"/>
+                    <itemPetalApothecaryUpgrade id="botania:petal_apothecary_upgrade"/>
+                    <itemRemoteTerraPlateUpgrade id="botania:remote_terra_plate_upgrade"/>
+                    <itemRunicAltarUpgrade id="botania:runic_altar_upgrade"/>
+                    <itemSparkUpgradeDispersive id="botania:spark_upgrade_dispersive"/>
+                    <itemSparkUpgradeDominant id="botania:spark_upgrade_dominant"/>
+                    <itemSparkUpgradeIsolated id="botania:spark_upgrade_isolated"/>
+                    <itemSparkUpgradeRecessive id="botania:spark_upgrade_recessive"/>
+                    <itemTerrasteelStackUpgrade id="botania:terrasteel_stack_upgrade"/>
+                    <itemTerrasteelToGaiaTierUpgrade id="botania:terrasteel_to_gaia_tier_upgrade"/>
+                </upgrades>
+                <botaniaMaterials>
+                    <itemBifrostDirt id="botania:bifrost_dirt"/>
+                    <itemBifrostPane id="botania:bifrost_pane"/>
+                    <itemBifrostPerm id="botania:bifrost_perm"/>
+                    <itemBlazeKindling id="botania:blaze_kindling"/>
+                    <itemClip id="botania:clip"/>
+                    <itemCocoon id="botania:cocoon"/>
+                    <itemDragonstone id="botania:dragonstone"/>
+                    <itemDreamwoodTwig id="botania:dreamwood_twig"/>
+                    <itemElfGlass id="botania:elf_glass"/>
+                    <itemElfGlassPane id="botania:elf_glass_pane"/>
+                    <itemEnchantedSoil id="botania:enchanted_soil"/>
+                    <itemFertilizer id="botania:fertilizer"/>
+                    <itemFlameLacedCharcoal id="botania:flame_laced_charcoal"/>
+                    <itemFloralBifrostPowder id="botania:floral_bifrost_powder"/>
+                    <itemInfernalSplinters id="botania:infernal_splinters"/>
+                    <itemInfernalTwig id="botania:infernal_twig"/>
+                    <itemInfiniteFruit id="botania:infinite_fruit"/>
+                    <itemKeepIvy id="botania:keep_ivy"/>
+                    <itemLifeEssence id="botania:life_essence"/>
+                    <itemLivingRoot id="botania:living_root"/>
+                    <itemLivingwoodTwig id="botania:livingwood_twig"/>
+                    <itemManaDiamond id="botania:mana_diamond"/>
+                    <itemManaGlass id="botania:mana_glass"/>
+                    <itemManaGlassPane id="botania:mana_glass_pane"/>
+                    <itemManaInkwell id="botania:mana_inkwell"/>
+                    <itemManaPearl id="botania:mana_pearl"/>
+                    <itemManaPowder id="botania:mana_powder"/>
+                    <itemManaString id="botania:mana_string"/>
+                    <itemManaweaveCloth id="botania:manaweave_cloth"/>
+                    <itemOvergrowthSeed id="botania:overgrowth_seed"/>
+                    <itemPebble id="botania:pebble"/>
+                    <itemPhantomInk id="botania:phantom_ink"/>
+                    <itemPixieDust id="botania:pixie_dust"/>
+                    <itemRedstoneRoot id="botania:redstone_root"/>
+                    <itemRoot id="botania:root"/>
+                    <itemSpellCloth id="botania:spell_cloth"/>
+                    <itemThunderousSplinters id="botania:thunderous_splinters"/>
+                    <itemThunderousTwig id="botania:thunderous_twig"/>
+                    <itemVineBall id="botania:vine_ball"/>
+                    <itemVirusNecrodermal id="botania:virus_necrodermal"/>
+                    <itemVirusNullodermal id="botania:virus_nullodermal"/>
+                    <itemWorldSeed id="botania:world_seed"/>
+                </botaniaMaterials>
+            </mechanicalParts>
+        </parts>
+        <decoration>
+            <cosmetics>
+                <itemCosmeticAlienAntenna id="botania:cosmetic_alien_antenna"/>
+                <itemCosmeticAnaglyphGlasses id="botania:cosmetic_anaglyph_glasses"/>
+                <itemCosmeticAncientMask id="botania:cosmetic_ancient_mask"/>
+                <itemCosmeticBlackBowtie id="botania:cosmetic_black_bowtie"/>
+                <itemCosmeticBlackTie id="botania:cosmetic_black_tie"/>
+                <itemCosmeticBlueButterfly id="botania:cosmetic_blue_butterfly"/>
+                <itemCosmeticBotanistEmblem id="botania:cosmetic_botanist_emblem"/>
+                <itemCosmeticCatEars id="botania:cosmetic_cat_ears"/>
+                <itemCosmeticClockEye id="botania:cosmetic_clock_eye"/>
+                <itemCosmeticDevilHorns id="botania:cosmetic_devil_horns"/>
+                <itemCosmeticDevilTail id="botania:cosmetic_devil_tail"/>
+                <itemCosmeticEerieMask id="botania:cosmetic_eerie_mask"/>
+                <itemCosmeticEngineerGoggles id="botania:cosmetic_engineer_goggles"/>
+                <itemCosmeticEyepatch id="botania:cosmetic_eyepatch"/>
+                <itemCosmeticFourLeafClover id="botania:cosmetic_four_leaf_clover"/>
+                <itemCosmeticGooglyEyes id="botania:cosmetic_googly_eyes"/>
+                <itemCosmeticGrouchoGlasses id="botania:cosmetic_groucho_glasses"/>
+                <itemCosmeticHyperPlus id="botania:cosmetic_hyper_plus"/>
+                <itemCosmeticKamuiEye id="botania:cosmetic_kamui_eye"/>
+                <itemCosmeticLusitanicShield id="botania:cosmetic_lusitanic_shield"/>
+                <itemCosmeticOrangeShades id="botania:cosmetic_orange_shades"/>
+                <itemCosmeticPinkFlowerBud id="botania:cosmetic_pink_flower_bud"/>
+                <itemCosmeticPolkaDottedBows id="botania:cosmetic_polka_dotted_bows"/>
+                <itemCosmeticPuffyScarf id="botania:cosmetic_puffy_scarf"/>
+                <itemCosmeticQuestgiverMark id="botania:cosmetic_questgiver_mark"/>
+                <itemCosmeticRedGlasses id="botania:cosmetic_red_glasses"/>
+                <itemCosmeticRedRibbons id="botania:cosmetic_red_ribbons"/>
+                <itemCosmeticThickEyebrows id="botania:cosmetic_thick_eyebrows"/>
+                <itemCosmeticThinkingHand id="botania:cosmetic_thinking_hand"/>
+                <itemCosmeticTinyPotatoMask id="botania:cosmetic_tiny_potato_mask"/>
+                <itemCosmeticUnicornHorn id="botania:cosmetic_unicorn_horn"/>
+                <itemCosmeticWickedEyepatch id="botania:cosmetic_wicked_eyepatch"/>
+                <itemCosmeticWitchPin id="botania:cosmetic_witch_pin"/>
+            </cosmetics>
+            <bannerPatterns>
+                <itemCoatOfArmsAmerican id="botania:coat_of_arms_american"/>
+                <itemCoatOfArmsChilean id="botania:coat_of_arms_chilean"/>
+                <itemCoatOfArmsFabulous id="botania:coat_of_arms_fabulous"/>
+                <itemCoatOfArmsFrench id="botania:coat_of_arms_french"/>
+                <itemCoatOfArmsGermanic id="botania:coat_of_arms_germanic"/>
+                <itemCoatOfArmsGreek id="botania:coat_of_arms_greek"/>
+                <itemCoatOfArmsIcelandic id="botania:coat_of_arms_icelandic"/>
+                <itemCoatOfArmsIrish id="botania:coat_of_arms_irish"/>
+                <itemCoatOfArmsIsraeli id="botania:coat_of_arms_israeli"/>
+                <itemCoatOfArmsJamaican id="botania:coat_of_arms_jamaican"/>
+                <itemCoatOfArmsJapanese id="botania:coat_of_arms_japanese"/>
+                <itemCoatOfArmsParisian id="botania:coat_of_arms_parisian"/>
+                <itemCoatOfArmsSingaporean id="botania:coat_of_arms_singaporean"/>
+                <itemCoatOfArmsSouthAfrican id="botania:coat_of_arms_south_african"/>
+                <itemCoatOfArmsSpanish id="botania:coat_of_arms_spanish"/>
+                <itemCoatOfArmsSwiss id="botania:coat_of_arms_swiss"/>
+                <itemCoatOfArmsTexan id="botania:coat_of_arms_texan"/>
+                <itemCoatOfArmsUkrainian id="botania:coat_of_arms_ukrainian"/>
+                <itemPattern11 id="botania:pattern_1_1"/>
+                <itemPattern12 id="botania:pattern_1_2"/>
+                <itemPattern13 id="botania:pattern_1_3"/>
+                <itemPattern21 id="botania:pattern_2_1"/>
+                <itemPattern22 id="botania:pattern_2_2"/>
+                <itemPattern23 id="botania:pattern_2_3"/>
+                <itemPattern31 id="botania:pattern_3_1"/>
+                <itemPattern32 id="botania:pattern_3_2"/>
+                <itemPatternDonut id="botania:pattern_donut"/>
+                <itemPatternFramedDreamwood id="botania:pattern_framed_dreamwood"/>
+                <itemPatternFramedLivingwood id="botania:pattern_framed_livingwood"/>
+            </bannerPatterns>
+            <motifs>
+                <itemDaybloomMotif id="botania:daybloom_motif"/>
+                <itemHydroangeasMotif id="botania:hydroangeas_motif"/>
+                <itemNightshadeMotif id="botania:nightshade_motif"/>
+            </motifs>
+            <musicDisc>
+                <itemRecordGaia1 id="botania:record_gaia_1"/>
+                <itemRecordGaia2 id="botania:record_gaia_2"/>
+            </musicDisc>
+            <botaniaCurios>
+                <itemDammitreddit id="botania:dammitreddit"/>
+                <itemDasboot id="botania:dasboot"/>
+                <itemFelPumpkin id="botania:fel_pumpkin"/>
+                <itemGaiaHead id="botania:gaia_head"/>
+                <itemTeruTeruBozu id="botania:teru_teru_bozu"/>
+                <itemTinyPlanet id="botania:tiny_planet"/>
+                <itemTinyPotato id="botania:tiny_potato"/>
+                <itemTotalbiscuit id="botania:totalbiscuit"/>
+            </botaniaCurios>
+        </decoration>
+        <utility>
+            <ancientWills>
+                <itemAncientWillAhrim id="botania:ancient_will_ahrim"/>
+                <itemAncientWillDharok id="botania:ancient_will_dharok"/>
+                <itemAncientWillGuthan id="botania:ancient_will_guthan"/>
+                <itemAncientWillKaril id="botania:ancient_will_karil"/>
+                <itemAncientWillTorag id="botania:ancient_will_torag"/>
+                <itemAncientWillVerac id="botania:ancient_will_verac"/>
+            </ancientWills>
+            <botaniaBaubles>
+                <itemAesirEmblem id="botania:aesir_emblem"/>
+                <itemAesirRing id="botania:aesir_ring"/>
+                <itemAuraRing id="botania:aura_ring"/>
+                <itemAuraRingGreater id="botania:aura_ring_greater"/>
+                <itemBalanceCloak id="botania:balance_cloak"/>
+                <itemBloodPendant id="botania:blood_pendant"/>
+                <itemCloudPendant id="botania:cloud_pendant"/>
+                <itemDivaCharm id="botania:diva_charm"/>
+                <itemDodgeRing id="botania:dodge_ring"/>
+                <itemFlightTiara id="botania:flight_tiara"/>
+                <itemGoddessCharm id="botania:goddess_charm"/>
+                <itemHolyCloak id="botania:holy_cloak"/>
+                <itemHolySymbol id="botania:holy_symbol"/>
+                <itemIcePendant id="botania:ice_pendant"/>
+                <itemInvisibilityCloak id="botania:invisibility_cloak"/>
+                <itemKnockbackBelt id="botania:knockback_belt"/>
+                <itemLavaPendant id="botania:lava_pendant"/>
+                <itemLokiRing id="botania:loki_ring"/>
+                <itemMagnetRing id="botania:magnet_ring"/>
+                <itemMagnetRingGreater id="botania:magnet_ring_greater"/>
+                <itemManaRing id="botania:mana_ring"/>
+                <itemManaRingGreater id="botania:mana_ring_greater"/>
+                <itemMiningRing id="botania:mining_ring"/>
+                <itemMonocle id="botania:monocle"/>
+                <itemOdinRing id="botania:odin_ring"/>
+                <itemPixieRing id="botania:pixie_ring"/>
+                <itemPriestEmblemNjord id="botania:priest_emblem_njord"/>
+                <itemPriestEmblemSif id="botania:priest_emblem_sif"/>
+                <itemPriestEmblemThor id="botania:priest_emblem_thor"/>
+                <itemReachRing id="botania:reach_ring"/>
+                <itemSpeedUpBelt id="botania:speed_up_belt"/>
+                <itemSuperCloudPendant id="botania:super_cloud_pendant"/>
+                <itemSuperLavaPendant id="botania:super_lava_pendant"/>
+                <itemSuperTravelBelt id="botania:super_travel_belt"/>
+                <itemSwapRing id="botania:swap_ring"/>
+                <itemThirdEye id="botania:third_eye"/>
+                <itemTravelBelt id="botania:travel_belt"/>
+                <itemUnholyCloak id="botania:unholy_cloak"/>
+                <itemWaterRing id="botania:water_ring"/>
+            </botaniaBaubles>
+            <storage>
+                <backpacks>
+                    <itemAlfsteelBackpack id="botania:alfsteel_backpack"/>
+                    <itemElementiumBackpack id="botania:elementium_backpack"/>
+                    <itemGaiaBackpack id="botania:gaia_backpack"/>
+                    <itemManasteelBackpack id="botania:manasteel_backpack"/>
+                    <itemTerrasteelBackpack id="botania:terrasteel_backpack"/>
+                </backpacks>
+                <barrels>
+                    <itemAlfsteelBarrel id="botania:alfsteel_barrel"/>
+                    <itemElementiumBarrel id="botania:elementium_barrel"/>
+                    <itemGaiaBarrel id="botania:gaia_barrel"/>
+                    <itemManasteelBarrel id="botania:manasteel_barrel"/>
+                    <itemTerrasteelBarrel id="botania:terrasteel_barrel"/>
+                </barrels>
+                <botaniaChests>
+                    <itemAlfsteelChest id="botania:alfsteel_chest"/>
+                    <itemElementiumChest id="botania:elementium_chest"/>
+                    <itemGaiaChest id="botania:gaia_chest"/>
+                    <itemManasteelChest id="botania:manasteel_chest"/>
+                    <itemTerrasteelChest id="botania:terrasteel_chest"/>
+                </botaniaChests>
+            </storage>
+        </utility>
+        <fluidStorage>
+            <fluidTanks>
+                <itemAlfsteelTank id="botania:alfsteel_tank"/>
+                <itemElementiumTank id="botania:elementium_tank"/>
+                <itemGaiaTank id="botania:gaia_tank"/>
+                <itemManasteelTank id="botania:manasteel_tank"/>
+                <itemTerrasteelTank id="botania:terrasteel_tank"/>
+            </fluidTanks>
+        </fluidStorage>
+        <potion>
+            <botaniaFlasks>
+                <itemBrewFlask id="botania:brew_flask"/>
+                <itemBrewVial id="botania:brew_vial"/>
+                <itemEnderAirBottle id="botania:ender_air_bottle"/>
+                <itemFlask id="botania:flask"/>
+                <itemIncenseStick id="botania:incense_stick"/>
+                <itemManaBottle id="botania:mana_bottle"/>
+                <itemOpenBucket id="botania:open_bucket"/>
+                <itemSlimeBottle id="botania:slime_bottle"/>
+                <itemVial id="botania:vial"/>
+                <itemWaterBowl id="botania:water_bowl"/>
+            </botaniaFlasks>
+        </potion>
+        <food>
+            <edibleFood>
+                <itemManaCookie id="botania:mana_cookie"/>
+            </edibleFood>
+        </food>
+    </item>
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <petalBlocks>
+                    <itemBlackPetalBlock id="botania:black_petal_block"/>
+                    <itemBluePetalBlock id="botania:blue_petal_block" mergePrevious="true"/>
+                    <itemBrownPetalBlock id="botania:brown_petal_block" mergePrevious="true"/>
+                    <itemCyanPetalBlock id="botania:cyan_petal_block" mergePrevious="true"/>
+                    <itemGrayPetalBlock id="botania:gray_petal_block" mergePrevious="true"/>
+                    <itemGreenPetalBlock id="botania:green_petal_block" mergePrevious="true"/>
+                    <itemLightBluePetalBlock id="botania:light_blue_petal_block" mergePrevious="true"/>
+                    <itemLightGrayPetalBlock id="botania:light_gray_petal_block" mergePrevious="true"/>
+                    <itemLimePetalBlock id="botania:lime_petal_block" mergePrevious="true"/>
+                    <itemMagentaPetalBlock id="botania:magenta_petal_block" mergePrevious="true"/>
+                    <itemOrangePetalBlock id="botania:orange_petal_block" mergePrevious="true"/>
+                    <itemPinkPetalBlock id="botania:pink_petal_block" mergePrevious="true"/>
+                    <itemPurplePetalBlock id="botania:purple_petal_block" mergePrevious="true"/>
+                    <itemRedPetalBlock id="botania:red_petal_block" mergePrevious="true"/>
+                    <itemWhitePetalBlock id="botania:white_petal_block" mergePrevious="true"/>
+                    <itemYellowPetalBlock id="botania:yellow_petal_block" mergePrevious="true"/>
+                </petalBlocks>
+                <pavement>
+                    <itemBlackPavement id="botania:black_pavement"/>
+                    <itemBluePavement id="botania:blue_pavement" mergePrevious="true"/>
+                    <itemGreenPavement id="botania:green_pavement" mergePrevious="true"/>
+                    <itemRedPavement id="botania:red_pavement" mergePrevious="true"/>
+                    <itemWhitePavement id="botania:white_pavement" mergePrevious="true"/>
+                    <itemYellowPavement id="botania:yellow_pavement" mergePrevious="true"/>
+                </pavement>
+                <slabs>
+                    <pavementSlabs>
+                        <itemBlackPavementSlab id="botania:black_pavement_slab"/>
+                        <itemBluePavementSlab id="botania:blue_pavement_slab" mergePrevious="true"/>
+                        <itemGreenPavementSlab id="botania:green_pavement_slab" mergePrevious="true"/>
+                        <itemRedPavementSlab id="botania:red_pavement_slab" mergePrevious="true"/>
+                        <itemWhitePavementSlab id="botania:white_pavement_slab" mergePrevious="true"/>
+                        <itemYellowPavementSlab id="botania:yellow_pavement_slab" mergePrevious="true"/>
+                    </pavementSlabs>
+                    <iridescentSlabs>
+                        <itemBlackIridescentSlab id="botania:black_iridescent_slab"/>
+                        <itemBlueIridescentSlab id="botania:blue_iridescent_slab" mergePrevious="true"/>
+                        <itemBrownIridescentSlab id="botania:brown_iridescent_slab" mergePrevious="true"/>
+                        <itemCyanIridescentSlab id="botania:cyan_iridescent_slab" mergePrevious="true"/>
+                        <itemGrayIridescentSlab id="botania:gray_iridescent_slab" mergePrevious="true"/>
+                        <itemGreenIridescentSlab id="botania:green_iridescent_slab" mergePrevious="true"/>
+                        <itemLightBlueIridescentSlab id="botania:light_blue_iridescent_slab" mergePrevious="true"/>
+                        <itemLightGrayIridescentSlab id="botania:light_gray_iridescent_slab" mergePrevious="true"/>
+                        <itemLimeIridescentSlab id="botania:lime_iridescent_slab" mergePrevious="true"/>
+                        <itemMagentaIridescentSlab id="botania:magenta_iridescent_slab" mergePrevious="true"/>
+                        <itemOrangeIridescentSlab id="botania:orange_iridescent_slab" mergePrevious="true"/>
+                        <itemPinkIridescentSlab id="botania:pink_iridescent_slab" mergePrevious="true"/>
+                        <itemPurpleIridescentSlab id="botania:purple_iridescent_slab" mergePrevious="true"/>
+                        <itemRedIridescentSlab id="botania:red_iridescent_slab" mergePrevious="true"/>
+                        <itemWhiteIridescentSlab id="botania:white_iridescent_slab" mergePrevious="true"/>
+                        <itemYellowIridescentSlab id="botania:yellow_iridescent_slab" mergePrevious="true"/>
+                    </iridescentSlabs>
+                    <botaniaSlabs>
+                        <itemBifrostSlab id="botania:bifrost_slab"/>
+                        <itemBlazeQuartzSlab id="botania:blaze_quartz_slab"/>
+                        <itemCorporeaBrickSlab id="botania:corporea_brick_slab"/>
+                        <itemCorporeaSlab id="botania:corporea_slab"/>
+                        <itemDarkQuartzSlab id="botania:dark_quartz_slab"/>
+                        <itemDreamwoodPlanksSlab id="botania:dreamwood_planks_slab"/>
+                        <itemDreamwoodSlab id="botania:dreamwood_slab"/>
+                        <itemDrySlab id="botania:dry_slab"/>
+                        <itemElfQuartzSlab id="botania:elf_quartz_slab"/>
+                        <itemGoldenSlab id="botania:golden_slab"/>
+                        <itemInfernalSlab id="botania:infernal_slab"/>
+                        <itemInfusedSlab id="botania:infused_slab"/>
+                        <itemLavenderQuartzSlab id="botania:lavender_quartz_slab"/>
+                        <itemLivingrockBricksSlab id="botania:livingrock_bricks_slab"/>
+                        <itemLivingrockSlab id="botania:livingrock_slab"/>
+                        <itemLivingwoodPlanksSlab id="botania:livingwood_planks_slab"/>
+                        <itemLivingwoodSlab id="botania:livingwood_slab"/>
+                        <itemManaQuartzSlab id="botania:mana_quartz_slab"/>
+                        <itemMetamorphicDesertBricksSlab id="botania:metamorphic_desert_bricks_slab"/>
+                        <itemMetamorphicDesertCobblestoneSlab id="botania:metamorphic_desert_cobblestone_slab"/>
+                        <itemMetamorphicDesertStoneSlab id="botania:metamorphic_desert_stone_slab"/>
+                        <itemMetamorphicForestBricksSlab id="botania:metamorphic_forest_bricks_slab"/>
+                        <itemMetamorphicForestCobblestoneSlab id="botania:metamorphic_forest_cobblestone_slab"/>
+                        <itemMetamorphicForestStoneSlab id="botania:metamorphic_forest_stone_slab"/>
+                        <itemMetamorphicFungalBricksSlab id="botania:metamorphic_fungal_bricks_slab"/>
+                        <itemMetamorphicFungalCobblestoneSlab id="botania:metamorphic_fungal_cobblestone_slab"/>
+                        <itemMetamorphicFungalStoneSlab id="botania:metamorphic_fungal_stone_slab"/>
+                        <itemMetamorphicMesaBricksSlab id="botania:metamorphic_mesa_bricks_slab"/>
+                        <itemMetamorphicMesaCobblestoneSlab id="botania:metamorphic_mesa_cobblestone_slab"/>
+                        <itemMetamorphicMesaStoneSlab id="botania:metamorphic_mesa_stone_slab"/>
+                        <itemMetamorphicMountainBricksSlab id="botania:metamorphic_mountain_bricks_slab"/>
+                        <itemMetamorphicMountainCobblestoneSlab id="botania:metamorphic_mountain_cobblestone_slab"/>
+                        <itemMetamorphicMountainStoneSlab id="botania:metamorphic_mountain_stone_slab"/>
+                        <itemMetamorphicPlainsBricksSlab id="botania:metamorphic_plains_bricks_slab"/>
+                        <itemMetamorphicPlainsCobblestoneSlab id="botania:metamorphic_plains_cobblestone_slab"/>
+                        <itemMetamorphicPlainsStoneSlab id="botania:metamorphic_plains_stone_slab"/>
+                        <itemMetamorphicSwampBricksSlab id="botania:metamorphic_swamp_bricks_slab"/>
+                        <itemMetamorphicSwampCobblestoneSlab id="botania:metamorphic_swamp_cobblestone_slab"/>
+                        <itemMetamorphicSwampStoneSlab id="botania:metamorphic_swamp_stone_slab"/>
+                        <itemMetamorphicTaigaBricksSlab id="botania:metamorphic_taiga_bricks_slab"/>
+                        <itemMetamorphicTaigaCobblestoneSlab id="botania:metamorphic_taiga_cobblestone_slab"/>
+                        <itemMetamorphicTaigaStoneSlab id="botania:metamorphic_taiga_stone_slab"/>
+                        <itemMossyLivingrockBricksSlab id="botania:mossy_livingrock_bricks_slab"/>
+                        <itemMutatedSlab id="botania:mutated_slab"/>
+                        <itemPolishedLivingrockSlab id="botania:polished_livingrock_slab"/>
+                        <itemRedQuartzSlab id="botania:red_quartz_slab"/>
+                        <itemScorchedSlab id="botania:scorched_slab"/>
+                        <itemSealingSlab id="botania:sealing_slab"/>
+                        <itemShimmerQuartzSlab id="botania:shimmer_quartz_slab"/>
+                        <itemShimmerrockSlab id="botania:shimmerrock_slab"/>
+                        <itemShimmerwoodPlanksSlab id="botania:shimmerwood_planks_slab"/>
+                        <itemStrippedDreamwoodSlab id="botania:stripped_dreamwood_slab"/>
+                        <itemStrippedLivingwoodSlab id="botania:stripped_livingwood_slab"/>
+                        <itemSunnyQuartzSlab id="botania:sunny_quartz_slab"/>
+                        <itemThunderousSlab id="botania:thunderous_slab"/>
+                        <itemVividSlab id="botania:vivid_slab"/>
+                    </botaniaSlabs>
+                </slabs>
+                <stairs>
+                    <pavementStairs>
+                        <itemBlackPavementStairs id="botania:black_pavement_stairs"/>
+                        <itemBluePavementStairs id="botania:blue_pavement_stairs" mergePrevious="true"/>
+                        <itemGreenPavementStairs id="botania:green_pavement_stairs" mergePrevious="true"/>
+                        <itemRedPavementStairs id="botania:red_pavement_stairs" mergePrevious="true"/>
+                        <itemWhitePavementStairs id="botania:white_pavement_stairs" mergePrevious="true"/>
+                        <itemYellowPavementStairs id="botania:yellow_pavement_stairs" mergePrevious="true"/>
+                    </pavementStairs>
+                    <iridescentStairs>
+                        <itemBlackIridescentStairs id="botania:black_iridescent_stairs"/>
+                        <itemBlueIridescentStairs id="botania:blue_iridescent_stairs" mergePrevious="true"/>
+                        <itemBrownIridescentStairs id="botania:brown_iridescent_stairs" mergePrevious="true"/>
+                        <itemCyanIridescentStairs id="botania:cyan_iridescent_stairs" mergePrevious="true"/>
+                        <itemGrayIridescentStairs id="botania:gray_iridescent_stairs" mergePrevious="true"/>
+                        <itemGreenIridescentStairs id="botania:green_iridescent_stairs" mergePrevious="true"/>
+                        <itemLightBlueIridescentStairs id="botania:light_blue_iridescent_stairs" mergePrevious="true"/>
+                        <itemLightGrayIridescentStairs id="botania:light_gray_iridescent_stairs" mergePrevious="true"/>
+                        <itemLimeIridescentStairs id="botania:lime_iridescent_stairs" mergePrevious="true"/>
+                        <itemMagentaIridescentStairs id="botania:magenta_iridescent_stairs" mergePrevious="true"/>
+                        <itemOrangeIridescentStairs id="botania:orange_iridescent_stairs" mergePrevious="true"/>
+                        <itemPinkIridescentStairs id="botania:pink_iridescent_stairs" mergePrevious="true"/>
+                        <itemPurpleIridescentStairs id="botania:purple_iridescent_stairs" mergePrevious="true"/>
+                        <itemRedIridescentStairs id="botania:red_iridescent_stairs" mergePrevious="true"/>
+                        <itemWhiteIridescentStairs id="botania:white_iridescent_stairs" mergePrevious="true"/>
+                        <itemYellowIridescentStairs id="botania:yellow_iridescent_stairs" mergePrevious="true"/>
+                    </iridescentStairs>
+                    <botaniaQuartzStairs>
+                        <itemBlazeQuartzStairs id="botania:blaze_quartz_stairs"/>
+                        <itemDarkQuartzStairs id="botania:dark_quartz_stairs"/>
+                        <itemElfQuartzStairs id="botania:elf_quartz_stairs"/>
+                        <itemLavenderQuartzStairs id="botania:lavender_quartz_stairs"/>
+                        <itemManaQuartzStairs id="botania:mana_quartz_stairs"/>
+                        <itemRedQuartzStairs id="botania:red_quartz_stairs"/>
+                        <itemShimmerQuartzStairs id="botania:shimmer_quartz_stairs"/>
+                        <itemSunnyQuartzStairs id="botania:sunny_quartz_stairs"/>
+                    </botaniaQuartzStairs>
+                    <botaniaStairs>
+                        <itemBifrostStairs id="botania:bifrost_stairs"/>
+                        <itemCorporeaBrickStairs id="botania:corporea_brick_stairs"/>
+                        <itemCorporeaStairs id="botania:corporea_stairs"/>
+                        <itemDreamwoodPlanksStairs id="botania:dreamwood_planks_stairs"/>
+                        <itemDreamwoodStairs id="botania:dreamwood_stairs"/>
+                        <itemDryStairs id="botania:dry_stairs"/>
+                        <itemGoldenStairs id="botania:golden_stairs"/>
+                        <itemInfernalStairs id="botania:infernal_stairs"/>
+                        <itemInfusedStairs id="botania:infused_stairs"/>
+                        <itemLivingrockBricksStairs id="botania:livingrock_bricks_stairs"/>
+                        <itemLivingrockStairs id="botania:livingrock_stairs"/>
+                        <itemLivingwoodPlanksStairs id="botania:livingwood_planks_stairs"/>
+                        <itemLivingwoodStairs id="botania:livingwood_stairs"/>
+                        <itemMetamorphicDesertBricksStairs id="botania:metamorphic_desert_bricks_stairs"/>
+                        <itemMetamorphicDesertCobblestoneStairs id="botania:metamorphic_desert_cobblestone_stairs"/>
+                        <itemMetamorphicDesertStoneStairs id="botania:metamorphic_desert_stone_stairs"/>
+                        <itemMetamorphicForestBricksStairs id="botania:metamorphic_forest_bricks_stairs"/>
+                        <itemMetamorphicForestCobblestoneStairs id="botania:metamorphic_forest_cobblestone_stairs"/>
+                        <itemMetamorphicForestStoneStairs id="botania:metamorphic_forest_stone_stairs"/>
+                        <itemMetamorphicFungalBricksStairs id="botania:metamorphic_fungal_bricks_stairs"/>
+                        <itemMetamorphicFungalCobblestoneStairs id="botania:metamorphic_fungal_cobblestone_stairs"/>
+                        <itemMetamorphicFungalStoneStairs id="botania:metamorphic_fungal_stone_stairs"/>
+                        <itemMetamorphicMesaBricksStairs id="botania:metamorphic_mesa_bricks_stairs"/>
+                        <itemMetamorphicMesaCobblestoneStairs id="botania:metamorphic_mesa_cobblestone_stairs"/>
+                        <itemMetamorphicMesaStoneStairs id="botania:metamorphic_mesa_stone_stairs"/>
+                        <itemMetamorphicMountainBricksStairs id="botania:metamorphic_mountain_bricks_stairs"/>
+                        <itemMetamorphicMountainCobblestoneStairs id="botania:metamorphic_mountain_cobblestone_stairs"/>
+                        <itemMetamorphicMountainStoneStairs id="botania:metamorphic_mountain_stone_stairs"/>
+                        <itemMetamorphicPlainsBricksStairs id="botania:metamorphic_plains_bricks_stairs"/>
+                        <itemMetamorphicPlainsCobblestoneStairs id="botania:metamorphic_plains_cobblestone_stairs"/>
+                        <itemMetamorphicPlainsStoneStairs id="botania:metamorphic_plains_stone_stairs"/>
+                        <itemMetamorphicSwampBricksStairs id="botania:metamorphic_swamp_bricks_stairs"/>
+                        <itemMetamorphicSwampCobblestoneStairs id="botania:metamorphic_swamp_cobblestone_stairs"/>
+                        <itemMetamorphicSwampStoneStairs id="botania:metamorphic_swamp_stone_stairs"/>
+                        <itemMetamorphicTaigaBricksStairs id="botania:metamorphic_taiga_bricks_stairs"/>
+                        <itemMetamorphicTaigaCobblestoneStairs id="botania:metamorphic_taiga_cobblestone_stairs"/>
+                        <itemMetamorphicTaigaStoneStairs id="botania:metamorphic_taiga_stone_stairs"/>
+                        <itemMossyLivingrockBricksStairs id="botania:mossy_livingrock_bricks_stairs"/>
+                        <itemMutatedStairs id="botania:mutated_stairs"/>
+                        <itemPolishedLivingrockStairs id="botania:polished_livingrock_stairs"/>
+                        <itemScorchedStairs id="botania:scorched_stairs"/>
+                        <itemSealingStairs id="botania:sealing_stairs"/>
+                        <itemShimmerrockStairs id="botania:shimmerrock_stairs"/>
+                        <itemShimmerwoodPlanksStairs id="botania:shimmerwood_planks_stairs"/>
+                        <itemStrippedDreamwoodStairs id="botania:stripped_dreamwood_stairs"/>
+                        <itemStrippedLivingwoodStairs id="botania:stripped_livingwood_stairs"/>
+                        <itemThunderousStairs id="botania:thunderous_stairs"/>
+                        <itemVividStairs id="botania:vivid_stairs"/>
+                    </botaniaStairs>
+                </stairs>
+                <botaniaQuartz>
+                    <itemBlazeQuartz id="botania:blaze_quartz"/>
+                    <itemBlazeQuartzPillar id="botania:blaze_quartz_pillar"/>
+                    <itemChiseledBlazeQuartz id="botania:chiseled_blaze_quartz"/>
+                    <itemChiseledDarkQuartz id="botania:chiseled_dark_quartz"/>
+                    <itemChiseledElfQuartz id="botania:chiseled_elf_quartz"/>
+                    <itemChiseledLavenderQuartz id="botania:chiseled_lavender_quartz"/>
+                    <itemChiseledManaQuartz id="botania:chiseled_mana_quartz"/>
+                    <itemChiseledRedQuartz id="botania:chiseled_red_quartz"/>
+                    <itemChiseledShimmerQuartz id="botania:chiseled_shimmer_quartz"/>
+                    <itemChiseledSunnyQuartz id="botania:chiseled_sunny_quartz"/>
+                    <itemDarkQuartz id="botania:dark_quartz"/>
+                    <itemDarkQuartzPillar id="botania:dark_quartz_pillar"/>
+                    <itemElfQuartz id="botania:elf_quartz"/>
+                    <itemElfQuartzPillar id="botania:elf_quartz_pillar"/>
+                    <itemLavenderQuartz id="botania:lavender_quartz"/>
+                    <itemLavenderQuartzPillar id="botania:lavender_quartz_pillar"/>
+                    <itemManaQuartzPillar id="botania:mana_quartz_pillar"/>
+                    <itemRedQuartz id="botania:red_quartz"/>
+                    <itemRedQuartzPillar id="botania:red_quartz_pillar"/>
+                    <itemShimmerQuartz id="botania:shimmer_quartz"/>
+                    <itemShimmerQuartzPillar id="botania:shimmer_quartz_pillar"/>
+                    <itemSunnyQuartz id="botania:sunny_quartz"/>
+                    <itemSunnyQuartzPillar id="botania:sunny_quartz_pillar"/>
+                </botaniaQuartz>
+                <corporeaBlocks>
+                    <itemCorporeaBlock id="botania:corporea_block"/>
+                    <itemCorporeaBrick id="botania:corporea_brick"/>
+                </corporeaBlocks>
+                <azulejos>
+                    <itemAzulejo0 id="botania:azulejo_0"/>
+                    <itemAzulejo1 id="botania:azulejo_1" mergePrevious="true"/>
+                    <itemAzulejo10 id="botania:azulejo_10" mergePrevious="true"/>
+                    <itemAzulejo11 id="botania:azulejo_11" mergePrevious="true"/>
+                    <itemAzulejo12 id="botania:azulejo_12" mergePrevious="true"/>
+                    <itemAzulejo13 id="botania:azulejo_13" mergePrevious="true"/>
+                    <itemAzulejo14 id="botania:azulejo_14" mergePrevious="true"/>
+                    <itemAzulejo15 id="botania:azulejo_15" mergePrevious="true"/>
+                    <itemAzulejo2 id="botania:azulejo_2" mergePrevious="true"/>
+                    <itemAzulejo3 id="botania:azulejo_3" mergePrevious="true"/>
+                    <itemAzulejo4 id="botania:azulejo_4" mergePrevious="true"/>
+                    <itemAzulejo5 id="botania:azulejo_5" mergePrevious="true"/>
+                    <itemAzulejo6 id="botania:azulejo_6" mergePrevious="true"/>
+                    <itemAzulejo7 id="botania:azulejo_7" mergePrevious="true"/>
+                    <itemAzulejo8 id="botania:azulejo_8" mergePrevious="true"/>
+                    <itemAzulejo9 id="botania:azulejo_9" mergePrevious="true"/>
+                </azulejos>
+                <framedBlocks>
+                    <itemFramedDreamwood id="botania:framed_dreamwood"/>
+                    <itemFramedLivingwood id="botania:framed_livingwood"/>
+                </framedBlocks>
+            </constructionBlock>
+            <stoneWall>
+                <itemCorporeaBrickWall id="botania:corporea_brick_wall"/>
+                <itemDreamwoodWall id="botania:dreamwood_wall"/>
+                <itemLivingrockBricksWall id="botania:livingrock_bricks_wall"/>
+                <itemLivingrockWall id="botania:livingrock_wall"/>
+                <itemLivingwoodWall id="botania:livingwood_wall"/>
+                <itemMetamorphicDesertBricksWall id="botania:metamorphic_desert_bricks_wall"/>
+                <itemMetamorphicDesertCobblestoneWall id="botania:metamorphic_desert_cobblestone_wall"/>
+                <itemMetamorphicDesertStoneWall id="botania:metamorphic_desert_stone_wall"/>
+                <itemMetamorphicForestBricksWall id="botania:metamorphic_forest_bricks_wall"/>
+                <itemMetamorphicForestCobblestoneWall id="botania:metamorphic_forest_cobblestone_wall"/>
+                <itemMetamorphicForestStoneWall id="botania:metamorphic_forest_stone_wall"/>
+                <itemMetamorphicFungalBricksWall id="botania:metamorphic_fungal_bricks_wall"/>
+                <itemMetamorphicFungalCobblestoneWall id="botania:metamorphic_fungal_cobblestone_wall"/>
+                <itemMetamorphicFungalStoneWall id="botania:metamorphic_fungal_stone_wall"/>
+                <itemMetamorphicMesaBricksWall id="botania:metamorphic_mesa_bricks_wall"/>
+                <itemMetamorphicMesaCobblestoneWall id="botania:metamorphic_mesa_cobblestone_wall"/>
+                <itemMetamorphicMesaStoneWall id="botania:metamorphic_mesa_stone_wall"/>
+                <itemMetamorphicMountainBricksWall id="botania:metamorphic_mountain_bricks_wall"/>
+                <itemMetamorphicMountainCobblestoneWall id="botania:metamorphic_mountain_cobblestone_wall"/>
+                <itemMetamorphicMountainStoneWall id="botania:metamorphic_mountain_stone_wall"/>
+                <itemMetamorphicPlainsBricksWall id="botania:metamorphic_plains_bricks_wall"/>
+                <itemMetamorphicPlainsCobblestoneWall id="botania:metamorphic_plains_cobblestone_wall"/>
+                <itemMetamorphicPlainsStoneWall id="botania:metamorphic_plains_stone_wall"/>
+                <itemMetamorphicSwampBricksWall id="botania:metamorphic_swamp_bricks_wall"/>
+                <itemMetamorphicSwampCobblestoneWall id="botania:metamorphic_swamp_cobblestone_wall"/>
+                <itemMetamorphicSwampStoneWall id="botania:metamorphic_swamp_stone_wall"/>
+                <itemMetamorphicTaigaBricksWall id="botania:metamorphic_taiga_bricks_wall"/>
+                <itemMetamorphicTaigaCobblestoneWall id="botania:metamorphic_taiga_cobblestone_wall"/>
+                <itemMetamorphicTaigaStoneWall id="botania:metamorphic_taiga_stone_wall"/>
+                <itemMossyLivingrockBricksWall id="botania:mossy_livingrock_bricks_wall"/>
+                <itemPolishedLivingrockWall id="botania:polished_livingrock_wall"/>
+                <itemStrippedDreamwoodWall id="botania:stripped_dreamwood_wall"/>
+                <itemStrippedLivingwoodWall id="botania:stripped_livingwood_wall"/>
+            </stoneWall>
+            <fence>
+                <botaniaFenceGates>
+                    <itemDreamwoodFenceGate id="botania:dreamwood_fence_gate"/>
+                    <itemLivingwoodFenceGate id="botania:livingwood_fence_gate"/>
+                </botaniaFenceGates>
+                <botaniaFences>
+                    <itemDreamwoodFence id="botania:dreamwood_fence"/>
+                    <itemLivingwoodFence id="botania:livingwood_fence"/>
+                </botaniaFences>
+            </fence>
+            <storageBlocks>
+                <itemBlazeBlock id="botania:blaze_block"/>
+                <itemCacophonium id="botania:cacophonium"/>
+                <itemCacophoniumBlock id="botania:cacophonium_block"/>
+                <itemDragonstoneBlock id="botania:dragonstone_block"/>
+                <itemElementiumBlock id="botania:elementium_block"/>
+                <itemManaDiamondBlock id="botania:mana_diamond_block"/>
+                <itemManasteelBlock id="botania:manasteel_block"/>
+                <itemTerrasteelBlock id="botania:terrasteel_block"/>
+            </storageBlocks>
+        </manufacturedBlock>
+        <naturalBlock>
+            <wood>
+                <iridescentLogs>
+                    <itemBlackIridescentLog id="botania:black_iridescent_log"/>
+                    <itemBlueIridescentLog id="botania:blue_iridescent_log" mergePrevious="true"/>
+                    <itemBrownIridescentLog id="botania:brown_iridescent_log" mergePrevious="true"/>
+                    <itemCyanIridescentLog id="botania:cyan_iridescent_log" mergePrevious="true"/>
+                    <itemGrayIridescentLog id="botania:gray_iridescent_log" mergePrevious="true"/>
+                    <itemGreenIridescentLog id="botania:green_iridescent_log" mergePrevious="true"/>
+                    <itemLightBlueIridescentLog id="botania:light_blue_iridescent_log" mergePrevious="true"/>
+                    <itemLightGrayIridescentLog id="botania:light_gray_iridescent_log" mergePrevious="true"/>
+                    <itemLimeIridescentLog id="botania:lime_iridescent_log" mergePrevious="true"/>
+                    <itemMagentaIridescentLog id="botania:magenta_iridescent_log" mergePrevious="true"/>
+                    <itemOrangeIridescentLog id="botania:orange_iridescent_log" mergePrevious="true"/>
+                    <itemPinkIridescentLog id="botania:pink_iridescent_log" mergePrevious="true"/>
+                    <itemPurpleIridescentLog id="botania:purple_iridescent_log" mergePrevious="true"/>
+                    <itemRedIridescentLog id="botania:red_iridescent_log" mergePrevious="true"/>
+                    <itemWhiteIridescentLog id="botania:white_iridescent_log" mergePrevious="true"/>
+                    <itemYellowIridescentLog id="botania:yellow_iridescent_log" mergePrevious="true"/>
+                </iridescentLogs>
+                <iridescentPlanks>
+                    <itemBlackIridescentPlanks id="botania:black_iridescent_planks"/>
+                    <itemBlueIridescentPlanks id="botania:blue_iridescent_planks" mergePrevious="true"/>
+                    <itemBrownIridescentPlanks id="botania:brown_iridescent_planks" mergePrevious="true"/>
+                    <itemCyanIridescentPlanks id="botania:cyan_iridescent_planks" mergePrevious="true"/>
+                    <itemGrayIridescentPlanks id="botania:gray_iridescent_planks" mergePrevious="true"/>
+                    <itemGreenIridescentPlanks id="botania:green_iridescent_planks" mergePrevious="true"/>
+                    <itemLightBlueIridescentPlanks id="botania:light_blue_iridescent_planks" mergePrevious="true"/>
+                    <itemLightGrayIridescentPlanks id="botania:light_gray_iridescent_planks" mergePrevious="true"/>
+                    <itemLimeIridescentPlanks id="botania:lime_iridescent_planks" mergePrevious="true"/>
+                    <itemMagentaIridescentPlanks id="botania:magenta_iridescent_planks" mergePrevious="true"/>
+                    <itemOrangeIridescentPlanks id="botania:orange_iridescent_planks" mergePrevious="true"/>
+                    <itemPinkIridescentPlanks id="botania:pink_iridescent_planks" mergePrevious="true"/>
+                    <itemPurpleIridescentPlanks id="botania:purple_iridescent_planks" mergePrevious="true"/>
+                    <itemRedIridescentPlanks id="botania:red_iridescent_planks" mergePrevious="true"/>
+                    <itemWhiteIridescentPlanks id="botania:white_iridescent_planks" mergePrevious="true"/>
+                    <itemYellowIridescentPlanks id="botania:yellow_iridescent_planks" mergePrevious="true"/>
+                </iridescentPlanks>
+                <magicalLogs>
+                    <itemBifrostLog id="botania:bifrost_log"/>
+                    <itemDreamwood id="botania:dreamwood"/>
+                    <itemDreamwoodLog id="botania:dreamwood_log"/>
+                    <itemDryLog id="botania:dry_log"/>
+                    <itemGlimmeringDreamwood id="botania:glimmering_dreamwood"/>
+                    <itemGlimmeringDreamwoodLog id="botania:glimmering_dreamwood_log"/>
+                    <itemGlimmeringLivingwood id="botania:glimmering_livingwood"/>
+                    <itemGlimmeringLivingwoodLog id="botania:glimmering_livingwood_log"/>
+                    <itemGlimmeringStrippedDreamwood id="botania:glimmering_stripped_dreamwood"/>
+                    <itemGlimmeringStrippedDreamwoodLog id="botania:glimmering_stripped_dreamwood_log"/>
+                    <itemGlimmeringStrippedLivingwood id="botania:glimmering_stripped_livingwood"/>
+                    <itemGlimmeringStrippedLivingwoodLog id="botania:glimmering_stripped_livingwood_log"/>
+                    <itemGoldenLog id="botania:golden_log"/>
+                    <itemInfernalLog id="botania:infernal_log"/>
+                    <itemInfusedLog id="botania:infused_log"/>
+                    <itemLivingwoodLog id="botania:livingwood_log"/>
+                    <itemMutatedLog id="botania:mutated_log"/>
+                    <itemScorchedLog id="botania:scorched_log"/>
+                    <itemSealingLog id="botania:sealing_log"/>
+                    <itemStrippedDreamwood id="botania:stripped_dreamwood"/>
+                    <itemStrippedDreamwoodLog id="botania:stripped_dreamwood_log"/>
+                    <itemStrippedLivingwood id="botania:stripped_livingwood"/>
+                    <itemStrippedLivingwoodLog id="botania:stripped_livingwood_log"/>
+                    <itemThunderousLog id="botania:thunderous_log"/>
+                    <itemVividLog id="botania:vivid_log"/>
+                </magicalLogs>
+                <magicalPlanks>
+                    <itemBifrostPlanks id="botania:bifrost_planks"/>
+                    <itemDreamwoodPlanks id="botania:dreamwood_planks"/>
+                    <itemDryPlanks id="botania:dry_planks"/>
+                    <itemGoldenPlanks id="botania:golden_planks"/>
+                    <itemInfernalPlanks id="botania:infernal_planks"/>
+                    <itemInfusedPlanks id="botania:infused_planks"/>
+                    <itemLivingwoodPlanks id="botania:livingwood_planks"/>
+                    <itemMossyDreamwoodPlanks id="botania:mossy_dreamwood_planks"/>
+                    <itemMossyLivingwoodPlanks id="botania:mossy_livingwood_planks"/>
+                    <itemMutatedPlanks id="botania:mutated_planks"/>
+                    <itemScorchedPlanks id="botania:scorched_planks"/>
+                    <itemSealingPlanks id="botania:sealing_planks"/>
+                    <itemShimmerwoodPlanks id="botania:shimmerwood_planks"/>
+                    <itemThunderousPlanks id="botania:thunderous_planks"/>
+                    <itemVividPlanks id="botania:vivid_planks"/>
+                </magicalPlanks>
+            </wood>
+            <dirts>
+                <iridescentGrass>
+                    <itemBlackIridescentDirt id="botania:black_iridescent_dirt"/>
+                    <itemBlueIridescentDirt id="botania:blue_iridescent_dirt" mergePrevious="true"/>
+                    <itemBrownIridescentDirt id="botania:brown_iridescent_dirt" mergePrevious="true"/>
+                    <itemCyanIridescentDirt id="botania:cyan_iridescent_dirt" mergePrevious="true"/>
+                    <itemGrayIridescentDirt id="botania:gray_iridescent_dirt" mergePrevious="true"/>
+                    <itemGreenIridescentDirt id="botania:green_iridescent_dirt" mergePrevious="true"/>
+                    <itemLightBlueIridescentDirt id="botania:light_blue_iridescent_dirt" mergePrevious="true"/>
+                    <itemLightGrayIridescentDirt id="botania:light_gray_iridescent_dirt" mergePrevious="true"/>
+                    <itemLimeIridescentDirt id="botania:lime_iridescent_dirt" mergePrevious="true"/>
+                    <itemMagentaIridescentDirt id="botania:magenta_iridescent_dirt" mergePrevious="true"/>
+                    <itemOrangeIridescentDirt id="botania:orange_iridescent_dirt" mergePrevious="true"/>
+                    <itemPinkIridescentDirt id="botania:pink_iridescent_dirt" mergePrevious="true"/>
+                    <itemPurpleIridescentDirt id="botania:purple_iridescent_dirt" mergePrevious="true"/>
+                    <itemRedIridescentDirt id="botania:red_iridescent_dirt" mergePrevious="true"/>
+                    <itemWhiteIridescentDirt id="botania:white_iridescent_dirt" mergePrevious="true"/>
+                    <itemYellowIridescentDirt id="botania:yellow_iridescent_dirt" mergePrevious="true"/>
+                    <itemBlackIridescentGrass id="botania:black_iridescent_grass"/>
+                    <itemBlueIridescentGrass id="botania:blue_iridescent_grass" mergePrevious="true"/>
+                    <itemBrownIridescentGrass id="botania:brown_iridescent_grass" mergePrevious="true"/>
+                    <itemCyanIridescentGrass id="botania:cyan_iridescent_grass" mergePrevious="true"/>
+                    <itemGrayIridescentGrass id="botania:gray_iridescent_grass" mergePrevious="true"/>
+                    <itemGreenIridescentGrass id="botania:green_iridescent_grass" mergePrevious="true"/>
+                    <itemLightBlueIridescentGrass id="botania:light_blue_iridescent_grass" mergePrevious="true"/>
+                    <itemLightGrayIridescentGrass id="botania:light_gray_iridescent_grass" mergePrevious="true"/>
+                    <itemLimeIridescentGrass id="botania:lime_iridescent_grass" mergePrevious="true"/>
+                    <itemMagentaIridescentGrass id="botania:magenta_iridescent_grass" mergePrevious="true"/>
+                    <itemOrangeIridescentGrass id="botania:orange_iridescent_grass" mergePrevious="true"/>
+                    <itemPinkIridescentGrass id="botania:pink_iridescent_grass" mergePrevious="true"/>
+                    <itemPurpleIridescentGrass id="botania:purple_iridescent_grass" mergePrevious="true"/>
+                    <itemRedIridescentGrass id="botania:red_iridescent_grass" mergePrevious="true"/>
+                    <itemWhiteIridescentGrass id="botania:white_iridescent_grass" mergePrevious="true"/>
+                    <itemYellowIridescentGrass id="botania:yellow_iridescent_grass" mergePrevious="true"/>
+                    <itemBlackIridescentTallGrass id="botania:black_iridescent_tall_grass"/>
+                    <itemBlueIridescentTallGrass id="botania:blue_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemBrownIridescentTallGrass id="botania:brown_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemCyanIridescentTallGrass id="botania:cyan_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemGrayIridescentTallGrass id="botania:gray_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemGreenIridescentTallGrass id="botania:green_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemLightBlueIridescentTallGrass id="botania:light_blue_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemLightGrayIridescentTallGrass id="botania:light_gray_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemLimeIridescentTallGrass id="botania:lime_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemMagentaIridescentTallGrass id="botania:magenta_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemOrangeIridescentTallGrass id="botania:orange_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemPinkIridescentTallGrass id="botania:pink_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemPurpleIridescentTallGrass id="botania:purple_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemRedIridescentTallGrass id="botania:red_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemWhiteIridescentTallGrass id="botania:white_iridescent_tall_grass" mergePrevious="true"/>
+                    <itemYellowIridescentTallGrass id="botania:yellow_iridescent_tall_grass" mergePrevious="true"/>
+                </iridescentGrass>
+                <botaniaGrass>
+                    <itemBifrostGrass id="botania:bifrost_grass"/>
+                    <itemBifrostTallGrass id="botania:bifrost_tall_grass"/>
+                    <itemDryGrass id="botania:dry_grass"/>
+                    <itemGoldenGrass id="botania:golden_grass"/>
+                    <itemHornGrass id="botania:horn_grass"/>
+                    <itemHornSnow id="botania:horn_snow"/>
+                    <itemInfusedGrass id="botania:infused_grass"/>
+                    <itemMossyLivingrockBricks id="botania:mossy_livingrock_bricks"/>
+                    <itemMutatedGrass id="botania:mutated_grass"/>
+                    <itemScorchedGrass id="botania:scorched_grass"/>
+                    <itemVividGrass id="botania:vivid_grass"/>
+                </botaniaGrass>
+            </dirts>
+            <stones>
+                <botaniaStones>
+                    <itemApothecaryLivingrock id="botania:apothecary_livingrock"/>
+                    <itemChiseledLivingrockBricks id="botania:chiseled_livingrock_bricks"/>
+                    <itemCrackedLivingrockBricks id="botania:cracked_livingrock_bricks"/>
+                    <itemLivingrock id="botania:livingrock"/>
+                    <itemLivingrockBricks id="botania:livingrock_bricks"/>
+                    <itemLivingrockSlate id="botania:livingrock_slate"/>
+                    <itemMetamorphicDesertBricks id="botania:metamorphic_desert_bricks"/>
+                    <itemMetamorphicDesertCobblestone id="botania:metamorphic_desert_cobblestone"/>
+                    <itemMetamorphicDesertStone id="botania:metamorphic_desert_stone"/>
+                    <itemMetamorphicForestBricks id="botania:metamorphic_forest_bricks"/>
+                    <itemMetamorphicForestCobblestone id="botania:metamorphic_forest_cobblestone"/>
+                    <itemMetamorphicForestStone id="botania:metamorphic_forest_stone"/>
+                    <itemMetamorphicFungalBricks id="botania:metamorphic_fungal_bricks"/>
+                    <itemMetamorphicFungalCobblestone id="botania:metamorphic_fungal_cobblestone"/>
+                    <itemMetamorphicFungalStone id="botania:metamorphic_fungal_stone"/>
+                    <itemMetamorphicMesaBricks id="botania:metamorphic_mesa_bricks"/>
+                    <itemMetamorphicMesaCobblestone id="botania:metamorphic_mesa_cobblestone"/>
+                    <itemMetamorphicMesaStone id="botania:metamorphic_mesa_stone"/>
+                    <itemMetamorphicMountainBricks id="botania:metamorphic_mountain_bricks"/>
+                    <itemMetamorphicMountainCobblestone id="botania:metamorphic_mountain_cobblestone"/>
+                    <itemMetamorphicMountainStone id="botania:metamorphic_mountain_stone"/>
+                    <itemMetamorphicPlainsBricks id="botania:metamorphic_plains_bricks"/>
+                    <itemMetamorphicPlainsCobblestone id="botania:metamorphic_plains_cobblestone"/>
+                    <itemMetamorphicPlainsStone id="botania:metamorphic_plains_stone"/>
+                    <itemMetamorphicSwampBricks id="botania:metamorphic_swamp_bricks"/>
+                    <itemMetamorphicSwampCobblestone id="botania:metamorphic_swamp_cobblestone"/>
+                    <itemMetamorphicSwampStone id="botania:metamorphic_swamp_stone"/>
+                    <itemMetamorphicTaigaBricks id="botania:metamorphic_taiga_bricks"/>
+                    <itemMetamorphicTaigaCobblestone id="botania:metamorphic_taiga_cobblestone"/>
+                    <itemMetamorphicTaigaStone id="botania:metamorphic_taiga_stone"/>
+                    <itemPolishedLivingrock id="botania:polished_livingrock"/>
+                    <itemShimmerrock id="botania:shimmerrock"/>
+                    <itemChiseledMetamorphicDesertBricks id="botania:chiseled_metamorphic_desert_bricks"/>
+                    <itemChiseledMetamorphicForestBricks id="botania:chiseled_metamorphic_forest_bricks"/>
+                    <itemChiseledMetamorphicFungalBricks id="botania:chiseled_metamorphic_fungal_bricks"/>
+                    <itemChiseledMetamorphicMesaBricks id="botania:chiseled_metamorphic_mesa_bricks"/>
+                    <itemChiseledMetamorphicMountainBricks id="botania:chiseled_metamorphic_mountain_bricks"/>
+                    <itemChiseledMetamorphicPlainsBricks id="botania:chiseled_metamorphic_plains_bricks"/>
+                    <itemChiseledMetamorphicSwampBricks id="botania:chiseled_metamorphic_swamp_bricks"/>
+                    <itemChiseledMetamorphicTaigaBricks id="botania:chiseled_metamorphic_taiga_bricks"/>
+                </botaniaStones>
+            </stones>
+        </naturalBlock>
+        <mechanism>
+            <machines>
+                <apothecaries>
+                    <itemApothecaryDeepslate id="botania:apothecary_deepslate"/>
+                    <itemApothecaryDefault id="botania:apothecary_default"/>
+                    <itemApothecaryDesert id="botania:apothecary_desert"/>
+                    <itemApothecaryForest id="botania:apothecary_forest"/>
+                    <itemApothecaryFungal id="botania:apothecary_fungal"/>
+                    <itemApothecaryMesa id="botania:apothecary_mesa"/>
+                    <itemApothecaryMossy id="botania:apothecary_mossy"/>
+                    <itemApothecaryMountain id="botania:apothecary_mountain"/>
+                    <itemApothecaryPlains id="botania:apothecary_plains"/>
+                    <itemApothecarySwamp id="botania:apothecary_swamp"/>
+                    <itemApothecaryTaiga id="botania:apothecary_taiga"/>
+                </apothecaries>
+                <botaniaMachines>
+                    <itemAbstrusePlatform id="botania:abstruse_platform"/>
+                    <itemAlchemyCatalyst id="botania:alchemy_catalyst"/>
+                    <itemAlfheimPortal id="botania:alfheim_portal"/>
+                    <itemAlfsteelSpreader id="botania:alfsteel_spreader"/>
+                    <itemAnimatedTorch id="botania:animated_torch"/>
+                    <itemAvatar id="botania:avatar"/>
+                    <itemBellows id="botania:bellows"/>
+                    <itemBrewery id="botania:brewery"/>
+                    <itemCellBlock id="botania:cell_block"/>
+                    <itemClericalColorizer id="botania:clerical_colorizer"/>
+                    <itemConjurationCatalyst id="botania:conjuration_catalyst"/>
+                    <itemCraftyCrate id="botania:crafty_crate"/>
+                    <itemCreativePool id="botania:creative_pool"/>
+                    <itemDilutedPool id="botania:diluted_pool"/>
+                    <itemElementiumItemPlatform id="botania:elementium_item_platform"/>
+                    <itemElementiumSpreader id="botania:elementium_spreader"/>
+                    <itemElvenSpreader id="botania:elven_spreader"/>
+                    <itemEnchanter id="botania:enchanter"/>
+                    <itemFabulousPool id="botania:fabulous_pool"/>
+                    <itemGaiaPylon id="botania:gaia_pylon"/>
+                    <itemGaiaSpreader id="botania:gaia_spreader"/>
+                    <itemGhostRail id="botania:ghost_rail"/>
+                    <itemHourglass id="botania:hourglass"/>
+                    <itemIncensePlate id="botania:incense_plate"/>
+                    <itemInfrangiblePlatform id="botania:infrangible_platform"/>
+                    <itemLightLauncher id="botania:light_launcher"/>
+                    <itemManaDetector id="botania:mana_detector"/>
+                    <itemManaDistributor id="botania:mana_distributor"/>
+                    <itemManaFluxfield id="botania:mana_fluxfield"/>
+                    <itemManaMotor id="botania:mana_motor"/>
+                    <itemManaPool id="botania:mana_pool"/>
+                    <itemManaPylon id="botania:mana_pylon"/>
+                    <itemManaSpreader id="botania:mana_spreader"/>
+                    <itemManaVoid id="botania:mana_void"/>
+                    <itemManasteelItemPlatform id="botania:manasteel_item_platform"/>
+                    <itemNaturaPylon id="botania:natura_pylon"/>
+                    <itemOpenCrate id="botania:open_crate"/>
+                    <itemPoolMinecart id="botania:pool_minecart"/>
+                    <itemPrism id="botania:prism"/>
+                    <itemPump id="botania:pump"/>
+                    <itemRedstoneSpreader id="botania:redstone_spreader"/>
+                    <itemRunicAltar id="botania:runic_altar"/>
+                    <itemSpark id="botania:spark"/>
+                    <itemSparkChanger id="botania:spark_changer"/>
+                    <itemSpectralPlatform id="botania:spectral_platform"/>
+                    <itemTerraPlate id="botania:terra_plate"/>
+                    <itemTerrasteelItemPlatform id="botania:terrasteel_item_platform"/>
+                    <itemTerrasteelSpreader id="botania:terrasteel_spreader"/>
+                    <itemTinyPlanetBlock id="botania:tiny_planet_block"/>
+                    <itemTurntable id="botania:turntable"/>
+                    <itemDrumCanopy id="botania:drum_canopy"/>
+                    <itemDrumGathering id="botania:drum_gathering"/>
+                    <itemDrumWild id="botania:drum_wild"/>
+                    <itemFrozenStar id="botania:frozen_star"/>
+                    <itemStarfield id="botania:starfield"/>
+                </botaniaMachines>
+            </machines>
+            <resourceTransfer>
+                <corporea>
+                    <itemCorporeaCrystalCube id="botania:corporea_crystal_cube"/>
+                    <itemCorporeaFunnel id="botania:corporea_funnel"/>
+                    <itemCorporeaIndex id="botania:corporea_index"/>
+                    <itemCorporeaInterceptor id="botania:corporea_interceptor"/>
+                    <itemCorporeaRetainer id="botania:corporea_retainer"/>
+                    <itemCorporeaSpark id="botania:corporea_spark"/>
+                    <itemCorporeaSparkCreative id="botania:corporea_spark_creative"/>
+                    <itemCorporeaSparkMaster id="botania:corporea_spark_master"/>
+                </corporea>
+                <stringAndRelays>
+                    <itemDetectorLightRelay id="botania:detector_light_relay"/>
+                    <itemForkLightRelay id="botania:fork_light_relay"/>
+                    <itemLightRelay id="botania:light_relay"/>
+                    <itemPistonRelay id="botania:piston_relay"/>
+                    <itemRedStringRelay id="botania:red_string_relay"/>
+                    <itemToggleLightRelay id="botania:toggle_light_relay"/>
+                    <itemRedString id="botania:red_string"/>
+                    <itemRedStringComparator id="botania:red_string_comparator"/>
+                    <itemRedStringContainer id="botania:red_string_container"/>
+                    <itemRedStringDispenser id="botania:red_string_dispenser"/>
+                    <itemRedStringFertilizer id="botania:red_string_fertilizer"/>
+                    <itemRedStringInterceptor id="botania:red_string_interceptor"/>
+                </stringAndRelays>
+                <funnels>
+                    <itemLivingwoodFunnel id="botania:livingwood_funnel"/>
+                </funnels>
+            </resourceTransfer>
+            <lighting>
+                <botaniaLights>
+                    <itemIridescentLantern id="botania:iridescent_lantern"/>
+                </botaniaLights>
+            </lighting>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <gem>
+                <itemManaQuartz id="botania:mana_quartz"/>
+                <itemQuartzBlaze id="botania:quartz_blaze"/>
+                <itemQuartzDark id="botania:quartz_dark"/>
+                <itemQuartzElven id="botania:quartz_elven"/>
+                <itemQuartzLavender id="botania:quartz_lavender"/>
+                <itemQuartzMana id="botania:quartz_mana"/>
+                <itemQuartzRed id="botania:quartz_red"/>
+                <itemQuartzShimmer id="botania:quartz_shimmer"/>
+                <itemQuartzSunny id="botania:quartz_sunny"/>
+            </gem>
+            <ingot>
+                <itemElementiumIngot id="botania:elementium_ingot"/>
+                <itemElementiumNugget id="botania:elementium_nugget"/>
+                <itemGaiaIngot id="botania:gaia_ingot"/>
+                <itemManasteelIngot id="botania:manasteel_ingot"/>
+                <itemManasteelNugget id="botania:manasteel_nugget"/>
+                <itemTerrasteelIngot id="botania:terrasteel_ingot"/>
+                <itemTerrasteelNugget id="botania:terrasteel_nugget"/>
+            </ingot>
+        </miningResources>
+    </resources>
+    <equipment>
+        <armor>
+            <helmet>
+                <itemElementiumHelmet id="botania:elementium_helmet"/>
+                <itemManasteelHelmet id="botania:manasteel_helmet"/>
+                <itemManaweaveHelmet id="botania:manaweave_helmet"/>
+                <itemTerrasteelHelmet id="botania:terrasteel_helmet"/>
+            </helmet>
+            <chestplate>
+                <itemElementiumChestplate id="botania:elementium_chestplate"/>
+                <itemManasteelChestplate id="botania:manasteel_chestplate"/>
+                <itemManaweaveChestplate id="botania:manaweave_chestplate"/>
+                <itemTerrasteelChestplate id="botania:terrasteel_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemElementiumLeggings id="botania:elementium_leggings"/>
+                <itemManasteelLeggings id="botania:manasteel_leggings"/>
+                <itemManaweaveLeggings id="botania:manaweave_leggings"/>
+                <itemTerrasteelLeggings id="botania:terrasteel_leggings"/>
+            </leggings>
+            <boots>
+                <itemElementiumBoots id="botania:elementium_boots"/>
+                <itemManasteelBoots id="botania:manasteel_boots"/>
+                <itemManaweaveBoots id="botania:manaweave_boots"/>
+                <itemTerrasteelBoots id="botania:terrasteel_boots"/>
+            </boots>
+        </armor>
+        <weapon>
+            <sword>
+                <itemElementiumSword id="botania:elementium_sword"/>
+                <itemElucidator id="botania:elucidator"/>
+                <itemEnderDagger id="botania:ender_dagger"/>
+                <itemManasteelSword id="botania:manasteel_sword"/>
+                <itemStarSword id="botania:star_sword"/>
+                <itemTerraSword id="botania:terra_sword"/>
+                <itemThunderSword id="botania:thunder_sword"/>
+            </sword>
+            <munition>
+                <botaniaBow>
+                    <itemCrystalBow id="botania:crystal_bow"/>
+                    <itemLivingwoodBow id="botania:livingwood_bow"/>
+                </botaniaBow>
+            </munition>
+        </weapon>
+        <tool>
+            <pickaxe>
+                <itemGlassPickaxe id="botania:glass_pickaxe"/>
+                <itemItemfinder id="botania:itemfinder"/>
+                <itemManasteelPick id="botania:manasteel_pick"/>
+                <itemTerraPick id="botania:terra_pick"/>
+                <itemTerraPickTipped id="botania:terra_pick_tipped"/>
+                <itemElementiumPickaxe id="botania:elementium_pickaxe"/>
+            </pickaxe>
+            <shovel>
+                <itemElementiumShovel id="botania:elementium_shovel"/>
+                <itemManasteelShovel id="botania:manasteel_shovel"/>
+            </shovel>
+            <axe>
+                <itemElementiumAxe id="botania:elementium_axe"/>
+                <itemManasteelAxe id="botania:manasteel_axe"/>
+                <itemTerraAxe id="botania:terra_axe"/>
+            </axe>
+            <hoe>
+                <itemElementiumHoe id="botania:elementium_hoe"/>
+                <itemManasteelHoe id="botania:manasteel_hoe"/>
+            </hoe>
+            <shears>
+                <itemElementiumShears id="botania:elementium_shears"/>
+                <itemManasteelShears id="botania:manasteel_shears"/>
+            </shears>
+            <botaniaRods>
+                <itemCobbleRod id="botania:cobble_rod"/>
+                <itemDirtRod id="botania:dirt_rod"/>
+                <itemDiviningRod id="botania:divining_rod"/>
+                <itemExchangeRod id="botania:exchange_rod"/>
+                <itemFireRod id="botania:fire_rod"/>
+                <itemGravityRod id="botania:gravity_rod"/>
+                <itemMissileRod id="botania:missile_rod"/>
+                <itemPrismaticLakeRod id="botania:prismatic_lake_rod"/>
+                <itemRainbowRod id="botania:rainbow_rod"/>
+                <itemSkydirtRod id="botania:skydirt_rod"/>
+                <itemSmeltRod id="botania:smelt_rod"/>
+                <itemStormySeaRod id="botania:stormy_sea_rod"/>
+                <itemTerraformRod id="botania:terraform_rod"/>
+                <itemThunderingPeaksRod id="botania:thundering_peaks_rod"/>
+                <itemTornadoRod id="botania:tornado_rod"/>
+                <itemVibrantPlainsRod id="botania:vibrant_plains_rod"/>
+                <itemWaterRod id="botania:water_rod"/>
+            </botaniaRods>
+            <wands>
+                <itemDreamwoodWand id="botania:dreamwood_wand"/>
+                <itemDreamwoodWandBind id="botania:dreamwood_wand_bind"/>
+                <itemTwigWand id="botania:twig_wand"/>
+                <itemTwigWandBind id="botania:twig_wand_bind"/>
+            </wands>
+            <botaniaTools>
+                <itemAstrolabe id="botania:astrolabe"/>
+                <itemAutoCraftingHalo id="botania:auto_crafting_halo"/>
+                <itemBaubleBox id="botania:bauble_box"/>
+                <itemCraftingHalo id="botania:crafting_halo"/>
+                <itemDice id="botania:dice"/>
+                <itemEnderEyeBlock id="botania:ender_eye_block"/>
+                <itemEnderHand id="botania:ender_hand"/>
+                <itemFlareChakram id="botania:flare_chakram"/>
+                <itemFlowerBag id="botania:flower_bag"/>
+                <itemFlugelEye id="botania:flugel_eye"/>
+                <itemForestEye id="botania:forest_eye"/>
+                <itemKingKey id="botania:king_key"/>
+                <itemLaputaShard id="botania:laputa_shard"/>
+                <itemLexicon id="botania:lexicon"/>
+                <itemLexiconElven id="botania:lexicon_elven"/>
+                <itemManaMirror id="botania:mana_mirror"/>
+                <itemManaTablet id="botania:mana_tablet"/>
+                <itemManasealCreeperSpawnEgg id="botania:manaseal_creeper_spawn_egg"/>
+                <itemObedienceStick id="botania:obedience_stick"/>
+                <itemPinkinator id="botania:pinkinator"/>
+                <itemSextant id="botania:sextant"/>
+                <itemSlingshot id="botania:slingshot"/>
+                <itemSonicAmplifier id="botania:sonic_amplifier"/>
+                <itemSpawnerClaw id="botania:spawner_claw"/>
+                <itemSpawnerMover id="botania:spawner_mover"/>
+                <itemTemperanceStone id="botania:temperance_stone"/>
+                <itemThorRing id="botania:thor_ring"/>
+                <itemThornChakram id="botania:thorn_chakram"/>
+                <itemToolbelt id="botania:toolbelt"/>
+                <itemVuvuzela id="botania:vuvuzela"/>
+                <itemBlackHoleTalisman id="botania:black_hole_talisman"/>
+                <itemManaBomb id="botania:mana_bomb"/>
+                <itemManaGun id="botania:mana_gun"/>
+            </botaniaTools>
+        </tool>
+    </equipment>
+</stuff>

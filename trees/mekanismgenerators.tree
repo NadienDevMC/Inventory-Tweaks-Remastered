@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <block>
+        <mechanism>
+            <generators>
+                <fuelGenerators>
+                    <itemHeatGenerator id="mekanismgenerators:heat_generator"/>
+                </fuelGenerators>
+                <weirdGenerators>
+                    <itemBioGenerator id="mekanismgenerators:bio_generator"/>
+                    <itemGasBurningGenerator id="mekanismgenerators:gas_burning_generator"/>
+                    <itemWindGenerator id="mekanismgenerators:wind_generator"/>
+                </weirdGenerators>
+                <solarGenerators>
+                    <itemSolarGenerator id="mekanismgenerators:solar_generator"/>
+                    <itemAdvancedSolarGenerator id="mekanismgenerators:advanced_solar_generator"/>
+                </solarGenerators>
+                <nuclearGenerators>
+                    <itemFissionReactorCasing id="mekanismgenerators:fission_reactor_casing"/>
+                    <itemFissionReactorPort id="mekanismgenerators:fission_reactor_port"/>
+                    <itemFissionReactorLogicAdapter id="mekanismgenerators:fission_reactor_logic_adapter"/>
+                    <itemFissionFuelAssembly id="mekanismgenerators:fission_fuel_assembly"/>
+                    <itemControlRodAssembly id="mekanismgenerators:control_rod_assembly"/>
+                    <itemReactorGlass id="mekanismgenerators:reactor_glass"/>
+                    <itemFusionReactorController id="mekanismgenerators:fusion_reactor_controller"/>
+                    <itemFusionReactorFrame id="mekanismgenerators:fusion_reactor_frame"/>
+                    <itemFusionReactorPort id="mekanismgenerators:fusion_reactor_port"/>
+                    <itemFusionReactorLogicAdapter id="mekanismgenerators:fusion_reactor_logic_adapter"/>
+                    <itemLaserFocusMatrix id="mekanismgenerators:laser_focus_matrix"/>
+                </nuclearGenerators>
+                <turbineGenerators>
+                    <itemTurbineCasing id="mekanismgenerators:turbine_casing"/>
+                    <itemTurbineRotor id="mekanismgenerators:turbine_rotor"/>
+                    <itemTurbineBlade id="mekanismgenerators:turbine_blade"/>
+                    <itemTurbineValve id="mekanismgenerators:turbine_valve"/>
+                    <itemTurbineVent id="mekanismgenerators:turbine_vent"/>
+                    <itemElectromagneticCoil id="mekanismgenerators:electromagnetic_coil"/>
+                    <itemRotationalComplex id="mekanismgenerators:rotational_complex"/>
+                    <itemSaturatingCondenser id="mekanismgenerators:saturating_condenser"/>
+                </turbineGenerators>
+            </generators>
+        </mechanism>
+    </block>
+    <item>
+        <bucket>
+            <itemBioethanolBucket id="mekanismgenerators:bioethanol_bucket"/>
+            <itemDeuteriumBucket id="mekanismgenerators:deuterium_bucket"/>
+            <itemFusionFuelBucket id="mekanismgenerators:fusion_fuel_bucket"/>
+            <itemTritiumBucket id="mekanismgenerators:tritium_bucket"/>
+        </bucket>
+        <parts>
+            <mechanicalParts>
+                <otherParts>
+                    <itemHohlraum id="mekanismgenerators:hohlraum"/>
+                    <itemSolarPanel id="mekanismgenerators:solar_panel"/>
+                </otherParts>
+                <modules>
+                    <itemModuleGeothermalGeneratorUnit id="mekanismgenerators:module_geothermal_generator_unit"/>
+                    <itemModuleSolarRechargingUnit id="mekanismgenerators:module_solar_recharging_unit"/>
+                </modules>
+            </mechanicalParts>
+        </parts>
+    </item>
+</stuff>

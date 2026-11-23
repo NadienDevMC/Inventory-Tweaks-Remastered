@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <pickaxe>
+                <itemCrystalPickaxe id="astralsorcery:crystal_pickaxe"/>
+                <itemIridescentCrystalPickaxe id="astralsorcery:iridescent_crystal_pickaxe"/>
+            </pickaxe>
+            <axe>
+                <itemCrystalAxe id="astralsorcery:crystal_axe"/>
+                <itemIridescentCrystalAxe id="astralsorcery:iridescent_crystal_axe"/>
+            </axe>
+            <shovel>
+                <itemCrystalShovel id="astralsorcery:crystal_shovel"/>
+                <itemIridescentCrystalShovel id="astralsorcery:iridescent_crystal_shovel"/>
+            </shovel>
+            <wands>
+                <itemArchitectWand id="astralsorcery:architect_wand"/>
+                <itemBlinkWand id="astralsorcery:blink_wand"/>
+                <itemExchangeWand id="astralsorcery:exchange_wand"/>
+                <itemGrapplingWand id="astralsorcery:grappling_wand"/>
+                <itemIlluminationWand id="astralsorcery:illumination_wand"/>
+                <itemWand id="astralsorcery:wand"/>
+            </wands>
+            <toolInstrument>
+                <itemAstrolabe id="astralsorcery:astrolabe"/>
+                <itemChisel id="astralsorcery:chisel"/>
+                <itemEnchantmentAmulet id="astralsorcery:enchantment_amulet"/>
+                <itemLinkingTool id="astralsorcery:linking_tool"/>
+            </toolInstrument>
+        </tool>
+        <weapon>
+            <sword>
+                <itemCrystalSword id="astralsorcery:crystal_sword"/>
+                <itemIridescentCrystalSword id="astralsorcery:iridescent_crystal_sword"/>
+            </sword>
+        </weapon>
+    </equipment>
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <slabs>
+                    <itemMarbleSlab id="astralsorcery:marble_slab"/>
+                    <itemSootyMarbleSlab id="astralsorcery:sooty_marble_slab"/>
+                    <woodenSlabs>
+                        <itemInfusedWoodSlab id="astralsorcery:infused_wood_slab"/>
+                    </woodenSlabs>
+                </slabs>
+                <stairs>
+                    <otherStairs>
+                        <itemMarbleStairs id="astralsorcery:marble_stairs"/>
+                        <itemSootyMarbleStairs id="astralsorcery:sooty_marble_stairs"/>
+                    </otherStairs>
+                    <woodenStairs>
+                        <itemInfusedWoodStairs id="astralsorcery:infused_wood_stairs"/>
+                    </woodenStairs>
+                </stairs>
+                <decorativeblocks>
+                    <marble>
+                        <itemMarbleArch id="astralsorcery:marble_arch"/>
+                        <itemMarbleBricks id="astralsorcery:marble_bricks"/>
+                        <itemMarbleChiseled id="astralsorcery:marble_chiseled"/>
+                        <itemMarbleEngraved id="astralsorcery:marble_engraved"/>
+                        <itemMarblePillar id="astralsorcery:marble_pillar"/>
+                        <itemMarbleRaw id="astralsorcery:marble_raw"/>
+                        <itemMarbleRuned id="astralsorcery:marble_runed"/>
+                        <itemSootyMarbleArch id="astralsorcery:sooty_marble_arch"/>
+                        <itemSootyMarbleBricks id="astralsorcery:sooty_marble_bricks"/>
+                        <itemSootyMarbleChiseled id="astralsorcery:sooty_marble_chiseled"/>
+                        <itemSootyMarbleEngraved id="astralsorcery:sooty_marble_engraved"/>
+                        <itemSootyMarblePillar id="astralsorcery:sooty_marble_pillar"/>
+                        <itemSootyMarbleRaw id="astralsorcery:sooty_marble_raw"/>
+                        <itemSootyMarbleRuned id="astralsorcery:sooty_marble_runed"/>
+                    </marble>
+                </decorativeblocks>
+                <woodenPlank>
+                    <itemInfusedWoodPlanks id="astralsorcery:infused_wood_planks"/>
+                </woodenPlank>
+            </constructionBlock>
+        </manufacturedBlock>
+        <naturalBlock>
+            <wood>
+                <itemInfusedWood id="astralsorcery:infused_wood"/>
+                <itemInfusedWoodArch id="astralsorcery:infused_wood_arch"/>
+                <itemInfusedWoodColumn id="astralsorcery:infused_wood_column"/>
+                <itemInfusedWoodEngraved id="astralsorcery:infused_wood_engraved"/>
+                <itemInfusedWoodEnriched id="astralsorcery:infused_wood_enriched"/>
+                <itemInfusedWoodInfused id="astralsorcery:infused_wood_infused"/>
+            </wood>
+            <oreBlock>
+                <itemRockCrystalOre id="astralsorcery:rock_crystal_ore"/>
+                <itemStarmetalOre id="astralsorcery:starmetal_ore"/>
+            </oreBlock>
+            <naturalCrystals>
+                <itemCelestialCrystalCluster id="astralsorcery:celestial_crystal_cluster"/>
+                <itemGemCrystalCluster id="astralsorcery:gem_crystal_cluster"/>
+                <itemLumenCrystalCluster id="astralsorcery:lumen_crystal_cluster"/>
+            </naturalCrystals>
+            <stones>
+                <itemAquamarineShale id="astralsorcery:aquamarine_shale"/>
+            </stones>
+        </naturalBlock>
+        <mechanism>
+            <machines>
+                <starlightMachines>
+                    <itemAltarIllumination id="astralsorcery:altar_illumination"/>
+                    <itemAltarLuminance id="astralsorcery:altar_luminance"/>
+                    <itemAltarRadiance id="astralsorcery:altar_radiance"/>
+                    <itemAltarResonance id="astralsorcery:altar_resonance"/>
+                    <itemAttunementAltar id="astralsorcery:attunement_altar"/>
+                    <itemCaveIlluminator id="astralsorcery:cave_illuminator"/>
+                    <itemCelestialGateway id="astralsorcery:celestial_gateway"/>
+                    <itemChalice id="astralsorcery:chalice"/>
+                    <itemFocusRelay id="astralsorcery:focus_relay"/>
+                    <itemInfuser id="astralsorcery:infuser"/>
+                    <itemLightwell id="astralsorcery:lightwell"/>
+                    <itemLumenAlchemyArray id="astralsorcery:lumen_alchemy_array"/>
+                    <itemLumenArray id="astralsorcery:lumen_array"/>
+                    <itemLumenCrystallizer id="astralsorcery:lumen_crystallizer"/>
+                    <itemPrism id="astralsorcery:prism"/>
+                    <itemStarlightFocusCelestialCrystal id="astralsorcery:starlight_focus_celestial_crystal"/>
+                    <itemStarlightFocusRockCrystal id="astralsorcery:starlight_focus_rock_crystal"/>
+                    <itemStructureMarker id="astralsorcery:structure_marker"/>
+                    <itemTreeBeacon id="astralsorcery:tree_beacon"/>
+                </starlightMachines>
+            </machines>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <crystals>
+                <itemAttunedCelestialCrystal id="astralsorcery:attuned_celestial_crystal"/>
+                <itemAttunedRockCrystal id="astralsorcery:attuned_rock_crystal"/>
+                <itemCelestialCrystal id="astralsorcery:celestial_crystal"/>
+                <itemRockCrystal id="astralsorcery:rock_crystal"/>
+            </crystals>
+            <dust>
+                <itemIlluminationPowder id="astralsorcery:illumination_powder"/>
+                <itemNocturnalPowder id="astralsorcery:nocturnal_powder"/>
+                <itemStardew id="astralsorcery:stardew"/>
+                <itemStardust id="astralsorcery:stardust"/>
+                <itemVividPowder id="astralsorcery:vivid_powder"/>
+            </dust>
+            <gem>
+                <itemAquamarine id="astralsorcery:aquamarine"/>
+                <itemDynamismGemDay id="astralsorcery:dynamism_gem_day"/>
+                <itemDynamismGemNight id="astralsorcery:dynamism_gem_night"/>
+                <itemDynamismGemSky id="astralsorcery:dynamism_gem_sky"/>
+                <itemLumenCrystal id="astralsorcery:lumen_crystal"/>
+                <itemLumenCrystalPrismatic id="astralsorcery:lumen_crystal_prismatic"/>
+                <itemResonatingGem id="astralsorcery:resonating_gem"/>
+            </gem>
+            <ingot>
+                <itemStarmetalIngot id="astralsorcery:starmetal_ingot"/>
+            </ingot>
+            <rawMaterials>
+                <itemRawStarmetal id="astralsorcery:raw_starmetal"/>
+            </rawMaterials>
+            <miningOreBlock>
+                <itemRawStarmetalBlock id="astralsorcery:raw_starmetal_block"/>
+            </miningOreBlock>
+        </miningResources>
+    </resources>
+    <item>
+        <parts>
+            <mechanicalParts>
+                <lenses>
+                    <itemGlassLens id="astralsorcery:glass_lens"/>
+                    <itemLens id="astralsorcery:lens"/>
+                </lenses>
+            </mechanicalParts>
+        </parts>
+        <plant>
+            <flower>
+                <itemGlimmerAmaranth id="astralsorcery:glimmer_amaranth"/>
+                <itemHyacinth id="astralsorcery:hyacinth"/>
+                <itemIris id="astralsorcery:iris"/>
+                <itemOrchid id="astralsorcery:orchid"/>
+                <itemProtea id="astralsorcery:protea"/>
+                <itemThistle id="astralsorcery:thistle"/>
+            </flower>
+        </plant>
+        <utility>
+            <readableBooks>
+                <itemConstellationPaper id="astralsorcery:constellation_paper"/>
+                <itemKnowledgeShare id="astralsorcery:knowledge_share"/>
+                <itemKnowledgeShareWritten id="astralsorcery:knowledge_share_written"/>
+                <itemParchment id="astralsorcery:parchment"/>
+                <itemTome id="astralsorcery:tome"/>
+            </readableBooks>
+        </utility>
+        <bucket>
+            <itemLiquidStarlightBucket id="astralsorcery:liquid_starlight_bucket"/>
+        </bucket>
+        <magical>
+            <astralParts>
+                <itemAkashicSingularity id="astralsorcery:akashic_singularity"/>
+                <itemArtifact id="astralsorcery:artifact"/>
+                <itemArtifactShard id="astralsorcery:artifact_shard"/>
+                <itemLumenFilament id="astralsorcery:lumen_filament"/>
+                <itemPerkNullifier id="astralsorcery:perk_nullifier"/>
+                <itemPerkSeal id="astralsorcery:perk_seal"/>
+                <itemShiftingStar id="astralsorcery:shifting_star"/>
+                <itemShiftingStarAevitas id="astralsorcery:shifting_star_aevitas"/>
+                <itemShiftingStarArmara id="astralsorcery:shifting_star_armara"/>
+                <itemShiftingStarDiscidia id="astralsorcery:shifting_star_discidia"/>
+                <itemShiftingStarEvorsio id="astralsorcery:shifting_star_evorsio"/>
+                <itemShiftingStarVicio id="astralsorcery:shifting_star_vicio"/>
+                <itemStellarFilament id="astralsorcery:stellar_filament"/>
+            </astralParts>
+        </magical>
+    </item>
+</stuff>

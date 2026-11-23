@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <item>
+        <utility>
+            <beds>
+                <hammocks>
+                    <itemHammockBlack id="comforts:hammock_black"/>
+                    <itemHammockBlue id="comforts:hammock_blue" mergePrevious="true"/>
+                    <itemHammockBrown id="comforts:hammock_brown" mergePrevious="true"/>
+                    <itemHammockCyan id="comforts:hammock_cyan" mergePrevious="true"/>
+                    <itemHammockGray id="comforts:hammock_gray" mergePrevious="true"/>
+                    <itemHammockGreen id="comforts:hammock_green" mergePrevious="true"/>
+                    <itemHammockLightBlue id="comforts:hammock_light_blue" mergePrevious="true"/>
+                    <itemHammockLightGray id="comforts:hammock_light_gray" mergePrevious="true"/>
+                    <itemHammockLime id="comforts:hammock_lime" mergePrevious="true"/>
+                    <itemHammockMagenta id="comforts:hammock_magenta" mergePrevious="true"/>
+                    <itemHammockOrange id="comforts:hammock_orange" mergePrevious="true"/>
+                    <itemHammockPink id="comforts:hammock_pink" mergePrevious="true"/>
+                    <itemHammockPurple id="comforts:hammock_purple" mergePrevious="true"/>
+                    <itemHammockRed id="comforts:hammock_red" mergePrevious="true"/>
+                    <itemHammockWhite id="comforts:hammock_white" mergePrevious="true"/>
+                    <itemHammockYellow id="comforts:hammock_yellow" mergePrevious="true"/>
+                </hammocks>
+                <sleepingBags>
+                    <itemSleepingBagBlack id="comforts:sleeping_bag_black"/>
+                    <itemSleepingBagBlue id="comforts:sleeping_bag_blue" mergePrevious="true"/>
+                    <itemSleepingBagBrown id="comforts:sleeping_bag_brown" mergePrevious="true"/>
+                    <itemSleepingBagCyan id="comforts:sleeping_bag_cyan" mergePrevious="true"/>
+                    <itemSleepingBagGray id="comforts:sleeping_bag_gray" mergePrevious="true"/>
+                    <itemSleepingBagGreen id="comforts:sleeping_bag_green" mergePrevious="true"/>
+                    <itemSleepingBagLightBlue id="comforts:sleeping_bag_light_blue" mergePrevious="true"/>
+                    <itemSleepingBagLightGray id="comforts:sleeping_bag_light_gray" mergePrevious="true"/>
+                    <itemSleepingBagLime id="comforts:sleeping_bag_lime" mergePrevious="true"/>
+                    <itemSleepingBagMagenta id="comforts:sleeping_bag_magenta" mergePrevious="true"/>
+                    <itemSleepingBagOrange id="comforts:sleeping_bag_orange" mergePrevious="true"/>
+                    <itemSleepingBagPink id="comforts:sleeping_bag_pink" mergePrevious="true"/>
+                    <itemSleepingBagPurple id="comforts:sleeping_bag_purple" mergePrevious="true"/>
+                    <itemSleepingBagRed id="comforts:sleeping_bag_red" mergePrevious="true"/>
+                    <itemSleepingBagWhite id="comforts:sleeping_bag_white" mergePrevious="true"/>
+                    <itemSleepingBagYellow id="comforts:sleeping_bag_yellow" mergePrevious="true"/>
+                </sleepingBags>
+                <hammockParts>
+                    <itemRopeAndNail id="comforts:rope_and_nail"/>
+                </hammockParts>
+            </beds>
+        </utility>
+    </item>
+</stuff>

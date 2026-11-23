@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <aiot>
+                <itemDiamondAiot id="actuallyadditions:diamond_aiot"/>
+                <itemGoldAiot id="actuallyadditions:gold_aiot"/>
+                <itemIronAiot id="actuallyadditions:iron_aiot"/>
+                <itemNetheriteAiot id="actuallyadditions:netherite_aiot"/>
+                <itemStoneAiot id="actuallyadditions:stone_aiot"/>
+                <itemWoodenAiot id="actuallyadditions:wooden_aiot"/>
+            </aiot>
+            <drill>
+                <itemDrillBlack id="actuallyadditions:drill_black"/>
+                <itemDrillBlue id="actuallyadditions:drill_blue"/>
+                <itemDrillBrown id="actuallyadditions:drill_brown"/>
+                <itemDrillCore id="actuallyadditions:drill_core"/>
+                <itemDrillCyan id="actuallyadditions:drill_cyan"/>
+                <itemDrillGray id="actuallyadditions:drill_gray"/>
+                <itemDrillGreen id="actuallyadditions:drill_green"/>
+                <itemDrillLightBlue id="actuallyadditions:drill_light_blue"/>
+                <itemDrillLightGray id="actuallyadditions:drill_light_gray"/>
+                <itemDrillLime id="actuallyadditions:drill_lime"/>
+                <itemDrillMagenta id="actuallyadditions:drill_magenta"/>
+                <itemDrillOrange id="actuallyadditions:drill_orange"/>
+                <itemDrillPink id="actuallyadditions:drill_pink"/>
+                <itemDrillPurple id="actuallyadditions:drill_purple"/>
+                <itemDrillRed id="actuallyadditions:drill_red"/>
+                <itemDrillWhite id="actuallyadditions:drill_white"/>
+                <itemDrillYellow id="actuallyadditions:drill_yellow"/>
+            </drill>
+            <farmingTool>
+                <otherFarmingTools>
+                    <itemAdvancedLeafBlower id="actuallyadditions:advanced_leaf_blower"/>
+                    <itemLeafBlower id="actuallyadditions:leaf_blower"/>
+                </otherFarmingTools>
+            </farmingTool>
+            <toolInstrument>
+                <itemCrafterOnAStick id="actuallyadditions:crafter_on_a_stick"/>
+                <itemHandheldFiller id="actuallyadditions:handheld_filler"/>
+                <itemLaserWrench id="actuallyadditions:laser_wrench"/>
+                <itemPlayerProbe id="actuallyadditions:player_probe"/>
+                <itemTeleportStaff id="actuallyadditions:teleport_staff"/>
+            </toolInstrument>
+        </tool>
+        <baubles>
+            <rings>
+                <itemRing id="actuallyadditions:ring"/>
+                <itemRingOfGrowth id="actuallyadditions:ring_of_growth"/>
+                <itemRingOfMagnetizing id="actuallyadditions:ring_of_magnetizing"/>
+            </rings>
+            <wings>
+                <itemBatsWing id="actuallyadditions:bats_wing"/>
+                <itemWingsOfTheBats id="actuallyadditions:wings_of_the_bats"/>
+            </wings>
+        </baubles>
+        <armor>
+            <helmet>
+                <itemEngineersGoggles id="actuallyadditions:engineers_goggles"/>
+                <itemEngineersGogglesAdvanced id="actuallyadditions:engineers_goggles_advanced"/>
+            </helmet>
+        </armor>
+    </equipment>
+    <item>
+        <parts>
+            <toolUpgrades>
+                <drillParts>
+                    <itemDrillUpgradeBlockPlacing id="actuallyadditions:drill_upgrade_block_placing"/>
+                    <itemDrillUpgradeFiveByFive id="actuallyadditions:drill_upgrade_five_by_five"/>
+                    <itemDrillUpgradeFortune id="actuallyadditions:drill_upgrade_fortune"/>
+                    <itemDrillUpgradeFortuneIi id="actuallyadditions:drill_upgrade_fortune_ii"/>
+                    <itemDrillUpgradeSilkTouch id="actuallyadditions:drill_upgrade_silk_touch"/>
+                    <itemDrillUpgradeSpeed id="actuallyadditions:drill_upgrade_speed"/>
+                    <itemDrillUpgradeSpeedIi id="actuallyadditions:drill_upgrade_speed_ii"/>
+                    <itemDrillUpgradeSpeedIii id="actuallyadditions:drill_upgrade_speed_iii"/>
+                    <itemDrillUpgradeThreeByThree id="actuallyadditions:drill_upgrade_three_by_three"/>
+                </drillParts>
+                <patterns>
+                    <itemBookPattern id="actuallyadditions:book_pattern"/>
+                    <itemDrillPattern id="actuallyadditions:drill_pattern"/>
+                    <itemLeafBloPattern id="actuallyadditions:leaf_blo_pattern"/>
+                    <itemPhanConPattern id="actuallyadditions:phan_con_pattern"/>
+                </patterns>
+            </toolUpgrades>
+            <mechanicalParts>
+                <lenses>
+                    <itemLens id="actuallyadditions:lens"/>
+                    <itemLensOfCertainDeath id="actuallyadditions:lens_of_certain_death"/>
+                    <itemLensOfColor id="actuallyadditions:lens_of_color"/>
+                    <itemLensOfDetonation id="actuallyadditions:lens_of_detonation"/>
+                    <itemLensOfDisenchanting id="actuallyadditions:lens_of_disenchanting"/>
+                    <itemLensOfTheKiller id="actuallyadditions:lens_of_the_killer"/>
+                    <itemLensOfTheMiner id="actuallyadditions:lens_of_the_miner"/>
+                </lenses>
+                <coils>
+                    <itemAdvancedCoil id="actuallyadditions:advanced_coil"/>
+                    <itemBasicCoil id="actuallyadditions:basic_coil"/>
+                </coils>
+                <frames>
+                    <itemEnderCasing id="actuallyadditions:ender_casing"/>
+                    <itemIronCasing id="actuallyadditions:iron_casing"/>
+                    <itemLavaFactoryCasing id="actuallyadditions:lava_factory_casing"/>
+                    <itemWoodCasing id="actuallyadditions:wood_casing"/>
+                </frames>
+            </mechanicalParts>
+        </parts>
+        <utility>
+            <storage>
+                <voidStorage>
+                    <voidBags>
+                        <itemTravelersSack id="actuallyadditions:travelers_sack"/>
+                        <itemVoidSack id="actuallyadditions:void_sack"/>
+                    </voidBags>
+                </voidStorage>
+                <powerStorage>
+                    <itemBatteryBox id="actuallyadditions:battery_box"/>
+                    <itemDoubleBattery id="actuallyadditions:double_battery"/>
+                    <itemQuadrupleBattery id="actuallyadditions:quadruple_battery"/>
+                    <itemQuintupleBattery id="actuallyadditions:quintuple_battery"/>
+                    <itemSingleBattery id="actuallyadditions:single_battery"/>
+                    <itemTripleBattery id="actuallyadditions:triple_battery"/>
+                </powerStorage>
+            </storage>
+            <readableBooks>
+                <itemBooklet id="actuallyadditions:booklet"/>
+            </readableBooks>
+        </utility>
+        <bucket>
+            <itemCanolaOilBucket id="actuallyadditions:canola_oil_bucket"/>
+            <itemCrystallizedOilBucket id="actuallyadditions:crystallized_oil_bucket"/>
+            <itemEmpoweredOilBucket id="actuallyadditions:empowered_oil_bucket"/>
+            <itemRefinedCanolaOilBucket id="actuallyadditions:refined_canola_oil_bucket"/>
+        </bucket>
+        <plant>
+            <seed>
+                <itemCanola id="actuallyadditions:canola"/>
+                <itemCanolaSeeds id="actuallyadditions:canola_seeds"/>
+                <itemCoffeeBeans id="actuallyadditions:coffee_beans"/>
+                <itemCrystallizedCanolaSeed id="actuallyadditions:crystallized_canola_seed"/>
+                <itemEmpoweredCanolaSeed id="actuallyadditions:empowered_canola_seed"/>
+                <itemFlaxSeeds id="actuallyadditions:flax_seeds"/>
+                <itemRice id="actuallyadditions:rice"/>
+                <itemRiceSeeds id="actuallyadditions:rice_seeds"/>
+            </seed>
+        </plant>
+        <food>
+            <unedibleFood>
+                <itemCoffeeCup id="actuallyadditions:coffee_cup"/>
+                <itemEmptyCup id="actuallyadditions:empty_cup"/>
+                <itemRiceDough id="actuallyadditions:rice_dough"/>
+                <itemRiceSlimeball id="actuallyadditions:rice_slimeball"/>
+                <itemWaterBowl id="actuallyadditions:water_bowl"/>
+            </unedibleFood>
+        </food>
+        <experienceStorage>
+            <itemEnderStar id="actuallyadditions:ender_star"/>
+            <itemSolidifiedExperience id="actuallyadditions:solidified_experience"/>
+        </experienceStorage>
+    </item>
+    <block>
+        <mechanism>
+            <resourceTransfer>
+                <aaTransfer>
+                    <itemLaserRelay id="actuallyadditions:laser_relay"/>
+                    <itemLaserRelayAdvanced id="actuallyadditions:laser_relay_advanced"/>
+                    <itemLaserRelayExtreme id="actuallyadditions:laser_relay_extreme"/>
+                    <itemLaserRelayFluids id="actuallyadditions:laser_relay_fluids"/>
+                    <itemLaserRelayItem id="actuallyadditions:laser_relay_item"/>
+                    <itemLaserRelayItemAdvanced id="actuallyadditions:laser_relay_item_advanced"/>
+                    <itemLaserUpgradeInvisibility id="actuallyadditions:laser_upgrade_invisibility"/>
+                    <itemLaserUpgradeRange id="actuallyadditions:laser_upgrade_range"/>
+                    <itemDisplayStand id="actuallyadditions:display_stand"/>
+                    <itemFilter id="actuallyadditions:filter"/>
+                    <itemFluidCollector id="actuallyadditions:fluid_collector"/>
+                    <itemFluidPlacer id="actuallyadditions:fluid_placer"/>
+                    <itemHeatCollector id="actuallyadditions:heat_collector"/>
+                    <itemHoppingItemInterface id="actuallyadditions:hopping_item_interface"/>
+                    <itemItemInterface id="actuallyadditions:item_interface"/>
+                    <itemItemTag id="actuallyadditions:item_tag"/>
+                    <itemLongRangeBreaker id="actuallyadditions:long_range_breaker"/>
+                    <itemPhantomBooster id="actuallyadditions:phantom_booster"/>
+                    <itemPhantomBreaker id="actuallyadditions:phantom_breaker"/>
+                    <itemPhantomConnector id="actuallyadditions:phantom_connector"/>
+                    <itemPhantomEnergyface id="actuallyadditions:phantom_energyface"/>
+                    <itemPhantomItemface id="actuallyadditions:phantom_itemface"/>
+                    <itemPhantomLiquiface id="actuallyadditions:phantom_liquiface"/>
+                    <itemPhantomPlacer id="actuallyadditions:phantom_placer"/>
+                    <itemPhantomRedstoneface id="actuallyadditions:phantom_redstoneface"/>
+                    <itemPlayerInterface id="actuallyadditions:player_interface"/>
+                    <itemRangedCollector id="actuallyadditions:ranged_collector"/>
+                </aaTransfer>
+            </resourceTransfer>
+            <lighting>
+                <decorativeLights>
+                    <itemLampBlack id="actuallyadditions:lamp_black"/>
+                    <itemLampBlue id="actuallyadditions:lamp_blue"/>
+                    <itemLampBrown id="actuallyadditions:lamp_brown"/>
+                    <itemLampController id="actuallyadditions:lamp_controller"/>
+                    <itemLampCyan id="actuallyadditions:lamp_cyan"/>
+                    <itemLampGray id="actuallyadditions:lamp_gray"/>
+                    <itemLampGreen id="actuallyadditions:lamp_green"/>
+                    <itemLampLightBlue id="actuallyadditions:lamp_light_blue"/>
+                    <itemLampLightGray id="actuallyadditions:lamp_light_gray"/>
+                    <itemLampLime id="actuallyadditions:lamp_lime"/>
+                    <itemLampMagenta id="actuallyadditions:lamp_magenta"/>
+                    <itemLampOrange id="actuallyadditions:lamp_orange"/>
+                    <itemLampPink id="actuallyadditions:lamp_pink"/>
+                    <itemLampPurple id="actuallyadditions:lamp_purple"/>
+                    <itemLampRed id="actuallyadditions:lamp_red"/>
+                    <itemLampWhite id="actuallyadditions:lamp_white"/>
+                    <itemLampYellow id="actuallyadditions:lamp_yellow"/>
+                </decorativeLights>
+                <actuallyadditionsTorch>
+                    <itemTinyTorch id="actuallyadditions:tiny_torch"/>
+                </actuallyadditionsTorch>
+            </lighting>
+            <generators>
+                <itemBioReactor id="actuallyadditions:bio_reactor"/>
+                <itemCoalGenerator id="actuallyadditions:coal_generator"/>
+                <itemLavaFactoryController id="actuallyadditions:lava_factory_controller"/>
+                <itemLeafGenerator id="actuallyadditions:leaf_generator"/>
+                <itemOilGenerator id="actuallyadditions:oil_generator"/>
+            </generators>
+            <machines>
+                <itemAtomicReconstructor id="actuallyadditions:atomic_reconstructor"/>
+                <itemBreaker id="actuallyadditions:breaker"/>
+                <itemCanolaPress id="actuallyadditions:canola_press"/>
+                <itemCoffeeMachine id="actuallyadditions:coffee_machine"/>
+                <itemCrateKeeper id="actuallyadditions:crate_keeper"/>
+                <itemCrusher id="actuallyadditions:crusher"/>
+                <itemCrusherDouble id="actuallyadditions:crusher_double"/>
+                <itemDropper id="actuallyadditions:dropper"/>
+                <itemEmpowerer id="actuallyadditions:empowerer"/>
+                <itemEnergizer id="actuallyadditions:energizer"/>
+                <itemEnervator id="actuallyadditions:enervator"/>
+                <itemFarmer id="actuallyadditions:farmer"/>
+                <itemFeeder id="actuallyadditions:feeder"/>
+                <itemFermentingBarrel id="actuallyadditions:fermenting_barrel"/>
+                <itemFireworkBox id="actuallyadditions:firework_box"/>
+                <itemPlacer id="actuallyadditions:placer"/>
+                <itemPoweredFurnace id="actuallyadditions:powered_furnace"/>
+                <itemShockSuppressor id="actuallyadditions:shock_suppressor"/>
+                <itemVerticalDigger id="actuallyadditions:vertical_digger"/>
+                <itemXpSolidifier id="actuallyadditions:xp_solidifier"/>
+            </machines>
+        </mechanism>
+        <manufacturedBlock>
+            <constructionBlock>
+                <decorativeblocks>
+                    <itemBlackQuartz id="actuallyadditions:black_quartz"/>
+                    <itemBlackQuartzBlock id="actuallyadditions:black_quartz_block"/>
+                    <itemBlackQuartzBrickBlock id="actuallyadditions:black_quartz_brick_block"/>
+                    <itemBlackQuartzBrickSlab id="actuallyadditions:black_quartz_brick_slab"/>
+                    <itemBlackQuartzBrickStair id="actuallyadditions:black_quartz_brick_stair"/>
+                    <itemBlackQuartzBrickWall id="actuallyadditions:black_quartz_brick_wall"/>
+                    <itemBlackQuartzOre id="actuallyadditions:black_quartz_ore"/>
+                    <itemBlackQuartzPillarBlock id="actuallyadditions:black_quartz_pillar_block"/>
+                    <itemBlackQuartzPillarSlab id="actuallyadditions:black_quartz_pillar_slab"/>
+                    <itemBlackQuartzPillarStair id="actuallyadditions:black_quartz_pillar_stair"/>
+                    <itemBlackQuartzPillarWall id="actuallyadditions:black_quartz_pillar_wall"/>
+                    <itemBlackQuartzSlab id="actuallyadditions:black_quartz_slab"/>
+                    <itemBlackQuartzStair id="actuallyadditions:black_quartz_stair"/>
+                    <itemBlackQuartzWall id="actuallyadditions:black_quartz_wall"/>
+                    <itemChiseledBlackQuartzBlock id="actuallyadditions:chiseled_black_quartz_block"/>
+                    <itemChiseledBlackQuartzSlab id="actuallyadditions:chiseled_black_quartz_slab"/>
+                    <itemChiseledBlackQuartzStair id="actuallyadditions:chiseled_black_quartz_stair"/>
+                    <itemChiseledBlackQuartzWall id="actuallyadditions:chiseled_black_quartz_wall"/>
+                    <itemEtheticGreenBlock id="actuallyadditions:ethetic_green_block"/>
+                    <itemEtheticGreenSlab id="actuallyadditions:ethetic_green_slab"/>
+                    <itemEtheticGreenStairs id="actuallyadditions:ethetic_green_stairs"/>
+                    <itemEtheticGreenWall id="actuallyadditions:ethetic_green_wall"/>
+                    <itemEtheticWhiteBlock id="actuallyadditions:ethetic_white_block"/>
+                    <itemEtheticWhiteSlab id="actuallyadditions:ethetic_white_slab"/>
+                    <itemEtheticWhiteStairs id="actuallyadditions:ethetic_white_stairs"/>
+                    <itemEtheticWhiteWall id="actuallyadditions:ethetic_white_wall"/>
+                    <itemSmoothBlackQuartzBlock id="actuallyadditions:smooth_black_quartz_block"/>
+                    <itemSmoothBlackQuartzSlab id="actuallyadditions:smooth_black_quartz_slab"/>
+                    <itemSmoothBlackQuartzStair id="actuallyadditions:smooth_black_quartz_stair"/>
+                    <itemSmoothBlackQuartzWall id="actuallyadditions:smooth_black_quartz_wall"/>
+                </decorativeblocks>
+                <glass>
+                    <itemGreenhouseGlass id="actuallyadditions:greenhouse_glass"/>
+                </glass>
+            </constructionBlock>
+        </manufacturedBlock>
+        <naturalBlock>
+            <naturalCrystals>
+                <itemDiamatineCrystalCluster id="actuallyadditions:diamatine_crystal_cluster"/>
+                <itemEmeradicCrystalCluster id="actuallyadditions:emeradic_crystal_cluster"/>
+                <itemEnoriCrystalCluster id="actuallyadditions:enori_crystal_cluster"/>
+                <itemPalisCrystalCluster id="actuallyadditions:palis_crystal_cluster"/>
+                <itemRestoniaCrystalCluster id="actuallyadditions:restonia_crystal_cluster"/>
+                <itemVoidCrystalCluster id="actuallyadditions:void_crystal_cluster"/>
+            </naturalCrystals>
+        </naturalBlock>
+    </block>
+    <resources>
+        <miningResources>
+            <actuallyadditionsOreBlock>
+                <itemDiamatineCrystalBlock id="actuallyadditions:diamatine_crystal_block"/>
+                <itemEmeradicCrystalBlock id="actuallyadditions:emeradic_crystal_block"/>
+                <itemEmpoweredDiamatineCrystalBlock id="actuallyadditions:empowered_diamatine_crystal_block"/>
+                <itemEmpoweredEmeradicCrystalBlock id="actuallyadditions:empowered_emeradic_crystal_block"/>
+                <itemEmpoweredEnoriCrystalBlock id="actuallyadditions:empowered_enori_crystal_block"/>
+                <itemEmpoweredPalisCrystalBlock id="actuallyadditions:empowered_palis_crystal_block"/>
+                <itemEmpoweredRestoniaCrystalBlock id="actuallyadditions:empowered_restonia_crystal_block"/>
+                <itemEmpoweredVoidCrystalBlock id="actuallyadditions:empowered_void_crystal_block"/>
+                <itemEnoriCrystalBlock id="actuallyadditions:enori_crystal_block"/>
+                <itemPalisCrystalBlock id="actuallyadditions:palis_crystal_block"/>
+                <itemRestoniaCrystalBlock id="actuallyadditions:restonia_crystal_block"/>
+                <itemVoidCrystalBlock id="actuallyadditions:void_crystal_block"/>
+            </actuallyadditionsOreBlock>
+            <shards>
+                <itemDiamatineCrystalShard id="actuallyadditions:diamatine_crystal_shard"/>
+                <itemEmeradicCrystalShard id="actuallyadditions:emeradic_crystal_shard"/>
+                <itemEnoriCrystalShard id="actuallyadditions:enori_crystal_shard"/>
+                <itemPalisCrystalShard id="actuallyadditions:palis_crystal_shard"/>
+                <itemRestoniaCrystalShard id="actuallyadditions:restonia_crystal_shard"/>
+                <itemVoidCrystalShard id="actuallyadditions:void_crystal_shard"/>
+            </shards>
+            <crystals>
+                <itemDiamatineCrystal id="actuallyadditions:diamatine_crystal"/>
+                <itemEmeradicCrystal id="actuallyadditions:emeradic_crystal"/>
+                <itemEmpoweredDiamatineCrystal id="actuallyadditions:empowered_diamatine_crystal"/>
+                <itemEmpoweredEmeradicCrystal id="actuallyadditions:empowered_emeradic_crystal"/>
+                <itemEmpoweredEnoriCrystal id="actuallyadditions:empowered_enori_crystal"/>
+                <itemEmpoweredPalisCrystal id="actuallyadditions:empowered_palis_crystal"/>
+                <itemEmpoweredRestoniaCrystal id="actuallyadditions:empowered_restonia_crystal"/>
+                <itemEmpoweredVoidCrystal id="actuallyadditions:empowered_void_crystal"/>
+                <itemEnoriCrystal id="actuallyadditions:enori_crystal"/>
+                <itemPalisCrystal id="actuallyadditions:palis_crystal"/>
+                <itemRestoniaCrystal id="actuallyadditions:restonia_crystal"/>
+                <itemVoidCrystal id="actuallyadditions:void_crystal"/>
+            </crystals>
+            <coals>
+                <itemTinyCharcoal id="actuallyadditions:tiny_charcoal"/>
+                <itemTinyCoal id="actuallyadditions:tiny_coal"/>
+            </coals>
+        </miningResources>
+        <huntingResources>
+            <itemSnail id="actuallyadditions:snail"/>
+            <itemWorm id="actuallyadditions:worm"/>
+        </huntingResources>
+    </resources>
+</stuff>

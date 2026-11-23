@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <paxel>
+                <itemDiamondPaxel id="pickletweaks:diamond_paxel"/>
+                <itemEmeraldPaxel id="pickletweaks:emerald_paxel"/>
+                <itemFlintPaxel id="pickletweaks:flint_paxel"/>
+                <itemGoldenPaxel id="pickletweaks:golden_paxel"/>
+                <itemIronPaxel id="pickletweaks:iron_paxel"/>
+                <itemNetheritePaxel id="pickletweaks:netherite_paxel"/>
+                <itemStonePaxel id="pickletweaks:stone_paxel"/>
+                <itemWoodenPaxel id="pickletweaks:wooden_paxel"/>
+            </paxel>
+            <farmingTool>
+                <scythe>
+                    <itemDiamondScythe id="pickletweaks:diamond_scythe"/>
+                    <itemEmeraldScythe id="pickletweaks:emerald_scythe"/>
+                    <itemFlintScythe id="pickletweaks:flint_scythe"/>
+                    <itemGoldenScythe id="pickletweaks:golden_scythe"/>
+                    <itemIronScythe id="pickletweaks:iron_scythe"/>
+                    <itemNetheriteScythe id="pickletweaks:netherite_scythe"/>
+                    <itemStoneScythe id="pickletweaks:stone_scythe"/>
+                    <itemWoodenScythe id="pickletweaks:wooden_scythe"/>
+                </scythe>
+                <sickle>
+                    <itemDiamondSickle id="pickletweaks:diamond_sickle"/>
+                    <itemEmeraldSickle id="pickletweaks:emerald_sickle"/>
+                    <itemFlintSickle id="pickletweaks:flint_sickle"/>
+                    <itemGoldenSickle id="pickletweaks:golden_sickle"/>
+                    <itemIronSickle id="pickletweaks:iron_sickle"/>
+                    <itemNetheriteSickle id="pickletweaks:netherite_sickle"/>
+                    <itemStoneSickle id="pickletweaks:stone_sickle"/>
+                    <itemWoodenSickle id="pickletweaks:wooden_sickle"/>
+                </sickle>
+                <otherFarmingTools>
+                    <wateringCan>
+                        <itemReinforcedWateringCan id="pickletweaks:reinforced_watering_can"/>
+                        <itemWateringCan id="pickletweaks:watering_can"/>
+                    </wateringCan>
+                </otherFarmingTools>
+            </farmingTool>
+            <pickaxe>
+                <itemEmeraldPickaxe id="pickletweaks:emerald_pickaxe"/>
+                <itemFlintPickaxe id="pickletweaks:flint_pickaxe"/>
+            </pickaxe>
+            <axe>
+                <itemEmeraldAxe id="pickletweaks:emerald_axe"/>
+                <itemFlintAxe id="pickletweaks:flint_axe"/>
+            </axe>
+            <shovel>
+                <itemEmeraldShovel id="pickletweaks:emerald_shovel"/>
+                <itemFlintShovel id="pickletweaks:flint_shovel"/>
+            </shovel>
+            <hoe>
+                <itemEmeraldHoe id="pickletweaks:emerald_hoe"/>
+                <itemFlintHoe id="pickletweaks:flint_hoe"/>
+            </hoe>
+            <shears>
+                <itemFlintShears id="pickletweaks:flint_shears"/>
+            </shears>
+            <magnets>
+                <itemMagnet id="pickletweaks:magnet"/>
+            </magnets>
+        </tool>
+        <weapon>
+            <sword>
+                <itemEmeraldSword id="pickletweaks:emerald_sword"/>
+                <itemFlintSword id="pickletweaks:flint_sword"/>
+            </sword>
+        </weapon>
+        <armor>
+            <helmet>
+                <itemEmeraldHelmet id="pickletweaks:emerald_helmet"/>
+                <itemFlintHelmet id="pickletweaks:flint_helmet"/>
+                <itemNightVisionGoggles id="pickletweaks:night_vision_goggles"/>
+                <itemReinforcedNightVisionGoggles id="pickletweaks:reinforced_night_vision_goggles"/>
+            </helmet>
+            <chestplate>
+                <itemEmeraldChestplate id="pickletweaks:emerald_chestplate"/>
+                <itemFlintChestplate id="pickletweaks:flint_chestplate"/>
+            </chestplate>
+            <leggings>
+                <itemEmeraldLeggings id="pickletweaks:emerald_leggings"/>
+                <itemFlintLeggings id="pickletweaks:flint_leggings"/>
+            </leggings>
+            <boots>
+                <itemEmeraldBoots id="pickletweaks:emerald_boots"/>
+                <itemFlintBoots id="pickletweaks:flint_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+    <item>
+        <food>
+            <edibleFood>
+                <apple>
+                    <itemDiamondApple id="pickletweaks:diamond_apple"/>
+                    <itemEmeraldApple id="pickletweaks:emerald_apple"/>
+                </apple>
+            </edibleFood>
+        </food>
+    </item>
+    <block>
+        <manufacturedBlock>
+            <itemFilter>
+                <itemGrassFiberMesh id="pickletweaks:grass_fiber_mesh"/>
+                <itemMesh id="pickletweaks:mesh"/>
+                <itemReinforcedMesh id="pickletweaks:reinforced_mesh"/>
+            </itemFilter>
+            <constructionBlock>
+                <decorativeblocks>
+                    <itemSmoothGlowstone id="pickletweaks:smooth_glowstone"/>
+                </decorativeblocks>
+            </constructionBlock>
+        </manufacturedBlock>
+        <naturalBlock>
+            <stones>
+                <stone>
+                    <rawStone>
+                        <itemBlackCobblestone id="pickletweaks:black_cobblestone"/>
+                        <itemBlueCobblestone id="pickletweaks:blue_cobblestone" mergePrevious="true"/>
+                        <itemBrownCobblestone id="pickletweaks:brown_cobblestone" mergePrevious="true"/>
+                        <itemCyanCobblestone id="pickletweaks:cyan_cobblestone" mergePrevious="true"/>
+                        <itemGrayCobblestone id="pickletweaks:gray_cobblestone" mergePrevious="true"/>
+                        <itemGreenCobblestone id="pickletweaks:green_cobblestone" mergePrevious="true"/>
+                        <itemLightBlueCobblestone id="pickletweaks:light_blue_cobblestone" mergePrevious="true"/>
+                        <itemLightGrayCobblestone id="pickletweaks:light_gray_cobblestone" mergePrevious="true"/>
+                        <itemLimeCobblestone id="pickletweaks:lime_cobblestone" mergePrevious="true"/>
+                        <itemMagentaCobblestone id="pickletweaks:magenta_cobblestone" mergePrevious="true"/>
+                        <itemOrangeCobblestone id="pickletweaks:orange_cobblestone" mergePrevious="true"/>
+                        <itemPinkCobblestone id="pickletweaks:pink_cobblestone" mergePrevious="true"/>
+                        <itemPurpleCobblestone id="pickletweaks:purple_cobblestone" mergePrevious="true"/>
+                        <itemRedCobblestone id="pickletweaks:red_cobblestone" mergePrevious="true"/>
+                        <itemWhiteCobblestone id="pickletweaks:white_cobblestone" mergePrevious="true"/>
+                        <itemYellowCobblestone id="pickletweaks:yellow_cobblestone" mergePrevious="true"/>
+                    </rawStone>
+                </stone>
+            </stones>
+        </naturalBlock>
+    </block>
+    <resources>
+        <miningResources>
+            <coals>
+                <itemCharcoalPiece id="pickletweaks:charcoal_piece"/>
+                <itemCoalPiece id="pickletweaks:coal_piece"/>
+            </coals>
+        </miningResources>
+        <farmingResources>
+            <itemGrassFiber id="pickletweaks:grass_fiber"/>
+        </farmingResources>
+    </resources>
+</stuff>

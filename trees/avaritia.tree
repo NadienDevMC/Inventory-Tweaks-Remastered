@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <weapon>
+            <munition>
+                <avaritiaBow>
+                    <itemInfinityBow id="avaritia:infinity_bow"/>
+                    <itemBlazeBow id="avaritia:blaze_bow"/>
+                    <itemCrystalBow id="avaritia:crystal_bow"/>
+                    <itemInfinityShield id="avaritia:infinity_shield"/>
+                    <itemNeutronHorseArmor id="avaritia:neutron_horse_armor"/>
+                    <itemNeutronWolfArmor id="avaritia:neutron_wolf_armor"/>
+                </avaritiaBow>
+            </munition>
+        </weapon>
+        <tool>
+            <infinityTools>
+                <itemBlazeAxe id="avaritia:blaze_axe"/>
+                <itemBlazeHoe id="avaritia:blaze_hoe"/>
+                <itemBlazePickaxe id="avaritia:blaze_pickaxe"/>
+                <itemBlazeShovel id="avaritia:blaze_shovel"/>
+                <itemBlazeSword id="avaritia:blaze_sword"/>
+                <itemCrystalAxe id="avaritia:crystal_axe"/>
+                <itemCrystalHoe id="avaritia:crystal_hoe"/>
+                <itemCrystalPickaxe id="avaritia:crystal_pickaxe"/>
+                <itemCrystalShovel id="avaritia:crystal_shovel"/>
+                <itemCrystalSword id="avaritia:crystal_sword"/>
+                <itemInfinityAxe id="avaritia:infinity_axe"/>
+                <itemInfinityCrossbow id="avaritia:infinity_crossbow"/>
+                <itemInfinityHoe id="avaritia:infinity_hoe"/>
+                <itemInfinityMace id="avaritia:infinity_mace"/>
+                <itemInfinityPickaxe id="avaritia:infinity_pickaxe"/>
+                <itemInfinityPickaxeHammer id="avaritia:infinity_pickaxe_hammer"/>
+                <itemInfinityShovel id="avaritia:infinity_shovel"/>
+                <itemInfinityShovelDestroyer id="avaritia:infinity_shovel_destroyer"/>
+                <itemInfinitySword id="avaritia:infinity_sword"/>
+                <itemInfinityTrident id="avaritia:infinity_trident"/>
+                <itemInfinityUmbrella id="avaritia:infinity_umbrella"/>
+                <itemTestSword id="avaritia:test_sword"/>
+            </infinityTools>
+        </tool>
+        <armor>
+            <infinityArmor>
+                <itemInfinityBoots id="avaritia:infinity_boots"/>
+                <itemInfinityChestplate id="avaritia:infinity_chestplate"/>
+                <itemInfinityHelmet id="avaritia:infinity_helmet"/>
+                <itemInfinityPants id="avaritia:infinity_pants"/>
+            </infinityArmor>
+        </armor>
+    </equipment>
+    <block>
+        <mechanism>
+            <basicCrafting>
+                <craftingTables>
+                    <itemCompressedCraftingTable id="avaritia:compressed_crafting_table"/>
+                    <itemDoubleCompressedCraftingTable id="avaritia:double_compressed_crafting_table"/>
+                    <itemExtremeCraftingTable id="avaritia:extreme_crafting_table"/>
+                    <itemEndCraftingTable id="avaritia:end_crafting_table"/>
+                    <itemNetherCraftingTable id="avaritia:nether_crafting_table"/>
+                    <itemSculkCraftingTable id="avaritia:sculk_crafting_table"/>
+                </craftingTables>
+            </basicCrafting>
+            <machines>
+                <randomMachines>
+                    <itemNeutronCollector id="avaritia:neutron_collector"/>
+                    <itemCompressedChest id="avaritia:compressed_chest"/>
+                    <itemDenseNeutronCollector id="avaritia:dense_neutron_collector"/>
+                    <itemDenseNeutronCompressor id="avaritia:dense_neutron_compressor"/>
+                    <itemDenserNeutronCollector id="avaritia:denser_neutron_collector"/>
+                    <itemDenserNeutronCompressor id="avaritia:denser_neutron_compressor"/>
+                    <itemDensestNeutronCollector id="avaritia:densest_neutron_collector"/>
+                    <itemDensestNeutronCompressor id="avaritia:densest_neutron_compressor"/>
+                    <itemExtremeAnvil id="avaritia:extreme_anvil"/>
+                    <itemExtremeSmithingTable id="avaritia:extreme_smithing_table"/>
+                    <itemInfinityChest id="avaritia:infinity_chest"/>
+                    <itemNeutronCompressor id="avaritia:neutron_compressor"/>
+                    <itemSoulFarmland id="avaritia:soul_farmland"/>
+                    <itemTesseract id="avaritia:tesseract"/>
+                </randomMachines>
+            </machines>
+        </mechanism>
+    </block>
+    <resources>
+        <miningResources>
+            <ultraCompressedIngots>
+                <itemSingularity id="avaritia:singularity"/>
+                <itemBlazeCube id="avaritia:blaze_cube"/>
+                <itemBlazeCubeBlock id="avaritia:blaze_cube_block"/>
+                <itemCrystalMatrix id="avaritia:crystal_matrix"/>
+                <itemCrystalMatrixIngot id="avaritia:crystal_matrix_ingot"/>
+                <itemDiamondLattice id="avaritia:diamond_lattice"/>
+                <itemDiamondLatticeBlock id="avaritia:diamond_lattice_block"/>
+                <itemEternalSingularity id="avaritia:eternal_singularity"/>
+                <itemInfinity id="avaritia:infinity"/>
+                <itemInfinityCatalyst id="avaritia:infinity_catalyst"/>
+                <itemInfinityIngot id="avaritia:infinity_ingot"/>
+                <itemInfinityNugget id="avaritia:infinity_nugget"/>
+                <itemNeutron id="avaritia:neutron"/>
+                <itemNeutronGear id="avaritia:neutron_gear"/>
+                <itemNeutronIngot id="avaritia:neutron_ingot"/>
+                <itemNeutronNugget id="avaritia:neutron_nugget"/>
+                <itemNeutronPile id="avaritia:neutron_pile"/>
+                <itemRecordFragment id="avaritia:record_fragment"/>
+                <itemRefinedCoal id="avaritia:refined_coal"/>
+                <itemRefinedCoalBlock id="avaritia:refined_coal_block"/>
+                <itemStarFuel id="avaritia:star_fuel"/>
+                <itemStarFuelBlock id="avaritia:star_fuel_block"/>
+            </ultraCompressedIngots>
+        </miningResources>
+        <huntingResources>
+            <itemEndestPearl id="avaritia:endest_pearl"/>
+        </huntingResources>
+    </resources>
+    <item>
+        <food>
+            <edibleFood>
+                <preparedFood>
+                    <itemCosmicMeatballs id="avaritia:cosmic_meatballs"/>
+                    <itemEndlessCake id="avaritia:endless_cake"/>
+                    <soup>
+                        <itemUltimateStew id="avaritia:ultimate_stew"/>
+                    </soup>
+                </preparedFood>
+            </edibleFood>
+        </food>
+        <utility>
+            <avaritiaTrinkets>
+                <itemEnhancementCore id="avaritia:enhancement_core"/>
+                <itemForgeEnergy id="avaritia:forge_energy"/>
+                <itemFullMatterCluster id="avaritia:full_matter_cluster"/>
+                <itemInfinityBucket id="avaritia:infinity_bucket"/>
+                <itemInfinityClock id="avaritia:infinity_clock"/>
+                <itemInfinityClockUp id="avaritia:infinity_clock_up"/>
+                <itemInfinityElytra id="avaritia:infinity_elytra"/>
+                <itemInfinityRing id="avaritia:infinity_ring"/>
+                <itemInfinityTotem id="avaritia:infinity_totem"/>
+                <itemInfinityUpgrade id="avaritia:infinity_upgrade"/>
+                <itemMatterCluster id="avaritia:matter_cluster"/>
+                <itemNeutronRing id="avaritia:neutron_ring"/>
+                <itemSideConfigCard id="avaritia:side_config_card"/>
+                <itemUpgradeSmithingTemplate id="avaritia:upgrade_smithing_template"/>
+            </avaritiaTrinkets>
+        </utility>
+    </item>
+</stuff>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stuff treeVersion="1.21.1">
+    <equipment>
+        <tool>
+            <toolInstrument>
+                <itemWalkieTalkie id="mekanismadditions:walkie_talkie"/>
+            </toolInstrument>
+        </tool>
+    </equipment>
+    <block>
+        <manufacturedBlock>
+            <constructionBlock>
+                <roads>
+                    <itemWhitePlasticRoad id="mekanismadditions:white_plastic_road"/>
+                    <itemBlackPlasticRoad id="mekanismadditions:black_plastic_road"/>
+                    <itemBluePlasticRoad id="mekanismadditions:blue_plastic_road"/>
+                    <itemBrownPlasticRoad id="mekanismadditions:brown_plastic_road"/>
+                    <itemCyanPlasticRoad id="mekanismadditions:cyan_plastic_road"/>
+                    <itemGrayPlasticRoad id="mekanismadditions:gray_plastic_road"/>
+                    <itemGreenPlasticRoad id="mekanismadditions:green_plastic_road"/>
+                    <itemLightBluePlasticRoad id="mekanismadditions:light_blue_plastic_road"/>
+                    <itemLightGrayPlasticRoad id="mekanismadditions:light_gray_plastic_road"/>
+                    <itemLimePlasticRoad id="mekanismadditions:lime_plastic_road"/>
+                    <itemMagentaPlasticRoad id="mekanismadditions:magenta_plastic_road"/>
+                    <itemOrangePlasticRoad id="mekanismadditions:orange_plastic_road"/>
+                    <itemPinkPlasticRoad id="mekanismadditions:pink_plastic_road"/>
+                    <itemPurplePlasticRoad id="mekanismadditions:purple_plastic_road"/>
+                    <itemRedPlasticRoad id="mekanismadditions:red_plastic_road"/>
+                    <itemYellowPlasticRoad id="mekanismadditions:yellow_plastic_road"/>
+                    <itemAquaPlasticRoad id="mekanismadditions:aqua_plastic_road"/>
+                    <itemDarkRedPlasticRoad id="mekanismadditions:dark_red_plastic_road"/>
+                </roads>
+                <decorativeblocks>
+                    <itemWhitePlastic id="mekanismadditions:white_plastic"/>
+                    <itemBlackPlastic id="mekanismadditions:black_plastic"/>
+                    <itemBluePlastic id="mekanismadditions:blue_plastic"/>
+                    <itemBrownPlastic id="mekanismadditions:brown_plastic"/>
+                    <itemCyanPlastic id="mekanismadditions:cyan_plastic"/>
+                    <itemGrayPlastic id="mekanismadditions:gray_plastic"/>
+                    <itemGreenPlastic id="mekanismadditions:green_plastic"/>
+                    <itemLightBluePlastic id="mekanismadditions:light_blue_plastic"/>
+                    <itemLightGrayPlastic id="mekanismadditions:light_gray_plastic"/>
+                    <itemLimePlastic id="mekanismadditions:lime_plastic"/>
+                    <itemMagentaPlastic id="mekanismadditions:magenta_plastic"/>
+                    <itemOrangePlastic id="mekanismadditions:orange_plastic"/>
+                    <itemPinkPlastic id="mekanismadditions:pink_plastic"/>
+                    <itemPurplePlastic id="mekanismadditions:purple_plastic"/>
+                    <itemRedPlastic id="mekanismadditions:red_plastic"/>
+                    <itemYellowPlastic id="mekanismadditions:yellow_plastic"/>
+                    <itemWhiteReinforcedPlastic id="mekanismadditions:white_reinforced_plastic"/>
+                    <itemBlackReinforcedPlastic id="mekanismadditions:black_reinforced_plastic"/>
+                    <itemBlueReinforcedPlastic id="mekanismadditions:blue_reinforced_plastic"/>
+                    <itemBrownReinforcedPlastic id="mekanismadditions:brown_reinforced_plastic"/>
+                    <itemCyanReinforcedPlastic id="mekanismadditions:cyan_reinforced_plastic"/>
+                    <itemGrayReinforcedPlastic id="mekanismadditions:gray_reinforced_plastic"/>
+                    <itemGreenReinforcedPlastic id="mekanismadditions:green_reinforced_plastic"/>
+                    <itemLightBlueReinforcedPlastic id="mekanismadditions:light_blue_reinforced_plastic"/>
+                    <itemLightGrayReinforcedPlastic id="mekanismadditions:light_gray_reinforced_plastic"/>
+                    <itemLimeReinforcedPlastic id="mekanismadditions:lime_reinforced_plastic"/>
+                    <itemMagentaReinforcedPlastic id="mekanismadditions:magenta_reinforced_plastic"/>
+                    <itemOrangeReinforcedPlastic id="mekanismadditions:orange_reinforced_plastic"/>
+                    <itemPinkReinforcedPlastic id="mekanismadditions:pink_reinforced_plastic"/>
+                    <itemPurpleReinforcedPlastic id="mekanismadditions:purple_reinforced_plastic"/>
+                    <itemRedReinforcedPlastic id="mekanismadditions:red_reinforced_plastic"/>
+                    <itemYellowReinforcedPlastic id="mekanismadditions:yellow_reinforced_plastic"/>
+                    <itemWhiteSlickPlastic id="mekanismadditions:white_slick_plastic"/>
+                    <itemBlackSlickPlastic id="mekanismadditions:black_slick_plastic"/>
+                    <itemBlueSlickPlastic id="mekanismadditions:blue_slick_plastic"/>
+                    <itemBrownSlickPlastic id="mekanismadditions:brown_slick_plastic"/>
+                    <itemCyanSlickPlastic id="mekanismadditions:cyan_slick_plastic"/>
+                    <itemGraySlickPlastic id="mekanismadditions:gray_slick_plastic"/>
+                    <itemGreenSlickPlastic id="mekanismadditions:green_slick_plastic"/>
+                    <itemLightBlueSlickPlastic id="mekanismadditions:light_blue_slick_plastic"/>
+                    <itemLightGraySlickPlastic id="mekanismadditions:light_gray_slick_plastic"/>
+                    <itemLimeSlickPlastic id="mekanismadditions:lime_slick_plastic"/>
+                    <itemMagentaSlickPlastic id="mekanismadditions:magenta_slick_plastic"/>
+                    <itemOrangeSlickPlastic id="mekanismadditions:orange_slick_plastic"/>
+                    <itemPinkSlickPlastic id="mekanismadditions:pink_slick_plastic"/>
+                    <itemPurpleSlickPlastic id="mekanismadditions:purple_slick_plastic"/>
+                    <itemRedSlickPlastic id="mekanismadditions:red_slick_plastic"/>
+                    <itemYellowSlickPlastic id="mekanismadditions:yellow_slick_plastic"/>
+                    <itemWhitePlasticTransparent id="mekanismadditions:white_plastic_transparent"/>
+                    <itemBlackPlasticTransparent id="mekanismadditions:black_plastic_transparent"/>
+                    <itemBluePlasticTransparent id="mekanismadditions:blue_plastic_transparent"/>
+                    <itemBrownPlasticTransparent id="mekanismadditions:brown_plastic_transparent"/>
+                    <itemCyanPlasticTransparent id="mekanismadditions:cyan_plastic_transparent"/>
+                    <itemGrayPlasticTransparent id="mekanismadditions:gray_plastic_transparent"/>
+                    <itemGreenPlasticTransparent id="mekanismadditions:green_plastic_transparent"/>
+                    <itemLightBluePlasticTransparent id="mekanismadditions:light_blue_plastic_transparent"/>
+                    <itemLightGrayPlasticTransparent id="mekanismadditions:light_gray_plastic_transparent"/>
+                    <itemLimePlasticTransparent id="mekanismadditions:lime_plastic_transparent"/>
+                    <itemMagentaPlasticTransparent id="mekanismadditions:magenta_plastic_transparent"/>
+                    <itemOrangePlasticTransparent id="mekanismadditions:orange_plastic_transparent"/>
+                    <itemPinkPlasticTransparent id="mekanismadditions:pink_plastic_transparent"/>
+                    <itemPurplePlasticTransparent id="mekanismadditions:purple_plastic_transparent"/>
+                    <itemRedPlasticTransparent id="mekanismadditions:red_plastic_transparent"/>
+                    <itemYellowPlasticTransparent id="mekanismadditions:yellow_plastic_transparent"/>
+                    <itemAquaPlastic id="mekanismadditions:aqua_plastic"/>
+                    <itemAquaPlasticTransparent id="mekanismadditions:aqua_plastic_transparent"/>
+                    <itemAquaReinforcedPlastic id="mekanismadditions:aqua_reinforced_plastic"/>
+                    <itemAquaSlickPlastic id="mekanismadditions:aqua_slick_plastic"/>
+                    <itemDarkRedPlastic id="mekanismadditions:dark_red_plastic"/>
+                    <itemDarkRedPlasticTransparent id="mekanismadditions:dark_red_plastic_transparent"/>
+                    <itemDarkRedReinforcedPlastic id="mekanismadditions:dark_red_reinforced_plastic"/>
+                    <itemDarkRedSlickPlastic id="mekanismadditions:dark_red_slick_plastic"/>
+                </decorativeblocks>
+                <plasticSlabs>
+                    <itemAquaPlasticGlowSlab id="mekanismadditions:aqua_plastic_glow_slab"/>
+                    <itemBlackPlasticGlowSlab id="mekanismadditions:black_plastic_glow_slab" mergePrevious="true"/>
+                    <itemBluePlasticGlowSlab id="mekanismadditions:blue_plastic_glow_slab" mergePrevious="true"/>
+                    <itemBrownPlasticGlowSlab id="mekanismadditions:brown_plastic_glow_slab" mergePrevious="true"/>
+                    <itemCyanPlasticGlowSlab id="mekanismadditions:cyan_plastic_glow_slab" mergePrevious="true"/>
+                    <itemDarkRedPlasticGlowSlab id="mekanismadditions:dark_red_plastic_glow_slab" mergePrevious="true"/>
+                    <itemGrayPlasticGlowSlab id="mekanismadditions:gray_plastic_glow_slab" mergePrevious="true"/>
+                    <itemGreenPlasticGlowSlab id="mekanismadditions:green_plastic_glow_slab" mergePrevious="true"/>
+                    <itemLightBluePlasticGlowSlab id="mekanismadditions:light_blue_plastic_glow_slab" mergePrevious="true"/>
+                    <itemLightGrayPlasticGlowSlab id="mekanismadditions:light_gray_plastic_glow_slab" mergePrevious="true"/>
+                    <itemLimePlasticGlowSlab id="mekanismadditions:lime_plastic_glow_slab" mergePrevious="true"/>
+                    <itemMagentaPlasticGlowSlab id="mekanismadditions:magenta_plastic_glow_slab" mergePrevious="true"/>
+                    <itemOrangePlasticGlowSlab id="mekanismadditions:orange_plastic_glow_slab" mergePrevious="true"/>
+                    <itemPinkPlasticGlowSlab id="mekanismadditions:pink_plastic_glow_slab" mergePrevious="true"/>
+                    <itemPurplePlasticGlowSlab id="mekanismadditions:purple_plastic_glow_slab" mergePrevious="true"/>
+                    <itemRedPlasticGlowSlab id="mekanismadditions:red_plastic_glow_slab" mergePrevious="true"/>
+                    <itemWhitePlasticGlowSlab id="mekanismadditions:white_plastic_glow_slab" mergePrevious="true"/>
+                    <itemYellowPlasticGlowSlab id="mekanismadditions:yellow_plastic_glow_slab" mergePrevious="true"/>
+                    <itemAquaPlasticSlab id="mekanismadditions:aqua_plastic_slab"/>
+                    <itemBlackPlasticSlab id="mekanismadditions:black_plastic_slab" mergePrevious="true"/>
+                    <itemBluePlasticSlab id="mekanismadditions:blue_plastic_slab" mergePrevious="true"/>
+                    <itemBrownPlasticSlab id="mekanismadditions:brown_plastic_slab" mergePrevious="true"/>
+                    <itemCyanPlasticSlab id="mekanismadditions:cyan_plastic_slab" mergePrevious="true"/>
+                    <itemDarkRedPlasticSlab id="mekanismadditions:dark_red_plastic_slab" mergePrevious="true"/>
+                    <itemGrayPlasticSlab id="mekanismadditions:gray_plastic_slab" mergePrevious="true"/>
+                    <itemGreenPlasticSlab id="mekanismadditions:green_plastic_slab" mergePrevious="true"/>
+                    <itemLightBluePlasticSlab id="mekanismadditions:light_blue_plastic_slab" mergePrevious="true"/>
+                    <itemLightGrayPlasticSlab id="mekanismadditions:light_gray_plastic_slab" mergePrevious="true"/>
+                    <itemLimePlasticSlab id="mekanismadditions:lime_plastic_slab" mergePrevious="true"/>
+                    <itemMagentaPlasticSlab id="mekanismadditions:magenta_plastic_slab" mergePrevious="true"/>
+                    <itemOrangePlasticSlab id="mekanismadditions:orange_plastic_slab" mergePrevious="true"/>
+                    <itemPinkPlasticSlab id="mekanismadditions:pink_plastic_slab" mergePrevious="true"/>
+                    <itemPurplePlasticSlab id="mekanismadditions:purple_plastic_slab" mergePrevious="true"/>
+                    <itemRedPlasticSlab id="mekanismadditions:red_plastic_slab" mergePrevious="true"/>
+                    <itemWhitePlasticSlab id="mekanismadditions:white_plastic_slab" mergePrevious="true"/>
+                    <itemYellowPlasticSlab id="mekanismadditions:yellow_plastic_slab" mergePrevious="true"/>
+                    <itemAquaPlasticTransparentSlab id="mekanismadditions:aqua_plastic_transparent_slab"/>
+                    <itemBlackPlasticTransparentSlab id="mekanismadditions:black_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemBluePlasticTransparentSlab id="mekanismadditions:blue_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemBrownPlasticTransparentSlab id="mekanismadditions:brown_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemCyanPlasticTransparentSlab id="mekanismadditions:cyan_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemDarkRedPlasticTransparentSlab id="mekanismadditions:dark_red_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemGrayPlasticTransparentSlab id="mekanismadditions:gray_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemGreenPlasticTransparentSlab id="mekanismadditions:green_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemLightBluePlasticTransparentSlab id="mekanismadditions:light_blue_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemLightGrayPlasticTransparentSlab id="mekanismadditions:light_gray_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemLimePlasticTransparentSlab id="mekanismadditions:lime_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemMagentaPlasticTransparentSlab id="mekanismadditions:magenta_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemOrangePlasticTransparentSlab id="mekanismadditions:orange_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemPinkPlasticTransparentSlab id="mekanismadditions:pink_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemPurplePlasticTransparentSlab id="mekanismadditions:purple_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemRedPlasticTransparentSlab id="mekanismadditions:red_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemWhitePlasticTransparentSlab id="mekanismadditions:white_plastic_transparent_slab" mergePrevious="true"/>
+                    <itemYellowPlasticTransparentSlab id="mekanismadditions:yellow_plastic_transparent_slab" mergePrevious="true"/>
+                </plasticSlabs>
+                <plasticStairs>
+                    <itemAquaPlasticGlowStairs id="mekanismadditions:aqua_plastic_glow_stairs"/>
+                    <itemBlackPlasticGlowStairs id="mekanismadditions:black_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemBluePlasticGlowStairs id="mekanismadditions:blue_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemBrownPlasticGlowStairs id="mekanismadditions:brown_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemCyanPlasticGlowStairs id="mekanismadditions:cyan_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemDarkRedPlasticGlowStairs id="mekanismadditions:dark_red_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemGrayPlasticGlowStairs id="mekanismadditions:gray_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemGreenPlasticGlowStairs id="mekanismadditions:green_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemLightBluePlasticGlowStairs id="mekanismadditions:light_blue_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemLightGrayPlasticGlowStairs id="mekanismadditions:light_gray_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemLimePlasticGlowStairs id="mekanismadditions:lime_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemMagentaPlasticGlowStairs id="mekanismadditions:magenta_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemOrangePlasticGlowStairs id="mekanismadditions:orange_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemPinkPlasticGlowStairs id="mekanismadditions:pink_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemPurplePlasticGlowStairs id="mekanismadditions:purple_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemRedPlasticGlowStairs id="mekanismadditions:red_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemWhitePlasticGlowStairs id="mekanismadditions:white_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemYellowPlasticGlowStairs id="mekanismadditions:yellow_plastic_glow_stairs" mergePrevious="true"/>
+                    <itemAquaPlasticStairs id="mekanismadditions:aqua_plastic_stairs"/>
+                    <itemBlackPlasticStairs id="mekanismadditions:black_plastic_stairs" mergePrevious="true"/>
+                    <itemBluePlasticStairs id="mekanismadditions:blue_plastic_stairs" mergePrevious="true"/>
+                    <itemBrownPlasticStairs id="mekanismadditions:brown_plastic_stairs" mergePrevious="true"/>
+                    <itemCyanPlasticStairs id="mekanismadditions:cyan_plastic_stairs" mergePrevious="true"/>
+                    <itemDarkRedPlasticStairs id="mekanismadditions:dark_red_plastic_stairs" mergePrevious="true"/>
+                    <itemGrayPlasticStairs id="mekanismadditions:gray_plastic_stairs" mergePrevious="true"/>
+                    <itemGreenPlasticStairs id="mekanismadditions:green_plastic_stairs" mergePrevious="true"/>
+                    <itemLightBluePlasticStairs id="mekanismadditions:light_blue_plastic_stairs" mergePrevious="true"/>
+                    <itemLightGrayPlasticStairs id="mekanismadditions:light_gray_plastic_stairs" mergePrevious="true"/>
+                    <itemLimePlasticStairs id="mekanismadditions:lime_plastic_stairs" mergePrevious="true"/>
+                    <itemMagentaPlasticStairs id="mekanismadditions:magenta_plastic_stairs" mergePrevious="true"/>
+                    <itemOrangePlasticStairs id="mekanismadditions:orange_plastic_stairs" mergePrevious="true"/>
+                    <itemPinkPlasticStairs id="mekanismadditions:pink_plastic_stairs" mergePrevious="true"/>
+                    <itemPurplePlasticStairs id="mekanismadditions:purple_plastic_stairs" mergePrevious="true"/>
+                    <itemRedPlasticStairs id="mekanismadditions:red_plastic_stairs" mergePrevious="true"/>
+                    <itemWhitePlasticStairs id="mekanismadditions:white_plastic_stairs" mergePrevious="true"/>
+                    <itemYellowPlasticStairs id="mekanismadditions:yellow_plastic_stairs" mergePrevious="true"/>
+                    <itemAquaPlasticTransparentStairs id="mekanismadditions:aqua_plastic_transparent_stairs"/>
+                    <itemBlackPlasticTransparentStairs id="mekanismadditions:black_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemBluePlasticTransparentStairs id="mekanismadditions:blue_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemBrownPlasticTransparentStairs id="mekanismadditions:brown_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemCyanPlasticTransparentStairs id="mekanismadditions:cyan_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemDarkRedPlasticTransparentStairs id="mekanismadditions:dark_red_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemGrayPlasticTransparentStairs id="mekanismadditions:gray_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemGreenPlasticTransparentStairs id="mekanismadditions:green_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemLightBluePlasticTransparentStairs id="mekanismadditions:light_blue_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemLightGrayPlasticTransparentStairs id="mekanismadditions:light_gray_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemLimePlasticTransparentStairs id="mekanismadditions:lime_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemMagentaPlasticTransparentStairs id="mekanismadditions:magenta_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemOrangePlasticTransparentStairs id="mekanismadditions:orange_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemPinkPlasticTransparentStairs id="mekanismadditions:pink_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemPurplePlasticTransparentStairs id="mekanismadditions:purple_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemRedPlasticTransparentStairs id="mekanismadditions:red_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemWhitePlasticTransparentStairs id="mekanismadditions:white_plastic_transparent_stairs" mergePrevious="true"/>
+                    <itemYellowPlasticTransparentStairs id="mekanismadditions:yellow_plastic_transparent_stairs" mergePrevious="true"/>
+                </plasticStairs>
+            </constructionBlock>
+            <fence>
+                <plasticFenceGates>
+                    <itemAquaPlasticFenceGate id="mekanismadditions:aqua_plastic_fence_gate"/>
+                    <itemBlackPlasticFenceGate id="mekanismadditions:black_plastic_fence_gate" mergePrevious="true"/>
+                    <itemBluePlasticFenceGate id="mekanismadditions:blue_plastic_fence_gate" mergePrevious="true"/>
+                    <itemBrownPlasticFenceGate id="mekanismadditions:brown_plastic_fence_gate" mergePrevious="true"/>
+                    <itemCyanPlasticFenceGate id="mekanismadditions:cyan_plastic_fence_gate" mergePrevious="true"/>
+                    <itemDarkRedPlasticFenceGate id="mekanismadditions:dark_red_plastic_fence_gate" mergePrevious="true"/>
+                    <itemGrayPlasticFenceGate id="mekanismadditions:gray_plastic_fence_gate" mergePrevious="true"/>
+                    <itemGreenPlasticFenceGate id="mekanismadditions:green_plastic_fence_gate" mergePrevious="true"/>
+                    <itemLightBluePlasticFenceGate id="mekanismadditions:light_blue_plastic_fence_gate" mergePrevious="true"/>
+                    <itemLightGrayPlasticFenceGate id="mekanismadditions:light_gray_plastic_fence_gate" mergePrevious="true"/>
+                    <itemLimePlasticFenceGate id="mekanismadditions:lime_plastic_fence_gate" mergePrevious="true"/>
+                    <itemMagentaPlasticFenceGate id="mekanismadditions:magenta_plastic_fence_gate" mergePrevious="true"/>
+                    <itemOrangePlasticFenceGate id="mekanismadditions:orange_plastic_fence_gate" mergePrevious="true"/>
+                    <itemPinkPlasticFenceGate id="mekanismadditions:pink_plastic_fence_gate" mergePrevious="true"/>
+                    <itemPurplePlasticFenceGate id="mekanismadditions:purple_plastic_fence_gate" mergePrevious="true"/>
+                    <itemRedPlasticFenceGate id="mekanismadditions:red_plastic_fence_gate" mergePrevious="true"/>
+                    <itemWhitePlasticFenceGate id="mekanismadditions:white_plastic_fence_gate" mergePrevious="true"/>
+                    <itemYellowPlasticFenceGate id="mekanismadditions:yellow_plastic_fence_gate" mergePrevious="true"/>
+                </plasticFenceGates>
+                <plasticFences>
+                    <itemAquaPlasticFence id="mekanismadditions:aqua_plastic_fence"/>
+                    <itemBlackPlasticFence id="mekanismadditions:black_plastic_fence" mergePrevious="true"/>
+                    <itemBluePlasticFence id="mekanismadditions:blue_plastic_fence" mergePrevious="true"/>
+                    <itemBrownPlasticFence id="mekanismadditions:brown_plastic_fence" mergePrevious="true"/>
+                    <itemCyanPlasticFence id="mekanismadditions:cyan_plastic_fence" mergePrevious="true"/>
+                    <itemDarkRedPlasticFence id="mekanismadditions:dark_red_plastic_fence" mergePrevious="true"/>
+                    <itemGrayPlasticFence id="mekanismadditions:gray_plastic_fence" mergePrevious="true"/>
+                    <itemGreenPlasticFence id="mekanismadditions:green_plastic_fence" mergePrevious="true"/>
+                    <itemLightBluePlasticFence id="mekanismadditions:light_blue_plastic_fence" mergePrevious="true"/>
+                    <itemLightGrayPlasticFence id="mekanismadditions:light_gray_plastic_fence" mergePrevious="true"/>
+                    <itemLimePlasticFence id="mekanismadditions:lime_plastic_fence" mergePrevious="true"/>
+                    <itemMagentaPlasticFence id="mekanismadditions:magenta_plastic_fence" mergePrevious="true"/>
+                    <itemOrangePlasticFence id="mekanismadditions:orange_plastic_fence" mergePrevious="true"/>
+                    <itemPinkPlasticFence id="mekanismadditions:pink_plastic_fence" mergePrevious="true"/>
+                    <itemPurplePlasticFence id="mekanismadditions:purple_plastic_fence" mergePrevious="true"/>
+                    <itemRedPlasticFence id="mekanismadditions:red_plastic_fence" mergePrevious="true"/>
+                    <itemWhitePlasticFence id="mekanismadditions:white_plastic_fence" mergePrevious="true"/>
+                    <itemYellowPlasticFence id="mekanismadditions:yellow_plastic_fence" mergePrevious="true"/>
+                </plasticFences>
+            </fence>
+        </manufacturedBlock>
+        <mechanism>
+            <lighting>
+                <decorativeLights>
+                    <itemWhiteGlowPanel id="mekanismadditions:white_glow_panel"/>
+                    <itemBlackGlowPanel id="mekanismadditions:black_glow_panel"/>
+                    <itemBlueGlowPanel id="mekanismadditions:blue_glow_panel"/>
+                    <itemBrownGlowPanel id="mekanismadditions:brown_glow_panel"/>
+                    <itemCyanGlowPanel id="mekanismadditions:cyan_glow_panel"/>
+                    <itemGrayGlowPanel id="mekanismadditions:gray_glow_panel"/>
+                    <itemGreenGlowPanel id="mekanismadditions:green_glow_panel"/>
+                    <itemLightBlueGlowPanel id="mekanismadditions:light_blue_glow_panel"/>
+                    <itemLightGrayGlowPanel id="mekanismadditions:light_gray_glow_panel"/>
+                    <itemLimeGlowPanel id="mekanismadditions:lime_glow_panel"/>
+                    <itemMagentaGlowPanel id="mekanismadditions:magenta_glow_panel"/>
+                    <itemOrangeGlowPanel id="mekanismadditions:orange_glow_panel"/>
+                    <itemPinkGlowPanel id="mekanismadditions:pink_glow_panel"/>
+                    <itemPurpleGlowPanel id="mekanismadditions:purple_glow_panel"/>
+                    <itemRedGlowPanel id="mekanismadditions:red_glow_panel"/>
+                    <itemYellowGlowPanel id="mekanismadditions:yellow_glow_panel"/>
+                    <itemWhitePlasticGlow id="mekanismadditions:white_plastic_glow"/>
+                    <itemBlackPlasticGlow id="mekanismadditions:black_plastic_glow"/>
+                    <itemBluePlasticGlow id="mekanismadditions:blue_plastic_glow"/>
+                    <itemBrownPlasticGlow id="mekanismadditions:brown_plastic_glow"/>
+                    <itemCyanPlasticGlow id="mekanismadditions:cyan_plastic_glow"/>
+                    <itemGrayPlasticGlow id="mekanismadditions:gray_plastic_glow"/>
+                    <itemGreenPlasticGlow id="mekanismadditions:green_plastic_glow"/>
+                    <itemLightBluePlasticGlow id="mekanismadditions:light_blue_plastic_glow"/>
+                    <itemLightGrayPlasticGlow id="mekanismadditions:light_gray_plastic_glow"/>
+                    <itemLimePlasticGlow id="mekanismadditions:lime_plastic_glow"/>
+                    <itemMagentaPlasticGlow id="mekanismadditions:magenta_plastic_glow"/>
+                    <itemOrangePlasticGlow id="mekanismadditions:orange_plastic_glow"/>
+                    <itemPinkPlasticGlow id="mekanismadditions:pink_plastic_glow"/>
+                    <itemPurplePlasticGlow id="mekanismadditions:purple_plastic_glow"/>
+                    <itemRedPlasticGlow id="mekanismadditions:red_plastic_glow"/>
+                    <itemYellowPlasticGlow id="mekanismadditions:yellow_plastic_glow"/>
+                    <itemAquaGlowPanel id="mekanismadditions:aqua_glow_panel"/>
+                    <itemAquaPlasticGlow id="mekanismadditions:aqua_plastic_glow"/>
+                    <itemDarkRedGlowPanel id="mekanismadditions:dark_red_glow_panel"/>
+                    <itemDarkRedPlasticGlow id="mekanismadditions:dark_red_plastic_glow"/>
+                    <itemGlowPanel id="mekanismadditions:glow_panel"/>
+                </decorativeLights>
+            </lighting>
+        </mechanism>
+    </block>
+    <item>
+        <utility>
+            <tnts>
+                <itemObsidianTnt id="mekanismadditions:obsidian_tnt"/>
+            </tnts>
+            <spawnEggs>
+                <babyMobs>
+                    <itemBabyBoggedSpawnEgg id="mekanismadditions:baby_bogged_spawn_egg"/>
+                    <itemBabyCreeperSpawnEgg id="mekanismadditions:baby_creeper_spawn_egg"/>
+                    <itemBabyEndermanSpawnEgg id="mekanismadditions:baby_enderman_spawn_egg"/>
+                    <itemBabySkeletonSpawnEgg id="mekanismadditions:baby_skeleton_spawn_egg"/>
+                    <itemBabyStraySpawnEgg id="mekanismadditions:baby_stray_spawn_egg"/>
+                    <itemBabyWitherSkeletonSpawnEgg id="mekanismadditions:baby_wither_skeleton_spawn_egg"/>
+                </babyMobs>
+            </spawnEggs>
+        </utility>
+        <decoration>
+            <balloon>
+                <itemWhiteBalloon id="mekanismadditions:white_balloon"/>
+                <itemBlackBalloon id="mekanismadditions:black_balloon"/>
+                <itemBlueBalloon id="mekanismadditions:blue_balloon"/>
+                <itemBrownBalloon id="mekanismadditions:brown_balloon"/>
+                <itemCyanBalloon id="mekanismadditions:cyan_balloon"/>
+                <itemGrayBalloon id="mekanismadditions:gray_balloon"/>
+                <itemGreenBalloon id="mekanismadditions:green_balloon"/>
+                <itemLightBlueBalloon id="mekanismadditions:light_blue_balloon"/>
+                <itemLightGrayBalloon id="mekanismadditions:light_gray_balloon"/>
+                <itemLimeBalloon id="mekanismadditions:lime_balloon"/>
+                <itemMagentaBalloon id="mekanismadditions:magenta_balloon"/>
+                <itemOrangeBalloon id="mekanismadditions:orange_balloon"/>
+                <itemPinkBalloon id="mekanismadditions:pink_balloon"/>
+                <itemPurpleBalloon id="mekanismadditions:purple_balloon"/>
+                <itemRedBalloon id="mekanismadditions:red_balloon"/>
+                <itemYellowBalloon id="mekanismadditions:yellow_balloon"/>
+                <itemAquaBalloon id="mekanismadditions:aqua_balloon"/>
+                <itemDarkRedBalloon id="mekanismadditions:dark_red_balloon"/>
+            </balloon>
+        </decoration>
+    </item>
+</stuff>
