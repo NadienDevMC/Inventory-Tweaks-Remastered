@@ -68,7 +68,7 @@ public final class SophisticatedCompat {
      */
     public static int titleLineEnd(Object screen, int original) {
         if(replacesSortButton(screen)) {
-            return Math.min(original, ((AbstractContainerScreen<?>) screen).getXSize() - TITLE_RESERVE);
+            return Math.min(original, ((AbstractContainerScreen<?>) screen).getImageWidth() - TITLE_RESERVE);
         }
         return original;
     }

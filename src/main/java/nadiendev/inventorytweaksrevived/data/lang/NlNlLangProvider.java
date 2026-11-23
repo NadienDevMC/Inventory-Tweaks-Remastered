@@ -91,7 +91,7 @@ public class NlNlLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Ik heb problemen met het toetsenbord");
         add("invtweaks.keyboardfix.recover", "Oké, het is gerepareerd, sorry daarvoor.");
         add("invtweaks.modcompat.ci.error", "[13] 'Convenient Inventory' comptabiliteit beheren mislukt");
-        add("invtweaks.key.category", "Inventarisaanpassingen");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventarisaanpassingen");
         add("invtweaks.key.sort", "Inventarissortering");
     }
 }

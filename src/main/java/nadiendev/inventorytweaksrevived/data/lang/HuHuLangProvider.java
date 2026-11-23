@@ -91,7 +91,7 @@ public class HuHuLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Hiba a billentyűzettel");
         add("invtweaks.keyboardfix.recover", "Rendben helyreállítottam a problémát, bocs miatta.");
         add("invtweaks.modcompat.ci.error", "[13] 'Convenient Inventory' kompatibilitás megoldása sikertelen");
-        add("invtweaks.key.category", "Leltár finomhangolás");
+        add("key.category.inventorytweaksrevived.invtweaks", "Leltár finomhangolás");
         add("invtweaks.key.sort", "Leltár Rendezés");
     }
 }

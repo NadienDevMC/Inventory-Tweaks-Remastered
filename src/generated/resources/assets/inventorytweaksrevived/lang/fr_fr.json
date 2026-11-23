@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Autre raccourci) + Clic droit à la place du gauche",
   "invtweaks.help.shortcuts.selectconfig": "Choisir une config. de tri",
   "invtweaks.help.shortcuts.title": "Guide des raccourcis clavier",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Tri de l'inventaire",
   "invtweaks.keyboardfix.error": "[12] Il y a un souci avec le clavier...",
   "invtweaks.keyboardfix.recover": "Oh c'est réparé, mille excuses.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Impossible de remplacer l'objet automatiquement",
   "invtweaks.sort.chest.error": "[3] Impossible de trier le conteneur",
   "invtweaks.sort.inventory.error": "[2] Impossible de trier l'inventaire",
-  "invtweaks.sort.releaseitem.error": "[5] Impossible de poser l'objet tenu"
+  "invtweaks.sort.releaseitem.error": "[5] Impossible de poser l'objet tenu",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

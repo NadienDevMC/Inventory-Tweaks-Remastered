@@ -15,7 +15,6 @@ import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemStackLinkedSet;
@@ -347,7 +346,7 @@ public class InvTweaksHandlerSorting extends InvTweaksObfuscation {
 
     private void moveArmor(@NotNull IContainerManager globalContainer, int i, @NotNull ItemStack from, Item fromItem) {
         if(sortArmorParts) {
-            if(fromItem instanceof ArmorItem fromItemArmor) {
+            if(InvTweaksCore.isArmor(from)) {
                 if(globalContainer.hasSection(ContainerSection.ARMOR)) {
                     List<Slot> armorSlots = globalContainer.getSlots(ContainerSection.ARMOR);
                     for(@NotNull Slot slot : armorSlots) {
@@ -355,10 +354,10 @@ public class InvTweaksHandlerSorting extends InvTweaksObfuscation {
                         if(!slot.hasItem()) {
                             move = true;
                         } else {
-                            @NotNull Item currentArmor = slot.getItem().getItem();
-                            if(currentArmor instanceof ArmorItem currentArmorItem) {
-                                int armorLevel = currentArmorItem.getDefense();
-                                if(armorLevel < fromItemArmor.getDefense() || (armorLevel == fromItemArmor.getDefense() && slot.getItem().getDamageValue() < from.getDamageValue())) {
+                            @NotNull ItemStack currentArmor = slot.getItem();
+                            if(InvTweaksCore.isArmor(currentArmor)) {
+                                int armorLevel = InvTweaksCore.getArmorDefense(currentArmor);
+                                if(armorLevel < InvTweaksCore.getArmorDefense(from) || (armorLevel == InvTweaksCore.getArmorDefense(from) && slot.getItem().getDamageValue() < from.getDamageValue())) {
                                     move = true;
                                 }
                             } else {

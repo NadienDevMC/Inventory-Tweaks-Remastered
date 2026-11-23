@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(任意快捷键) + 鼠标右键",
   "invtweaks.help.shortcuts.selectconfig": "选择整理方案",
   "invtweaks.help.shortcuts.title": "快捷键帮助",
-  "invtweaks.key.category": "背包一键整理",
   "invtweaks.key.sort": "物品栏整理",
   "invtweaks.keyboardfix.error": "[12] 我的键盘有问题",
   "invtweaks.keyboardfix.recover": "问题已修复，抱歉",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] 无法触发自动装填",
   "invtweaks.sort.chest.error": "[3] 整理容器失败",
   "invtweaks.sort.inventory.error": "[2] 整理物品栏失败",
-  "invtweaks.sort.releaseitem.error": "[5] 无法放下物品"
+  "invtweaks.sort.releaseitem.error": "[5] 无法放下物品",
+  "key.category.inventorytweaksrevived.invtweaks": "背包一键整理"
 }

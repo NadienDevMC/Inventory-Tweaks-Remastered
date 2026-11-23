@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <block>
         <manufacturedBlock>
             <twilightforestLadder>
@@ -306,7 +306,6 @@
                 <itemReappearingBlock id="twilightforest:reappearing_block"/>
                 <itemSlider id="twilightforest:slider"/>
                 <itemSmoker id="twilightforest:smoker"/>
-                <itemThink115 id="twilightforest:think115"/>
                 <itemVanishingBlock id="twilightforest:vanishing_block"/>
             </machines>
         </mechanism>
@@ -445,7 +444,7 @@
                 <itemAlphaYetiSpawnEgg id="twilightforest:alpha_yeti_spawn_egg"/>
                 <itemArmoredGiantSpawnEgg id="twilightforest:armored_giant_spawn_egg"/>
                 <itemBighornSheepSpawnEgg id="twilightforest:bighorn_sheep_spawn_egg"/>
-                <itemBlockchainGoblinSpawnEgg id="twilightforest:blockchain_goblin_spawn_egg"/>
+                <itemBlockchainGoblinSpawnEgg id="twilightforest:block_and_chain_goblin_spawn_egg"/>
                 <itemBoarSpawnEgg id="twilightforest:boar_spawn_egg"/>
                 <itemCarminiteBroodlingSpawnEgg id="twilightforest:carminite_broodling_spawn_egg"/>
                 <itemCarminiteGhastguardSpawnEgg id="twilightforest:carminite_ghastguard_spawn_egg"/>
@@ -544,10 +543,7 @@
                 <itemNagaTrophy id="twilightforest:naga_trophy"/>
                 <itemQuestRamTrophy id="twilightforest:quest_ram_trophy"/>
                 <itemSnowQueenTrophy id="twilightforest:snow_queen_trophy"/>
-                <itemTrophy id="twilightforest:trophy"/>
-                <itemTrophyMinor id="twilightforest:trophy_minor"/>
                 <itemTrophyPedestal id="twilightforest:trophy_pedestal"/>
-                <itemTrophyQuest id="twilightforest:trophy_quest"/>
                 <itemUrGhastTrophy id="twilightforest:ur_ghast_trophy"/>
             </trophies>
             <musicDisc>
@@ -644,15 +640,11 @@
                     <itemBlightberry id="twilightforest:blightberry"/>
                     <itemBlueberry id="twilightforest:blueberry"/>
                     <itemCopperBerry id="twilightforest:copper_berry"/>
-                    <itemCopperOreberry id="twilightforest:copper_oreberry"/>
                     <itemDuskberry id="twilightforest:duskberry"/>
                     <itemEssenceBerry id="twilightforest:essence_berry"/>
-                    <itemEssenceOreberry id="twilightforest:essence_oreberry"/>
                     <itemFiddlehead id="twilightforest:fiddlehead"/>
                     <itemGoldBerry id="twilightforest:gold_berry"/>
-                    <itemGoldOreberry id="twilightforest:gold_oreberry"/>
                     <itemIronBerry id="twilightforest:iron_berry"/>
-                    <itemIronOreberry id="twilightforest:iron_oreberry"/>
                     <itemMaloberry id="twilightforest:maloberry"/>
                     <itemMayapple id="twilightforest:mayapple"/>
                     <itemRaspberry id="twilightforest:raspberry"/>
@@ -767,10 +759,6 @@
                 <itemPeacockFeatherFan id="twilightforest:peacock_feather_fan"/>
                 <itemPocketWatch id="twilightforest:pocket_watch"/>
                 <itemRedThread id="twilightforest:red_thread"/>
-                <itemRedThreadBundle id="twilightforest:red_thread_bundle"/>
-                <itemRedThreadLargeSpool id="twilightforest:red_thread_large_spool"/>
-                <itemRedThreadSpool id="twilightforest:red_thread_spool"/>
-                <itemTootingCrumbleHorn id="twilightforest:tooting_crumble_horn"/>
             </toolInstrument>
         </tool>
         <weapon>
@@ -818,9 +806,6 @@
                 <itemKnightmetalIngot id="twilightforest:knightmetal_ingot"/>
                 <itemSteeleafIngot id="twilightforest:steeleaf_ingot"/>
             </ingot>
-            <nugget>
-                <itemCopperNugget id="twilightforest:copper_nugget"/>
-            </nugget>
         </miningResources>
         <huntingResources>
             <itemAlphaYetiFur id="twilightforest:alpha_yeti_fur"/>
@@ -832,8 +817,6 @@
             <itemCicada id="twilightforest:cicada"/>
             <itemCrownSplinter id="twilightforest:crown_splinter"/>
             <itemExanimateEssence id="twilightforest:exanimate_essence"/>
-            <itemFakeDiamond id="twilightforest:fake_diamond"/>
-            <itemFakeGold id="twilightforest:fake_gold"/>
             <itemFieryBlood id="twilightforest:fiery_blood"/>
             <itemFieryTears id="twilightforest:fiery_tears"/>
             <itemFirefly id="twilightforest:firefly"/>

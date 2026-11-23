@@ -91,7 +91,7 @@ public class FrFrLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Il y a un souci avec le clavier...");
         add("invtweaks.keyboardfix.recover", "Oh c'est réparé, mille excuses.");
         add("invtweaks.modcompat.ci.error", "[13] Impossible de gérer la compatibilité avec 'Convenient Inventory'");
-        add("invtweaks.key.category", "Inventory Tweaks");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventory Tweaks");
         add("invtweaks.key.sort", "Tri de l'inventaire");
     }
 }

@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Jakákoliv zkratka) + Pravé kliknutí myší místo levého",
   "invtweaks.help.shortcuts.selectconfig": "Vyber nastavení řazení",
   "invtweaks.help.shortcuts.title": "Nápověda zkratek",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Řazení inventáře",
   "invtweaks.keyboardfix.error": "[12] Mám potíže s klávesnicí",
   "invtweaks.keyboardfix.recover": "Ok, opraveno, omlouvám se za to.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Nepodařilo se spustit auto-doplnění",
   "invtweaks.sort.chest.error": "[3] Nepodařilo se seřadit kontejner",
   "invtweaks.sort.inventory.error": "[2] Nepodařilo se seřadit inventář",
-  "invtweaks.sort.releaseitem.error": "[5] Nepodařilo se uvolnit předmět"
+  "invtweaks.sort.releaseitem.error": "[5] Nepodařilo se uvolnit předmět",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Будь яка комбінація клавіш) + Права кнопки мишки замість лівої",
   "invtweaks.help.shortcuts.selectconfig": "Виберіть опції сортування",
   "invtweaks.help.shortcuts.title": "Допомога по відповідності клавіш",
-  "invtweaks.key.category": "Налаштування інвентарю",
   "invtweaks.key.sort": "Впорядкування інвертарю",
   "invtweaks.keyboardfix.error": "[12] В мене проблеми з клавіатурою",
   "invtweaks.keyboardfix.recover": "Відновлено. Вибачте за незручності.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Не вдалось переключити автозаміну",
   "invtweaks.sort.chest.error": "[3] Не вдалось відсортувати скриню",
   "invtweaks.sort.inventory.error": "[2] Не вдалось відсортувати інвентар",
-  "invtweaks.sort.releaseitem.error": "[5] Не вдалось звільнити предмет"
+  "invtweaks.sort.releaseitem.error": "[5] Не вдалось звільнити предмет",
+  "key.category.inventorytweaksrevived.invtweaks": "Налаштування інвентарю"
 }

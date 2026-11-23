@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <equipment>
         <weapon>
             <munition>
@@ -30,13 +30,10 @@
                 <itemInfinityHoe id="avaritia:infinity_hoe"/>
                 <itemInfinityMace id="avaritia:infinity_mace"/>
                 <itemInfinityPickaxe id="avaritia:infinity_pickaxe"/>
-                <itemInfinityPickaxeHammer id="avaritia:infinity_pickaxe_hammer"/>
                 <itemInfinityShovel id="avaritia:infinity_shovel"/>
-                <itemInfinityShovelDestroyer id="avaritia:infinity_shovel_destroyer"/>
                 <itemInfinitySword id="avaritia:infinity_sword"/>
                 <itemInfinityTrident id="avaritia:infinity_trident"/>
                 <itemInfinityUmbrella id="avaritia:infinity_umbrella"/>
-                <itemTestSword id="avaritia:test_sword"/>
             </infinityTools>
         </tool>
         <armor>

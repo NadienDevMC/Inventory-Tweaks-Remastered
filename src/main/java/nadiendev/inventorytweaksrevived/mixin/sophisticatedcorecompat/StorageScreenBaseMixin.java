@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * Sophisticated Storage / Backpacks screens: while our chest buttons are shown, Sophisticated's own sort button and its
  * two transfer arrows are hidden (its search box, "sort by" button and settings stay), and the search box of the title
  * line ends before our buttons. {@code @Pseudo} and the optional config: nothing happens when Sophisticated is absent.
- * Member names checked with javap on sophisticatedcore 1.21.1-1.5.38.
+ * Member names checked with javap on sophisticatedcore 26.3-1.5.42.2499.
  */
 @Pseudo
 @Mixin(targets = "net.p3pp3rf1y.sophisticatedcore.client.gui.StorageScreenBase", remap = false)
@@ -24,7 +24,7 @@ public abstract class StorageScreenBaseMixin {
      * The first widget {@code addSortButtons()} adds is the sort button (the second one, "sort by", is kept).
      */
     @ModifyArg(method = "addSortButtons",
-            at = @At(value = "INVOKE", target = "addWidget(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;", ordinal = 0),
+            at = @At(value = "INVOKE", target = "addRenderableWidget(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;", ordinal = 0),
             index = 0, require = 0)
     private GuiEventListener invtweaks$hideSortButton(GuiEventListener sortButton) {
         if(SophisticatedCompat.replacesSortButton(this)) {

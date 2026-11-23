@@ -91,7 +91,7 @@ public class SvSeLangProvider extends InvTweaksLangProvider {
         add("invtweaks.keyboardfix.error", "[12] Jag har problem med tangentbordet");
         add("invtweaks.keyboardfix.recover", "Ok det är reparerat, ledsen för det.");
         add("invtweaks.modcompat.ci.error", "[13] Misslyckades med att hantera kompatibilitet med 'Convenient Inventory'");
-        add("invtweaks.key.category", "Inventeringsanpassning");
+        add("key.category.inventorytweaksrevived.invtweaks", "Inventeringsanpassning");
         add("invtweaks.key.sort", "Utrustningssortering");
     }
 }

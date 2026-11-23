@@ -1,6 +1,6 @@
 package nadiendev.inventorytweaksrevived.gui;
 
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.NotNull;
@@ -18,14 +18,14 @@ public class InvTweaksGuiModNotWorking extends InvTweaksGuiSettingsAbstract {
     }
 
     @Override
-    public void render(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.render(guiGraphics, mouseX, mouseY, partialTick);
+    public void extractRenderState(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractRenderState(guiGraphics, mouseX, mouseY, partialTick);
 
         int x = width / 2;
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.help.bugsorting.pt1"), x, 80, 0xFFBBBBBB);
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.help.bugsorting.pt2"), x, 95, 0xFFBBBBBB);
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.help.bugsorting.pt3"), x, 110, 0xFFBBBBBB);
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.help.bugsorting.pt4"), x, 150, 0xFFFFFF99);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.help.bugsorting.pt1"), x, 80, 0xFFBBBBBB);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.help.bugsorting.pt2"), x, 95, 0xFFBBBBBB);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.help.bugsorting.pt3"), x, 110, 0xFFBBBBBB);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.help.bugsorting.pt4"), x, 150, 0xFFFFFF99);
     }
 
     /**
@@ -33,7 +33,7 @@ public class InvTweaksGuiModNotWorking extends InvTweaksGuiSettingsAbstract {
      */
     @Override
     protected void onDone() {
-        minecraft.setScreen(new InvTweaksGuiSettings(parentScreen));
+        minecraft.setScreenAndShow(new InvTweaksGuiSettings(parentScreen));
     }
 
 }

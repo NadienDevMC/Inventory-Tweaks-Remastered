@@ -14,7 +14,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PotionItem;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.lwjgl.glfw.GLFW;
 
 import java.util.*;
 import java.util.concurrent.TimeoutException;
@@ -78,15 +77,15 @@ public class InvTweaksHandlerShortcuts extends InvTweaksObfuscation {
 
         // Add hotbar shortcuts (1-9) mappings
         for(int i = 0; i < 9; i++) {
-            registerShortcutMapping(InvTweaksShortcutType.MOVE_TO_SPECIFIC_HOTBAR_SLOT, new InvTweaksShortcutMapping(GLFW.GLFW_KEY_1 + i));
+            registerShortcutMapping(InvTweaksShortcutType.MOVE_TO_SPECIFIC_HOTBAR_SLOT, new InvTweaksShortcutMapping(InputConstants.KEY_1 + i));
         }
         for(int i = 0; i < 9; i++) {
-            registerShortcutMapping(InvTweaksShortcutType.MOVE_TO_SPECIFIC_HOTBAR_SLOT, new InvTweaksShortcutMapping(GLFW.GLFW_KEY_KP_1 + i));
+            registerShortcutMapping(InvTweaksShortcutType.MOVE_TO_SPECIFIC_HOTBAR_SLOT, new InvTweaksShortcutMapping(InputConstants.KEY_NUMPAD1 + i));
         }
 
         // Register (L/R)SHIFT to allow to filter them
-        pressedKeys.put(GLFW.GLFW_KEY_LEFT_SHIFT, false);
-        pressedKeys.put(GLFW.GLFW_KEY_RIGHT_SHIFT, false);
+        pressedKeys.put(InputConstants.KEY_LSHIFT, false);
+        pressedKeys.put(InputConstants.KEY_RSHIFT, false);
     }
 
     private void registerShortcutMapping(InvTweaksShortcutType type, @NotNull InvTweaksShortcutMapping mapping) {
@@ -192,10 +191,10 @@ public class InvTweaksHandlerShortcuts extends InvTweaksObfuscation {
                         @Nullable InvTweaksShortcutMapping hotbarShortcut = isShortcutDown(InvTweaksShortcutType.MOVE_TO_SPECIFIC_HOTBAR_SLOT);
                         if(hotbarShortcut != null && !hotbarShortcut.getKeyCodes().isEmpty()) {
                             int hotbarKeyCode = hotbarShortcut.getKeyCodes().get(0);
-                            if(hotbarKeyCode >= GLFW.GLFW_KEY_KP_1 && hotbarKeyCode <= GLFW.GLFW_KEY_KP_9) {
-                                shortcutConfig.toIndex = hotbarKeyCode - GLFW.GLFW_KEY_KP_1;
+                            if(hotbarKeyCode >= InputConstants.KEY_NUMPAD1 && hotbarKeyCode <= InputConstants.KEY_NUMPAD9) {
+                                shortcutConfig.toIndex = hotbarKeyCode - InputConstants.KEY_NUMPAD1;
                             } else {
-                                shortcutConfig.toIndex = hotbarKeyCode - GLFW.GLFW_KEY_1;
+                                shortcutConfig.toIndex = hotbarKeyCode - InputConstants.KEY_1;
                             }
                         }
                     } else {
@@ -270,7 +269,7 @@ public class InvTweaksHandlerShortcuts extends InvTweaksObfuscation {
                 }
 
                 // Shortcut modifiers
-                shortcutConfig.forceEmptySlot = GLFW.glfwGetMouseButton(mc.getWindow().getWindow(), GLFW.GLFW_MOUSE_BUTTON_RIGHT) == GLFW.GLFW_PRESS;
+                shortcutConfig.forceEmptySlot = InvTweaksShortcutMapping.isMouseButtonDown(InputConstants.MOUSE_BUTTON_RIGHT);
                 shortcutConfig.action = shortcut.getAction();
                 shortcutConfig.scope = shortcut.getScope();
 
@@ -307,12 +306,12 @@ public class InvTweaksHandlerShortcuts extends InvTweaksObfuscation {
     }
 
     /**
-     * @return The GLFW key code of the key a control is bound to, or -1 if it is unbound or bound to a mouse button
+     * @return The key code (SDL scancode) of the key a control is bound to, or -1 if it is unbound or bound to a mouse button
      * (whose value is a button number, not a key code).
      */
     private static int getKeyboardKeyCode(@NotNull KeyMapping keyMapping) {
         InputConstants.Key key = keyMapping.getKey();
-        return key.getType() == InputConstants.Type.KEYSYM ? key.getValue() : -1;
+        return key.getType() == InputConstants.Type.KEYBOARD ? key.getValue() : -1;
     }
 
     @Nullable

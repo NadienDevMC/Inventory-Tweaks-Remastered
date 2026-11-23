@@ -14,7 +14,7 @@ import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ItemStack;
 import org.apache.commons.lang3.StringUtils;
@@ -64,7 +64,7 @@ public class InvTweaksHandlerAutoRefill extends InvTweaksObfuscation {
         List<InvTweaksConfigSortingRule> rules = config.getRules();
         InvTweaksItemTree tree = config.getTree();
 
-        @Nullable ResourceLocation wantedLocation = ResourceLocation.tryParse(InvTweaksObfuscation.getNamespacedID(wantedId));
+        @Nullable Identifier wantedLocation = Identifier.tryParse(InvTweaksObfuscation.getNamespacedID(wantedId));
 
         // Check that the item is in the tree
         if(wantedLocation != null && !tree.isItemUnknown(wantedLocation)) {

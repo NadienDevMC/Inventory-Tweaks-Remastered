@@ -3,9 +3,9 @@ package nadiendev.inventorytweaksrevived.gui;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfig;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfigManager;
 import nadiendev.inventorytweaksrevived.core.InvTweaksCore;
-import net.minecraft.Util;
+import com.mojang.blaze3d.Blaze3D;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.screens.Screen;
@@ -57,9 +57,9 @@ public abstract class InvTweaksGuiSettingsAbstract extends Screen {
     }
 
     @Override
-    public void render(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.render(guiGraphics, mouseX, mouseY, partialTick);
-        guiGraphics.drawCenteredString(font, title, width / 2, 20, 0xFFFFFFFF);
+    public void extractRenderState(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractRenderState(guiGraphics, mouseX, mouseY, partialTick);
+        guiGraphics.centeredText(font, title, width / 2, 20, 0xFFFFFFFF);
     }
 
     /**
@@ -67,7 +67,7 @@ public abstract class InvTweaksGuiSettingsAbstract extends Screen {
      */
     @Override
     public void onClose() {
-        minecraft.setScreen(parentScreen);
+        minecraft.setScreenAndShow(parentScreen);
     }
 
     protected void onDone() {
@@ -121,12 +121,12 @@ public abstract class InvTweaksGuiSettingsAbstract extends Screen {
             InvTweaksCore.logInGameErrorStatic(errorKey, new FileNotFoundException(file.getPath()));
             return;
         }
-        Util.getPlatform().openFile(file);
+        Blaze3D.openPath(file.toPath());
     }
 
     protected void openUri(@NotNull String uri, @NotNull String errorKey) {
         try {
-            Util.getPlatform().openUri(new URI(uri));
+            Blaze3D.openUri(new URI(uri));
         } catch(URISyntaxException e) {
             InvTweaksCore.logInGameErrorStatic(errorKey, e);
         }

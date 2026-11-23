@@ -2,21 +2,19 @@ package nadiendev.inventorytweaksrevived.itemtree;
 
 import nadiendev.inventorytweaksrevived.InventoryTweaksRevived;
 import nadiendev.inventorytweaksrevived.api.IItemTreeListener;
+import nadiendev.inventorytweaksrevived.core.InvTweaksCore;
 import nadiendev.inventorytweaksrevived.util.InvTweaksConst;
 import nadiendev.inventorytweaksrevived.util.InvTweaksObfuscation;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.CrossbowItem;
-import net.minecraft.world.item.DiggerItem;
-import net.minecraft.world.item.ElytraItem;
 import net.minecraft.world.item.FishingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -122,14 +120,14 @@ public class InvTweaksItemTreeLoader extends DefaultHandler {
             Map.entry("itemaxe", stack -> stack.is(ItemTags.AXES)),
             Map.entry("itemspade", stack -> stack.is(ItemTags.SHOVELS)),
             Map.entry("itemhoe", stack -> stack.is(ItemTags.HOES)),
-            Map.entry("itemtool", stack -> stack.getItem() instanceof DiggerItem),
+            Map.entry("itemtool", stack -> stack.is(ItemTags.PICKAXES) || stack.is(ItemTags.AXES) || stack.is(ItemTags.SHOVELS) || stack.is(ItemTags.HOES)),
             Map.entry("itembow", stack -> stack.getItem() instanceof BowItem),
             Map.entry("itemcrossbow", stack -> stack.getItem() instanceof CrossbowItem),
             Map.entry("itemshield", stack -> stack.getItem() instanceof ShieldItem),
             Map.entry("itemshears", stack -> stack.getItem() instanceof ShearsItem),
             Map.entry("itemfishingrod", stack -> stack.getItem() instanceof FishingRodItem),
-            Map.entry("itemarmor", stack -> stack.getItem() instanceof ArmorItem),
-            Map.entry("itemelytra", stack -> stack.getItem() instanceof ElytraItem),
+            Map.entry("itemarmor", stack -> InvTweaksCore.isArmor(stack)),
+            Map.entry("itemelytra", stack -> stack.has(DataComponents.GLIDER)),
             Map.entry("itemfood", stack -> stack.has(DataComponents.FOOD)),
             Map.entry("itemarrow", stack -> stack.is(ItemTags.ARROWS)),
             Map.entry("arrow", stack -> stack.is(ItemTags.ARROWS)),
@@ -231,7 +229,7 @@ public class InvTweaksItemTreeLoader extends DefaultHandler {
 
     @Nullable
     private static TagKey<Item> itemTag(@NotNull String tag) {
-        ResourceLocation location = ResourceLocation.tryParse(tag);
+        Identifier location = Identifier.tryParse(tag);
         return location == null ? null : TagKey.create(Registries.ITEM, location);
     }
 
@@ -309,7 +307,7 @@ public class InvTweaksItemTreeLoader extends DefaultHandler {
         }
         String category = categoryStack.getLast();
         if(id != null) {
-            ResourceLocation location = ResourceLocation.tryParse(InvTweaksObfuscation.getNamespacedID(id));
+            Identifier location = Identifier.tryParse(InvTweaksObfuscation.getNamespacedID(id));
             if(location == null || !BuiltInRegistries.ITEM.containsKey(location)) {
                 InventoryTweaksRevived.LOGGER.warn("Unknown item id in tree: {}", id);
             }

@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Bet kokia nuoroda) + Spustelėti dešinėje vietoje kairės",
   "invtweaks.help.shortcuts.selectconfig": "Pasirinkite rūšiavimo konfigūraciją",
   "invtweaks.help.shortcuts.title": "Nuorodų pagalba",
-  "invtweaks.key.category": "Inventory Tweaks",
   "invtweaks.key.sort": "Inventoriaus rūšiavimas",
   "invtweaks.keyboardfix.error": "[12] Aš turiu problemų su klaviatūra",
   "invtweaks.keyboardfix.recover": "Gerai, jis yra pataisomas, atsiprašau dėl to.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Nepavyko aktyvuoti automatinio pildymo",
   "invtweaks.sort.chest.error": "[3] Nepavyko surūšiuoti konteinerio",
   "invtweaks.sort.inventory.error": "[2] Nepavyko surūšiuoti inventoriaus",
-  "invtweaks.sort.releaseitem.error": "[5] Nepavyko paleisti daikto"
+  "invtweaks.sort.releaseitem.error": "[5] Nepavyko paleisti daikto",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventory Tweaks"
 }

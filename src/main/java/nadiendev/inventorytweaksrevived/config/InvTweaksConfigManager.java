@@ -9,7 +9,7 @@ import nadiendev.inventorytweaksrevived.itemtree.InvTweaksItemTreeLoader;
 import nadiendev.inventorytweaksrevived.util.InvTweaksConst;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.language.I18n;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.packs.resources.Resource;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -151,7 +151,7 @@ public class InvTweaksConfigManager {
             InvTweaksConst.INVTWEAKS_TREES_DIR.mkdir();
         }
         if(InvTweaksConst.INVTWEAKS_TREES_DIR.isDirectory()) {
-            ResourceLocation readmeResource = ResourceLocation.fromNamespaceAndPath(InvTweaksConst.INVTWEAKS_RESOURCE_DOMAIN, "tree_readme.txt");
+            Identifier readmeResource = Identifier.fromNamespaceAndPath(InvTweaksConst.INVTWEAKS_RESOURCE_DOMAIN, "tree_readme.txt");
             File readmeFile = new File(InvTweaksConst.INVTWEAKS_TREES_DIR, "readme.txt");
             if(!isSameAsResource(readmeResource, readmeFile)) {
                 extractFile(readmeResource, readmeFile);
@@ -274,7 +274,7 @@ public class InvTweaksConfigManager {
         }
     }
 
-    private boolean isSameAsResource(@NotNull ResourceLocation resource, @NotNull File file) {
+    private boolean isSameAsResource(@NotNull Identifier resource, @NotNull File file) {
         if(!file.isFile()) {
             return false;
         }
@@ -289,7 +289,7 @@ public class InvTweaksConfigManager {
         }
     }
 
-    private boolean extractFile(@NotNull ResourceLocation resource, @NotNull File destination) {
+    private boolean extractFile(@NotNull Identifier resource, @NotNull File destination) {
         Optional<Resource> resourceFile = mc.getResourceManager().getResource(resource);
         if(resourceFile.isEmpty()) {
             InvTweaksCore.logInGameStatic("[15] The mod won't work, because " + resource + " extraction failed!");

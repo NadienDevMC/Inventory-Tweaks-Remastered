@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stuff treeVersion="1.21.1">
+<stuff treeVersion="26.1.2">
     <equipment>
         <tool>
             <wrench>
@@ -253,52 +253,42 @@
                     <itemStrippedAcaciaLogWindow id="mcwwindows:stripped_acacia_log_window"/>
                     <itemStrippedAcaciaLogWindow2 id="mcwwindows:stripped_acacia_log_window2"/>
                     <itemStrippedAcaciaPaneWindow id="mcwwindows:stripped_acacia_pane_window"/>
-                    <itemStrippedAcaciaWindow id="mcwwindows:stripped_acacia_window"/>
                     <itemStrippedBirchLogFourWindow id="mcwwindows:stripped_birch_log_four_window"/>
                     <itemStrippedBirchLogWindow id="mcwwindows:stripped_birch_log_window"/>
                     <itemStrippedBirchLogWindow2 id="mcwwindows:stripped_birch_log_window2"/>
                     <itemStrippedBirchPaneWindow id="mcwwindows:stripped_birch_pane_window"/>
-                    <itemStrippedBirchWindow id="mcwwindows:stripped_birch_window"/>
                     <itemStrippedCherryLogFourWindow id="mcwwindows:stripped_cherry_log_four_window"/>
                     <itemStrippedCherryLogWindow id="mcwwindows:stripped_cherry_log_window"/>
                     <itemStrippedCherryLogWindow2 id="mcwwindows:stripped_cherry_log_window2"/>
                     <itemStrippedCherryPaneWindow id="mcwwindows:stripped_cherry_pane_window"/>
-                    <itemStrippedCherryWindow id="mcwwindows:stripped_cherry_window"/>
                     <itemStrippedCrimsonPaneWindow id="mcwwindows:stripped_crimson_pane_window"/>
                     <itemStrippedCrimsonStemFourWindow id="mcwwindows:stripped_crimson_stem_four_window"/>
                     <itemStrippedCrimsonStemWindow id="mcwwindows:stripped_crimson_stem_window"/>
                     <itemStrippedCrimsonStemWindow2 id="mcwwindows:stripped_crimson_stem_window2"/>
-                    <itemStrippedCrimsonWindow id="mcwwindows:stripped_crimson_window"/>
                     <itemStrippedDarkOakLogFourWindow id="mcwwindows:stripped_dark_oak_log_four_window"/>
                     <itemStrippedDarkOakLogWindow id="mcwwindows:stripped_dark_oak_log_window"/>
                     <itemStrippedDarkOakLogWindow2 id="mcwwindows:stripped_dark_oak_log_window2"/>
                     <itemStrippedDarkOakPaneWindow id="mcwwindows:stripped_dark_oak_pane_window"/>
-                    <itemStrippedDarkOakWindow id="mcwwindows:stripped_dark_oak_window"/>
                     <itemStrippedJungleLogFourWindow id="mcwwindows:stripped_jungle_log_four_window"/>
                     <itemStrippedJungleLogWindow id="mcwwindows:stripped_jungle_log_window"/>
                     <itemStrippedJungleLogWindow2 id="mcwwindows:stripped_jungle_log_window2"/>
                     <itemStrippedJunglePaneWindow id="mcwwindows:stripped_jungle_pane_window"/>
-                    <itemStrippedJungleWindow id="mcwwindows:stripped_jungle_window"/>
                     <itemStrippedMangroveLogFourWindow id="mcwwindows:stripped_mangrove_log_four_window"/>
                     <itemStrippedMangroveLogWindow id="mcwwindows:stripped_mangrove_log_window"/>
                     <itemStrippedMangroveLogWindow2 id="mcwwindows:stripped_mangrove_log_window2"/>
                     <itemStrippedMangrovePaneWindow id="mcwwindows:stripped_mangrove_pane_window"/>
-                    <itemStrippedMangroveWindow id="mcwwindows:stripped_mangrove_window"/>
                     <itemStrippedOakLogFourWindow id="mcwwindows:stripped_oak_log_four_window"/>
                     <itemStrippedOakLogWindow id="mcwwindows:stripped_oak_log_window"/>
                     <itemStrippedOakLogWindow2 id="mcwwindows:stripped_oak_log_window2"/>
                     <itemStrippedOakPaneWindow id="mcwwindows:stripped_oak_pane_window"/>
-                    <itemStrippedOakWindow id="mcwwindows:stripped_oak_window"/>
                     <itemStrippedSpruceLogFourWindow id="mcwwindows:stripped_spruce_log_four_window"/>
                     <itemStrippedSpruceLogWindow id="mcwwindows:stripped_spruce_log_window"/>
                     <itemStrippedSpruceLogWindow2 id="mcwwindows:stripped_spruce_log_window2"/>
                     <itemStrippedSprucePaneWindow id="mcwwindows:stripped_spruce_pane_window"/>
-                    <itemStrippedSpruceWindow id="mcwwindows:stripped_spruce_window"/>
                     <itemStrippedWarpedPaneWindow id="mcwwindows:stripped_warped_pane_window"/>
                     <itemStrippedWarpedStemFourWindow id="mcwwindows:stripped_warped_stem_four_window"/>
                     <itemStrippedWarpedStemWindow id="mcwwindows:stripped_warped_stem_window"/>
                     <itemStrippedWarpedStemWindow2 id="mcwwindows:stripped_warped_stem_window2"/>
-                    <itemStrippedWarpedWindow id="mcwwindows:stripped_warped_window"/>
                     <itemWarpedPaneWindow id="mcwwindows:warped_pane_window"/>
                     <itemWarpedPlankPaneWindow id="mcwwindows:warped_plank_pane_window"/>
                     <itemWarpedPlanksFourWindow id="mcwwindows:warped_planks_four_window"/>

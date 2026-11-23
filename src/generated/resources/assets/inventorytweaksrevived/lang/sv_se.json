@@ -26,7 +26,6 @@
   "invtweaks.help.shortcuts.rightclick": "(Någon genväg) + höger- i stället för vänsterklick",
   "invtweaks.help.shortcuts.selectconfig": "Välj sorteringskonfiguration",
   "invtweaks.help.shortcuts.title": "Genvägshjälp",
-  "invtweaks.key.category": "Inventeringsanpassning",
   "invtweaks.key.sort": "Utrustningssortering",
   "invtweaks.keyboardfix.error": "[12] Jag har problem med tangentbordet",
   "invtweaks.keyboardfix.recover": "Ok det är reparerat, ledsen för det.",
@@ -82,5 +81,6 @@
   "invtweaks.sort.autorefill.error": "[4] Misslyckades med att utlösa auto-påfyllning",
   "invtweaks.sort.chest.error": "[3] Misslyckades att sortera behållare",
   "invtweaks.sort.inventory.error": "[2] Misslyckades med att sortera inventering",
-  "invtweaks.sort.releaseitem.error": "[5] Misslyckades med att frigöra objekt"
+  "invtweaks.sort.releaseitem.error": "[5] Misslyckades med att frigöra objekt",
+  "key.category.inventorytweaksrevived.invtweaks": "Inventeringsanpassning"
 }

@@ -3,7 +3,7 @@ package nadiendev.inventorytweaksrevived.gui;
 import nadiendev.inventorytweaksrevived.client.InvTweaksClient;
 import nadiendev.inventorytweaksrevived.config.InvTweaksConfig;
 import nadiendev.inventorytweaksrevived.util.InvTweaksConst;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.NotNull;
@@ -56,12 +56,12 @@ public class InvTweaksGuiSettingsAdvanced extends InvTweaksGuiSettingsAbstract {
     }
 
     @Override
-    public void render(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.render(guiGraphics, mouseX, mouseY, partialTick);
+    public void extractRenderState(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractRenderState(guiGraphics, mouseX, mouseY, partialTick);
 
         int x = width / 2;
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.settings.pvpwarning.pt1"), x, 40, 0xFF999999);
-        guiGraphics.drawCenteredString(font, Component.translatable("invtweaks.settings.pvpwarning.pt2"), x, 50, 0xFF999999);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.settings.pvpwarning.pt1"), x, 40, 0xFF999999);
+        guiGraphics.centeredText(font, Component.translatable("invtweaks.settings.pvpwarning.pt2"), x, 50, 0xFF999999);
     }
 
     /**
@@ -69,7 +69,7 @@ public class InvTweaksGuiSettingsAdvanced extends InvTweaksGuiSettingsAbstract {
      */
     @Override
     protected void onDone() {
-        minecraft.setScreen(new InvTweaksGuiSettings(parentScreen));
+        minecraft.setScreenAndShow(new InvTweaksGuiSettings(parentScreen));
     }
 
 }

@@ -1,10 +1,10 @@
 package nadiendev.inventorytweaksrevived.handler;
 
 import com.mojang.blaze3d.platform.InputConstants;
+import org.lwjgl.sdl.SDLMouse;
 import nadiendev.inventorytweaksrevived.InventoryTweaksRevived;
 import net.minecraft.client.Minecraft;
 import org.jetbrains.annotations.NotNull;
-import org.lwjgl.glfw.GLFW;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,50 +21,50 @@ import java.util.Map;
 public class InvTweaksShortcutMapping {
 
     /**
-     * Accepted key names (without the optional {@code KEY_} prefix) and the GLFW key code they stand for.
+     * Accepted key names (without the optional {@code KEY_} prefix) and the SDL scancode they stand for (the key codes of InputConstants).
      */
     private static final Map<String, Integer> KEY_CODES = new HashMap<>();
 
     static {
         for(char letter = 'A'; letter <= 'Z'; letter++) {
-            KEY_CODES.put(String.valueOf(letter), GLFW.GLFW_KEY_A + (letter - 'A'));
+            KEY_CODES.put(String.valueOf(letter), InputConstants.KEY_A + (letter - 'A'));
         }
         for(int digit = 0; digit <= 9; digit++) {
-            KEY_CODES.put(String.valueOf(digit), GLFW.GLFW_KEY_0 + digit);
-            KEY_CODES.put("NUMPAD" + digit, GLFW.GLFW_KEY_KP_0 + digit);
+            KEY_CODES.put(String.valueOf(digit), digit == 0 ? InputConstants.KEY_0 : InputConstants.KEY_1 + (digit - 1));
+            KEY_CODES.put("NUMPAD" + digit, digit == 0 ? InputConstants.KEY_NUMPAD0 : InputConstants.KEY_NUMPAD1 + (digit - 1));
         }
         for(int number = 1; number <= 12; number++) {
-            KEY_CODES.put("F" + number, GLFW.GLFW_KEY_F1 + (number - 1));
+            KEY_CODES.put("F" + number, InputConstants.KEY_F1 + (number - 1));
         }
 
-        KEY_CODES.put("LSHIFT", GLFW.GLFW_KEY_LEFT_SHIFT);
-        KEY_CODES.put("RSHIFT", GLFW.GLFW_KEY_RIGHT_SHIFT);
-        KEY_CODES.put("LCONTROL", GLFW.GLFW_KEY_LEFT_CONTROL);
-        KEY_CODES.put("RCONTROL", GLFW.GLFW_KEY_RIGHT_CONTROL);
-        KEY_CODES.put("LCTRL", GLFW.GLFW_KEY_LEFT_CONTROL);
-        KEY_CODES.put("RCTRL", GLFW.GLFW_KEY_RIGHT_CONTROL);
-        KEY_CODES.put("LALT", GLFW.GLFW_KEY_LEFT_ALT);
-        KEY_CODES.put("RALT", GLFW.GLFW_KEY_RIGHT_ALT);
-        KEY_CODES.put("LMENU", GLFW.GLFW_KEY_LEFT_ALT);
-        KEY_CODES.put("RMENU", GLFW.GLFW_KEY_RIGHT_ALT);
+        KEY_CODES.put("LSHIFT", InputConstants.KEY_LSHIFT);
+        KEY_CODES.put("RSHIFT", InputConstants.KEY_RSHIFT);
+        KEY_CODES.put("LCONTROL", InputConstants.KEY_LCONTROL);
+        KEY_CODES.put("RCONTROL", InputConstants.KEY_RCONTROL);
+        KEY_CODES.put("LCTRL", InputConstants.KEY_LCONTROL);
+        KEY_CODES.put("RCTRL", InputConstants.KEY_RCONTROL);
+        KEY_CODES.put("LALT", InputConstants.KEY_LALT);
+        KEY_CODES.put("RALT", InputConstants.KEY_RALT);
+        KEY_CODES.put("LMENU", InputConstants.KEY_LALT);
+        KEY_CODES.put("RMENU", InputConstants.KEY_RALT);
 
-        KEY_CODES.put("UP", GLFW.GLFW_KEY_UP);
-        KEY_CODES.put("DOWN", GLFW.GLFW_KEY_DOWN);
-        KEY_CODES.put("LEFT", GLFW.GLFW_KEY_LEFT);
-        KEY_CODES.put("RIGHT", GLFW.GLFW_KEY_RIGHT);
+        KEY_CODES.put("UP", InputConstants.KEY_UP);
+        KEY_CODES.put("DOWN", InputConstants.KEY_DOWN);
+        KEY_CODES.put("LEFT", InputConstants.KEY_LEFT);
+        KEY_CODES.put("RIGHT", InputConstants.KEY_RIGHT);
 
-        KEY_CODES.put("SPACE", GLFW.GLFW_KEY_SPACE);
-        KEY_CODES.put("TAB", GLFW.GLFW_KEY_TAB);
-        KEY_CODES.put("RETURN", GLFW.GLFW_KEY_ENTER);
-        KEY_CODES.put("ENTER", GLFW.GLFW_KEY_ENTER);
-        KEY_CODES.put("BACK", GLFW.GLFW_KEY_BACKSPACE);
-        KEY_CODES.put("INSERT", GLFW.GLFW_KEY_INSERT);
-        KEY_CODES.put("DELETE", GLFW.GLFW_KEY_DELETE);
-        KEY_CODES.put("HOME", GLFW.GLFW_KEY_HOME);
-        KEY_CODES.put("END", GLFW.GLFW_KEY_END);
-        KEY_CODES.put("PRIOR", GLFW.GLFW_KEY_PAGE_UP);
-        KEY_CODES.put("NEXT", GLFW.GLFW_KEY_PAGE_DOWN);
-        KEY_CODES.put("CAPITAL", GLFW.GLFW_KEY_CAPS_LOCK);
+        KEY_CODES.put("SPACE", InputConstants.KEY_SPACE);
+        KEY_CODES.put("TAB", InputConstants.KEY_TAB);
+        KEY_CODES.put("RETURN", InputConstants.KEY_RETURN);
+        KEY_CODES.put("ENTER", InputConstants.KEY_RETURN);
+        KEY_CODES.put("BACK", InputConstants.KEY_BACKSPACE);
+        KEY_CODES.put("INSERT", InputConstants.KEY_INSERT);
+        KEY_CODES.put("DELETE", InputConstants.KEY_DELETE);
+        KEY_CODES.put("HOME", InputConstants.KEY_HOME);
+        KEY_CODES.put("END", InputConstants.KEY_END);
+        KEY_CODES.put("PRIOR", InputConstants.KEY_PAGEUP);
+        KEY_CODES.put("NEXT", InputConstants.KEY_PAGEDOWN);
+        KEY_CODES.put("CAPITAL", InputConstants.KEY_CAPSLOCK);
     }
 
     @NotNull
@@ -100,7 +100,14 @@ public class InvTweaksShortcutMapping {
     }
 
     public static boolean isKeyDown(int keyCode) {
-        return keyCode > 0 && InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), keyCode);
+        return keyCode > 0 && InputConstants.isKeyDown(keyCode);
+    }
+
+    /**
+     * Polls a mouse button (InputConstants.MOUSE_BUTTON_* numbering, 1 = left) straight from SDL.
+     */
+    public static boolean isMouseButtonDown(int button) {
+        return button > 0 && (SDLMouse.SDL_GetMouseState(null, null) & (1 << (button - 1))) != 0;
     }
 
     /**
@@ -119,7 +126,7 @@ public class InvTweaksShortcutMapping {
                 return false;
             }
             // AltGr also activates LCtrl, make sure the real LCtrl has been pressed
-            if(keyToHold == GLFW.GLFW_KEY_LEFT_CONTROL && isKeyDown(GLFW.GLFW_KEY_RIGHT_ALT)) {
+            if(keyToHold == InputConstants.KEY_LCONTROL && isKeyDown(InputConstants.KEY_RALT)) {
                 return false;
             }
         }

@@ -7,7 +7,8 @@ import nadiendev.inventorytweaksrevived.core.InvTweaksCore;
 import nadiendev.inventorytweaksrevived.handler.InvTweaksHandlerSorting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
-import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.input.InputWithModifiers;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -35,8 +36,8 @@ public class InvTweaksGuiSortingButton extends InvTweaksGuiIconButton {
     }
 
     @Override
-    protected void renderWidget(@NotNull GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
-        super.renderWidget(guiGraphics, mouseX, mouseY, partialTick);
+    protected void extractContents(@NotNull GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTick) {
+        super.extractContents(guiGraphics, mouseX, mouseY, partialTick);
 
         // Display symbol
         int x = getX(), y = getY(), width = getWidth(), height = getHeight();
@@ -44,14 +45,14 @@ public class InvTweaksGuiSortingButton extends InvTweaksGuiIconButton {
         Font font = Minecraft.getInstance().font;
         // The default-sorting symbol sits low in its glyph cell, so it is lifted to look centered
         int yOffset = "↺".equals(getLabel()) ? -2 : 1;
-        guiGraphics.drawString(font, getLabel(), x + (width - font.width(getLabel())) / 2 + 1, y + (height - 8) / 2 + yOffset, getTextColor(), false);
+        guiGraphics.text(font, getLabel(), x + (width - font.width(getLabel())) / 2 + 1, y + (height - 8) / 2 + yOffset, getTextColor(), false);
     }
 
     /**
      * Sort the section
      */
     @Override
-    public void onPress() {
+    public void onPress(@NotNull InputWithModifiers input) {
         Minecraft mc = Minecraft.getInstance();
         if(mc.player == null || mc.player.isSpectator()) {
             return;
